@@ -1,0 +1,16 @@
+setenv FREESURFER_HOME /Applications/freesurfer
+setenv PROJECT_DIR ~/Documents/Study/Research/EEG-fMRI_BCG_Face/Data/MRI/FSFAST
+setenv SUBJECTS_DIR ~/Documents/Study/Research/EEG-fMRI_BCG_Face/Data/MRI/FS_SUBJECTS
+source $FREESURFER_HOME/SetUpFreeSurfer.csh
+setenv FSLDIR /usr/local/fsl
+source ${FSLDIR}/etc/fslconf/fsl.csh
+setenv PATH ${FSLDIR}/bin:${PATH}
+setenv PATH /sw/bin:${PATH}
+setenv PATH ~/abin:${PATH}
+source /sw/bin/init.csh
+setenv PATH /Applications/MATLAB_R2012a.app/bin/:${PATH}
+setenv PATH /Library/Frameworks/GTK+.framework/Resources/bin:${PATH}
+setenv ANALYSIS_DIR ~/Documents/Study/Research/Analysis
+setenv RESEARCH_DIR ~/Documents/Study/Research
+setenv PATH /Users/hxs/Documents/Study/Research/Analysis/gary/fmriutil/OSX:${PATH}
+setenv PATH /Users/hxs/Documents/Study/Research/Analysis/mricron:${PATH}
