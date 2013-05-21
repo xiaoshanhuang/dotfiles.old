@@ -1,0 +1,29 @@
+#MATLAB Preferences
+#Tue May 21 14:08:29 PDT 2013
+RLHiddenB2_WB_2006b_1=I16184
+Colors_M_Errors=C-65536
+RLPrevInitB2_WB_2006b_1=Btrue
+Colors_HTML_HTMLLinks=C-2935166
+Colors_M_Comments=C-7167583
+Editor.VariableHighlighting.Color=C-7167583
+EditorRightTextLimitLineColor=C-3355444
+Color_CmdWinWarnings=C-39936
+MatlabExitConfirm=Bfalse
+ColorsBackground=C-198941
+Color_CmdWinErrors=C-1703936
+Editor.NonlocalVariableHighlighting.TextColor=C-32640
+DocumentsDetailViewerCollapsed=Bfalse
+ColorsUseSystem=Bfalse
+Colors_M_Warnings=C-27648
+RLWidthB2_WB_2006b_1_3=I50
+RLWidthB2_WB_2006b_1_2=I50
+ColorsUseMLintAutoFixBackground=Btrue
+RLWidthB2_WB_2006b_1_1=I130
+RLWidthB2_WB_2006b_1_0=I130
+Colors_M_UnterminatedStrings=C-5111808
+ColorsMLintAutoFixBackground=C-1121868
+ColorsText=C-16304574
+Colors_M_Keywords=C-8021760
+CommandWindowClearConfirmation=Btrue
+Colors_M_Strings=C-13983336
+Colors_M_SystemCommands=C-3454186
