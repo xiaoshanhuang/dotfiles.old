@@ -15,26 +15,26 @@
         <settings name="currentfolder">
             <key name="History">
                 <string minArraySize="0" maxArraySize="500">
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/Analysis]]></value>
                     <value><![CDATA[/Users/hxs/Documents/MATLAB]]></value>
-                    <value><![CDATA[/Users/hxs/Documents]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/Analysis/gary/fmriutil]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/Analysis/gary]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/Analysis/gary/brain]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting]]></value>
-                    <value><![CDATA[/Users/hxs/Downloads]]></value>
-                    <value><![CDATA[/Users/hxs]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/xh032013]]></value>
                     <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS]]></value>
                     <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Data/ql041913/raw]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Data/ql041913]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Data]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/T1ImgCoreg/dq041813_1]]></value>
+                    <value><![CDATA[/Users/hxs/Documents]]></value>
+                    <value><![CDATA[/Users/hxs]]></value>
+                    <value><![CDATA[/Users/hxs/Downloads]]></value>
+                    <value><![CDATA[/Users/hxs/matlab]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/Analysis]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Analysis]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/T1ImgCoreg]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/T1ImgCoreg/ql041913_2]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC]]></value>
                     <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/T1ImgSegment]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/T1Img]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/T1ImgSegment/ql041913_2]]></value>
                 </string>
             </key>
             <settings name="autorefresh">

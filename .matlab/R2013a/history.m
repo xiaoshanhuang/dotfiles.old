@@ -1,1041 +1,5 @@
 %-- Unknown date --%
-3:150), glm.t(:,:,11:50,15), [], []);
-figure, comp=1; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=2; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=3; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=4; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=5; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=6; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=7; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=8; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=8; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp))9
-figure, comp=9; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=10; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=11; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=12; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=12; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp))3
-figure, comp=13; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=14; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=15; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=16; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=17; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=18; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=19; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=20; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=21; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=22; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=23; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=24; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=25; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=26; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=27; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=28; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=29; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=30; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, for comp = 1:30, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); pause; clf; end;
-help parafac
-[Factors] = parafac(ersp(1:70,:,:),30,[],[0 1 0],[],[1,0,0],[]);
-[Factors] = parafac(ersp(1:70,:,:),30,[],[0 1 0],[],[],[]);
-[A,B,C] = fac2let(Factors);
-figure, for comp = 1:30, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); pause; clf; end;
-B_hrf = []; for i = 1:30, B_hrf(i,:) = conv(mapstd(decimate(double(B(:,i)'), 25*2.04)), spm_hrf(2.04));end;
-glm = myglm( [B_hrf]', bold.func, bold.mask, [], [10 347], [] );
-bold.mask
-glm = myglm( [B_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, comp=1; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=2; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=3; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=4; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=5; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=6; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=7; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=8; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=9; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=10; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=11; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=12; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-menory
-memory
-figure, comp=12; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-%-- 4/28/13 1:35 PM --%
-load('temp.mat')
-figure, comp=12; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-eeglab
-figure, comp=12; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=3; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=20; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=19; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=18; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=17; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=16; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, for comp = 1:30, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); pause; clf; end;
-figure, for comp = 1:30, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-help pftest
-figure, comp=11; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=13; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=12; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-[ssX,Corco,It] = pftest(5,ersp(1:70, 1:5000, :),30,[],[0,1,0],[],[]);
-[ssX,Corco,It] = pftest(5,ersp(1:70, 1:5000, :),30,[],[0,1,0],[],[],[]);
-[ssX,Corco,It] = pftest(5,ersp(1:70, 1:5000, :),30,[],[0,1,0],[],[];
-[ssX,Corco,It] = pftest(5,ersp(1:70, 1:5000, :),30,[],[0,1,0],[],[]);
-[ssX,Corco,It] = pftest(5,ersp(1:70, 1:5000, :),30,[],[0,1,0]);
-[ssX,Corco,It] = pftest(1,ersp(1:70, 1:5000, :),30,[],[0,1,0]);
-[ssX,Corco,It] = pftest(1,ersp(1:70, 1:5000, :),30);
-help pftest
-[ssX,Corco,It] = pftest(1,ersp(1:70, 1:2500),30,[],[0,1,0],[],[],,[]);
-[ssX,Corco,It] = pftest(1,ersp(1:70, 1:2500),30,[],[0,1,0],[],[],[]);
-[ssX,Corco,It] = pftest(1,ersp(1:70, 1:2500),30,[],[0,1,0],[],[]);
-[ssX,Corco,It] = pftest(1,ersp(1:70, 1:2500),5,[],[0,1,0],[],[]);
-[ssX,Corco,It] = pftest(1,ersp(1:70, 1:2500),5,[],[0,1,0]);
-[ssX,Corco,It] = pftest(1,ersp(1:70, 1:2500),5);
-help pftest
-[ssX,Corco,It] = pftest(1,ersp(1:70, 1:2500),5,[],[0,1,0],[],[]);
-[ssX,Corco,It] = pftest(1,ersp(1:70, 1:2500),5,[],[0,1,0]);
-[ssX,Corco,It] = pftest(1,ersp(1:70, 1:2500),5);
-[ssX,Corco,It] = pftest(1,ersp(1:70, 1:2500),5, []);
-[ssX,Corco] = pftest(1,ersp(1:70, 1:2500),5);
-[ssX,Corco] = pftest(1,ersp(1:70, 1:2500,:),5, [], [0,1,0]);
-[ssX,Corco] = pftest(1,ersp(1:70, 1:2500,:),30, [], [0,1,0]);
-[ssX,Corco] = pftest(1,ersp(1:70, 1:2500,:),30, [], [0,1,0], [], [], [0 0 0], []);
-help pftest
-[ssX,Corco] = pftest(1,ersp(1:70, 1:2500,:),30, [], [0,1,0], [], [0 0 0], []);
-[Factors] = parafac(ersp(1:70,:,:),6,[],[0 1 0],[],[],[]);
-[Factors] = parafac(ersp(1:70,1:2500,:),6,[],[0 1 0],[],[],[]);
-[ssX,Corco] = pftest(1,ersp(1:70, 1:2500,:),30, [], [0,1,0], [],[]);
-[ssX,Corco] = pftest(1,ersp(1:70, 1:2500,:),30,[], [0,1,0],[],[]);
-help pftest
-[ssX,Corco,It] = pftest(1,ersp(1:70, 1:2500,:),30,[], [0,1,0],[],[]);
-[ssX,Corco,It] = pftest(1,ersp(1:70, 1:2500,:),30,[], [0,1,0]);
-for i = 1:20, c(i) = corcond(ersp(1:70, 1:2500, :),parafac(ersp(1:70, 1:2500, :), i, [], [0,1,0], [],[],[]));
-for i = 1:20, c(i) = corcond(ersp(1:70, 1:2500, :),parafac(ersp(1:70, 1:2500, :), i, [], [0,1,0], [],[],[])); end;
-for i = 1:20, c(i) = corcond(ersp(1:70, 2000:3000, :),parafac(ersp(1:70, 1:2500, :), i, [], [0,1,0], [],[],[])); end;
-for i = 1:20, c(i) = corcond(ersp(1:70, 2000:3000, :),parafac(ersp(1:70, 2000:3000, :), i, [], [0,1,0], [],[],[])); end;
-c
-[Factors] = parafac(ersp(1:70,2000:3000,:),7,[],[0 1 0],[],[],[]);
-c = corcond(ersp(1:70,2000:3000,:),Factors);
-c
-[A,B,C] = fac2let(Factors);
-figure, for comp = 1:7, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-[Factors] = parafac(ersp(1:70,2000:4500,:),7,[],[0 1 0],[],[],[]);
-c = corcond(ersp(1:70,2000:4500,:),Factors);
-c
-figure, for comp = 1:7, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-[Factors] = parafac(ersp(1:70,:,:),5,[],[0 1 0],[],[],[]);
-figure, for comp = 1:5, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-[Factors] = parafac(ersp(1:70,:,:),30,[],[0 1 0],[],[0,1,0],[]);
-[A,B,C] = fac2let(Factors);
-figure, for comp = 1:20, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-[Factors] = parafac(ersp(1:70,:,:),30,[],[0 1 0],[],[0,0,1],[]);
-[A,B,C] = fac2let(Factors);
-figure, for comp = 1:30, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-help parafac
-[L Gamma alpha R sigma_mcv log] = mscluster(zscore(EEG.data), 12, 25, 40, 200, EEG.chanlocs, 10, 1);
-help msclu
-help mscluster
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-help parafac
-[Factors] = parafac(ersp(1:70,:,:),12,[],[0 1 0],{[], [], Gamma},[0,0,1],[]);
-[Factors] = parafac(ersp(1:70,:,:),12,[],[0 1 0],{A, B, Gamma},[0,0,1],[]);
-figure, for comp = 1:12, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-[A,B,C] = fac2let(Factors);
-figure, for comp = 1:12, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-help parafac
-ersp(1)
-ersp(2)
-ersp(100)
-help newtimef
-ersp = db2mag(ersp)
-ersp = db2mag(ersp);
-%-- 4/28/13 9:43 PM --%
-load('1435_30.mat')
-ersp = db2mag(ersp);
-[Factors] = parafac(ersp(1:70,:,:),30,[],[3 1 0],[],[],[]);
-[A,B,C] = fac2let(Factors);
-figure, for comp = 1:30, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-eeglab
-figure, for comp = 1:30, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-c = corcond(ersp(1:70,:,:),Factors);
-%-- 4/28/13 10:17 PM --%
-eeglab
-%-- 4/28/13 10:20 PM --%
-eeglab
-clear all
-close all
-eeglab
-load('1435_30.mat')
-ersp = db2mag(ersp);
-[Factors] = parafac(ersp(1:70,:,:),10,[],[3 1 0],[],[],[]);
-[A,B,C] = fac2let(Factors);
-figure, for comp = 1:30, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-[Factors] = parafac(ersp(1:70,:,:),20,[],[3 1 0],[],[],[]);
-[A,B,C] = fac2let(Factors);
-figure, for comp = 1:20, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/xh030313/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 50);
-anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
-anats = imresize(anat.img, 1/2);
-clear anat
-delete bias* binica* temp*
-B_hrf = []; for i = 1:20, B_hrf(i,:) = conv(mapstd(decimate(double(B(:,i)'), 25*2.04)), spm_hrf(2.04));end;
-glm = myglm( [B_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
-memory
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
-figure, comp=1; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=2; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=3; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=4; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=5; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=6; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=7; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=8; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=9; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=10; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=11; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=12; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=13; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=14; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=15; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=16; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=17; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=18; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=19; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=20; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-clear glm
-figure, for comp = 1:20, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-glm = myglm( [B_hrf(15:20,:)]', bold.func, bold.mask, [], [10 347], [] );
-figure, comp=1; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=1; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp+14)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=2; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp+14)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=3; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp+14)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=4; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp+14)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=5; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp+14)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=6; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp+14)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-plot(B_hrf')
-plot(B_hrf(1:3,:)')
-plot(B_hrf(4:6,:)')
-[Factors] = parafac(ersp(1:70,:,:),20,[],[2 1 0],[],[],[]);
-figure, for comp = 1:20, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-[A,B,C] = fac2let(Factors);
-figure, for comp = 1:20, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-clear glm
-glm = myglm( [B_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, comp=1; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=2; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=3; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=4; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=5; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=6; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=7; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=8; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=9; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=10; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=11; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=11; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp))2
-figure, comp=12; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=13; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=14; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=14; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp))5
-figure, comp=15; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=15; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp))6
-figure, comp=16; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=17; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=18; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, comp=19; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-figure, plot(B(:,1:3))
-figure, plot(B(:,15:20))
-figure, plot(B(:,1:3))
-figure, plot(B(:,1:20))
-figure, for comp = 1:20, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-figure, comp=5; disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []);figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp));
-%-- 4/29/13 12:12 AM --%
-load('1435_30.mat')
-eeglab
-figure, for comp = 1:30, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-ersp = db2mag(ersp);
-[Factors] = parafac(ersp(1:70,:,:),20,[],[0 0 0],[],[0 0 1],[]);
-[A,B,C] = fac2let(Factors);
-figure, for comp = 1:30, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-figure, for comp = 1:20, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-[Factors] = parafac(ersp(1:70,:,:),20,[],[2 2 0],[],[1 0 0],[]);
-[Factors] = parafac(ersp(1:70,:,:),30,[],[2 2 0],[],[1 0 0],[]);
-[Factors] = parafac(ersp(1:70,:,:),20,[],[2 1 0],[],[],[]);
-[Factors] = parafac(ersp(1:70,:,:),30,[],[2 1 0],[],[],[]);
-%-- 4/29/13 1:08 AM --%
-eeglab
-for i = 1:EEG.nbchan, chanR(i) = EEG.chanlocs(i).radius; end;
-find(chanR<0.5)'
-find(chanR>0.5)'
-clear all; close all
-eeglab
-%-- 4/29/13 1:21 AM --%
-matlabpool
-eeglab
-clear ersp times freqs, parfor i = 1:EEG.nbchan, [ersp(:,:,i),itc,powbase,times(:,i),freqs(:,i)] = newtimef(EEG.data(i,:),EEG.pnts , [EEG.xmin EEG.xmax]*1000, EEG.srate, [3 0.5], 'winsize',250, 'timesout', -10, 'plotmean', 'off', 'plotersp', 'off', 'plotitc', 'off'); end;
-[Factors] = parafac(ersp(1:70,:,:),10,[],[2 1 0],[],[],[]);
-ersp = db2mag(ersp);
-[Factors] = parafac(ersp,10,[],[2 1 0],[],[],[]);
-[A,B,C] = fac2let(Factors);
-figure, for comp = 1:10, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-figure, for comp = 1:10, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(:,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-[Factors] = parafac(ersp,3,[],[0 1 0],[],[],[]);
-help parafac
-[Factors] = parafac(ersp,3,[],[0 1 0],[],[],[]);
-[A,B,C] = fac2let(Factors);
-figure, for comp = 1:3, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(:,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-for i = 1:10, c(i) = corcond(ersp(:, 2000:3000, :),parafac(ersp(:, 2000:3000, :), i, [], [0,1,0], [],[],[])); end;
-%-- 4/29/13 8:57 AM --%
-eeglab
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-%-- 4/29/13 9:50 AM --%
-eeglab
-load('1435_30.mat')
-figure, for comp = 1:30, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(1:70,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-[Factors] = parafac(ersp,30,[],[0 1 0],[],[],[]);
-%-- 4/29/13 9:55 AM --%
-cd matlabroot
-matlabroot
-delete bias* binica* temp*
-eeglab
-clear all
-close all
-eeglab
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ql041913/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 50);
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ql041913_1/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 50);
-alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = conv(mapstd(decimate(double(abs(alpha_tc(i,:))), 250*2.04)), spm_hrf(2.04));end;
-alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = conv(mapstd(decimate(double(abs(alpha(i,:))), 250*2.04)), spm_hrf(2.04));end;
-glm = myglm( [B_hrf]', bold.func, bold.mask, [], [10 347], [] );
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
-anats = imresize(anat.img, 1/2);
-clear anat
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
-comp = 3; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 2; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 4; figure, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(:,1), A(:,comp));
-close figure
-comp = 4; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 5; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 6; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 7; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 8; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 9; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 10; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 10; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs)1
-comp = 11; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 12; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 1; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 1; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [-2 2], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,8), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,9), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,10), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,11), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,12), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,12), [-10 10], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,12), [-8 8], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,12), [-5 5], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,12), [-4 4], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,13), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,1), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,3), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,4), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,5), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,6), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,7), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,8), [], []);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-sigma_mcv
-R
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 11, 200, EEG.chanlocs, 10, 1, 25, 40);
-sigma_mcv
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 10, 200, EEG.chanlocs, 10, 1, 25, 40);
-sigma_mcv
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 9, 200, EEG.chanlocs, 10, 1, 25, 40);
-sigma_mcv
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 10, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:10, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-sigma_mcv
-alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = conv(mapstd(decimate(double(abs(alpha(i,:))), 250*2.04)), spm_hrf(2.04));end;
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ql041913_2/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 50);
-alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = conv(mapstd(decimate(double(abs(alpha(i,:))), 250*2.04)), spm_hrf(2.04));end;
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
-figure, topoplot(Gamma(:,3), EEG.chanlocs)
-figure, topoplot(Gamma(:,2), EEG.chanlocs)
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
-figure, topoplot(Gamma(:,3), EEG.chanlocs)
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [-2 2], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
-comp = 5; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [-2 2], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 5; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 6; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 7; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 8; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 9; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 10; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 11; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 1; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-comp = 2; figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,comp+1), [], []); figure, topoplot(Gamma(:,comp), EEG.chanlocs);
-figure, for i = 1:10, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-fftplot(alpha(4,:), EEG.srate, [0.1 50])
-figure, fftplot(alpha(4,:), EEG.srate, [0.1 50])
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 13, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-figure, for i = 1:13, subplot(3,5,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-%-- 4/29/13 11:53 AM --%
-eeglab
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ql041913_2/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
-anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
-anats = imresize(anat.img, 1/2);
-clear anat
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = conv(mapstd(decimate(double(abs(alpha(i,:))), 250*2.04)), spm_hrf(2.04));end;
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,8), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,9), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,10), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,11), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,12), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,13), [], []);
-sigma_mcv
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = conv(mapstd(decimate(double(abs(alpha(i,:))), 250*2.04)), spm_hrf(2.04));end;
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,8), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,12), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,9), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,10), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,11), [], []);
-figure, fftplot(alpha(10,:), EEG.srate, [0.1 50])
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,8), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,8), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,9), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,10), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,11), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,12), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,13), [], []);
-c = corr(alpha_hrf);
-c
-c = corr(alpha_hrf');
-figure, imagesc(c)
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,1), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,3), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,4), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,5), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,6), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,7), [], []);
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_2/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_2_BrainMask_05_91x109x91.nii', 20);
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), bold.act(:,:,11:50,2), [], []);
-anat = load_nii('20130419_095448LuoQingfei.nii');
-figure, disp_act_slic([5,6], anat, glm.t(:,:,:,2), [], []);
-figure, disp_act_slic([5,6], anat.img, glm.t(:,:,:,2), [], []);
-anat
-figure, disp_act_slic([5,6], double(anat.img), glm.t(:,:,:,2), [], []);
-glm
-figure, disp_act_slic([5,6], anat.img, glm.t(:,:,:,2), [], []);
-figure, disp_act_slc([5,6], anat.img, glm.t(:,:,:,2), [], []);
-figure, disp_act_slc([5,6], anat.img, glm.t(:,:,:,3), [], []);
-figure, disp_act_slc([5,6], anat.img, glm.t(:,:,:,4), [], []);
-figure, disp_act_slc([5,6], anat.img, glm.t(:,:,:,5), [], []);
-figure, disp_act_slc([5,6], anat.img, glm.t(:,:,:,10), [], []);
-figure, disp_act_slc([5,6], anat.img, glm.t(:,:,:,11\), [], []);
-figure, disp_act_slc([5,6], anat.img, glm.t(:,:,:,11), [], []);
-figure, disp_act_slc([5,6], anat.img, glm.t(:,:,:,12), [], []);
-figure, disp_act_slc([5,6], anat.img, glm.t(:,:,:,13), [], []);
-%-- 4/29/13 3:14 PM --%
-eeglab
-delete bias* binica* temp*
-%-- 4/30/13 3:08 PM --%
-eeglab
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-clear ersp times freqs, parfor i = 1:EEG.nbchan, [ersp(:,:,i),itc,powbase,times(:,i),freqs(:,i)] = newtimef(EEG.data(i,:),EEG.pnts , [EEG.xmin EEG.xmax]*1000, EEG.srate, [3 0.5], 'winsize',250, 'timesout', -10, 'plotmean', 'off', 'plotersp', 'off', 'plotitc', 'off'); end;
-matlabpool
-%-- 4/30/13 3:41 PM --%
-delete bias* binica* temp*
-matlabpool
-%-- 4/30/13 3:42 PM --%
-matlabroot
-%-- 4/30/13 3:50 PM --%
-matlabpool
-eeglab
-clear ersp times freqs, parfor i = 1:EEG.nbchan, [ersp(:,:,i),itc,powbase,times(:,i),freqs(:,i)] = newtimef(EEG.data(i,:),EEG.pnts , [EEG.xmin EEG.xmax]*1000, EEG.srate, [3 0.5], 'winsize',250, 'timesout', -10, 'plotmean', 'off', 'plotersp', 'off', 'plotitc', 'off'); end;
-[Factors] = parafac(ersp,3,[],[0 1 0],[],[],[]);
-[A,B,C] = fac2let(Factors);
-figure, for comp = 1:5, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(:,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-figure, for comp = 1:3, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(:,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-c = corcond(ersp,Factors);
-c
-[Factors] = parafac(ersp,5)
-c = corcond(ersp,Factors);
-c
-[A,B,C] = fac2let(Factors);
-figure, for comp = 1:3, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(:,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-figure, for comp = 1:5, subplot(2,1,1), topoplot(zscore(C(:,comp)), EEG.chanlocs); subplot(2,1,2), plot(freqs(:,1), A(:,comp)); title(num2str(comp)); pause; clf; end;
-bcgTemp = eeg_getica(EEG,7);
-peakLoc = peakfinder(mapstd(bcgTemp),4.45);
-figure, plot(diff(peakLoc(1:end-1)))
-for i = 1:length(peakLoc), EEG.event(end+1) = struct('type', 'bcg', 'latency', peakLoc(i)-40, 'urevent', [], 'duration', []); end;
-help eeg_pca
-help princomp
-coeff = pca(EEG.data(80,:,:))
-coeff = pca(EEG.data(80,:,:));
-coeff = pca(squeeze(EEG.data(80,:,:)));
-[coeff, score] = pca(squeeze(EEG.data(80,:,:)));
-plot(score(:,1))
-plot(score(:,2))
-plot(score(:,3))
-plot(score(:,4))
-plot(score(:,5))
-plot(score(:,6))
-plot(score(:,1))
-plot(score(:,2))
-plot(score(:,3))
-help SIM
-[A,S,z] = SIM(EEG.data,50);
-plot(z(1,:))
-plot(A(1,:))
-figure, topoplot(A(1,:))
-figure, topoplot(A(1,:),EEG.chanlocs)
-figure, topoplot(A(:,1),EEG.chanlocs)
-[A,S,z] = SIM(EEG.data);
-figure, topoplot(A(:,1),EEG.chanlocs)
-clear A S z
-[A,S,z] = SIM(EEG.data);
-figure, topoplot(abs(A(:,1)),EEG.chanlocs)
-[A,S,z] = SIM(double(EEG.data));
-figure, topoplot(A(:,1),EEG.chanlocs)
-figure, topoplot(A(:,2),EEG.chanlocs)
-figure, topoplot(A(:,3),EEG.chanlocs)
-figure, topoplot(A(:,4),EEG.chanlocs)
-figure, topoplot(A(:,5),EEG.chanlocs)
-figure, topoplot(A(:,6),EEG.chanlocs)
-figure, topoplot(A(:,7),EEG.chanlocs)
-figure, topoplot(A(:,8),EEG.chanlocs)
-figure, topoplot(A(:,9),EEG.chanlocs)
-figure, topoplot(A(:,10),EEG.chanlocs)
-plot(z(80,:))
-plot(z(1,:))
-plot(z(2,:))
-figure, for comp = 1:5, subplot(2,1,1), topoplot(A(:,comp), EEG.chanlocs); subplot(2,1,2), plot(EEG.times, z(comp,:)); title(num2str(comp)); pause; clf; end;
-figure, for comp = 1:5, subplot(2,1,1), topoplot(A(:,comp), EEG.chanlocs); subplot(2,1,2), plot(EEG.times, z(comp,:)); title(num2str(comp)); grid on; pause; clf; end;
-figure, for comp = 1:10, subplot(2,1,1), topoplot(A(:,comp), EEG.chanlocs); subplot(2,1,2), plot(EEG.times, z(comp,:)); title(num2str(comp)); grid on; pause; clf; end;
-figure, for comp = 1:30, subplot(2,1,1), topoplot(A(:,comp), EEG.chanlocs); subplot(2,1,2), plot(EEG.times, z(comp,:)); title(num2str(comp)); grid on; pause; clf; end;
-figure, for comp = 1:50, subplot(2,1,1), topoplot(A(:,comp), EEG.chanlocs); subplot(2,1,2), plot(EEG.times, z(comp,:)); title(num2str(comp)); grid on; pause; clf; end;
-eeglab
-bcg = []; for i = 1:10, bcg(:,:,i) = A(:,i)*z(i,:); end;
-plot(bcg(135,:,1))
-plot(bcg(135,:,2))
-plot(bcg(135,:,3))
-plot(bcg(135,:,4))
-plot(bcg(135,:,5))
-plot(bcg(135,:,7))
-figuer, plot(bcg(135,:,7)), figure, topoplot(A(:,7),EEG.chanlocs)
-figure, plot(bcg(135,:,7)), figure, topoplot(A(:,7),EEG.chanlocs)
-delete temp.mat
-fmrib_pas
-figure, for comp = 1:137, subplot(2,1,1), topoplot(A(:,comp), EEG.chanlocs); subplot(2,1,2), plot(EEG.times, z(comp,:)); title(num2str(comp)); grid on; pause; clf; end;
-figure, for comp = 1:137, subplot(2,1,1), topoplot(A(:,comp), EEG.chanlocs); subplot(2,1,2), plot(z(comp,:)); title(num2str(comp)); grid on; pause; clf; end;
-%-- 4/30/13 11:00 PM --%
-eeglab
-bcgTemp = eeg_getica(EEG,7);
-peakLoc = peakfinder(mapstd(bcgTemp),4.45);
-figure, plot(diff(peakLoc(1:end-1)))
-for i = 1:length(peakLoc), EEG.event(end+1) = struct('type', 'bcg', 'latency', peakLoc(i)-40, 'urevent', [], 'duration', []); end;
-[A,S,z] = SIM(double(EEG.data));
-help epoch
-figure, for comp = 1:35, subplot(2,1,1), topoplot(A(:,comp), EEG.chanlocs); subplot(2,1,2), plot(z(comp,:)); title(num2str(comp)); grid on; pause; clf; end;
-help squeeze
-help pop_selectevent
-[eventout fields] = eeg_eventformat( EEG.event, 'array', {'latency'} );
-[eventout fields] = eeg_eventformat( EEG.event, 'struct', {'latency'} );
-fields
-eventout
-EEG.event
-help struct
-%-- 5/1/13 12:08 PM --%
-eeglab
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = conv(mapstd(decimate(double(abs(alpha(i,:))), 250*2.04)), spm_hrf(2.04));end;
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_2/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_2_BrainMask_05_91x109x91.nii', 20);
-help myglm
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, 0.01, [10 347], [] );
-anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
-anats = imresize(anat.img, 1/2);
-figure, disp_act_slc([5,6], anat.img, glm.t(:,:,:,2), [], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-anats
-size(anats)
-anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
-anats = imresize(anat.img, 1/2);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-glm.t
-glm
-size(glm.t)
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ql041913_2/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, 0.01, [10 347], [] );
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
-%-- 5/1/13 1:18 PM --%
-eeglab
-bcgTemp = eeg_getica(EEG,7);
-peakLoc = peakfinder(mapstd(bcgTemp),4.45);
-figure, plot(diff(peakLoc(1:end-1)))
-for i = 1:length(peakLoc), EEG.event(end+1) = struct('type', 'bcg', 'latency', peakLoc(i)-40, 'urevent', [], 'duration', []); end;
-EEG = pas_sim(EEG, peakLoc-40, 'sim', 30);
-size(10-100:10+100);
-ans
-size(-100:100)
-EEG = pas_sim(EEG, peakLoc-40, 'sim', 30);
-[ALLEEG EEG] = eeg_store(ALLEEG, EEG, CURRENTSET);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-EEG = pas_sim(EEG, peakLoc-40, 'sim', 30);
-[ALLEEG EEG] = eeg_store(ALLEEG, EEG, CURRENTSET);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-delete temp.mat
-delete bias* binica* temp*
-nii = loadnii('swCovRegressed_4DVolume.nii');
-help load_nii
-nii = load_nii('swCovRegressed_4DVolume.nii');
-nii.
-nii
-nii.hdr
-nii.hdr.dime
-%-- 5/1/13 2:33 PM --%
-%-- 5/1/13 2:34 PM --%
-cd ~/Desktop/
-ls
-load('ms_ql041913_2.mat')
-anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
-anats = imresize(anat.img, 1/2);
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_2/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_2_BrainMask_05_91x109x91.nii', 20);
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,2), [], []);
-anat = load_nii('20130419_095448LuoQingfei.nii');
-anats = imresize(anat.img, 1/2);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,2), [], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,3), [], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,3), [-3 3], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,4), [], []);
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImg/ql041913_2/*.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_2_BrainMask_05_91x109x91.nii', 20);
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImg/ql041913_2/99328.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_2_BrainMask_05_91x109x91.nii', 20);
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,2), [], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,3), [], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,4), [], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,5), [], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,4), [], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,4), [-0.1 0.1], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,5), [], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,6), [], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,4), [], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,4), [-0.1 0.1], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,4), [-2.5 2.5], [-7.5 7.5]);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,3), [-2.5 2.5], [-7.5 7.5]);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,1), [-2.5 2.5], [-7.5 7.5]);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,2), [-2.5 2.5], [-7.5 7.5]);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,3), [-2.5 2.5], [-7.5 7.5]);
-eeglab
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = conv(mapstd(decimate(double(abs(alpha(i,:))), 250*2.04)), spm_hrf(2.04));end;
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,2), [], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,4), [], []);
-clear all
-close all
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImg/ql041913_1/02048.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_1_BrainMask_05_91x109x91.nii', 20);
-anat = load_nii('20130419_095448LuoQingfei.nii');
-anats = imresize(anat.img, 1/2);
-load('ms_ql041913_2.mat')
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,4), [], []);
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ql041913_1/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,4), [], []);
-anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
-anats = imresize(anat.img, 1/2);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImg/ql041913_1/02048.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_1_BrainMask_05_91x109x91.nii', 20);
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-anat = load_nii('20130419_095448LuoQingfei.nii');
-anats = imresize(anat.img, 1/2);
-anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
-anatts = imresize(anat.img, 1/2);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,4), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anatts(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anatts(:,:,33:3:150), glms.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anatts(:,:,33:3:150), glms.t(:,:,11:50,2), [], [-7.5 7.5]);
-figure, disp_act_slc([5,8], anatts(:,:,33:3:150), glms.t(:,:,11:50,3), [], [-7.5 7.5]);
-figure, disp_act_slc([5,8], anatts(:,:,33:3:150), glms.t(:,:,11:50,4), [], [-7.5 7.5]);
-figure, disp_act_slc([5,8], anatts(:,:,33:3:150), glms.t(:,:,11:50,1), [], [-7.5 7.5]);
-figure, disp_act_slc([5,8], anatts(:,:,33:3:150), glms.t(:,:,11:50,2), [], [-7.5 7.5]);
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,2), [], []);
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, 0.01, [10 347], [] );
-figure, disp_act_slc([5,6], anats, glm.t(:,:,:,2), [], []);
-figure, disp_act_slc([5,8], anatts(:,:,33:3:150), glms.t(:,:,11:50,4), [], [-7.5 7.5]);
-figure, disp_act_slc([5,8], anatts(:,:,33:3:150), glms.t(:,:,11:50,5), [], [-7.5 7.5]);
-figure, disp_act_slc([5,8], anatts(:,:,33:3:150), glms.t(:,:,11:50,6), [], [-7.5 7.5]);
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCW/ql041913_1/wCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
-%-- 5/1/13 3:46 PM --%
-help isnan
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCW/ql041913_1/wCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
-load('ms_ql041913_2.mat')
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, 0.01, [10 347], [] );
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-bold.func
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, disp_act_slc([5,8], anatts(:,:,33:3:150), glms.t(:,:,11:50,2), [], [-7.5 7.5]);
-anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
-anats = imresize(anat.img, 1/2);
-figure, disp_act_slc([5,8], anatts(:,:,33:3:150), glms.t(:,:,11:50,2), [], [-7.5 7.5]);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glms.t(:,:,11:50,2), [], [-7.5 7.5]);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], [-7.5 7.5]);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], [-7.5 7.5]);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], [-7.5 7.5]);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], [-7.5 7.5]);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [-5 5], [-7.5 7.5]);
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ql041913_1/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [-5 5], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [-4 4], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [-5 5], []);
-eeglab
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = conv(mapstd(decimate(double(abs(alpha(i,:))), 250*2.04)), spm_hrf(2.04));end;
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/dq041813_2/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,8), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,9), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,10), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,11), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,12), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,13), [], []);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,8), [], []);
-for i = 1:size(glm.t,4), for j = 1:size(glm.t,3), glm.t(:,:,j,i) = fcnFirstOrderStatisticsFilter(glm.t(:,:,j,t), bold.mask(:,:,j,t)); end; end;
-for i = 1:size(glm.t,4), for j = 1:size(glm.t,3), glm.t(:,:,j,i) = fcnFirstOrderStatisticsFilter(glm.t(:,:,j,i), bold.mask(:,:,j,i)); end; end;
-for i = 1:size(glm.t,4), for j = 1:size(glm.t,3), glm.t(:,:,j,i) = fcnFirstOrderStatisticsFilter(glm.t(:,:,j,i)); end; end;
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, 0.01, [10 347], [] );
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
-%-- 5/1/13 11:47 PM --%
-%-- 5/4/13 11:24 AM --%
-%-- 5/4/13 11:27 AM --%
-help coder
-coder
-%-- 5/4/13 2:41 PM --%
-eeglab
-%-- 5/5/13 12:47 PM --%
-delete bias* binica* temp*
-load('sensorData.mat')
-help runica
-[weights,sphere] = runica(sensorData);
-[weights,sphere] = runica(sensorData');
-[weights,sphere] = runica(zscore(sensorData)');
-motionInput
-[weights,sphere] = runica(zscore(sensorData(:,2:9))');
-figure, plot(sensorData(:,2:9))
-figure, plot(sensorData(:,2:4))
-[weights,sphere] = runica(zscore(sensorData(:,2:4))');
-figure, plot(zscore(sensorData(:,2:4)))
-lastFilename
-figure, plot(zscore(sensorData(:,5:8)))
-figure, plot(zscore(sensorData(:,3:5)))
-figure, plot(zscore(sensorData(:,6:9)))
-figure, plot(zscore(sensorData(:,10:12)))
-figure, plot(zscore(dataChunk(:,3:5)))
-figure, plot(zscore(sensorData(:,10:12)))
-dataChunk =  sensorData(38000:38500,:);
-figure, plot(zscore(dataChunk(:,3:5)))
-figure, plot(zscore(dataChunk(:,6:9)))
-help princomp
-dataChunk =  sensorData(38001:38500,:);
-[coeff, score] = pca(dataChunk(:,3:9));
-figure, plot(score(:,1))
-figure, plot(score(:,2))
-figure, plot(score(:,3))
-figure, plot(score(:,4))
-figure, plot(score(:,5))
-figure, plot(score(:,6))
-figure, fftplot(score(:,1), SAMPLE_RATE, [0.1 10])
-figure, fftplot(score(:,2), SAMPLE_RATE, [0.1 10])
-for i = 1:5, subplot(5,1,i), fftplot(score(:,i), SAMPLE_RATE, [0.1 5]); end;
-[coeff, score] = pca(dataChunk(:,3:5));
-for i = 1:3, subplot(3,1,i), fftplot(score(:,i), SAMPLE_RATE, [0.1 5]); end;
-motionInput
-for i = 1:3, subplot(3,1,i), fftplot(score(:,i), SAMPLE_RATE, [0.1 5]); end;
-for i = 1:500, ap(i) = sensorData(i,3:5)*sensorData(i,6:8)'; end;
-figure, plot(ap)
-figure, plot(dataChunk(:,6:8))
-figure, plot(dataChunk(:,3:5))
-motionInput
-%-- 5/5/13 4:12 PM --%
-eeglab
-%-- 5/5/13 4:16 PM --%
-eeglab
-%-- 5/5/13 6:49 PM --%
-eeglab
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-help find
-L(1:10)
-figure, for i = 1:20, subplot(1, 20, i), topoplot(EEG.data(i), EEG.chanlocs); title(num2str(L(i))); end;
-figure, for i = 1:10, subplot(1, 10, i), topoplot(EEG.data(i), EEG.chanlocs); title(num2str(L(i))); end;
-figure, for i = 1:10, subplot(1, 20, i), topoplot(EEG.data(:,i), EEG.chanlocs); title(num2str(L(i))); end;
-figure, for i = 1:20, subplot(1, 20, i), topoplot(EEG.data(:,i), EEG.chanlocs); title(num2str(L(i))); end;
-figure, for i = 1:200, subplot(10, 20, i), topoplot(EEG.data(:,i), EEG.chanlocs); title(num2str(L(i))); end;
-figure, for i = 1000:1100, subplot(10, 10, i), topoplot(EEG.data(:,i), EEG.chanlocs); title(num2str(L(i))); end;
-figure, for i = 1001:1100, subplot(10, 10, i-1000), topoplot(EEG.data(:,i), EEG.chanlocs); title(num2str(L(i))); end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-R
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-sigma_mcv
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 11, 200, EEG.chanlocs, 10, 1, 25, 40);
-sigma_mcv
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 10, 200, EEG.chanlocs, 10, 1, 25, 40);
-sigma_mcv
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 9, 200, EEG.chanlocs, 10, 1, 25, 40);
-sigma_mcv
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 10, 200, EEG.chanlocs, 10, 1, 25, 40);
-sigma_mcv
-figure, for i = 1:10, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-figure, fftplot(alpha(8,:), EEG.srate, [5 14])
-figure, fftplot(alpha(9,:), EEG.srate, [5 14])
-figure, fftplot(alpha(10,:), EEG.srate, [5 14])
-figure, fftplot(alpha(7,:), EEG.srate, [5 14])
-figure, fftplot(alpha(4,:), EEG.srate, [5 14])
-alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = conv(mapstd(decimate(double(abs(alpha(i,:))), 250*2.04)), spm_hrf(2.04));end;
-bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/dq041813_1/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
-anats = imresize(anat.img, 1/2);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,8), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,9), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,10), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,11), [], []);
-figure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
-figure, fftplot(EEG.data(10,:), EEG.srate, [0.1 50])
-figure, fftplot(EEG.data(10,:), EEG.srate, [0.5 50])
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 10, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:10, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 10, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:10, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-sigma_mcv
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 9, 200, EEG.chanlocs, 10, 1, 25, 40);
-sigma_mcv
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 11, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:10, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-sigma_mcv
-figure, for i = 1:11, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 12, 200, EEG.chanlocs, 10, 1, 25, 40);
-sigma_mcv
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 11, 200, EEG.chanlocs, 10, 1, 25, 40);
-sigma_mcv
-figure, for i = 1:12, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 11, 200, EEG.chanlocs, 10, 1, 25, 40);
-figure, for i = 1:11, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-sigma_mcv
-L1 = L;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 11, 200, EEG.chanlocs, 10, 1, 25, 40);
-sigma_mcv
-L2 = L;
-sum(L1~=L2)
-figure, for i = 1:11, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-L(1:100)
-figure, for i = 1:11, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 11, 200, EEG.chanlocs, 10, 1, 25, 1);
-R
-sigma_mcv
-figure, for i = 1:11, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-L
-L(1:100)
-L(100:200
-L(100:200)
-figure, for i = 1:11, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-find(L==1)
-sum(find(L==1))
-sum(find(L==2))
-sum(find(L==3))
-sum(find(L==4))
-sum(find(L==5))
-sum(find(L==6))
-sum(find(L==7))
-sum(find(L==8))
-sum(find(L==9))
-sum(find(L==10))
-sum(L==1)
-sum(L==2)
-sum(L==3)
-sum(L==5)
-sum(L==4)
-sum(L==6)
-sum(L==7)
-sum(L==8)
-sum(L==9)
-sum(L==10)
-figure, for i = 1:11, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = conv(mapstd(decimate(double(abs(alpha(i,:))), 250*2.04)), spm_hrf(2.04));end;
-glm = myglm( [alpha_hrf]', bold.func, bold.mask, [], [10 347], [] );
-figure, for i = 1:11, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-figure, plot(alpha(2:3, :))
-%-- 5/6/13 9:14 AM --%
-eeglab
-clear all; close all
-eeglab
-[gfp,gd] = eeg_gfp(EEG.data',1);
-plot(gfp)
-peakLoc = peakfinder(mapstd(gfp),1);
-peakLoc = peakfinder(zscore(gfp),1);
-figure, plot(EEG.times, gfp), hold on; plot(EEG.times(peakLoc), gfp(peakLoc), 'ro')
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data(:,peakLoc), 11, 200, EEG.chanlocs, 10, 1, 25, 1);
-sigma_mcv
-R
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data(:,peakLoc), 11, 200, EEG.chanlocs, 10, 1, 25, 1);
-sigma_mcv
-R
-figure, for i = 1:11, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data(:,peakLoc), 10, 200, EEG.chanlocs, 10, 1, 25, 1);
-sigma_mcv
-figure, for i = 1:11, subplot(3,4,i), topoplot(Gamma(:,i), EEG.chanlocs); title(num2str(i));end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data(:,peakLoc), 11, 200, EEG.chanlocs, 10, 1, 25, 1);
-find(L==1)
-sum(L==1)
-sum(L==2)
-sum(L==3)
-sum(L==4)
-sum(L==5)
-sum(L==6)
-sum(L==7)
-gfp_hrf = conv(mapstd(decimate(double(gfp'), 250*2.04)), spm_hrf(2.04));
-gfp_hrf1 = mapstd(decimate(conv(gfp', spm_hrf(250*2.04)), 250*2.04));
-gfp_hrf1 = mapstd(decimate(conv(double(gfp)', spm_hrf(250*2.04)), 250*2.04));
-figure, plot([gfp_hrf gfp_hrf1])
-figure, plot([gfp_hrf;gfp_hrf1])
-figure, plot([gfp_hrf(1,1:348);gfp_hrf1])
-figure, plot([gfp_hrf(1,1:348);gfp_hrf1]')
-figure, plot([gfp_hrf(1,1:348)-gfp_hrf1]')
-sum([gfp_hrf(1,1:348)-gfp_hrf1])
-[gfp_hrf(1,1:348)-gfp_hrf1]
-gfp_hrf1 = mapstd(decimate(conv(double(gfp)', spm_hrf(250*2.04)), 250*2.04));
-plot(conv(double(gfp)', spm_hrf(250*2.04)))
-help conv
-plot(spm_hrf(250*2.04))
-help spm_hrf
-plot(spm_hrf(2.04))
-plot(spm_hrf(100))
-plot(spm_hrf(2.04/250))
-plot(spm_hrf(2.04))
-plot(spm_hrf(2.04/250))
-plot(spm_hrf(2.04))
-plot(spm_hrf(2.04/250))
-plot(spm_hrf(2.04/510))
-gfp_hrf1 = mapstd(decimate(conv(double(gfp)', spm_hrf(2.04/510)), 250*2.04));
-figure, plot([gfp_hrf(1,1:348);gfp_hrf1]')
-figure, plot([gfp_hrf;gfp_hrf1]')
-gfp_hrf = conv((decimate(double(gfp'), 250*2.04)), spm_hrf(2.04));
-gfp_hrf1 = (decimate(conv(double(gfp)', spm_hrf(2.04/510)), 250*2.04));
-figure, plot([gfp_hrf;gfp_hrf1]')
-help decimate
+imate
 gfp_hrf = conv((decimate(double(gfp'), 250*2.04, 'FIR')), spm_hrf(2.04));
 figure, plot([gfp_hrf;gfp_hrf1]')
 gfp_hrf1 = (decimate(conv(double(gfp)', spm_hrf(2.04/510)), 250*2.04, 'FIR'));
@@ -2902,3 +1866,1345 @@ cd ans
 dir ans
 %-- 5/21/13 2:02 PM --%
 %-- 5/21/13 2:04 PM --%
+%-- 5/21/13 2:08 PM --%
+%-- 5/21/13 2:12 PM --%
+delete bias* binica* temp*
+ls
+%-- 5/21/13 2:13 PM --%
+%-- 5/21/13 2:15 PM --%
+eegla
+eeglab
+msEEG = microstateEEG(EEG, 12);
+myfigure, for i = 1:12, subplottight(3,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+myfigure, for i = 1:12, subplot(3,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+msEEG.sigma_mcv
+msEEG = microstateEEG(EEG, 11);
+msEEG.sigma_mcv
+msEEG = microstateEEG(EEG, 12);
+msEEG = microstateEEG(EEG, 13);
+msEEG.sigma_mcv
+msEEG = microstateEEG(EEG, 14);
+msEEG.sigma_mcv
+msEEG = microstateEEG(EEG, 15);
+msEEG.sigma_mcv
+myfigure, for i = 1:15, subplot(3,5,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+msEEG = microstateEEG(EEG, 8);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ql041913_2/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, [], [10 347], [] );
+anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
+anats = imresize(anat.img, 1/2);
+clear anat
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,8), [], []);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [-4 4], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,8), [-4 4], []);
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_2/CovRegressed_4DVolume.nii', [], 20);
+anat = load_nii('20130419_095448LuoQingfei.nii');
+anats = imresize(anat.img, 1/2);
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, [], [10 347], [] );
+matlabroot
+cd userpath
+userpath
+cd userpath
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,8), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,8), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,8), [-3 4], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,8), [-3 3], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,7), [-3 3], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,7), [-4 4], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,6), [-4 4], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,6), [], []);
+help myglm
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.001, [10 347], [] );
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,6), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,7), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,8), [], []);
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.01, [10 347], [] );
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,8), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,7), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,6), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,7), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,8), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,9), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,10), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,11), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,12), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,13), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,14), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,15), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,16), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,17), [], []);
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_2/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_2_BrainMask_05_91x109x91.nii', 20);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,6), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,7), [], []);
+%-- 5/21/13 4:10 PM --%
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_2/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_2_BrainMask_05_91x109x91.nii', 20);
+anat = load_nii('20130419_095448LuoQingfei.nii');
+anats = imresize(anat.img, 1/2);
+clear anat
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,7), [], []);
+8
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,8), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,9), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,10), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,11), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,12), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,11), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,13), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,14), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,15), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,16), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,17), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,18), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,19), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,20), [], []);
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_2/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_2_GrayMask_05_91x109x91.nii', 20);
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_2/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_2_GreyMask_05_91x109x91.nii', 20);
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_2/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_2_GreyMask_02_91x109x91.nii', 20);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,6), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,7), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,8), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,9), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,10), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,11), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,12), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,13), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,14), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,15), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,16), [], []);
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_2/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_2_GreyMask_02_91x109x91.nii', 10);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,6), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,7), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,8), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,9), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,10), [], []);
+eeglab
+delete bias* binica* temp*
+%-- 5/21/13 4:47 PM --%
+eeglab
+delete bias* binica* temp*
+msEEG = microstateEEG(EEG, 8);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.01, [10 347], [] );
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_2/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_2_GreyMask_02_91x109x91.nii', 10);
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.01, [10 347], [] );
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,1), [], []);
+anat = load_nii('20130419_095448LuoQingfei.nii');
+anats = imresize(anat.img, 1/2);
+clear anat
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,6), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,7), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,8), [], []);
+myfigure, plot(msEEG.alpha_hrf')
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+myfigure, plot(msEEG.alpha(5,:))
+myfigure, fftplot(msEEG.alpha(5,:), EEG.srate, [0.1 50])
+myfigure, fftplot(msEEG.alpha(1,:), EEG.srate, [0.1 50])
+myfigure, fftplot(msEEG.alpha(2,:), EEG.srate, [0.1 50])
+myfigure, plot(msEEG.alpha([1 2],:))
+myfigure, plot(msEEG.alpha([1 2],:)')
+myfigure, plot(EEG.times, msEEG.alpha([1 2],:)')
+msEEG
+msEEG = microstateEEG(EEG, 8);
+msEEG
+myfigure, plot(EEG.times, msEEG.alpha([1 2],:)')
+round(EEG.srate*(0.1/2))
+msEEG = microstateEEG(EEG, 4);
+myfigure, plot(EEG.times, msEEG.alpha([1 2],:)')
+msEEG = microstateEEG(EEG, 4);
+myfigure, plot(EEG.times, msEEG.alpha([1 2],:)')
+msEEG = microstateEEG(EEG, 4);
+myfigure, plot(EEG.times, msEEG.alpha([1 2],:)')
+msEEG
+data
+date
+sum(msEEG.L==1)
+sum(msEEG.L==2)
+sum(msEEG.L==3)
+sum(msEEG.L==4)
+myfigure, plot(EEG.times, msEEG.alpha(:,:)')
+msEEG = microstateEEG(EEG, 8);
+myfigure, plot(EEG.times, msEEG.alpha(:,:)')
+msEEG
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.01, [10 347], [] );
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,6), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,7), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,8), [], []);
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_1/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_1_GreyMask_02_91x109x91.nii', 10);
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.01, [10 347], [] );
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,6), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,7), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,8), [], []);
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ql041913_1/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.01, [10 347], [] );
+anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
+anats = imresize(anat.img, 1/2);
+clear anat
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,8), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [-4 4], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [-4 4], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [-1 1], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [-1 1], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [-1 1], []);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+%-- 5/21/13 8:05 PM --%
+eeglab
+msEEG = microstateEEG(EEG, 8);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ql041913_2/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.01, [10 347], [] );
+anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
+anats = imresize(anat.img, 1/2);
+clear anat
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [-1 1], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [-1 1], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [-5 5], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,7), [-1 1], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,8), [], []);
+msEEG = microstateEEG(EEG, 4);
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.01, [10 347], [] );
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+myfigure, plot(msEEG.alpha_hrf')
+msEEG = microstateEEG(EEG, 4);
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.001, [10 347], [] );
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+msEEG.sigma_mcv
+msEEG = microstateEEG(EEG, 12);
+msEEG.sigma_mcv
+msEEG = microstateEEG(EEG, 8);
+msEEG.sigma_mcv
+msEEG = microstateEEG(EEG, 6); msEEG.sigma_mcv
+msEEG = microstateEEG(EEG, 5); msEEG.sigma_mcv
+msEEG = microstateEEG(EEG, 4); msEEG.sigma_mcv
+msEEG = microstateEEG(EEG, 5); msEEG.sigma_mcv
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_2/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_2_GreyMask_02_91x109x91.nii', 10);
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+anat = load_nii('20130419_095448LuoQingfei.nii');
+anats = imresize(anat.img, 1/2);
+clear anat
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [-1 1], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [-1 1], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [-1 1], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [-1 1], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,5), [-1 1], []);
+%-- 5/21/13 9:24 PM --%
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_1/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_1_GreyMask_02_91x109x91.nii', 10);
+eeglab
+close all
+%-- 5/21/13 9:38 PM --%
+delete bias* binica* temp*
+eeglab
+msEEG = microstateEEG(EEG, 8); msEEG.sigma_mcv
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+msEEG = microstateEEG(EEG, 8); msEEG.sigma_mcv
+msEEG
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/ql041913_1/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/ql041913_1_GreyMask_02_91x109x91.nii', 10);
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+anat = load_nii('20130419_095448LuoQingfei.nii');
+anats = imresize(anat.img, 1/2);
+clear anat
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,6), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,7), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,8), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,6), [], []);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,7), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,8), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,7), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,6), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,6), [-4 4], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,8), [], []);
+msEEG = microstateEEG(EEG, 8); msEEG.sigma_mcv
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,6), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,7), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,8), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,5), [], []);
+msEEG = microstateEEG(EEG, 8); msEEG.sigma_mcv
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+%-- 5/21/13 10:55 PM --%
+eeglab
+msEEG = microstateEEG(EEG, 8); msEEG.sigma_mcv
+delete bias* binica* temp*
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/dq041813_1/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/dq041813_1_GreyMask_02_91x109x91.nii', 10);
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+anat = load_nii('20130418_154300QIUDEQIANG.nii');
+anats = imresize(anat.img, 1/2);
+clear anat
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,6), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,7), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,8), [], []);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+myfigure, plot(msEEG.alpha_hrf')
+myfigure, plot(msEEG.alpha')
+msEEG = microstateEEG(EEG, 4); msEEG.sigma_mcv
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [], []);
+msEEG = microstateEEG(EEG, 4); msEEG.sigma_mcv
+delete bias* binica* temp*
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [], []);
+glm = myglm( msEEG.gfp_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,6), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,7), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,8), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,9), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,10), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,11), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,1), [], []);
+myfigure, plot(msEEG.alpha')
+msEEG = microstateEEG(EEG, 4); msEEG.sigma_mcv
+myfigure, plot(msEEG.alpha')
+myfigure, plot(abs(msEEG.alpha'))
+myfigure, plot(EEG.times, abs(msEEG.alpha'))
+myfigure, plot(EEG.times, abs(msEEG.L'))
+myfigure, plot(EEG.times, abs(msEEG.L==1'))
+glm = myglm( msEEG.L_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [-1 1], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [-1 1], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [-1 1], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [-1 1], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [-1 1], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,6), [], []);
+myfigure, plot(EEG.times, abs(msEEG.L==1'))
+myfigure, plot(EEG.times, conv(double(msEEG.L==i), spm_hrf(1/EEG.srate)))
+myfigure, plot(conv(double(msEEG.L==i), spm_hrf(1/EEG.srate)))
+myfigure, plot(conv(double(msEEG.L==1), spm_hrf(1/EEG.srate)))
+myfigure, plot(conv(double(msEEG.L==1), spm_hrf(1/EEG.srate))), hold on; plot(abs(msEEG.L==1'))
+myfigure, plot(conv(double(msEEG.alpha), spm_hrf(1/EEG.srate))), hold on; plot(abs(msEEG.alpha'))
+myfigure, plot(conv(double(msEEG.alpha), spm_hrf(1/EEG.srate))), hold on; plot(abs(msEEG.alpha))
+myfigure, plot(conv(double(msEEG.alpha(1,:)), spm_hrf(1/EEG.srate))), hold on; plot(abs(msEEG.alpha(1,:)))
+myfigure, plot(conv(double(msEEG.alpha(1,:)), spm_hrf(1/EEG.srate))), hold on; plot(mapstd(abs(msEEG.alpha(1,:))))
+%-- 5/22/13 10:08 AM --%
+eeglab
+%-- 5/22/13 10:32 AM --%
+eeglab
+%-- 5/22/13 11:05 AM --%
+eeglab
+msEEG = microstateEEG(EEG, 8); msEEG.sigma_mcv
+msEEG
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200, EEG.chanlocs, 10, 1, 25, 1);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(Gamma(:,i), EEG.chanlocs); end;
+msEEG = microstateEEG(EEG, 8); msEEG.sigma_mcv
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(Gamma(:,i), EEG.chanlocs); end;
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(msEEG.Gamma(:,i), EEG.chanlocs); end;
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/dq041813_1/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/dq041813_1_GreyMask_02_91x109x91.nii', 10);
+glm = myglm( msEEG.alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+help eegfilt
+[A,S,z] = ssd(EEG.data, EEG.srate, 10, 10,10);
+myfigure, topoplot(A(:,1))
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,6), EEG.chanlocs)
+myfigure, topoplot(A(:,7), EEG.chanlocs)
+myfigure, topoplot(A(:,8), EEG.chanlocs)
+myfigure, topoplot(A(:,9), EEG.chanlocs)
+myfigure, topoplot(A(:,10), EEG.chanlocs)
+myfigure, fftplot(z(1,:), EEG.srate, [0.1 50])
+myfigure, fftplot(z(2,:), EEG.srate, [0.1 50])
+myfigure, fftplot(z(3,:), EEG.srate, [0.1 50])
+myfigure, fftplot(z(4,:), EEG.srate, [0.1 50])
+myfigure, fftplot(z(5,:), EEG.srate, [0.1 50])
+myfigure, fftplot(z(6,:), EEG.srate, [0.1 50])
+myfigure, fftplot(z(7,:), EEG.srate, [0.1 50])
+myfigure, fftplot(z(8,:), EEG.srate, [0.1 50])
+myfigure, fftplot(S(1,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(2,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(3,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(4,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(5,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(6,:)*EEG.data, EEG.srate, [0.1 50])
+[A,S,z] = ssd(EEG.data, EEG.srate, 10, 1, 10 ,1);
+help pop_eegfiltnew
+help eegfilt
+[A,S,z] = ssd(EEG.data, EEG.srate, 10, 1, 10 ,1);
+help fir1
+filtws
+help filtws
+help eegfilt
+[A,S,z] = ssd(EEG.data, EEG.srate, 10, 1, 10 ,1);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,6), EEG.chanlocs)
+myfigure, topoplot(A(:,7), EEG.chanlocs)
+myfigure, topoplot(A(:,8), EEG.chanlocs)
+myfigure, topoplot(A(:,9), EEG.chanlocs)
+myfigure, topoplot(A(:,10), EEG.chanlocs)
+[A,S,z] = ssd(EEG.data, EEG.srate, 6, 1, 10 ,1);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,6), EEG.chanlocs)
+myfigure, topoplot(A(:,7), EEG.chanlocs)
+[A,S,z] = ssd(EEG.data, EEG.srate, 10, 2, 10 ,1);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,6), EEG.chanlocs)
+myfigure, topoplot(A(:,7), EEG.chanlocs)
+myfigure, topoplot(A(:,8), EEG.chanlocs)
+myfigure, topoplot(A(:,9), EEG.chanlocs)
+myfigure, topoplot(A(:,10), EEG.chanlocs)
+[A,S,z] = ssd(EEG.data, EEG.srate, 10, 1, 10 ,1);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,6), EEG.chanlocs)
+myfigure, topoplot(A(:,7), EEG.chanlocs)
+myfigure, topoplot(A(:,8), EEG.chanlocs)
+[A,S,z] = ssd(EEG.data, EEG.srate, 10, 1, 10 ,10);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,6), EEG.chanlocs)
+myfigure, topoplot(A(:,7), EEG.chanlocs)
+myfigure, topoplot(A(:,8), EEG.chanlocs)
+myfigure, topoplot(A(:,9), EEG.chanlocs)
+myfigure, topoplot(A(:,10), EEG.chanlocs)
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+[A,S,z] = ssd(EEG.data, EEG.srate, 30, 1, 10 ,10);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,6), EEG.chanlocs)
+myfigure, topoplot(A(:,7), EEG.chanlocs)
+[A,S,z] = ssd(EEG.data, EEG.srate, 13, 1, 10 ,10);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+[A,S,z] = ssd(EEG.data, EEG.srate, 5, 1, 10 ,10);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+%-- 5/22/13 3:27 PM --%
+eeglab
+[A,S,z] = ssd(EEG.data, EEG.srate, 5, 1, 10 ,10);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,6), EEG.chanlocs)
+myfigure, topoplot(A(:,7), EEG.chanlocs)
+myfigure, topoplot(A(:,8), EEG.chanlocs)
+myfigure, topoplot(A(:,9), EEG.chanlocs)
+myfigure, topoplot(A(:,10), EEG.chanlocs)
+[A,S,z] = ssd(EEG.data, EEG.srate, 9, 1, 10 ,10);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,6), EEG.chanlocs)
+[A,S,z] = SIM(double(EEG.data));
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+test = z*z'/250;
+test1 = repmat(z,1,10)*repmat(z,1,10)/2500;
+test1 = repmat(z,1,10)*repmat(z,1,10)'/2500;
+test - test1
+max(max(test - test1))
+min(min(test - test1))
+noise=rand(137, 1000);
+noisez = noise + repmat(z,1,4);
+test = noisez*noisez'/1000;
+test1 = noise*noise'/1000+z*z'/250;
+max(max(test - test1))
+((test - test1))
+test
+%-- 5/22/13 7:12 PM --%
+help error
+error('test')
+eeglab
+clear all
+clc
+eeglab
+[A,S,z] = SIM(double(EEG.data));
+bcg = mean(EEG.data,3);
+[A,S,z] = SNM(eegfilt(EEG.data, EEG.srate, 9, 11), eegfilt(EEG.data, EEG.srate, 7, 9)+eegfilt(EEG.data, EEG.srate, 11, 13), bcg, 10, 10);
+sig = eegfilt(EEG.data, EEG.srate, 9, 11);
+noise = eegfilt(EEG.data, EEG.srate, 7, 9) + eegfilt(EEG.data, EEG.srate, 11, 13);
+[A,S,z] = SNM(sig, noise, bcg, 20);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,6), EEG.chanlocs)
+myfigure, topoplot(A(:,7), EEG.chanlocs)
+myfigure, topoplot(A(:,8), EEG.chanlocs)
+myfigure, topoplot(A(:,9), EEG.chanlocs)
+myfigure, topoplot(A(:,10), EEG.chanlocs)
+[A,S,z] = SNM(sig, noise, ones(137,250), 20);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,6), EEG.chanlocs)
+myfigure, topoplot(A(:,7), EEG.chanlocs)
+myfigure, topoplot(A(:,8), EEG.chanlocs)
+myfigure, topoplot(A(:,9), EEG.chanlocs)
+[A,S,z] = SNM(sig, ones(137,250), bcg, 20);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+[A,S,z] = SNM(sig, ones(137,176971), bcg, 20);
+[A,S,z] = SNM(sig, zeros(137,176971), bcg, 20);
+myfigure, topoplot(abs(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(abs(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(abs(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(abs(A(:,4)), EEG.chanlocs)
+[A,S,z] = SNM(sig, zeros(137,176971), bcg, 5);
+[A,S,z] = SNM(sig, noise, bcg, 5);
+myfigure, topoplot(abs(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+[A,S,z] = SNM(sig, zeros(137,176971), bcg, 5);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,5)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,6)), EEG.chanlocs)
+[A,S,z] = SNM(sig, zeros(137,176971), bcg, 10);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+bcg = mean(EEG.data,3);
+mean(bcg,1)
+mean(bcg,2)
+bcg = mean(EEG.data,3);
+mean(bcg,2)
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,5)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,6)), EEG.chanlocs)
+[A,S,z] = SNM(sig, zeros(137,176971), bcg, 10);
+myfigure, topoplot(real(A(:,6)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+[A,S,z] = SNM(sig, zeros(137,176971), bcg, 10);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, fftplot(S(1,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(2,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(3,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(4,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(5,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(6,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(1,:)*EEG.data, EEG.srate, [0.1 50])
+sig = eegfilt(EEG.data, EEG.srate, 8, 10);
+noise = eegfilt(EEG.data, EEG.srate, 6, 8) + eegfilt(EEG.data, EEG.srate, 10, 12);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, fftplot(S(1,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(2,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+myfigure, fftplot(S(4,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(1,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(2,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(3,:)*EEG.data, EEG.srate, [0.1 50])
+sig = eegfilt(EEG.data, EEG.srate, 8, 12);
+noise = eegfilt(EEG.data, EEG.srate, 4, 8) + eegfilt(EEG.data, EEG.srate, 12, 16);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, fftplot(S(1,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,5)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,6)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,7)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,8)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,9)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,10)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, fftplot(S(2,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(3,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(4,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(5,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(6,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(7,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(8,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(9,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(10,:)*EEG.data, EEG.srate, [0.1 50])
+date
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200, EEG.chanlocs, 10, 1, 25, 1,bcg);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(Gamma(:,i), EEG.chanlocs); end;
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200, EEG.chanlocs, 10, 1, 25, 1,bcg);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200, EEG.chanlocs, 10, 1, 25, 1,bcg);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200, EEG.chanlocs, 10, 1, 25, 1, bcg);
+sum(L--1)
+sum(L==1)
+sum(L==2)
+sum(L==3)
+sum(L==4)
+sum(L==5)
+sum(L==6)
+sum(L==7)
+sum(L==8)
+myfigure, topoplot(Gamma(:,1), EEG.chanlocs)
+%-- 5/23/13 1:13 PM --%
+eeglab
+sig = eegfilt(EEG.data, EEG.srate, 8, 12);
+noise = eegfilt(EEG.data, EEG.srate, 6, 8) + eegfilt(EEG.data, EEG.srate, 12, 14);
+%-- 5/23/13 1:18 PM --%
+eeglab
+%-- 5/26/13 1:35 PM --%
+%-- 5/27/13 7:07 AM --%
+eeglab
+sig = eegfilt(EEG.data, EEG.srate, 9.5, 10.5);
+noise = eegfilt(EEG.data, EEG.srate, 8.5, 9.5) + eegfilt(EEG.data, EEG.srate, 10.5, 11.5);
+bcg = mean(EEG.data,3);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, topoplot(Gamma(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,6), EEG.chanlocs)
+myfigure, topoplot(A(:,7), EEG.chanlocs)
+myfigure, topoplot(A(:,8), EEG.chanlocs)
+[A,S,z] = SNM(sig, noise, zeros(137,375), 10);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,6), EEG.chanlocs)
+myfigure, topoplot(A(:,7), EEG.chanlocs)
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+cf = 13; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(A(:,2), EEG.chanlocs)
+myfigure, topoplot(A(:,3), EEG.chanlocs)
+myfigure, topoplot(A(:,4), EEG.chanlocs)
+myfigure, topoplot(A(:,5), EEG.chanlocs)
+myfigure, topoplot(A(:,6), EEG.chanlocs)
+myfigure, topoplot(A(:,7), EEG.chanlocs)
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+[A,S,z] = SNM(sig, bcg, bcg, 10);
+myfigure, topoplot(A(:,1), EEG.chanlocs)
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+cf = 9; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+[A,S,z] = SNM(sig, bcg, bcg, 10);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+cf = 8; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,5)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,6)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+cf = 7; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+cf = 8; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+[A,S,z] = SNM(sig, noise, zeros(size(bcg)), 10);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+cf = 9; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+[A,S,z] = SNM(sig, noise, zeros(size(bcg)), 10);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,5)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,6)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,7)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,8)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,9)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,10)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+cf = 8; fw = 0.5; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(A(:,i), EEG.chanlocs); end;
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 8; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 8; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 10; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 11; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 12; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+..............20...................40...................60...................80...................100...................120.................
+>> [A
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 13; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+A = pinv(A)
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myf
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 9; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, zeros(size(bcg)), 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+%-- 5/27/13 10:43 AM --%
+eeglab
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+bcg = mean(EEG.data,3);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+for i = 1:EEG.nbchan, chanR(i) = EEG.chanlocs(i).radius; end;
+find(chanR<0.5)'
+bcg = mean(EEG.data,3);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 9; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 10; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, zeros(size(bcg)), 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+%-- 5/27/13 10:53 AM --%
+%-- 5/27/13 2:03 PM --%
+eeglab
+%-- 5/27/13 2:03 PM --%
+eeglab
+bcg = mean(EEG.data,3);
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, [], 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 9; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, 20*bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, 5*bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 11; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+myfigure, plot(bcg')
+bcgTemp = eeg_getica(EEG,7);
+peakLoc = peakfinder(zscore(bcgTemp),4);
+myfigure, plot(diff(peakLoc))
+for i = 1:length(peakLoc), EEG.event(end+1) = struct('type', 'bcg', 'latency', peakLoc(i)-40, 'urevent', [], 'duration', []); end;
+bcg = mean(EEG.data,3);
+myfigure, plot(bcg')
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+myfigure, plot(bcg')
+bcg = bcg(:,60:340)
+myfigure, plot(bcg')
+bcg = bcg(:,75:end)
+myfigure, plot(bcg')
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, 100*bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, 100000*bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, 100000*bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, [], 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+bcg = mean(EEG.data,3);
+myfigure, plot(bcg')
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, [], 10);
+myfigure, plot(bcg')
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, zeros(size(sig)), bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+bcg = mean(EEG.data,3);
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, zeros(size(sig)), bcg, 10);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, zeros(size(sig)), bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, sig, b[], 10);
+[A,S,z] = SNM(sig, sig, [], 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, sig, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, [], 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 9; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 11; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+%-- 5/27/13 2:37 PM --%
+eeglab
+bcg = mean(EEG.data,3);
+cf = 11; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+myfigure, fftplot(S(1,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(2,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(3,:)*EEG.data, EEG.srate, [0.1 50])
+myfigure, fftplot(S(1,:)*EEG.data, EEG.srate, [0.1 50])
+alpha = S(1,:)*EEG.data;
+alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = decimate(conv(abs(alpha(i,:)), spm_hrf(1/EEG.srate)), EEG.srate*2.04, 'FIR'); end;
+alpha = double(S(1,:)*EEG.data);
+alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = decimate(conv(abs(alpha(i,:)), spm_hrf(1/EEG.srate)), EEG.srate*2.04, 'FIR'); end;
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/dq041813_1/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/dq041813_1_GreyMask_02_91x109x91.nii', 10);
+glm = myglm( alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+anat = load_nii('20130418_154300QIUDEQIANG.nii');
+anats = imresize(anat.img, 1/2);
+clear anat
+myfigure, disp_act_slc([5,6], anats(:,:,:), bold.act(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+alpha = double(S*EEG.data);
+alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = decimate(conv(abs(alpha(i,:)), spm_hrf(1/EEG.srate)), EEG.srate*2.04, 'FIR'); end;
+glm = myglm( alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,6), [], []);
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/dq041813_1/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
+anats = imresize(anat.img, 1/2);
+clear anat
+glm = myglm( alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 11; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+alpha = double(S*EEG.data);
+alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = decimate(conv(abs(alpha(i,:)), spm_hrf(1/EEG.srate)), EEG.srate*2.04, 'FIR'); end;
+glm = myglm( alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+%-- 5/27/13 9:11 PM --%
+eeglab
+%-- 5/27/13 9:23 PM --%
+eeglab
+%-- 5/27/13 10:46 PM --%
+eeglab
+bcg = mean(EEG.data,3);
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+myfigure, fftplot(S(1,:)*EEG.data, EEG.srate, [0.1 50])
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, fftplot(S(1,:)*EEG.data, EEG.srate, [0.1 50])
+cf = 6; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 3, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 9);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, [], 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+%-- 5/27/13 11:07 PM --%
+eeglab
+cf = 6; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 3, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 9);
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 3, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 9);
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, 7, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, 13);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+bcg = mean(EEG.data,3);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+alpha = double(S*sig);
+alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = decimate(conv(abs(hilbert(alpha(i,:))), spm_hrf(1/EEG.srate)), EEG.srate*2.04, 'FIR'); end;
+plot(alpha_hrf')
+alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = mapstd(decimate(conv(abs(hilbert(alpha(i,:))), spm_hrf(1/EEG.srate)), EEG.srate*2.04, 'FIR')); end;
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/dq041813_1/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
+anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
+anats = imresize(anat.img, 1/2);
+clear anat
+glm = myglm( alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+%-- 5/28/13 9:35 AM --%
+eeglab
+bcg = mean(EEG.data,3);
+plot(bcg')
+cf = 10; fw = 0.5; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 9; fw = 0.5; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+cf = 8; fw = 0.5; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, [], 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+%-- 5/28/13 10:38 AM --%
+delete bias* binica* temp*
+eeglab
+bcg = mean(EEG.data,3);
+cf = 10; fw = 0.5; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, cf-2*fw, cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, cf+2*fw);
+[A,S,z] = SNM(sig, noise, [], 10);
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, [], 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, [], 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, bcg, 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, [], 10);
+myfigure, for i = 1:10, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+myfigure, for i = 1:12, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+[A,S,z] = SNM(sig, noise, [], 12);
+myfigure, for i = 1:12, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+help title
+myfigure, for i = 1:12, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)) end;
+myfigure, for i = 1:12, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+print(gcf, '-depsc','fig.eps' )
+print(gcf, '-dtiff','fig.tiff' )
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+[A,S,z] = SNM(sig, noise, [], 12);
+myfigure, for i = 1:12, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+[A,S,z] = SNM(sig, noise, [], 12);
+myfigure, for i = 1:12, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+[A,S,z] = SNM(sig, noise, [], 12);
+myfigure, for i = 1:12, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+[A,S,z] = SNM(sig, noise, [], 6);
+myfigure, for i = 1:12, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+[A,S,z] = SNM(sig, noise, bcg, 6);
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+[A,S,z] = SNM(sig, noise, [], 6);
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+print(gcf, '-dtiff','fig.tiff' )
+cf = 9; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+[A,S,z] = SNM(sig, noise, [], 6);
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+print(gcf, '-dtiff','fig.tiff' )
+cf = 11; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+[A,S,z] = SNM(sig, noise, [], 6);
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+print(gcf, '-dtiff','fig.tiff' )
+cf = 10; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+[A,S,z] = SNM(sig, noise, [], 6);
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+print(gcf, '-dtiff','fig.tiff' )
+alpha = double(S*sig);
+alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = mapstd(decimate(conv(abs(hilbert(alpha(i,:))), spm_hrf(1/EEG.srate)), EEG.srate*2.04, 'FIR')); end;
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC/dq041813_1/CovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/dq041813_1_GreyMask_02_91x109x91.nii', 10);
+glm = myglm( alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+anat = load_nii('20130418_154300QIUDEQIANG.nii');
+anats = imresize(anat.img, 1/2);
+clear anat
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,2), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,3), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,4), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,5), [], []);
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,6), [], []);
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/dq041813_1/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 10);
+glm = myglm( alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,6], anats(:,:,:), glm.t(:,:,:,1), [], []);
+anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+anats = imresize(anat.img, 1/2);
+clear anat
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, topoplot(real(A(:,5)), EEG.chanlocs)
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, topoplot(real(A(:,6)), EEG.chanlocs)
+print(gcf, '-dtiff','fig.tiff' )
+cf = 10; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+[A,S,z] = SNM(sig, noise, [], 6);
+myfigure, topoplot(real(A(:,6)), EEG.chanlocs)
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = mapstd(decimate(conv(abs(hilbert(z(i,:))), spm_hrf(1/EEG.srate)), EEG.srate*2.04, 'FIR')); end;
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/dq041813_2/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 10);
+glm = myglm( alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, topoplot(real(A(:,6)), EEG.chanlocs)
+print(gcf, '-dtiff','fig.tiff' )
+cf = 10; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+[A,S,z] = SNM(sig, noise, [], 6);
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+[A,S,z] = SNM(sig, noise, [], 10);
+myfigure, for i = 1:12, subplot(3,4,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+[A,S,z] = SNM(sig, noise, [], 6);
+cf = 10; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = mapstd(decimate(conv(abs(hilbert(z(i,:))), spm_hrf(1/EEG.srate)), EEG.srate*2.04, 'FIR')); end;
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/dq041813_1/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 10);
+glm = myglm( alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
+cf = 10; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+[A,S,z] = SNM(sig, noise, [], 6);
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ghg040613_1/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 10);
+alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = mapstd(decimate(conv(abs(hilbert(z(i,:))), spm_hrf(1/EEG.srate)), EEG.srate*2.04, 'FIR')); end;
+glm = myglm( alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [-4 4], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [-4 4], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [-5 5], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [-3 3], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [-8 3], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [-5 3], []);
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [-3 3], []);
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, topoplot(real(A(:,5)), EEG.chanlocs)
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, topoplot(real(A(:,6)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,4)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,3)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ghg040613_2/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 10);
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ql041913_2/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
+cf = 10; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+[A,S,z] = SNM(sig, noise, [], 6);
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = mapstd(decimate(conv(abs(hilbert(z(i,:))), spm_hrf(1/EEG.srate)), EEG.srate*2.04, 'FIR')); end;
+glm = myglm( alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+global
+refuse_new_figures ; refuse_new_figures = [];
+global refuse_new_figures ; refuse_new_figures = [];
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+global refuse_new_figures ; refuse_new_figures = [];
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+%-- 5/28/13 12:45 PM --%
+eeglab
+cf = 10; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+[A,S,z] = SNM(sig, noise, [], 6);
+myfigure, topoplot(real(A(:,2)), EEG.chanlocs)
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+cf = 10; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+[A,S,z] = SNM(sig, noise, [], 6);
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+cf = 10; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+[A,S,z] = SNM(sig, noise, [], 6);
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+cf = 10; fw = 1; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+[A,S,z] = SNM(sig, noise, [], 6);
+myfigure, for i = 1:6, subplot(2,3,i), topoplot(real(A(:,i)), EEG.chanlocs); title(sprintf('Comp %d', i)); end;
+cf = 10; fw = 2; sig = eegfilt(EEG.data, EEG.srate, cf-fw, cf+fw); noise = eegfilt(EEG.data, EEG.srate, [], cf-fw) + eegfilt(EEG.data, EEG.srate, cf+fw, []);
+[A,S,z] = SNM(sig, noise, [], 6);
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/xh032013/swCovRegressed_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 5);
+alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = mapstd(decimate(conv(abs(hilbert(z(i,:))), spm_hrf(1/EEG.srate)), EEG.srate*2.04, 'FIR')); end;
+alpha = double(S*sig);
+alpha_hrf = []; for i = 1:size(alpha,1), alpha_hrf(i,:) = mapstd(decimate(conv(abs(hilbert(z(i,:))), spm_hrf(1/EEG.srate)), EEG.srate*2.04, 'FIR')); end;
+glm = myglm( alpha_hrf', bold.func, bold.mask, 0.05, [10 347], [] );
+anat = load_nii('/Users/hxs/Documents/MATLAB/REST_V1.8_130303/Template/ch2bet.nii');
+anats = imresize(anat.img, 1/2);
+clear anat
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,2), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,3), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,4), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,5), [], []);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,6), [], []);
+[A,S,z] = SNM(sig, noise, [], 6);
+myfigure, disp_act_slc([5,8], anats(:,:,33:3:150), glm.t(:,:,11:50,1), [], []);
+print(gcf, '-dtiff','fig.tiff' )
+myfigure, topoplot(real(A(:,1)), EEG.chanlocs)
+print(gcf, '-dtiff','fig.tiff' )
