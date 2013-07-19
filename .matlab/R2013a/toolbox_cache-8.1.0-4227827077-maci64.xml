@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="1.1" date="Tue May 28 14:55:31 2013">
+<MathWorks type="Path Cache File" version="1.1" date="Thu Jul 18 16:04:50 2013">
  <D name="matlab/demos">
   <D name="matlab/demos/private">
    <F name="style.css"/>
@@ -466,7 +466,7 @@
   <F name="doresize.m"/>
   <F name="enddrag.m"/>
   <F name="figtoolset.m"/>
-  <F name="getcolumn.m"/>
+  <N name="getcolumn.m"/>
   <N name="getobj.m"/>
   <F name="getorcreateobj.m"/>
   <F name="getscribecontextmenu.m"/>
@@ -475,7 +475,7 @@
   <F name="gtext.m"/>
   <N name="jpropeditutils.p"/>
   <N name="lineseries.m"/>
-  <F name="loglog.m"/>
+  <N name="loglog.m"/>
   <F name="middrag.m"/>
   <F name="moveaxis.m"/>
   <N name="pan.m"/>
@@ -488,11 +488,11 @@
   <N name="rbbox.m"/>
   <N name="scribeclearmode.m"/>
   <F name="scribeeventhandler.m"/>
-  <F name="scribefiglisten.m"/>
+  <N name="scribefiglisten.m"/>
   <F name="scriberestoresavefcns.m"/>
   <F name="scribetextdlg.m"/>
-  <F name="semilogx.m"/>
-  <F name="semilogy.m"/>
+  <N name="semilogx.m"/>
+  <N name="semilogy.m"/>
   <F name="setscribecontextmenu.m"/>
   <N name="setscribeobjectdata.m"/>
   <N name="subplot.m"/>
@@ -531,8 +531,8 @@
   <F name="alim.m"/>
   <N name="alpha.m"/>
   <F name="alphamap.m"/>
-  <F name="autumn.m"/>
-  <F name="bone.m"/>
+  <N name="autumn.m"/>
+  <N name="bone.m"/>
   <N name="brighten.m"/>
   <N name="camdolly.m"/>
   <F name="cameramenu.m"/>
@@ -554,16 +554,16 @@
   <F name="cmapeditor.m"/>
   <F name="cmpermute.m"/>
   <F name="cmunique.m"/>
-  <F name="colorcube.m"/>
+  <N name="colorcube.m"/>
   <N name="colordef.m"/>
   <N name="colormap.m"/>
   <N name="colormapeditor.m"/>
   <N name="cool.m"/>
-  <F name="copper.m"/>
+  <N name="copper.m"/>
   <F name="daspect.m"/>
   <F name="diffuse.m"/>
   <F name="fill3.m"/>
-  <F name="flag.m"/>
+  <N name="flag.m"/>
   <N name="gray.m"/>
   <F name="graymon.m"/>
   <F name="hidden.m"/>
@@ -573,29 +573,29 @@
   <N name="jet.m"/>
   <N name="lightangle.m"/>
   <F name="lighting.m"/>
-  <F name="lines.m"/>
+  <N name="lines.m"/>
   <F name="material.m"/>
   <F name="mesh.m"/>
   <N name="objbounds.m"/>
   <F name="pbaspect.m"/>
-  <F name="pink.m"/>
+  <N name="pink.m"/>
   <N name="plot3.m"/>
-  <F name="prism.m"/>
+  <N name="prism.m"/>
   <N name="rotate3d.m"/>
   <F name="shading.m"/>
   <F name="specular.m"/>
-  <F name="spring.m"/>
-  <F name="summer.m"/>
-  <F name="surf.m"/>
+  <N name="spring.m"/>
+  <N name="summer.m"/>
+  <N name="surf.m"/>
   <F name="surfl.m"/>
   <F name="surfnorm.m"/>
-  <F name="vga.m"/>
+  <N name="vga.m"/>
   <N name="view.m"/>
   <F name="viewmtx.m"/>
   <F name="vrml.m"/>
-  <F name="white.m"/>
+  <N name="white.m"/>
   <N name="whitebg.m"/>
-  <F name="winter.m"/>
+  <N name="winter.m"/>
   <N name="xlim.m"/>
   <N name="ylim.m"/>
   <N name="zlabel.m"/>
@@ -613,12 +613,12 @@
    <D name="matlab/graphics/+graphics/+internal">
     <D name="matlab/graphics/+graphics/+internal/+figfile">
       <D name="matlab/graphics/+graphics/+internal/+figfile/@FigFile">
-       <F name="FigFile.m"/>
+       <C name="FigFile.m"/>
        <F name="read.m"/>
        <F name="write.m"/>
       </D>
-     <F name="LoadRecursionGuard.m"/>
-     <F name="findFigFile.m"/>
+     <C name="LoadRecursionGuard.m"/>
+     <N name="findFigFile.m"/>
      <F name="processSaveArguments.p"/>
     </D>
      <D name="matlab/graphics/+graphics/+internal/@LinkAxes">
@@ -655,8 +655,8 @@
     <F name="axesUnitsPostSet.p"/>
     <F name="axesUnitsPreSet.p"/>
     <N name="copyFigureHelper.p"/>
-    <F name="createPrintPreviewCData.p"/>
-    <F name="createPrintPreviewFigure.p"/>
+    <N name="createPrintPreviewCData.p"/>
+    <N name="createPrintPreviewFigure.p"/>
     <N name="createlistener.p"/>
     <F name="graphicsversionWithEmpty.p"/>
     <F name="initDefaultFontsJA.p"/>
@@ -789,7 +789,7 @@
   <F name="gobjects.p"/>
   <F name="graphicsToNumericHandle.p"/>
   <N name="graphicsversion.m"/>
-  <F name="handle2struct.m"/>
+  <N name="handle2struct.m"/>
   <N name="hardcopy.p"/>
   <N name="hasbehavior.m"/>
   <N name="hgaddbehavior.m"/>
@@ -800,11 +800,11 @@
   <N name="hgfeval.m"/>
   <N name="hggetbehavior.m"/>
   <F name="hggetdisp.m"/>
-  <F name="hggroup.m"/>
-  <F name="hgload.p"/>
+  <N name="hggroup.m"/>
+  <N name="hgload.p"/>
   <N name="hgsave.m"/>
   <F name="hgsetdisp.m"/>
-  <F name="hgtransform.m"/>
+  <N name="hgtransform.m"/>
   <N name="hold.m"/>
   <N name="is2D.m"/>
   <N name="isappdata.m"/>
@@ -814,7 +814,7 @@
   <N name="ishold.m"/>
   <N name="light.m"/>
   <N name="line.m"/>
-  <F name="linkaxes.m"/>
+  <N name="linkaxes.m"/>
   <F name="linkprop.m"/>
   <F name="makehgtform.m"/>
   <N name="newplot.m"/>
@@ -832,15 +832,15 @@
   <N name="printdlg.m"/>
   <F name="printdmfile.m"/>
   <N name="printjob.m"/>
-  <F name="printprepare.m"/>
+  <N name="printprepare.m"/>
   <N name="printpreview.m"/>
-  <F name="printrestore.m"/>
+  <N name="printrestore.m"/>
   <N name="printtables.m"/>
   <N name="printtemplate.m"/>
   <N name="psappend.m"/>
   <N name="rectangle.m"/>
   <N name="refresh.m"/>
-  <F name="refreshdata.m"/>
+  <N name="refreshdata.m"/>
   <F name="regionpicker.m"/>
   <N name="reset.m"/>
   <N name="resetplotview.m"/>
@@ -849,9 +849,9 @@
   <F name="savtoner.m"/>
   <N name="set.m"/>
   <N name="setappdata.m"/>
-  <F name="setprinttemplate.m"/>
+  <N name="setprinttemplate.m"/>
   <F name="shg.m"/>
-  <F name="struct2handle.m"/>
+  <N name="struct2handle.m"/>
   <N name="surface.m"/>
   <F name="tex.m"/>
   <N name="uicontextmenu.m"/>
@@ -877,20 +877,20 @@
   <F name="Contents.m"/>
   <N name="adddatadlg.m"/>
   <N name="addsubplot.m"/>
-  <F name="enableplottoolbuttons.m"/>
+  <N name="enableplottoolbuttons.m"/>
   <N name="figurepalette.m"/>
-  <F name="getfigurefordesktopclient.m"/>
+  <N name="getfigurefordesktopclient.m"/>
   <N name="getplotbrowserproptable.p"/>
   <N name="getplottool.m"/>
-  <F name="javaAddLsnrsToFigure.m"/>
-  <F name="javaGetHandles.m"/>
+  <N name="javaAddLsnrsToFigure.m"/>
+  <N name="javaGetHandles.m"/>
   <F name="makedisplaynames.m"/>
   <N name="plotbrowser.m"/>
-  <F name="plottoolfunc.p"/>
-  <F name="plottools.m"/>
+  <N name="plottoolfunc.p"/>
+  <N name="plottools.m"/>
   <N name="propertyeditor.m"/>
   <F name="setupplotbrowser.m"/>
-  <F name="showplottool.m"/>
+  <N name="showplottool.m"/>
  </D>
  <D name="matlab/scribe">
    <D name="matlab/scribe/@scribe">
@@ -1045,7 +1045,7 @@
         <F name="mcodeConstructor.p"/>
        </D>
        <D name="matlab/scribe/+matlab/+graphics/+shape/+internal/@ScribeObject">
-        <F name="ScribeObject.p"/>
+        <C name="ScribeObject.p"/>
         <F name="mcodeConstructor.p"/>
        </D>
        <D name="matlab/scribe/+matlab/+graphics/+shape/+internal/@ScribePin">
@@ -1118,7 +1118,7 @@
   <N name="getselectobjects.m"/>
   <N name="graph2dhelper.m"/>
   <N name="hgconvertunits.m"/>
-  <F name="invalidateaxis.m"/>
+  <N name="invalidateaxis.m"/>
   <N name="legend.m"/>
   <N name="legendcolorbarlayout.m"/>
   <N name="legendinfo.m"/>
@@ -1192,7 +1192,7 @@
         <F name="mcodeConstructor.p"/>
        </D>
        <D name="matlab/specgraph/+matlab/+graphics/+chart/+primitive/@Bar">
-        <F name="Bar.p"/>
+        <C name="Bar.p"/>
         <F name="doGetEnclosedPoints.p"/>
         <F name="doGetInterpolatedPoint.p"/>
         <F name="doGetInterpolatedPointInDataUnits.p"/>
@@ -1370,11 +1370,11 @@
   </D>
   <F name="Contents.m"/>
   <F name="area.m"/>
-  <F name="bar.m"/>
-  <F name="bar3.m"/>
-  <F name="bar3h.m"/>
-  <F name="barh.m"/>
-  <F name="changeseriestype.p"/>
+  <N name="bar.m"/>
+  <N name="bar3.m"/>
+  <N name="bar3h.m"/>
+  <N name="barh.m"/>
+  <N name="changeseriestype.p"/>
   <F name="clabel.m"/>
   <N name="colstyle.m"/>
   <F name="comet.m"/>
@@ -1393,7 +1393,7 @@
   <F name="dither.m"/>
   <F name="divergence.m"/>
   <F name="ellipsoid.m"/>
-  <F name="errorbar.m"/>
+  <N name="errorbar.m"/>
   <F name="ezcontour.m"/>
   <F name="ezcontourf.m"/>
   <F name="ezgraph3.m"/>
@@ -1422,7 +1422,7 @@
   <F name="isonormals.m"/>
   <F name="isosurface.m"/>
   <N name="isplotchild.p"/>
-  <F name="makebars.m"/>
+  <N name="makebars.m"/>
   <F name="meshc.m"/>
   <F name="meshz.m"/>
   <F name="movie.m"/>
@@ -1443,20 +1443,20 @@
   <F name="reducepatch.m"/>
   <F name="reducevolume.m"/>
   <N name="rgb2ind.m"/>
-  <F name="rgbplot.m"/>
+  <N name="rgbplot.m"/>
   <F name="ribbon.m"/>
   <F name="rose.m"/>
   <F name="rotate.m"/>
-  <F name="scatter.m"/>
+  <N name="scatter.m"/>
   <F name="scatter3.m"/>
   <F name="shrinkfaces.m"/>
   <F name="slice.m"/>
   <F name="smooth3.m"/>
   <N name="soundview.m"/>
   <F name="specgraphhelper.m"/>
-  <F name="sphere.m"/>
-  <F name="spinmap.m"/>
-  <F name="stairs.m"/>
+  <N name="sphere.m"/>
+  <N name="spinmap.m"/>
+  <N name="stairs.m"/>
   <F name="stem.m"/>
   <F name="stem3.m"/>
   <F name="stream2.m"/>
@@ -1492,7 +1492,7 @@
     <D name="matlab/uitools/+matlab/+ui/+internal">
      <D name="matlab/uitools/+matlab/+ui/+internal/+dialog">
        <D name="matlab/uitools/+matlab/+ui/+internal/+dialog/@ColorChooser">
-        <F name="ColorChooser.m"/>
+        <C name="ColorChooser.m"/>
        </D>
        <D name="matlab/uitools/+matlab/+ui/+internal/+dialog/@Dialog">
         <C name="Dialog.m"/>
@@ -1526,7 +1526,7 @@
      </D>
      <F name="Contents.m"/>
      <F name="createFigureBrushToolCallbacks.m"/>
-     <F name="createMenuPeers.p"/>
+     <N name="createMenuPeers.p"/>
      <F name="createWinMenu.m"/>
      <F name="figureDefaultMenubar.m"/>
      <F name="figureDefaultToolbar.m"/>
@@ -1619,11 +1619,11 @@
   <F name="getstatus.m"/>
   <N name="getuimode.m"/>
   <F name="ginput.m"/>
-  <F name="guidata.m"/>
-  <F name="guihandles.m"/>
+  <N name="guidata.m"/>
+  <N name="guihandles.m"/>
   <N name="hasuimode.m"/>
-  <F name="helpdlg.m"/>
-  <F name="helpmenufcn.m"/>
+  <N name="helpdlg.m"/>
+  <N name="helpmenufcn.m"/>
   <F name="icondisp.m"/>
   <N name="inputdlg.m"/>
   <N name="insertmenufcn.m"/>
@@ -1632,18 +1632,18 @@
   <N name="ispref.m"/>
   <N name="javacomponent.m"/>
   <F name="listdlg.m"/>
-  <F name="listfonts.m"/>
+  <N name="listfonts.m"/>
   <F name="makemenu.m"/>
   <F name="menu.m"/>
   <F name="menulabel.m"/>
-  <F name="movegui.m"/>
+  <N name="movegui.m"/>
   <N name="msgbox.m"/>
   <F name="mwtoolbaricons.mat"/>
   <F name="overobj.m"/>
   <F name="popupstr.m"/>
   <N name="propedit.m"/>
   <N name="questdlg.m"/>
-  <F name="remapfig.m"/>
+  <N name="remapfig.m"/>
   <N name="rmpref.m"/>
   <F name="scribeiconcdata.mat"/>
   <F name="selectmoveresize.m"/>
@@ -1657,7 +1657,7 @@
   <N name="toolsmenufcn.m"/>
   <F name="uibuttongroup.m"/>
   <N name="uiclearmode.m"/>
-  <F name="uicontainer.m"/>
+  <N name="uicontainer.m"/>
   <F name="uiflowcontainer.m"/>
   <N name="uigetdir.m"/>
   <N name="uigetfile.m"/>
@@ -1673,12 +1673,12 @@
   <N name="uipushtool.m"/>
   <N name="uiputfile.m"/>
   <F name="uirestore.m"/>
-  <F name="uiresume.m"/>
+  <N name="uiresume.m"/>
   <F name="uisave.m"/>
   <N name="uisetcolor.m"/>
-  <F name="uisetfont.m"/>
+  <N name="uisetfont.m"/>
   <F name="uisetpref.m"/>
-  <F name="uistack.m"/>
+  <N name="uistack.m"/>
   <F name="uisuspend.m"/>
   <F name="uitab.m"/>
   <F name="uitabgroup.m"/>
@@ -1724,7 +1724,7 @@
   <N name="matlabrc.m"/>
   <F name="mime.types"/>
   <N name="pathdef.m"/>
-  <N name="printopt.m"/>
+  <F name="printopt.m"/>
   <F name="restoredefaultpath.m"/>
   <F name="simulinkrc.m"/>
   <F name="startpage.m"/>
@@ -1753,7 +1753,7 @@
   <F name="fminbnd.m"/>
   <F name="fminsearch.m"/>
   <F name="fzero.m"/>
-  <F name="lsqnonneg.m"/>
+  <N name="lsqnonneg.m"/>
   <N name="optimget.m"/>
   <F name="optimplotfunccount.m"/>
   <F name="optimplotfval.m"/>
@@ -1798,8 +1798,8 @@
       <F name="setDoFixRegexp.m"/>
       <F name="webError.m"/>
      </D>
-     <F name="genuniquenames.m"/>
-     <F name="genvalidnames.m"/>
+     <N name="genuniquenames.m"/>
+     <N name="genvalidnames.m"/>
     </D>
     <D name="matlab/codetools/+internal/+matlab/+desktop">
      <D name="matlab/codetools/+internal/+matlab/+desktop/+editor">
@@ -1824,7 +1824,7 @@
      <F name="TextFileImporter.m"/>
     </D>
     <D name="matlab/codetools/+internal/+matlab/+inspector">
-     <F name="SceneViewerListener.m"/>
+     <C name="SceneViewerListener.m"/>
     </D>
     <D name="matlab/codetools/+internal/+matlab/+lang">
      <D name="matlab/codetools/+internal/+matlab/+lang/+meta">
@@ -1990,7 +1990,7 @@
   <N name="mdbstatus.m"/>
   <F name="mlint.m"/>
   <F name="mlintrpt.m"/>
-  <F name="opentoline.m"/>
+  <N name="opentoline.m"/>
   <N name="openvar.m"/>
   <N name="pathtool.m"/>
   <N name="plotpickerfunc.m"/>
@@ -2054,18 +2054,18 @@
   <N name="detrend.m"/>
   <N name="diff.m"/>
   <N name="fft.m"/>
-  <F name="fft2.m"/>
-  <F name="fftn.m"/>
+  <N name="fft2.m"/>
+  <N name="fftn.m"/>
   <N name="fftshift.m"/>
-  <F name="fftw.m"/>
+  <N name="fftw.m"/>
   <N name="filter.m"/>
   <N name="filter2.m"/>
   <F name="gradient.m"/>
-  <F name="hist.m"/>
+  <N name="hist.m"/>
   <N name="histc.m"/>
   <N name="ifft.m"/>
-  <F name="ifft2.m"/>
-  <F name="ifftn.m"/>
+  <N name="ifft2.m"/>
+  <N name="ifftn.m"/>
   <F name="ifftshift.m"/>
   <N name="issorted.m"/>
   <N name="max.m"/>
@@ -2142,10 +2142,10 @@
    </D>
   <D name="matlab/datamanager/+brushing">
     <D name="matlab/datamanager/+brushing/@HistBrushing">
-     <F name="HistBrushing.p"/>
+     <C name="HistBrushing.p"/>
     </D>
     <D name="matlab/datamanager/+brushing/@select">
-     <F name="select.m"/>
+     <C name="select.m"/>
     </D>
     <D name="matlab/datamanager/+brushing/@select2d">
     <D name="matlab/datamanager/+brushing/@select2d/private">
@@ -2197,7 +2197,7 @@
   <N name="events.m"/>
   <N name="fieldnames.m"/>
   <N name="func2str.m"/>
-  <F name="function_handle.m"/>
+  <N name="function_handle.m"/>
   <N name="functions.m"/>
   <N name="getfield.m"/>
   <F name="inferiorto.m"/>
@@ -2222,7 +2222,7 @@
   <N name="javaArray.m"/>
   <N name="javaMethod.m"/>
   <N name="javaMethodEDT.m"/>
-  <F name="javaObject.m"/>
+  <N name="javaObject.m"/>
   <N name="javaObjectEDT.m"/>
   <F name="loadobj.m"/>
   <F name="logical.m"/>
@@ -2240,7 +2240,7 @@
   <N name="str2func.m"/>
   <N name="struct.m"/>
   <N name="struct2cell.m"/>
-  <F name="structfun.m"/>
+  <N name="structfun.m"/>
   <N name="substruct.m"/>
   <N name="superclasses.m"/>
   <N name="superiorfloat.m"/>
@@ -2434,7 +2434,7 @@
   <N name="j.m"/>
   <N name="length.m"/>
   <N name="linspace.m"/>
-  <F name="logspace.m"/>
+  <N name="logspace.m"/>
   <F name="magic.m"/>
   <N name="meshgrid.m"/>
   <N name="nan.m"/>
@@ -2691,9 +2691,9 @@
   <F name="depfun.m"/>
   <F name="depfunprophelper.m"/>
   <F name="desktop.m"/>
-  <F name="diary.m"/>
+  <N name="diary.m"/>
   <N name="dir.m"/>
-  <F name="dos.m"/>
+  <N name="dos.m"/>
   <F name="echo.m"/>
   <N name="exit.m"/>
   <N name="fileattrib.m"/>
@@ -2780,13 +2780,13 @@
   <F name="actxproxy.m"/>
   <F name="gui_mainfcn.m"/>
   <N name="guide.m"/>
-  <F name="guidefunc.m"/>
-  <F name="guidemfile.m"/>
+  <N name="guidefunc.m"/>
+  <N name="guidemfile.m"/>
   <F name="guideopts.fig"/>
   <F name="guideopts.m"/>
   <F name="guidetemplate.m"/>
   <F name="guidetoolfunc.m"/>
-  <F name="menueditfunc.m"/>
+  <N name="menueditfunc.m"/>
   <F name="templateinfo.xml"/>
   <F name="toolinfo.xml"/>
   <d name="guitemplates"/>
@@ -2836,7 +2836,7 @@
     <F name="ClassMemberHelpContainer.m"/>
     <F name="ClassMemberIterator.m"/>
     <F name="FunctionHelpContainer.m"/>
-    <F name="HelpContainerFactory.m"/>
+    <C name="HelpContainerFactory.m"/>
     <F name="atomicHelpContainer.m"/>
     <F name="extractH1Line.m"/>
     <F name="getQualifiedFileName.m"/>
@@ -2859,9 +2859,9 @@
    <C name="atomicHelpPart.m"/>
    <F name="buildHelpXML.m"/>
    <N name="callHelpFunction.m"/>
-   <F name="checkForDemoRedirect.m"/>
-   <F name="class2xml.m"/>
-   <F name="errorDocCallback.m"/>
+   <N name="checkForDemoRedirect.m"/>
+   <C name="class2xml.m"/>
+   <N name="errorDocCallback.m"/>
    <N name="extractCaseCorrectedName.m"/>
    <N name="extractFile.m"/>
    <F name="extractHelpText.m"/>
@@ -2878,19 +2878,19 @@
    <N name="highlightHelp.m"/>
    <N name="isAccessible.m"/>
    <N name="isClassMFile.m"/>
-   <F name="isDocInstalled.m"/>
+   <N name="isDocInstalled.m"/>
    <N name="isObjectDirectorySpecified.m"/>
    <N name="isOperator.m"/>
-   <F name="isUnderDocroot.m"/>
+   <N name="isUnderDocroot.m"/>
    <N name="makeDualCommand.m"/>
    <N name="makePackagedName.m"/>
    <N name="minimizePath.m"/>
-   <F name="removeDotsFromFilePath.m"/>
+   <N name="removeDotsFromFilePath.m"/>
    <N name="safeWhich.m"/>
    <N name="separateImplicitDirs.m"/>
    <N name="splitClassInformation.m"/>
    <N name="splitOverqualification.m"/>
-   <F name="underDocroot.m"/>
+   <N name="underDocroot.m"/>
   </D>
   <D name="matlab/helptools/+webutils">
    <F name="Browser.m"/>
@@ -2917,22 +2917,22 @@
   </D>
   <F name="Contents.m"/>
   <F name="builddocsearchdb.m"/>
-  <F name="demo.m"/>
+  <N name="demo.m"/>
   <F name="demos.m"/>
   <F name="demowin.m"/>
   <F name="displayEndOfDemoMessage.m"/>
-  <F name="doc.m"/>
+  <N name="doc.m"/>
   <F name="docpath.m"/>
-  <F name="docroot.m"/>
-  <F name="docsearch.m"/>
+  <N name="docroot.m"/>
+  <N name="docsearch.m"/>
   <F name="echodemo.m"/>
   <N name="help.m"/>
-  <F name="help2html.m"/>
-  <F name="helpPopup.m"/>
+  <N name="help2html.m"/>
+  <N name="helpPopup.m"/>
   <F name="helpbrowser.m"/>
   <F name="helpdesk.m"/>
-  <F name="helpview.m"/>
-  <F name="helpwin.m"/>
+  <N name="helpview.m"/>
+  <N name="helpwin.m"/>
   <F name="indexhelper.m"/>
   <F name="info.m"/>
   <F name="lookfor.m"/>
@@ -2940,7 +2940,7 @@
   <F name="playshow.m"/>
   <F name="showdemo.m"/>
   <F name="support.m"/>
-  <F name="web.m"/>
+  <N name="web.m"/>
   <F name="whatsnew.m"/>
  </D>
  <D name="matlab/iofun">
@@ -3020,7 +3020,7 @@
     <F name="readasync.m"/>
     <F name="record.m"/>
     <F name="saveobj.m"/>
-    <F name="serial.m"/>
+    <C name="serial.m"/>
     <F name="serialbreak.m"/>
     <F name="set.m"/>
     <F name="size.m"/>
@@ -3129,7 +3129,7 @@
   <F name="dlmread.m"/>
   <F name="dlmwrite.m"/>
   <N name="fclose.m"/>
-  <F name="feof.m"/>
+  <N name="feof.m"/>
   <F name="ferror.m"/>
   <N name="fgetl.m"/>
   <N name="fgets.m"/>
@@ -3168,9 +3168,9 @@
   <F name="tar.m"/>
   <N name="tempdir.m"/>
   <N name="tempname.m"/>
-  <F name="textread.m"/>
+  <N name="textread.m"/>
   <N name="textscan.m"/>
-  <F name="timercb.m"/>
+  <N name="timercb.m"/>
   <N name="timerfind.m"/>
   <F name="timerfindall.m"/>
   <N name="untar.m"/>
@@ -3185,7 +3185,7 @@
   <F name="xlswrite.m"/>
   <N name="xmlread.m"/>
   <N name="xmlwrite.m"/>
-  <F name="xslt.m"/>
+  <N name="xslt.m"/>
   <N name="zip.m"/>
  </D>
  <D name="matlab/lang">
@@ -3336,10 +3336,10 @@
   <N name="assignin.m"/>
   <F name="break.m"/>
   <N name="builtin.m"/>
-  <F name="case.m"/>
+  <N name="case.m"/>
   <N name="catch.m"/>
   <F name="checkSyntacticWarnings.m"/>
-  <F name="classdef.m"/>
+  <N name="classdef.m"/>
   <F name="consume_assign.m"/>
   <F name="continue.m"/>
   <F name="details.m"/>
@@ -3355,16 +3355,16 @@
   <N name="evalin.m"/>
   <N name="exist.m"/>
   <N name="feval.m"/>
-  <F name="for.m"/>
+  <N name="for.m"/>
   <F name="function.m"/>
   <N name="genvarname.m"/>
   <N name="global.m"/>
   <F name="handle.m"/>
-  <F name="if.m"/>
+  <N name="if.m"/>
   <N name="input.m"/>
   <N name="inputname.m"/>
   <F name="isglobal.m"/>
-  <F name="iskeyword.m"/>
+  <N name="iskeyword.m"/>
   <N name="isvarname.m"/>
   <N name="javachk.m"/>
   <N name="keyboard.m"/>
@@ -3383,7 +3383,7 @@
   <N name="nargout.m"/>
   <N name="nargoutchk.m"/>
   <N name="online_concatenator.m"/>
-  <F name="otherwise.m"/>
+  <N name="otherwise.m"/>
   <N name="parallel_function.m"/>
   <F name="parfor.m"/>
   <F name="parfor_M_check.m"/>
@@ -3398,14 +3398,14 @@
   <N name="run.m"/>
   <F name="script.m"/>
   <F name="spmd_feval.m"/>
-  <F name="switch.m"/>
+  <N name="switch.m"/>
   <N name="try.m"/>
   <N name="validateattributes.m"/>
   <N name="validatestring.m"/>
   <F name="varargin.m"/>
   <F name="varargout.m"/>
   <N name="warning.m"/>
-  <F name="while.m"/>
+  <N name="while.m"/>
  </D>
  <D name="matlab/matfun">
   <D name="matlab/matfun/+internal">
@@ -3435,7 +3435,7 @@
   <N name="inv.m"/>
   <F name="ldl.m"/>
   <F name="linsolve.m"/>
-  <F name="logm.m"/>
+  <N name="logm.m"/>
   <F name="lscov.m"/>
   <F name="ltitr.m"/>
   <N name="lu.m"/>
@@ -3463,7 +3463,7 @@
   <N name="schur.m"/>
   <N name="sqrtm.m"/>
   <N name="svd.m"/>
-  <F name="trace.m"/>
+  <N name="trace.m"/>
  </D>
  <D name="matlab/ops">
    <D name="matlab/ops/@cell">
@@ -3491,7 +3491,7 @@
   <N name="bitset.m"/>
   <N name="bitshift.m"/>
   <N name="bitxor.m"/>
-  <F name="colon.m"/>
+  <N name="colon.m"/>
   <N name="ctranspose.m"/>
   <N name="eq.m"/>
   <N name="ge.m"/>
@@ -3647,7 +3647,7 @@
   <F name="tsearchn.m"/>
   <N name="unmkpp.m"/>
   <F name="voronoin.m"/>
-  <F name="xychk.m"/>
+  <N name="xychk.m"/>
   <N name="xyzchk.m"/>
   <F name="xyzvchk.m"/>
  </D>
@@ -3759,7 +3759,7 @@
   <F name="bessely.m"/>
   <N name="beta.m"/>
   <N name="betainc.m"/>
-  <F name="betaincinv.m"/>
+  <N name="betaincinv.m"/>
   <N name="betaln.m"/>
   <N name="cart2pol.m"/>
   <N name="cart2sph.m"/>
@@ -3769,15 +3769,15 @@
   <F name="ellipke.m"/>
   <N name="erf.m"/>
   <N name="erfc.m"/>
-  <F name="erfcinv.m"/>
+  <N name="erfcinv.m"/>
   <F name="erfcx.m"/>
   <N name="erfinv.m"/>
   <N name="expint.m"/>
   <F name="factor.m"/>
   <N name="factorial.m"/>
-  <F name="gamma.m"/>
-  <F name="gammainc.m"/>
-  <F name="gammaincinv.m"/>
+  <N name="gamma.m"/>
+  <N name="gammainc.m"/>
+  <N name="gammaincinv.m"/>
   <N name="gammaln.m"/>
   <F name="gcd.m"/>
   <N name="hsv2rgb.m"/>
@@ -3835,7 +3835,7 @@
   <N name="deblank.m"/>
   <F name="dec2base.m"/>
   <N name="dec2bin.m"/>
-  <F name="dec2hex.m"/>
+  <N name="dec2hex.m"/>
   <N name="findstr.m"/>
   <F name="hex2dec.m"/>
   <F name="hex2num.m"/>
@@ -3871,7 +3871,7 @@
   <N name="strmatch.m"/>
   <N name="strncmp.m"/>
   <N name="strncmpi.m"/>
-  <F name="strread.m"/>
+  <N name="strread.m"/>
   <N name="strrep.m"/>
   <F name="strsplit.m"/>
   <N name="strtok.m"/>
@@ -9347,7 +9347,7 @@
   <F name="sfnew.m"/>
   <F name="sfopen.m"/>
   <F name="sfpref.m"/>
-  <F name="sfprint.m"/>
+  <N name="sfprint.m"/>
   <F name="sfprivate.m"/>
   <F name="sfreplace.m"/>
   <N name="sfroot.m"/>
@@ -24028,7 +24028,7 @@
     <F name="forecast.m"/>
     <F name="fpe.m"/>
     <F name="getpvec.m"/>
-    <F name="idParametric.m"/>
+    <C name="idParametric.m"/>
     <F name="idssdata.m"/>
     <F name="init.m"/>
     <F name="merge.m"/>
@@ -24130,7 +24130,7 @@
    <D name="ident/ident/@idfrd">
     <F name="display.m"/>
     <F name="iddata.m"/>
-    <F name="idfrd.m"/>
+    <C name="idfrd.m"/>
     <F name="loadobj.m"/>
     <F name="merge.m"/>
     <F name="nyqcut.m"/>
@@ -24144,7 +24144,7 @@
     <F name="pem.m"/>
    </D>
    <D name="ident/ident/@idlti">
-    <F name="idlti.m"/>
+    <C name="idlti.m"/>
     <F name="noise2meas.m"/>
     <F name="noisecnv.m"/>
     <F name="spectrum.m"/>
@@ -24699,7 +24699,7 @@
     <F name="getlinmod.m"/>
     <F name="getreg.m"/>
     <F name="guiDisplay.m"/>
-    <F name="idnlarx.m"/>
+    <C name="idnlarx.m"/>
     <F name="init.m"/>
     <F name="isestimated.m"/>
     <F name="linapp.m"/>
@@ -24854,7 +24854,7 @@
     <F name="getParameterVector.m"/>
     <F name="getlinmod.m"/>
     <F name="guiDisplay.m"/>
-    <F name="idnlhw.m"/>
+    <C name="idnlhw.m"/>
     <F name="init.m"/>
     <F name="isestimated.m"/>
     <F name="linapp.m"/>
@@ -24883,7 +24883,7 @@
     <F name="fieldnames.m"/>
     <F name="fpe.m"/>
     <F name="getVersion.m"/>
-    <F name="idnlmodel.m"/>
+    <C name="idnlmodel.m"/>
     <F name="isaimp.m"/>
     <F name="isestimated.m"/>
     <F name="isnan.m"/>
@@ -26143,14 +26143,14 @@
   <F name="cpstruct2pairs.m"/>
   <F name="dct2.m"/>
   <F name="dctmtx.m"/>
-  <F name="deconvblind.m"/>
-  <F name="deconvlucy.m"/>
-  <F name="deconvreg.m"/>
-  <F name="deconvwnr.m"/>
+  <N name="deconvblind.m"/>
+  <N name="deconvlucy.m"/>
+  <N name="deconvreg.m"/>
+  <N name="deconvwnr.m"/>
   <F name="decorrstretch.m"/>
   <F name="demosaic.m"/>
   <F name="edge.m"/>
-  <F name="edgetaper.m"/>
+  <N name="edgetaper.m"/>
   <F name="entropy.m"/>
   <F name="entropyfilt.m"/>
   <F name="fan2para.m"/>
@@ -26215,7 +26215,7 @@
   <F name="imimposemin.m"/>
   <N name="imlincomb.m"/>
   <F name="immultiply.m"/>
-  <F name="imnoise.m"/>
+  <N name="imnoise.m"/>
   <F name="imopen.m"/>
   <F name="impixel.m"/>
   <F name="improfile.m"/>
@@ -26230,12 +26230,12 @@
   <F name="imregister.m"/>
   <F name="imregtform.m"/>
   <N name="imresize.m"/>
-  <F name="imresize_old.m"/>
-  <F name="imrotate.m"/>
+  <N name="imresize_old.m"/>
+  <N name="imrotate.m"/>
   <F name="imsharpen.m"/>
   <F name="imsubtract.m"/>
   <F name="imtophat.m"/>
-  <F name="imtransform.m"/>
+  <N name="imtransform.m"/>
   <F name="imwarp.m"/>
   <F name="ind2gray.m"/>
   <F name="info.xml"/>
@@ -26259,14 +26259,14 @@
   <F name="nlfilter.m"/>
   <F name="normxcorr2.m"/>
   <F name="ordfilt2.m"/>
-  <F name="otf2psf.m"/>
+  <N name="otf2psf.m"/>
   <N name="padarray.m"/>
   <F name="para2fan.m"/>
   <F name="phantom.m"/>
   <F name="plotpickerlayout.xml"/>
   <F name="poly2mask.m"/>
   <F name="projective2d.m"/>
-  <F name="psf2otf.m"/>
+  <N name="psf2otf.m"/>
   <F name="qtdecomp.m"/>
   <F name="qtgetblk.m"/>
   <F name="qtsetblk.m"/>
@@ -26283,7 +26283,7 @@
   <F name="stdfilt.m"/>
   <C name="strel.m"/>
   <N name="stretchlim.m"/>
-  <F name="tformarray.m"/>
+  <N name="tformarray.m"/>
   <F name="tformfwd.m"/>
   <F name="tforminv.m"/>
   <F name="uintlut.m"/>
@@ -29605,7 +29605,7 @@
     <F name="fread.m"/>
     <F name="fscanf.m"/>
     <F name="fwrite.m"/>
-    <F name="icinterface.m"/>
+    <C name="icinterface.m"/>
     <F name="igetfield.m"/>
     <F name="isa.m"/>
     <F name="isetfield.m"/>
@@ -29635,7 +29635,7 @@
     <F name="instrhelp.m"/>
     <F name="instrhwinfo.m"/>
     <F name="instrnotify.m"/>
-    <F name="instrument.m"/>
+    <C name="instrument.m"/>
     <F name="isa.m"/>
     <F name="isequal.m"/>
     <F name="isetfield.m"/>
@@ -32320,10 +32320,10 @@
   <F name="Contents.m"/>
   <F name="fixunknowns.m"/>
   <F name="lvqoutputs.m"/>
-  <F name="mapminmax.m"/>
+  <N name="mapminmax.m"/>
   <N name="mapstd.m"/>
-  <F name="processpca.m"/>
-  <F name="removeconstantrows.m"/>
+  <N name="processpca.m"/>
+  <N name="removeconstantrows.m"/>
   <F name="removerows.m"/>
  </D>
  <D name="nnet/nnet/nnsearch">
@@ -43671,7 +43671,7 @@
     <F name="loadobj.m"/>
    </D>
    <D name="shared/controllib/engine/@lti">
-    <F name="lti.m"/>
+    <C name="lti.m"/>
     <F name="totaldelay.m"/>
    </D>
    <D name="shared/controllib/engine/@numlti">
@@ -48075,7 +48075,7 @@
    </D>
     <F name="cat.m"/>
     <F name="cellstr.m"/>
-    <F name="dataset.m"/>
+    <C name="dataset.m"/>
     <F name="dataset2cell.m"/>
     <F name="dataset2idx.m"/>
     <F name="dataset2struct.m"/>
@@ -48209,8 +48209,8 @@
   <F name="makedist.m"/>
   <F name="mat2dataset.m"/>
   <F name="mcc.enc"/>
-  <F name="statslibSubsasgnRecurser.m"/>
-  <F name="statslibSubsrefRecurser.m"/>
+  <N name="statslibSubsasgnRecurser.m"/>
+  <N name="statslibSubsrefRecurser.m"/>
   <N name="statsplotfunc.m"/>
   <F name="struct2dataset.m"/>
  </D>
@@ -48691,7 +48691,7 @@
   <N name="extract_phase.m"/>
   <F name="falltime.m"/>
   <F name="fastreshape.m"/>
-  <F name="fftfilt.m"/>
+  <N name="fftfilt.m"/>
   <F name="filt2block.m"/>
   <F name="filternorm.m"/>
   <N name="filtfilt.m"/>
@@ -48711,7 +48711,7 @@
   <F name="firrcos.m"/>
   <F name="firtype.m"/>
   <F name="flattopwin.m"/>
-  <F name="freqs.m"/>
+  <N name="freqs.m"/>
   <N name="freqz.m"/>
   <N name="freqz_freqvec.m"/>
   <F name="freqzparse.m"/>
@@ -48741,7 +48741,7 @@
   <N name="interp.m"/>
   <N name="intfilt.m"/>
   <F name="invfreqs.m"/>
-  <F name="invfreqz.m"/>
+  <N name="invfreqz.m"/>
   <F name="is2rc.m"/>
   <F name="isallpass.m"/>
   <F name="islinphase.m"/>
@@ -48779,19 +48779,19 @@
   <F name="nuttallwin.m"/>
   <F name="overshoot.m"/>
   <F name="parzenwin.m"/>
-  <F name="pburg.m"/>
-  <F name="pcov.m"/>
+  <N name="pburg.m"/>
+  <N name="pcov.m"/>
   <F name="peak2peak.m"/>
   <F name="peak2rms.m"/>
-  <F name="peig.m"/>
-  <F name="periodogram.m"/>
+  <N name="peig.m"/>
+  <N name="periodogram.m"/>
   <F name="phasedelay.m"/>
   <N name="phasez.m"/>
   <F name="plotpickerlayout.xml"/>
-  <F name="pmcov.m"/>
+  <N name="pmcov.m"/>
   <F name="pmem.m"/>
-  <F name="pmtm.m"/>
-  <F name="pmusic.m"/>
+  <N name="pmtm.m"/>
+  <N name="pmusic.m"/>
   <F name="poly2ac.m"/>
   <F name="poly2lsf.m"/>
   <N name="poly2rc.m"/>
@@ -48809,14 +48809,14 @@
   <F name="pulsewidth.m"/>
   <F name="pulstran.m"/>
   <N name="pwelch.m"/>
-  <F name="pyulear.m"/>
+  <N name="pyulear.m"/>
   <F name="rc2ac.m"/>
   <F name="rc2is.m"/>
   <F name="rc2lar.m"/>
   <F name="rc2poly.m"/>
   <F name="rceps.m"/>
   <F name="rectpuls.m"/>
-  <F name="rectwin.m"/>
+  <N name="rectwin.m"/>
   <F name="remez.m"/>
   <F name="remezord.m"/>
   <N name="resample.m"/>
@@ -49132,7 +49132,7 @@
   <F name="framewlabel.m"/>
   <F name="freqplotter.m"/>
   <F name="fsdialog.m"/>
-  <F name="fvtool.m"/>
+  <N name="fvtool.m"/>
   <F name="fvtoolwaddnreplace.m"/>
   <F name="fwizdef.mat"/>
   <F name="genmcode.m"/>
@@ -53752,7 +53752,7 @@
   <N name="biplot.m"/>
   <F name="bootci.m"/>
   <F name="bootstrp.m"/>
-  <F name="boxplot.m"/>
+  <N name="boxplot.m"/>
   <F name="candexch.m"/>
   <F name="candgen.m"/>
   <N name="canoncorr.m"/>
@@ -53762,12 +53762,12 @@
   <F name="caseread.m"/>
   <F name="casewrite.m"/>
   <F name="ccdesign.m"/>
-  <F name="cdf.m"/>
+  <N name="cdf.m"/>
   <F name="cdfcalc.m"/>
   <F name="cdfplot.m"/>
   <F name="chi2cdf.m"/>
   <F name="chi2gof.m"/>
-  <F name="chi2inv.m"/>
+  <N name="chi2inv.m"/>
   <F name="chi2pdf.m"/>
   <F name="chi2rnd.m"/>
   <F name="chi2stat.m"/>
@@ -53806,7 +53806,7 @@
   <F name="disttool.m"/>
   <F name="dummyvar.m"/>
   <F name="dwtest.m"/>
-  <F name="ecdf.m"/>
+  <N name="ecdf.m"/>
   <F name="ecdfhist.m"/>
   <F name="evcdf.m"/>
   <F name="evfit.m"/>
@@ -53836,11 +53836,11 @@
   <F name="frnd.m"/>
   <F name="fstat.m"/>
   <F name="fsurfht.m"/>
-  <F name="fullfact.m"/>
+  <N name="fullfact.m"/>
   <F name="gagerr.m"/>
   <F name="gamcdf.m"/>
   <F name="gamfit.m"/>
-  <F name="gaminv.m"/>
+  <N name="gaminv.m"/>
   <F name="gamlike.m"/>
   <F name="gampdf.m"/>
   <F name="gamrnd.m"/>
@@ -53872,7 +53872,7 @@
   <F name="gprnd.m"/>
   <F name="gpstat.m"/>
   <F name="groupingvariable.m"/>
-  <F name="grp2idx.m"/>
+  <N name="grp2idx.m"/>
   <F name="grpstats.m"/>
   <F name="gscatter.m"/>
   <F name="harmmean.m"/>
@@ -53904,9 +53904,9 @@
   <F name="knnsearch.m"/>
   <F name="kruskalwallis.m"/>
   <F name="ksdensity.m"/>
-  <F name="kstest.m"/>
+  <N name="kstest.m"/>
   <F name="kstest2.m"/>
-  <F name="kurtosis.m"/>
+  <N name="kurtosis.m"/>
   <F name="lasso.m"/>
   <F name="lassoPlot.m"/>
   <F name="leverage.m"/>
@@ -53950,7 +53950,7 @@
   <F name="mvtrnd.m"/>
   <F name="nancov.m"/>
   <F name="nanmax.m"/>
-  <F name="nanmean.m"/>
+  <N name="nanmean.m"/>
   <F name="nanmedian.m"/>
   <F name="nanmin.m"/>
   <F name="nanstd.m"/>
@@ -53987,9 +53987,9 @@
   <F name="nlpredci.m"/>
   <F name="nnmf.m"/>
   <N name="normcdf.m"/>
-  <F name="normfit.m"/>
+  <N name="normfit.m"/>
   <N name="norminv.m"/>
-  <F name="normlike.m"/>
+  <N name="normlike.m"/>
   <N name="normpdf.m"/>
   <F name="normplot.m"/>
   <F name="normrnd.m"/>
@@ -53998,7 +53998,7 @@
   <F name="optimalleaforder.m"/>
   <F name="parallelcoords.m"/>
   <F name="parallelstats.m"/>
-  <F name="partialcorr.m"/>
+  <N name="partialcorr.m"/>
   <N name="pca.m"/>
   <N name="pcacov.m"/>
   <N name="pcares.m"/>
@@ -54029,7 +54029,7 @@
   <F name="random.m"/>
   <F name="randsample.m"/>
   <F name="randtool.m"/>
-  <F name="range.m"/>
+  <N name="range.m"/>
   <F name="rangesearch.m"/>
   <F name="ranksum.m"/>
   <F name="raylcdf.m"/>
@@ -54057,7 +54057,7 @@
   <F name="signrank.m"/>
   <F name="signtest.m"/>
   <F name="silhouette.m"/>
-  <F name="skewness.m"/>
+  <N name="skewness.m"/>
   <F name="slicesample.m"/>
   <F name="squareform.m"/>
   <F name="statdisptable.m"/>
@@ -54075,7 +54075,7 @@
   <N name="tcdf.m"/>
   <F name="tdfread.m"/>
   <N name="tiedrank.m"/>
-  <F name="tinv.m"/>
+  <N name="tinv.m"/>
   <F name="tpdf.m"/>
   <F name="treedisp.m"/>
   <F name="treefit.m"/>
@@ -56704,7 +56704,7 @@
     <F name="sum.m"/>
     <F name="synchronize.m"/>
     <F name="times.m"/>
-    <F name="timeseries.m"/>
+    <C name="timeseries.m"/>
     <F name="transpose.m"/>
     <F name="tsprops.m"/>
     <F name="utArithCommonData.m"/>

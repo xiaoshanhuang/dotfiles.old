@@ -16,25 +16,25 @@
             <key name="History">
                 <string minArraySize="0" maxArraySize="500">
                     <value><![CDATA[/Users/hxs/Documents/MATLAB]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/T1ImgCoreg/dq041813_1]]></value>
                     <value><![CDATA[/Users/hxs/Documents]]></value>
-                    <value><![CDATA[/Users/hxs]]></value>
-                    <value><![CDATA[/Users/hxs/Downloads]]></value>
-                    <value><![CDATA[/Users/hxs/matlab]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study]]></value>
                     <value><![CDATA[/Users/hxs/Documents/Study/Research]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Data/dq041813/eeg]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Data/dq041813]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Data]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Data/ghg040613/eeg]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Data/ghg040613]]></value>
                     <value><![CDATA[/Users/hxs/Documents/Study/Research/Analysis]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Analysis]]></value>
                     <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/T1ImgCoreg]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/T1ImgCoreg/ql041913_2]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARC]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/T1Img]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/T1ImgSegment/ql041913_2]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Data/xh032013/raw]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Data/xh032013]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Data/xh032013/eeg]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Data/xh030313]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Data/xh060713]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/Data/xh030313/eeg]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImg/xh030313]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImg]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST]]></value>
                 </string>
             </key>
             <settings name="autorefresh">
@@ -58,7 +58,7 @@
                 <key name="ColumnSizes">
                     <string minArraySize="0" maxArraySize="100000">
                         <value><![CDATA[40]]></value>
-                        <value><![CDATA[272]]></value>
+                        <value><![CDATA[257]]></value>
                         <value><![CDATA[0]]></value>
                         <value><![CDATA[0]]></value>
                         <value><![CDATA[0]]></value>
