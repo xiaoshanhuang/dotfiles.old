@@ -45,16 +45,25 @@
    <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1373299763500" name="sps_kernal.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1373299764331" name="microstateEEG.m">
-      <CodeFolds version="1.0"/>
-   </File>
    <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1373907722396" name="obs_ac.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1374188690577" name="cmd.m">
+   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1375063728576" name="bcgRemoval.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1374188690600" name="bcgRemoval.m">
+   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1375063732091" name="eegPLV.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1375063733210" name="microstateEEG.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1375120012316" name="plotColorBar.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1377001229020" name="cmd.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1377001229035" name="alignBCG.m">
       <CodeFolds version="1.0"/>
    </File>
 </Editor>

@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="1.1" date="Thu Jul 18 16:04:50 2013">
+<MathWorks type="Path Cache File" version="1.1" date="Tue Aug 20 20:20:28 2013">
  <D name="matlab/demos">
   <D name="matlab/demos/private">
    <F name="style.css"/>
@@ -780,7 +780,7 @@
   <N name="gcbf.m"/>
   <N name="gcbo.m"/>
   <N name="gcf.m"/>
-  <F name="gco.m"/>
+  <N name="gco.m"/>
   <N name="get.m"/>
   <F name="getFigureToolManager.m"/>
   <N name="getappdata.m"/>
@@ -1513,7 +1513,7 @@
         <C name="FileSystemChooser.m"/>
        </D>
        <D name="matlab/uitools/+matlab/+ui/+internal/+dialog/@FolderChooser">
-        <F name="FolderChooser.m"/>
+        <C name="FolderChooser.m"/>
        </D>
        <D name="matlab/uitools/+matlab/+ui/+internal/+dialog/@FontChooser">
         <F name="FontChooser.m"/>
@@ -1652,7 +1652,7 @@
   <N name="setptr.m"/>
   <F name="setstatus.m"/>
   <F name="tabdlg.m"/>
-  <F name="textwrap.m"/>
+  <N name="textwrap.m"/>
   <F name="tipoftheday.m"/>
   <N name="toolsmenufcn.m"/>
   <F name="uibuttongroup.m"/>
@@ -1886,7 +1886,7 @@
      <F name="getActiveFilename.m"/>
      <F name="getAll.m"/>
      <N name="indexToPositionInLine.m"/>
-     <F name="isEditorAvailable.m"/>
+     <N name="isEditorAvailable.m"/>
      <F name="isOpen.m"/>
      <F name="linesToText.m"/>
      <N name="newDocument.m"/>
@@ -1943,7 +1943,7 @@
   <F name="auditcontents.m"/>
   <F name="checkcode.m"/>
   <F name="code2html.m"/>
-  <F name="codetoolsswitchyard.m"/>
+  <N name="codetoolsswitchyard.m"/>
   <F name="commandhistory.m"/>
   <N name="commandwindow.m"/>
   <N name="commonplotfunc.m"/>
@@ -3511,7 +3511,7 @@
   <F name="mpower.m"/>
   <F name="mrdivide.m"/>
   <F name="mtimes.m"/>
-  <F name="ne.m"/>
+  <N name="ne.m"/>
   <F name="not.m"/>
   <F name="or.m"/>
   <F name="paren.m"/>
@@ -3908,7 +3908,7 @@
   <N name="pause.m"/>
   <N name="tic.m"/>
   <N name="toc.m"/>
-  <F name="weekday.m"/>
+  <N name="weekday.m"/>
  </D>
  <D name="matlab/verctrl">
   <F name="Contents.m"/>
@@ -14972,7 +14972,7 @@
   <F name="canon.m"/>
   <F name="chop.m"/>
   <F name="cloop.m"/>
-  <F name="connect.m"/>
+  <N name="connect.m"/>
   <F name="covar.m"/>
   <F name="d2c.m"/>
   <F name="d2cm.m"/>
@@ -48206,7 +48206,7 @@
   </D>
   <F name="Contents.m"/>
   <F name="cell2dataset.m"/>
-  <F name="makedist.m"/>
+  <N name="makedist.m"/>
   <F name="mat2dataset.m"/>
   <F name="mcc.enc"/>
   <N name="statslibSubsasgnRecurser.m"/>
@@ -48619,7 +48619,7 @@
   <N name="bilinear.m"/>
   <F name="bitrevorder.m"/>
   <F name="blackman.m"/>
-  <F name="blackmanharris.m"/>
+  <N name="blackmanharris.m"/>
   <F name="bohmanwin.m"/>
   <F name="boxcar.m"/>
   <F name="bscost.m"/>
@@ -48629,7 +48629,7 @@
   <N name="butter.m"/>
   <F name="buttord.m"/>
   <F name="cceps.m"/>
-  <F name="cconv.m"/>
+  <N name="cconv.m"/>
   <F name="cde.m"/>
   <F name="cell2sos.m"/>
   <N name="cfirpm.m"/>
@@ -48673,7 +48673,7 @@
   <F name="digitrevorder.m"/>
   <F name="diric.m"/>
   <N name="downsample.m"/>
-  <F name="dpss.m"/>
+  <N name="dpss.m"/>
   <F name="dpssclear.m"/>
   <F name="dpssdir.m"/>
   <F name="dpssload.m"/>
@@ -48729,7 +48729,7 @@
   <N name="grpdelay.m"/>
   <N name="hamming.m"/>
   <F name="hann.m"/>
-  <F name="hanning.m"/>
+  <N name="hanning.m"/>
   <N name="hilbert.m"/>
   <F name="icceps.m"/>
   <F name="idct.m"/>
@@ -48912,8 +48912,8 @@
   <F name="vratio.m"/>
   <N name="window.m"/>
   <N name="xcorr.m"/>
-  <F name="xcorr2.m"/>
-  <F name="xcov.m"/>
+  <N name="xcorr2.m"/>
+  <N name="xcov.m"/>
   <F name="yulewalk.m"/>
   <F name="zerophase.m"/>
   <F name="zp2sos.m"/>
@@ -53768,7 +53768,7 @@
   <F name="chi2cdf.m"/>
   <F name="chi2gof.m"/>
   <N name="chi2inv.m"/>
-  <F name="chi2pdf.m"/>
+  <N name="chi2pdf.m"/>
   <F name="chi2rnd.m"/>
   <F name="chi2stat.m"/>
   <F name="cholcov.m"/>
@@ -53829,7 +53829,7 @@
   <F name="ff2n.m"/>
   <F name="finv.m"/>
   <F name="fitdist.m"/>
-  <F name="fpdf.m"/>
+  <N name="fpdf.m"/>
   <F name="fracfact.m"/>
   <F name="fracfactgen.m"/>
   <F name="friedman.m"/>
@@ -53848,7 +53848,7 @@
   <F name="geocdf.m"/>
   <F name="geoinv.m"/>
   <F name="geomean.m"/>
-  <F name="geopdf.m"/>
+  <N name="geopdf.m"/>
   <F name="geornd.m"/>
   <F name="geostat.m"/>
   <F name="gevcdf.m"/>
@@ -53886,7 +53886,7 @@
   <F name="hougen.m"/>
   <F name="hygecdf.m"/>
   <F name="hygeinv.m"/>
-  <F name="hygepdf.m"/>
+  <N name="hygepdf.m"/>
   <F name="hygernd.m"/>
   <F name="hygestat.m"/>
   <F name="icdf.m"/>
@@ -53926,7 +53926,7 @@
   <F name="mad.m"/>
   <F name="mahal.m"/>
   <F name="maineffectsplot.m"/>
-  <F name="manova1.m"/>
+  <N name="manova1.m"/>
   <F name="manovacluster.m"/>
   <F name="mdscale.m"/>
   <F name="meansgraph.m"/>
@@ -53965,17 +53965,17 @@
   <F name="nbinstat.m"/>
   <F name="ncfcdf.m"/>
   <F name="ncfinv.m"/>
-  <F name="ncfpdf.m"/>
+  <N name="ncfpdf.m"/>
   <F name="ncfrnd.m"/>
   <F name="ncfstat.m"/>
   <F name="nctcdf.m"/>
   <F name="nctinv.m"/>
-  <F name="nctpdf.m"/>
+  <N name="nctpdf.m"/>
   <F name="nctrnd.m"/>
   <F name="nctstat.m"/>
   <F name="ncx2cdf.m"/>
   <F name="ncx2inv.m"/>
-  <F name="ncx2pdf.m"/>
+  <N name="ncx2pdf.m"/>
   <F name="ncx2rnd.m"/>
   <F name="ncx2stat.m"/>
   <F name="nlinfit.m"/>
@@ -54002,7 +54002,7 @@
   <N name="pca.m"/>
   <N name="pcacov.m"/>
   <N name="pcares.m"/>
-  <F name="pdf.m"/>
+  <N name="pdf.m"/>
   <F name="pdist.m"/>
   <F name="pdist2.m"/>
   <F name="pearsrnd.m"/>
@@ -54076,7 +54076,7 @@
   <F name="tdfread.m"/>
   <N name="tiedrank.m"/>
   <N name="tinv.m"/>
-  <F name="tpdf.m"/>
+  <N name="tpdf.m"/>
   <F name="treedisp.m"/>
   <F name="treefit.m"/>
   <F name="treeprune.m"/>
@@ -54089,7 +54089,7 @@
   <F name="ttest2.m"/>
   <F name="unidcdf.m"/>
   <F name="unidinv.m"/>
-  <F name="unidpdf.m"/>
+  <N name="unidpdf.m"/>
   <F name="unidrnd.m"/>
   <F name="unidstat.m"/>
   <F name="unifcdf.m"/>
