@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>1A316D19-4365-4C69-894E-646FBAD4A0BC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BD59AA13-A620-4A4F-846F-1925E2B6D0D4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Xiaoshan Huang</string>
+	<key>description</key>
+	<string>isatap</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>isatap</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>sudo ~/Scripts/mac-isatap/isatap</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>BD59AA13-A620-4A4F-846F-1925E2B6D0D4</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>isatap</string>
+				<key>subtext</key>
+				<string>isatap</string>
+				<key>text</key>
+				<string>isatap</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1A316D19-4365-4C69-894E-646FBAD4A0BC</string>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>1A316D19-4365-4C69-894E-646FBAD4A0BC</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>BD59AA13-A620-4A4F-846F-1925E2B6D0D4</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
