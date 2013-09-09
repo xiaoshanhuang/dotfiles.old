@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="1.1" date="Tue Aug 20 20:20:28 2013">
+<MathWorks type="Path Cache File" version="1.1" date="Fri Sep  6 20:16:08 2013">
  <D name="matlab/demos">
   <D name="matlab/demos/private">
    <F name="style.css"/>
@@ -1648,7 +1648,7 @@
   <F name="scribeiconcdata.mat"/>
   <F name="selectmoveresize.m"/>
   <N name="setpixelposition.m"/>
-  <F name="setpref.m"/>
+  <N name="setpref.m"/>
   <N name="setptr.m"/>
   <F name="setstatus.m"/>
   <F name="tabdlg.m"/>
@@ -2577,7 +2577,7 @@
     </D>
     <D name="matlab/general/+internal/+matlab/+licensing">
      <F name="changeModeTo.m"/>
-     <F name="getLicInfo.m"/>
+     <N name="getLicInfo.m"/>
      <N name="getLicMode.m"/>
     </D>
    </D>
@@ -2639,10 +2639,10 @@
    </D>
   </D>
   <D name="matlab/general/+mex">
-   <F name="CompilerConfiguration.m"/>
-   <F name="CompilerConfigurationDetails.m"/>
-   <F name="CompilerConfigurationFactory.m"/>
-   <F name="getCompilerConfigurations.m"/>
+   <C name="CompilerConfiguration.m"/>
+   <C name="CompilerConfigurationDetails.m"/>
+   <C name="CompilerConfigurationFactory.m"/>
+   <N name="getCompilerConfigurations.m"/>
    <F name="getCompilerPath.pl"/>
   </D>
   <D name="matlab/general/private">
@@ -2699,7 +2699,7 @@
   <N name="fileattrib.m"/>
   <N name="finfo.m"/>
   <N name="format.m"/>
-  <F name="genpath.m"/>
+  <N name="genpath.m"/>
   <N name="getenv.m"/>
   <N name="getmcruserdata.m"/>
   <F name="import.m"/>
@@ -2714,7 +2714,7 @@
   <N name="isunix.m"/>
   <N name="java.m"/>
   <N name="javaaddpath.m"/>
-  <F name="javaclasspath.m"/>
+  <N name="javaclasspath.m"/>
   <F name="javarmpath.m"/>
   <F name="libfunctions.m"/>
   <F name="libfunctionsview.m"/>
@@ -2729,7 +2729,7 @@
   <F name="maxNumCompThreads.m"/>
   <F name="membrane.m"/>
   <N name="memory.m"/>
-  <F name="mex.m"/>
+  <N name="mex.m"/>
   <F name="mex_helper.m"/>
   <F name="mexdebug.m"/>
   <N name="mexext.m"/>
@@ -2741,14 +2741,14 @@
   <N name="open.m"/>
   <F name="pack.m"/>
   <N name="path.m"/>
-  <F name="path2rc.m"/>
+  <N name="path2rc.m"/>
   <F name="pcode.m"/>
-  <F name="perl.m"/>
+  <N name="perl.m"/>
   <N name="preferences.m"/>
   <N name="pwd.m"/>
   <N name="quit.m"/>
   <N name="recycle.m"/>
-  <F name="rehash.m"/>
+  <N name="rehash.m"/>
   <N name="rmdir.m"/>
   <N name="rmpath.m"/>
   <N name="save.m"/>
@@ -2764,7 +2764,7 @@
   <F name="unloadlibrary.m"/>
   <N name="usejava.m"/>
   <N name="ver.m"/>
-  <F name="verLessThan.m"/>
+  <N name="verLessThan.m"/>
   <N name="what.m"/>
   <N name="which.m"/>
   <N name="who.m"/>
@@ -3130,7 +3130,7 @@
   <F name="dlmwrite.m"/>
   <N name="fclose.m"/>
   <N name="feof.m"/>
-  <F name="ferror.m"/>
+  <N name="ferror.m"/>
   <N name="fgetl.m"/>
   <N name="fgets.m"/>
   <F name="fileExchangeDesktopTool.m"/>
@@ -3837,7 +3837,7 @@
   <N name="dec2bin.m"/>
   <N name="dec2hex.m"/>
   <N name="findstr.m"/>
-  <F name="hex2dec.m"/>
+  <N name="hex2dec.m"/>
   <F name="hex2num.m"/>
   <N name="int2str.m"/>
   <N name="iscellstr.m"/>
@@ -3873,7 +3873,7 @@
   <N name="strncmpi.m"/>
   <N name="strread.m"/>
   <N name="strrep.m"/>
-  <F name="strsplit.m"/>
+  <N name="strsplit.m"/>
   <N name="strtok.m"/>
   <N name="strtrim.m"/>
   <N name="strvcat.m"/>
@@ -6864,7 +6864,7 @@
   <F name="SigAndScopeMgrLoadLibrary.m"/>
   <F name="SimulinkTips.txt"/>
   <F name="UE1_impl_switch.p"/>
-  <F name="UE1_switch.p"/>
+  <N name="UE1_switch.p"/>
   <F name="add_block.m"/>
   <F name="add_engine_event_listener.m"/>
   <F name="add_exec_event_listener.m"/>
@@ -7083,7 +7083,7 @@
   <F name="sl_get_dialog_schema.m"/>
   <F name="sl_internal_customization.m"/>
   <F name="sl_is_print_job_tiled.m"/>
-  <F name="sl_refresh_customizations.m"/>
+  <N name="sl_refresh_customizations.m"/>
   <F name="sl_switch_classic_external_mode.m"/>
   <F name="sl_toggle_schema.m"/>
   <F name="slblkpropdlg.p"/>
@@ -10463,7 +10463,7 @@
   <F name="audiodevinfo.m"/>
   <N name="audioinfo.m"/>
   <F name="audioplayerreg.m"/>
-  <F name="audioread.m"/>
+  <N name="audioread.m"/>
   <F name="audiorecorderreg.m"/>
   <F name="audiouniquename.m"/>
   <F name="audiowrite.m"/>
@@ -12000,7 +12000,7 @@
    <F name="asap2SetAddressDWARFPrivate.p"/>
    <F name="asap2SetAddressPrivate.p"/>
    <F name="removeDir.p"/>
-   <F name="system.p"/>
+   <N name="system.p"/>
    <F name="targetNeedsCodeGen.p"/>
   </D>
   <D name="rtw/rtw/private">
@@ -12220,7 +12220,7 @@
   <F name="genRTWTYPESDOTH.m"/>
   <F name="getBlockHelpMapNameAndPath.m"/>
   <F name="get_tmf_for_target.m"/>
-  <F name="getrtwDefaultTargetInfo.m"/>
+  <N name="getrtwDefaultTargetInfo.m"/>
   <F name="gettargdatamap.m"/>
   <F name="grt_default_tmf.m"/>
   <F name="grt_malloc_default_tmf.m"/>
@@ -12257,7 +12257,7 @@
   <F name="rtw_expand_template_from_tlc.m"/>
   <F name="rtw_fileparts.m"/>
   <F name="rtw_gen_shared_utils.m"/>
-  <F name="rtw_host_implementation_props.m"/>
+  <N name="rtw_host_implementation_props.m"/>
   <F name="rtw_implementation_props.m"/>
   <F name="rtw_is_hardware_state_unknown.m"/>
   <F name="rtw_precompile_libs.m"/>
@@ -12268,10 +12268,10 @@
   <F name="rtwgen.m"/>
   <F name="rtwgettargetfcnlibheaders.m"/>
   <F name="rtwgettargetfcnlibsharedheaders.m"/>
-  <F name="rtwhostwordlengths.m"/>
+  <N name="rtwhostwordlengths.m"/>
   <F name="rtwlib.slx"/>
   <F name="rtwmaputil.m"/>
-  <F name="rtwprivate.m"/>
+  <N name="rtwprivate.m"/>
   <F name="rtwrebuild.m"/>
   <F name="rtwreport.m"/>
   <F name="rtwsampleconfig.m"/>
@@ -12369,7 +12369,7 @@
  <D name="coder/foundation">
   <D name="coder/foundation/+RTW">
     <D name="coder/foundation/+RTW/@HWDeviceRegistry">
-     <F name="HWDeviceRegistry.p"/>
+     <C name="HWDeviceRegistry.p"/>
      <F name="setDisabled.p"/>
      <F name="setEnabled.p"/>
      <F name="setInvisible.p"/>
@@ -12377,10 +12377,10 @@
      <F name="setWordSizes.p"/>
     </D>
     <D name="coder/foundation/+RTW/@RegistryObject">
-     <F name="RegistryObject.p"/>
+     <C name="RegistryObject.p"/>
     </D>
     <D name="coder/foundation/+RTW/@TflRegistry">
-     <F name="TflRegistry.p"/>
+     <C name="TflRegistry.p"/>
      <F name="getcopy.p"/>
      <F name="isCompliantWithTargetLang.p"/>
     </D>
@@ -12423,8 +12423,8 @@
    <D name="coder/foundation/build/+coder/+make">
     <D name="coder/foundation/build/+coder/+make/+enum">
      <F name="BuildAction.p"/>
-     <F name="BuildArtifact.p"/>
-     <F name="BuildOutput.p"/>
+     <C name="BuildArtifact.p"/>
+     <C name="BuildOutput.p"/>
      <F name="BuildVariant.p"/>
      <F name="HostPlatform.p"/>
     </D>
@@ -12435,64 +12435,64 @@
       <F name="exportBuildConfig.p"/>
       <F name="getBuildConfigObj.p"/>
       <F name="getBuildConfigOptionsAndValues.p"/>
-      <F name="getBuildConfigurations.p"/>
-      <F name="getToolchainInfo.p"/>
-      <F name="getToolchains.p"/>
+      <N name="getBuildConfigurations.p"/>
+      <N name="getToolchainInfo.p"/>
+      <N name="getToolchains.p"/>
       <F name="toolchainPulldown.p"/>
       <F name="validateToolchain.p"/>
       <F name="viewBuildConfigSettings.p"/>
      </D>
-     <F name="LanguageToolRegistry.p"/>
-     <F name="Printer.p"/>
+     <C name="LanguageToolRegistry.p"/>
+     <C name="Printer.p"/>
      <F name="WebViewer.p"/>
-     <F name="cell2str.p"/>
-     <F name="copyListProperty.p"/>
-     <F name="decoratePath.p"/>
+     <N name="cell2str.p"/>
+     <N name="copyListProperty.p"/>
+     <N name="decoratePath.p"/>
      <F name="determineArtifactFromName.p"/>
      <F name="displayStatus.p"/>
      <F name="exportBuildConfiguration.p"/>
      <F name="extractBuildOptions.p"/>
      <F name="formDefaultBuildConfigObjectFile.p"/>
-     <F name="formToolchainName.p"/>
+     <N name="formToolchainName.p"/>
      <F name="generateToolchainInfoObjects.p"/>
      <F name="getBuildConfigurationList.p"/>
      <F name="getBuildToolsInfo.p"/>
      <F name="getConfigObject.p"/>
-     <F name="getCustomBuildConfigurationName.p"/>
+     <N name="getCustomBuildConfigurationName.p"/>
      <F name="getDefaultBuildConfigurationName.p"/>
-     <F name="getDefaultToolchain.p"/>
-     <F name="getInfo.p"/>
+     <N name="getDefaultToolchain.p"/>
+     <N name="getInfo.p"/>
      <F name="getMEXOptionsFlag.p"/>
-     <F name="getMexCompilerInfo.p"/>
-     <F name="getPref.p"/>
-     <F name="getRegistryEntriesThroughPref.p"/>
+     <N name="getMexCompilerInfo.p"/>
+     <N name="getPref.p"/>
+     <N name="getRegistryEntriesThroughPref.p"/>
      <F name="getString.p"/>
      <F name="getToolchainInfo.p"/>
-     <F name="getToolchainInfoFromRegistry.p"/>
+     <N name="getToolchainInfoFromRegistry.p"/>
      <F name="getToolchainList.p"/>
      <F name="getToolsAndOptionsFromToolchain.p"/>
      <F name="isConvertibleToToolchainApproach.p"/>
      <F name="isCustomBuildConfiguration.p"/>
-     <F name="iscvar.p"/>
+     <N name="iscvar.p"/>
      <F name="needToUpdateFile.p"/>
      <F name="pref.p"/>
      <F name="setPref.p"/>
-     <F name="tokenize.p"/>
+     <N name="tokenize.p"/>
      <F name="usingToolchainInfo.p"/>
     </D>
     <D name="coder/foundation/build/+coder/+make/+util">
-     <F name="File.p"/>
-     <F name="List.p"/>
-     <F name="ListIterator.p"/>
-     <F name="Location.p"/>
-     <F name="OrderedList.p"/>
-     <F name="UnorderedList.p"/>
+     <C name="File.p"/>
+     <C name="List.p"/>
+     <C name="ListIterator.p"/>
+     <C name="Location.p"/>
+     <C name="OrderedList.p"/>
+     <C name="UnorderedList.p"/>
     </D>
-    <F name="BuildConfiguration.p"/>
+    <C name="BuildConfiguration.p"/>
     <F name="BuildConfigurationRegistry.p"/>
-    <F name="BuildItem.p"/>
-    <F name="BuildTool.p"/>
-    <F name="Builder.p"/>
+    <C name="BuildItem.p"/>
+    <C name="BuildTool.p"/>
+    <C name="Builder.p"/>
     <F name="Executor.p"/>
     <F name="FinalTarget.p"/>
     <F name="GmakeWriter.p"/>
@@ -12504,8 +12504,8 @@
     <F name="MiscellaneousTarget.p"/>
     <F name="NmakeWriter.p"/>
     <F name="Rule.p"/>
-    <F name="ToolchainInfo.p"/>
-    <F name="ToolchainInfoRegistry.p"/>
+    <C name="ToolchainInfo.p"/>
+    <C name="ToolchainInfoRegistry.p"/>
     <F name="Writer.p"/>
     <F name="getDefaultToolchain.p"/>
     <F name="getToolchains.p"/>
@@ -12519,7 +12519,7 @@
   <d name="tools"/>
  </D>
  <D name="coder/foundation/build/tools/registry">
-  <F name="rtwTargetInfo.m"/>
+  <N name="rtwTargetInfo.m"/>
  </D>
  <D name="shared/simtargets">
   <F name="mwmathutil.h"/>
@@ -12592,13 +12592,13 @@
   <D name="coder/coder/+coderprivate">
    <F name="AnalyzeStructures.p"/>
    <F name="EMLScreening.p"/>
-   <F name="Float2FixedManager.p"/>
+   <C name="Float2FixedManager.p"/>
    <F name="MFileInfo.p"/>
    <F name="buildInfoTimerUpdate.p"/>
    <F name="compiler_supports_eml_blas.p"/>
    <F name="compiler_supports_eml_ipp.p"/>
    <F name="compiler_supports_eml_openmp.p"/>
-   <F name="convertMessagesToJavaArray.p"/>
+   <N name="convertMessagesToJavaArray.p"/>
    <F name="emlscreener_genreport.p"/>
    <F name="emlscreener_kernel.p"/>
    <F name="getBinfoMATFileAndCodeName.p"/>
@@ -12763,11 +12763,11 @@
    <N name="xml2idp.p"/>
   </D>
   <F name="Contents.m"/>
-  <F name="ccoder.p"/>
+  <N name="ccoder.p"/>
   <N name="codegen.p"/>
   <N name="coder.p"/>
   <F name="emlc.p"/>
-  <F name="emlcprivate.p"/>
+  <N name="emlcprivate.p"/>
   <F name="emlmex.p"/>
   <F name="rtwTargetInfo.p"/>
   <d name="en"/>
@@ -18217,7 +18217,7 @@
   <F name="DSPOBSLIBRegisterCompileCheck.m"/>
   <F name="DelayRegisterCompileCheck.m"/>
   <F name="DifferenceRegisterCompileCheck.m"/>
-  <F name="DownSampleRegisterCompileCheck.m"/>
+  <N name="DownSampleRegisterCompileCheck.m"/>
   <F name="FDesignRegisterCompileCheck.m"/>
   <F name="HDLNCOComputeLUT.m"/>
   <F name="HistogramRegisterCompileCheck.m"/>
@@ -21212,7 +21212,7 @@
    <F name="NumericTypeScopeComponentCfg.m"/>
    <F name="fipref.m"/>
    <F name="ntx.m"/>
-   <F name="setdefaultfimathfrompref.m"/>
+   <N name="setdefaultfimathfrompref.m"/>
   </D>
   <D name="fixedpoint/fixedpoint/+fixed">
    <D name="fixedpoint/fixedpoint/+fixed/+internal">
@@ -21326,7 +21326,7 @@
   <F name="fi.m"/>
   <F name="fiaccel.m"/>
   <F name="fifeature.m"/>
-  <F name="fimath.m"/>
+  <N name="fimath.m"/>
   <F name="fimathdialog.m"/>
   <F name="fipref.m"/>
   <F name="globalfimath.m"/>
@@ -21336,7 +21336,7 @@
   <F name="info.xml"/>
   <F name="instrumentMex.m"/>
   <F name="isfi.m"/>
-  <F name="isfimath.m"/>
+  <N name="isfimath.m"/>
   <F name="isfipref.m"/>
   <F name="isnumerictype.m"/>
   <F name="isquantizer.m"/>
@@ -21782,7 +21782,7 @@
      <D name="coder/float2fixed/+coder/+internal/+tools/+prj2cfg">
       <F name="hdlprj2cfg.p"/>
      </D>
-     <F name="MLFcnInfo.p"/>
+     <N name="MLFcnInfo.p"/>
      <F name="TML.p"/>
      <F name="prj2config.p"/>
     </D>
@@ -21794,7 +21794,7 @@
     <F name="FiTemplateManager.p"/>
     <F name="Float2FixedConstrainer.p"/>
     <F name="Float2FixedConstrainerDriver.p"/>
-    <F name="Float2FixedConverter.p"/>
+    <C name="Float2FixedConverter.p"/>
     <F name="FunctionFixPtTransformer.p"/>
     <F name="FunctionTypeInfo.p"/>
     <F name="FunctionTypeInfoRegistry.p"/>
@@ -23723,13 +23723,13 @@
    </D>
    <D name="idelink/foundation/+linkfoundation/+util">
      <D name="idelink/foundation/+linkfoundation/+util/@Executable">
-      <F name="Executable.p"/>
+      <C name="Executable.p"/>
      </D>
      <D name="idelink/foundation/+linkfoundation/+util/@File">
       <F name="File.p"/>
      </D>
      <D name="idelink/foundation/+linkfoundation/+util/@Location">
-      <F name="Location.p"/>
+      <C name="Location.p"/>
      </D>
     <F name="BlockManagesOwnTime.p"/>
     <F name="FindSystem.p"/>
@@ -23785,7 +23785,7 @@
     <F name="isListenPortAvailable.p"/>
     <F name="isMWSoftwareInstalled.p"/>
     <F name="isQeBypass.p"/>
-    <F name="linkpref.p"/>
+    <N name="linkpref.p"/>
     <F name="manageAdaptorName.p"/>
     <F name="message.p"/>
     <F name="openBlockHelp.p"/>
@@ -23830,7 +23830,7 @@
       <F name="XMakefile.p"/>
      </D>
      <D name="idelink/foundation/+linkfoundation/+xmakefile/@XMakefileConfiguration">
-      <F name="XMakefileConfiguration.p"/>
+      <C name="XMakefileConfiguration.p"/>
      </D>
      <D name="idelink/foundation/+linkfoundation/+xmakefile/@XMakefileConfigurationEvent">
       <F name="XMakefileConfigurationEvent.p"/>
@@ -23839,7 +23839,7 @@
       <F name="XMakefileGenerator.p"/>
      </D>
      <D name="idelink/foundation/+linkfoundation/+xmakefile/@XMakefilePreferences">
-      <F name="XMakefilePreferences.p"/>
+      <C name="XMakefilePreferences.p"/>
      </D>
      <D name="idelink/foundation/+linkfoundation/+xmakefile/@XMakefileTemplate">
       <F name="XMakefileTemplate.p"/>
@@ -23847,7 +23847,7 @@
     <F name="createXMakefileGenerator.p"/>
     <F name="getArchitecture.p"/>
     <F name="normalizeFlags.p"/>
-    <F name="raiseException.p"/>
+    <N name="raiseException.p"/>
     <F name="replaceFileNameWithSpaces.p"/>
     <F name="validateRequiredDirectories.p"/>
    </D>
@@ -26589,9 +26589,9 @@
   <F name="dicomdict.m"/>
   <F name="dicominfo.m"/>
   <F name="dicomlookup.m"/>
-  <F name="dicomread.m"/>
+  <N name="dicomread.m"/>
   <F name="dicomuid.m"/>
-  <F name="dicomwrite.m"/>
+  <N name="dicomwrite.m"/>
   <F name="hdrread.m"/>
   <F name="hdrwrite.m"/>
   <F name="interfileinfo.m"/>
@@ -26601,7 +26601,7 @@
   <F name="isrset.m"/>
   <F name="makehdr.m"/>
   <F name="nitfinfo.m"/>
-  <F name="nitfread.m"/>
+  <N name="nitfread.m"/>
   <F name="openrset.m"/>
   <F name="rsetwrite.m"/>
   <F name="tonemap.m"/>
@@ -43239,11 +43239,11 @@
  <D name="shared/asynciolib">
   <D name="shared/asynciolib/+asyncio">
    <C name="Channel.m"/>
-   <F name="CustomEventInfo.m"/>
-   <F name="DataEventInfo.m"/>
-   <F name="InputStream.m"/>
-   <F name="OutputStream.m"/>
-   <F name="Stream.m"/>
+   <C name="CustomEventInfo.m"/>
+   <C name="DataEventInfo.m"/>
+   <C name="InputStream.m"/>
+   <C name="OutputStream.m"/>
+   <C name="Stream.m"/>
   </D>
  </D>
  <D name="shared/can">
@@ -44735,14 +44735,14 @@
    <F name="Submenus.m"/>
    <F name="ToolBars.m"/>
    <F name="delayedCallback.m"/>
-   <F name="error.m"/>
+   <N name="error.m"/>
    <F name="getCallbackInfo.m"/>
    <F name="getCustomSchemas.m"/>
    <F name="getDefaultCallback.m"/>
    <F name="getMessageCatalogInfo.m"/>
    <F name="getMessagesFromCatalog.m"/>
    <F name="makeCallback.m"/>
-   <F name="message.m"/>
+   <N name="message.m"/>
    <F name="showNotImplementedDialog.m"/>
    <F name="slerror.m"/>
    <F name="warning.m"/>
@@ -46308,7 +46308,7 @@
      <D name="shared/multimedia/+multimedia/+internal/+audio/+file/private">
        <F name="mexPluginManager.mexmaci64"/>
       </D>
-      <F name="FrameSize.m"/>
+      <C name="FrameSize.m"/>
       <C name="PluginManager.m"/>
      </D>
     </D>
@@ -48695,7 +48695,7 @@
   <F name="filt2block.m"/>
   <F name="filternorm.m"/>
   <N name="filtfilt.m"/>
-  <F name="filtic.m"/>
+  <N name="filtic.m"/>
   <F name="filtord.m"/>
   <N name="findfreqvector.m"/>
   <F name="findpeaks.m"/>
@@ -48740,7 +48740,7 @@
   <F name="info.xml"/>
   <N name="interp.m"/>
   <N name="intfilt.m"/>
-  <F name="invfreqs.m"/>
+  <N name="invfreqs.m"/>
   <N name="invfreqz.m"/>
   <F name="is2rc.m"/>
   <F name="isallpass.m"/>
@@ -48823,7 +48823,7 @@
   <F name="residuez.m"/>
   <F name="risetime.m"/>
   <F name="rlevinson.m"/>
-  <F name="rms.m"/>
+  <N name="rms.m"/>
   <F name="rooteig.m"/>
   <F name="rootmusic.m"/>
   <F name="rssq.m"/>

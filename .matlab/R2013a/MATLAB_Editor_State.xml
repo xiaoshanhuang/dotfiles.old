@@ -60,10 +60,28 @@
    <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1375120012316" name="plotColorBar.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1377001229020" name="cmd.m">
+   <File absPath="/Users/hxs/Google Drive/Neuracle/Develop/EEG Test" lastWrittenTime="1377875256885" name="noisetest.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1377001229035" name="alignBCG.m">
+   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1377875261582" name="alignBCG.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1377875262571" name="cmd.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1378131292010" name="initFilter.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus" lastWrittenTime="1378186189136" name="make_circular_checkerboard_pattern.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus" lastWrittenTime="1378469768445" name="checkerboard_EEG_fMRI.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus" lastWrittenTime="1378469768473" name="audio.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus" lastWrittenTime="1378469768494" name="eyesopenclose.m">
       <CodeFolds version="1.0"/>
    </File>
 </Editor>
