@@ -1,0 +1,234 @@
+[2013-07-26 12:28:24,819] INFO: alfred_weather: Running command weather
+[2013-07-26 12:28:24,819] ERROR: alfred_weather: Error telling
+Traceback (most recent call last):
+  File "alfred_weather.py", line 807, in tell
+    items = globals()[cmd](query)
+  File "alfred_weather.py", line 704, in tell_weather
+    _load_settings()
+  File "alfred_weather.py", line 215, in _load_settings
+    'Use the "wset service" command.')
+SetupError: You need to set your weather service
+[2013-07-26 12:28:25,167] INFO: alfred_weather: Running command weather
+[2013-07-26 12:28:25,167] ERROR: alfred_weather: Error telling
+Traceback (most recent call last):
+  File "alfred_weather.py", line 807, in tell
+    items = globals()[cmd](query)
+  File "alfred_weather.py", line 704, in tell_weather
+    _load_settings()
+  File "alfred_weather.py", line 215, in _load_settings
+    'Use the "wset service" command.')
+SetupError: You need to set your weather service
+[2013-07-26 12:28:28,922] INFO: alfred_weather: Running command weather
+[2013-07-26 12:28:28,922] ERROR: alfred_weather: Error telling
+Traceback (most recent call last):
+  File "alfred_weather.py", line 807, in tell
+    items = globals()[cmd](query)
+  File "alfred_weather.py", line 704, in tell_weather
+    _load_settings()
+  File "alfred_weather.py", line 215, in _load_settings
+    'Use the "wset service" command.')
+SetupError: You need to set your weather service
+[2013-07-26 12:28:34,314] INFO: alfred_weather: Running command service
+[2013-07-26 12:28:37,904] ERROR: alfred_weather: Running command service with input "wund"
+None
+[2013-07-26 12:28:51,639] INFO: alfred_weather: Running command weather
+[2013-07-26 12:28:51,640] ERROR: alfred_weather: Error telling
+Traceback (most recent call last):
+  File "alfred_weather.py", line 807, in tell
+    items = globals()[cmd](query)
+  File "alfred_weather.py", line 704, in tell_weather
+    _load_settings()
+  File "alfred_weather.py", line 215, in _load_settings
+    'Use the "wset service" command.')
+SetupError: You need to set your weather service
+[2013-07-26 12:28:51,934] INFO: alfred_weather: Running command weather
+[2013-07-26 12:28:51,934] ERROR: alfred_weather: Error telling
+Traceback (most recent call last):
+  File "alfred_weather.py", line 807, in tell
+    items = globals()[cmd](query)
+  File "alfred_weather.py", line 704, in tell_weather
+    _load_settings()
+  File "alfred_weather.py", line 215, in _load_settings
+    'Use the "wset service" command.')
+SetupError: You need to set your weather service
+[2013-07-26 12:28:54,791] INFO: alfred_weather: Running command weather
+[2013-07-26 12:28:54,792] ERROR: alfred_weather: Error telling
+Traceback (most recent call last):
+  File "alfred_weather.py", line 807, in tell
+    items = globals()[cmd](query)
+  File "alfred_weather.py", line 704, in tell_weather
+    _load_settings()
+  File "alfred_weather.py", line 215, in _load_settings
+    'Use the "wset service" command.')
+SetupError: You need to set your weather service
+[2013-07-26 12:29:00,640] INFO: alfred_weather: Running command service
+[2013-07-26 12:29:00,935] INFO: alfred_weather: Running command service
+[2013-07-26 12:29:01,577] ERROR: alfred_weather: Running command service with input "wund"
+None
+[2013-07-26 12:29:10,290] INFO: alfred_weather: Running command service
+[2013-07-26 12:29:12,439] ERROR: alfred_weather: Running command service with input "fio"
+None
+[2013-07-26 12:29:46,478] INFO: alfred_weather: Running command weather
+[2013-07-26 12:29:46,478] ERROR: alfred_weather: Error telling
+Traceback (most recent call last):
+  File "alfred_weather.py", line 807, in tell
+    items = globals()[cmd](query)
+  File "alfred_weather.py", line 704, in tell_weather
+    _load_settings()
+  File "alfred_weather.py", line 215, in _load_settings
+    'Use the "wset service" command.')
+SetupError: You need to set your weather service
+[2013-07-26 12:29:50,114] INFO: alfred_weather: Running command service
+[2013-07-26 12:29:51,758] ERROR: alfred_weather: Running command service with input "fio"
+None
+[2013-07-26 12:29:58,629] INFO: alfred_weather: Running command weather
+[2013-07-26 12:29:58,629] ERROR: alfred_weather: Error telling
+Traceback (most recent call last):
+  File "alfred_weather.py", line 807, in tell
+    items = globals()[cmd](query)
+  File "alfred_weather.py", line 704, in tell_weather
+    _load_settings()
+  File "alfred_weather.py", line 221, in _load_settings
+    raise SetupError('Missing default location', 'You must specify a '
+SetupError: Missing default location
+[2013-07-26 12:29:58,927] INFO: alfred_weather: Running command weather
+[2013-07-26 12:29:58,927] ERROR: alfred_weather: Error telling
+Traceback (most recent call last):
+  File "alfred_weather.py", line 807, in tell
+    items = globals()[cmd](query)
+  File "alfred_weather.py", line 704, in tell_weather
+    _load_settings()
+  File "alfred_weather.py", line 221, in _load_settings
+    raise SetupError('Missing default location', 'You must specify a '
+SetupError: Missing default location
+[2013-07-26 12:30:02,980] INFO: alfred_weather: Running command weather
+[2013-07-26 12:30:02,981] ERROR: alfred_weather: Error telling
+Traceback (most recent call last):
+  File "alfred_weather.py", line 807, in tell
+    items = globals()[cmd](query)
+  File "alfred_weather.py", line 704, in tell_weather
+    _load_settings()
+  File "alfred_weather.py", line 221, in _load_settings
+    raise SetupError('Missing default location', 'You must specify a '
+SetupError: Missing default location
+[2013-07-26 12:30:10,266] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:10,266] DEBUG: alfred_weather: Getting location(s) with query "9"
+[2013-07-26 12:30:10,314] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:10,342] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=9 HTTP/1.1" 200 2712
+[2013-07-26 12:30:10,349] DEBUG: alfred_weather: Got 16 results
+[2013-07-26 12:30:10,644] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:10,644] DEBUG: alfred_weather: Getting location(s) with query "94"
+[2013-07-26 12:30:10,658] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:10,683] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=94 HTTP/1.1" 200 3584
+[2013-07-26 12:30:10,691] DEBUG: alfred_weather: Got 20 results
+[2013-07-26 12:30:10,987] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:10,987] DEBUG: alfred_weather: Getting location(s) with query "9410"
+[2013-07-26 12:30:11,001] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:11,030] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=9410 HTTP/1.1" 200 1473
+[2013-07-26 12:30:11,032] DEBUG: alfred_weather: Got 8 results
+[2013-07-26 12:30:11,330] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:11,330] DEBUG: alfred_weather: Getting location(s) with query "94102"
+[2013-07-26 12:30:11,344] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:11,373] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=94102 HTTP/1.1" 200 199
+[2013-07-26 12:30:11,375] DEBUG: alfred_weather: Got 1 results
+[2013-07-26 12:30:13,154] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:13,154] DEBUG: alfred_weather: Getting location(s) with query "9410"
+[2013-07-26 12:30:13,167] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:13,206] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=9410 HTTP/1.1" 200 1473
+[2013-07-26 12:30:13,208] DEBUG: alfred_weather: Got 8 results
+[2013-07-26 12:30:13,505] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:13,505] DEBUG: alfred_weather: Getting location(s) with query "94"
+[2013-07-26 12:30:13,519] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:13,578] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=94 HTTP/1.1" 200 3584
+[2013-07-26 12:30:13,589] DEBUG: alfred_weather: Got 20 results
+[2013-07-26 12:30:13,882] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:13,882] DEBUG: alfred_weather: Getting location(s) with query "9"
+[2013-07-26 12:30:13,896] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:13,916] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=9 HTTP/1.1" 200 2712
+[2013-07-26 12:30:13,917] DEBUG: alfred_weather: Got 16 results
+[2013-07-26 12:30:16,099] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:16,099] DEBUG: alfred_weather: Getting location(s) with query "S"
+[2013-07-26 12:30:16,113] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:16,146] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=S HTTP/1.1" 200 3376
+[2013-07-26 12:30:16,154] DEBUG: alfred_weather: Got 20 results
+[2013-07-26 12:30:16,451] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:16,451] DEBUG: alfred_weather: Getting location(s) with query "Sa"
+[2013-07-26 12:30:16,465] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:16,502] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=Sa HTTP/1.1" 200 3376
+[2013-07-26 12:30:16,512] DEBUG: alfred_weather: Got 20 results
+[2013-07-26 12:30:16,809] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:16,809] DEBUG: alfred_weather: Getting location(s) with query "San "
+[2013-07-26 12:30:16,822] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:16,851] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=San%20 HTTP/1.1" 200 3584
+[2013-07-26 12:30:16,890] DEBUG: alfred_weather: Got 20 results
+[2013-07-26 12:30:17,191] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:17,191] DEBUG: alfred_weather: Getting location(s) with query "San F"
+[2013-07-26 12:30:17,204] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:17,239] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=San%20F HTTP/1.1" 200 3733
+[2013-07-26 12:30:17,254] DEBUG: alfred_weather: Got 20 results
+[2013-07-26 12:30:17,550] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:17,550] DEBUG: alfred_weather: Getting location(s) with query "San Fran"
+[2013-07-26 12:30:17,564] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:17,590] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=San%20Fran HTTP/1.1" 200 3758
+[2013-07-26 12:30:17,600] DEBUG: alfred_weather: Got 20 results
+[2013-07-26 12:30:17,900] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:17,900] DEBUG: alfred_weather: Getting location(s) with query "San Francis"
+[2013-07-26 12:30:17,913] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:17,936] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=San%20Francis HTTP/1.1" 200 3766
+[2013-07-26 12:30:17,954] DEBUG: alfred_weather: Got 20 results
+[2013-07-26 12:30:18,257] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:18,257] DEBUG: alfred_weather: Getting location(s) with query "San Francisco "
+[2013-07-26 12:30:18,270] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:18,285] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=San%20Francisco%20 HTTP/1.1" 200 3766
+[2013-07-26 12:30:18,301] DEBUG: alfred_weather: Got 20 results
+[2013-07-26 12:30:18,755] INFO: alfred_weather: Running command location
+[2013-07-26 12:30:18,755] DEBUG: alfred_weather: Getting location(s) with query "San Francisco"
+[2013-07-26 12:30:18,769] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): autocomplete.wunderground.com
+[2013-07-26 12:30:18,787] DEBUG: requests.packages.urllib3.connectionpool: "GET /aq?query=San%20Francisco HTTP/1.1" 200 3766
+[2013-07-26 12:30:18,789] DEBUG: alfred_weather: Got 20 results
+[2013-07-26 12:30:18,977] ERROR: alfred_weather: Running command location with input "San Francisco, California"
+None
+[2013-07-26 12:30:18,991] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): maps.googleapis.com
+[2013-07-26 12:30:19,455] DEBUG: requests.packages.urllib3.connectionpool: "GET /maps/api/geocode/json?sensor=false&address=San+Francisco%2C+California HTTP/1.1" 200 None
+[2013-07-26 12:30:19,456] INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): maps.googleapis.com
+[2013-07-26 12:30:19,629] DEBUG: requests.packages.urllib3.connectionpool: "GET /maps/api/timezone/json?timestamp=1374867019&sensor=false&location=37.7749295%2C-122.4194155 HTTP/1.1" 200 None
+[2013-07-26 12:30:24,679] INFO: alfred_weather: Running command weather
+[2013-07-26 12:30:24,692] INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): api.forecast.io
+[2013-07-26 12:30:26,325] DEBUG: requests.packages.urllib3.connectionpool: "GET /forecast/e12774f010be72f0accc9bec3f1af21a/37.7749295,-122.4194155?units=us HTTP/1.1" 200 None
+[2013-07-26 12:30:26,645] INFO: alfred_weather: Running command weather
+[2013-07-26 12:30:30,489] INFO: alfred_weather: Running command weather
+[2013-07-26 12:30:31,417] INFO: alfred_weather: Running command weather
+[2013-07-26 12:30:46,035] INFO: alfred_weather: Running command weather
+[2013-07-26 12:30:52,930] INFO: alfred_weather: Running command time_format
+[2013-07-26 12:30:57,841] INFO: alfred_weather: Running command time_format
+[2013-07-26 12:31:10,302] INFO: alfred_weather: Running command weather
+[2013-07-26 12:31:13,093] INFO: alfred_weather: Running command weather
+[2013-07-26 12:31:15,167] INFO: alfred_weather: Running command weather
+[2013-07-26 12:31:15,181] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): maps.googleapis.com
+[2013-07-26 12:31:15,314] DEBUG: requests.packages.urllib3.connectionpool: "GET /maps/api/geocode/json?sensor=false&address=s HTTP/1.1" 200 None
+[2013-07-26 12:31:15,316] INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): maps.googleapis.com
+[2013-07-26 12:31:15,484] DEBUG: requests.packages.urllib3.connectionpool: "GET /maps/api/timezone/json?timestamp=1374867075&sensor=false&location=-25.2529539%2C-64.7162415 HTTP/1.1" 200 None
+[2013-07-26 12:31:15,488] INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): api.forecast.io
+[2013-07-26 12:31:16,567] DEBUG: requests.packages.urllib3.connectionpool: "GET /forecast/e12774f010be72f0accc9bec3f1af21a/-25.2529539,-64.7162415?units=us HTTP/1.1" 200 None
+[2013-07-26 12:31:16,894] INFO: alfred_weather: Running command weather
+[2013-07-26 12:31:16,909] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): maps.googleapis.com
+[2013-07-26 12:31:17,053] DEBUG: requests.packages.urllib3.connectionpool: "GET /maps/api/geocode/json?sensor=false&address=palo HTTP/1.1" 200 None
+[2013-07-26 12:31:17,054] INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): maps.googleapis.com
+[2013-07-26 12:31:17,221] DEBUG: requests.packages.urllib3.connectionpool: "GET /maps/api/timezone/json?timestamp=1374867077&sensor=false&location=42.0660485%2C-91.7961118 HTTP/1.1" 200 None
+[2013-07-26 12:31:17,230] INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): api.forecast.io
+[2013-07-26 12:31:18,215] DEBUG: requests.packages.urllib3.connectionpool: "GET /forecast/e12774f010be72f0accc9bec3f1af21a/42.0660485,-91.7961118?units=us HTTP/1.1" 200 None
+[2013-07-26 12:31:18,552] INFO: alfred_weather: Running command weather
+[2013-07-26 12:31:18,567] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): maps.googleapis.com
+[2013-07-26 12:31:18,699] DEBUG: requests.packages.urllib3.connectionpool: "GET /maps/api/geocode/json?sensor=false&address=paloalt HTTP/1.1" 200 None
+[2013-07-26 12:31:18,701] INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): maps.googleapis.com
+[2013-07-26 12:31:18,865] DEBUG: requests.packages.urllib3.connectionpool: "GET /maps/api/timezone/json?timestamp=1374867078&sensor=false&location=37.4418834%2C-122.1430195 HTTP/1.1" 200 None
+[2013-07-26 12:31:18,876] INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): api.forecast.io
+[2013-07-26 12:31:19,955] DEBUG: requests.packages.urllib3.connectionpool: "GET /forecast/e12774f010be72f0accc9bec3f1af21a/37.4418834,-122.1430195?units=us HTTP/1.1" 200 None
+[2013-07-26 12:31:20,307] INFO: alfred_weather: Running command weather
+[2013-07-26 12:31:20,320] INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): maps.googleapis.com
+[2013-07-26 12:31:20,456] DEBUG: requests.packages.urllib3.connectionpool: "GET /maps/api/geocode/json?sensor=false&address=palo+alto HTTP/1.1" 200 None
+[2013-07-26 12:31:20,458] INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): maps.googleapis.com
+[2013-07-26 12:31:20,622] DEBUG: requests.packages.urllib3.connectionpool: "GET /maps/api/timezone/json?timestamp=1374867080&sensor=false&location=37.4418834%2C-122.1430195 HTTP/1.1" 200 None
+[2013-07-26 12:31:51,668] INFO: alfred_weather: Running command units
+[2013-07-26 12:31:54,424] ERROR: alfred_weather: Running command units with input "si"
+None

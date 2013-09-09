@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>E414B04A-6528-4BA9-BC49-01DC3CACFEFB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>92FEFAB9-FEF2-4F1E-9771-747ABEB4D72A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Xiaoshan Huang</string>
+	<key>description</key>
+	<string>launch goagent in terminal</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>goagent</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>python ~/Source/goagent/local/proxy.py</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>92FEFAB9-FEF2-4F1E-9771-747ABEB4D72A</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>goagent</string>
+				<key>text</key>
+				<string>Launch goagent</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>E414B04A-6528-4BA9-BC49-01DC3CACFEFB</string>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>92FEFAB9-FEF2-4F1E-9771-747ABEB4D72A</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>E414B04A-6528-4BA9-BC49-01DC3CACFEFB</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
