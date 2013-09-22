@@ -1,5 +1,9 @@
 #MATLAB Preferences
+<<<<<<< HEAD
 #Fri Sep 13 17:30:31 CST 2013
+=======
+#Sun Sep 22 15:39:06 CST 2013
+>>>>>>> d5617692df42d65a74d8cf612e242c95f04c26df
 Editor.VariableHighlighting.Color=C-13289345
 ReplaceSearchText19=Stime0
 ReplaceSearchText18=SGHW
@@ -14,7 +18,7 @@ GeneralNumDisplay=Sloose
 ReplaceSearchText12=SK
 ReplaceSearchText11=Stc
 ReplaceSearchText10=Sssd
-DeploytoolrecentProjects=S/Users/hxs/Documents/MATLAB/test.prj
+DeploytoolrecentProjects=S/Users/hxs/Google Drive/Neuracle/Develop/EEG Recorder/Filter/Filter.prj;/Users/hxs/Documents/MATLAB/test.prj
 ReplaceSearchText=Spop_erpimage
 ColorsText=C-7171190
 Colors_M_SystemCommands=C-88
@@ -36,6 +40,7 @@ GeneralUseToolboxCache=Btrue
 Desktop.Font.Code=F0 13 Monospaced
 CommandWindowClearConfirmation=Btrue
 FindFilesLookinList2=S
+PathBrowserBounds=R880 302 800 488
 GeneralNumFormat2=Sshort
 InspectorWindowBounds=R0 22 250 500
 mlint-configurations-list=S/Users/hxs/.matlab/R2013a/MLintDefaultSettings.txt
@@ -79,7 +84,7 @@ ReplaceText3=S
 ReplaceSearchText3=SnPoints
 ReplaceText2=S
 ReplaceSearchText2=SnPnts
-DeploytoollastOpenFile=S/Users/hxs/Documents/MATLAB/test.prj
+DeploytoollastOpenFile=S/Users/hxs/Google Drive/Neuracle/Develop/EEG Recorder/Filter/Filter.prj
 ColorsUseSystem=Bfalse
 RLHiddenB2_WB_2006b_1=I16184
 FindFilesWindowSize=R0 0 853 470
@@ -88,7 +93,7 @@ ColorsMLintAutoFixBackground=C-10079488
 HtmlComponent.BrowserProperties=SJxBrowser.BrowserType=Mozilla15
 DelimiterOptionsMoving=Btrue
 DelimiterOptionsMovingMisMatchType=I5
-DocumentsDetailViewerRatio=J4635097910529788802
+DocumentsDetailViewerRatio=J4635792781523052258
 DocumentsDetailViewerCollapsed=Bfalse
 Desktop.Font.Text=F0 13 Lucida Grande
 ReplaceText=S
@@ -98,6 +103,7 @@ RLWidthB2_WB_2006b_1_1=I130
 RLWidthB2_WB_2006b_1_0=I130
 RLPrevInitB2_WB_2006b_1=Btrue
 DelimiterOptionsTyping=Btrue
+<<<<<<< HEAD
 EditorMRU8=S/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus/audio.m
 EditorMRU7=S/Applications/Psychtoolbox/PsychDemos/PsychExampleExperiments/OldNewRecognition/OldNewRecogExp.m
 EditorMRU6=S/Applications/Psychtoolbox/PsychDemos/SadowskiDemo.m
@@ -108,6 +114,18 @@ Colors_M_Errors=C-175026
 EditorMRU3=S/Applications/Psychtoolbox/PsychDemos/BasicSoundScheduleDemo.m
 EditorMRU2=S/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus/eyesopenclose.m
 EditorMRU1=S/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/fftplot.m
+=======
+EditorMRU8=S/Users/hxs/Research/Analysis/hxs_matlab/cca.m
+EditorMRU7=S/Users/hxs/Desktop/3/main_SSVEP.m
+EditorMRU6=S/Users/hxs/Downloads/pack_BSS_puredelay/BSS_puredelay_ALSVDM.m
+EditorMRU5=S/Users/hxs/Documents/MATLAB/eeglab/plugins/firfilt1.5.4/firws.m
+EditorMRU4=S/Users/hxs/Research/Analysis/hxs_matlab/bcgRemoval.m
+Colors_M_UnterminatedStrings=C-241156
+Colors_M_Errors=C-175026
+EditorMRU3=S/Users/hxs/Research/Analysis/hxs_matlab/bcgRefLayer.m
+EditorMRU2=S/Users/hxs/Research/Analysis/hxs_matlab/microstateEEG.m
+EditorMRU1=S/Users/hxs/Research/Analysis/hxs_matlab/fftplot.m
+>>>>>>> d5617692df42d65a74d8cf612e242c95f04c26df
 RLOrderB2_WB_2006b_1=S0:1:2:3:
 ColorsBackground=C-14868967
 Colors_M_Keywords=C-8012034
