@@ -1,290 +1,5 @@
 %-- Unknown date --%
-)))
-length((actPnts(i)+range(1)):(actPnts(i)+range(2)))
-plot(mean(pntResp,1))
-plot(spm_hrf)
-plot(spm_hrf(10))
-plot(spm_hrf(12))
-plot(spm_hrf(20))
-plot(spm_hrf(2))
-plot(spm_hrf(2.04))
-plot((0:15)*2.04,spm_hrf(2.04))
-help spm_hrf
-plot(glover_hrf(0:2.04:15, [1 0.35 0.9 0.9 6 12]))
-plot(glover_hrf(0:0.1:15, [1 0.35 0.9 0.9 6 12]))
-plot(0:0.1:15, glover_hrf(0:0.1:15, [1 0.35 0.9 0.9 6 12]))
-plot(0:0.1:15, glover_hrf(0:0.1:15, [1 0.4 1.1 0.9 5 12]))
-plot(0:0.1:20, glover_hrf(0:0.1:15, [1 0.4 1.1 0.9 5 12]))
-plot(0:0.1:20, glover_hrf(0:0.1:20, [1 0.4 1.1 0.9 5 12]))
-t = 0:2.04:(2.04*15); plot(t, glover_hrf(t, [1 0.35 0.9 0.9 6 12]))
-t = 0:2.04:(2.04*10); plot(t, glover_hrf(t, [1 0.35 0.9 0.9 6 12]))
-t = 0:2.04:(2.04*10); myfigure, plot(t, glover_hrf(t, [1 0.35 0.9 0.9 6 12]))
-help errorbar
-help std
-actEEG = EEG.data(actPnts:(actPnts+510));
-actPnts
-actPnts:(actPnts+2)
-actPnts':(actPnts'+2)
-help epoch
-myfigure, plot(zscore(roi_tc)), hold on; plot(point_porcess, ones(size(point_porcess)), 'ro')
-actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510])
-actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200, [25 1]);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200);
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-[wts,sph] = binica( actEEG(:,:), 'pca', 20);
-delete bias* binica* temp*
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-winv = pinv(wts*sph);
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
-myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
-actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
-[wts,sph] = binica( actEEG(:,:), 'pca', 20);
-winv = pinv(wts*sph);
-myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200);
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 4, 200);
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-myfigure, for i = 1:4, subplot(1,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 4, 200, [25 1]);
-plot(L)
-myfigure, for i = 1:4, subplot(1,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-%-- 7/1/13 12:10 PM --%
-eeglab
-bcgTemp = eeg_getica(EEG,5);
-peakLoc = peakfinder(zscore(bcgTemp),5);
-plot(diff(peakLoc))
-peakLoc = peakfinder(zscore(bcgTemp),4);
-plot(diff(peakLoc))
-peakLoc = peakfinder(zscore(bcgTemp),4.5);
-plot(diff(peakLoc))
-peakLoc = peakfinder(zscore(bcgTemp),4.4);
-plot(diff(peakLoc))
-peakLoc = peakfinder(zscore(bcgTemp),4.45);
-plot(diff(peakLoc))
-peakLoc = peakfinder(zscore(bcgTemp),4.46);
-plot(diff(peakLoc))
-peakLoc = peakfinder(zscore(bcgTemp),4.47);
-plot(diff(peakLoc))
-plot(bcgTemp), hold on; plot(peakLoc(530:535), bcgTemp(peakLoc(530:535)), 'ro')
-plot(bcgTemp), hold on; plot(peakLoc(529:535), bcgTemp(peakLoc(530:535)), 'ro')
-p = 529:535; plot(bcgTemp), hold on; plot(peakLoc(p), bcgTemp(peakLoc(p)), 'ro')
-p = 525:535; plot(bcgTemp), hold on; plot(peakLoc(p), bcgTemp(peakLoc(p)), 'ro')
-529:532
-p = 808:812; plot(bcgTemp), hold on; plot(peakLoc(p), bcgTemp(peakLoc(p)), 'ro')
-peakLoc([529:532 811]) = [];
-plot(diff(peakLoc))
-for i = 1:length(peakLoc), EEG.event(end+1) = struct('type', 'bcg', 'latency', peakLoc(i)-50, 'urevent', [], 'duration', []); end;
-[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
-[ EEG, bcgTemp, bcgTempEpoch ] = bcgRemoval( EEG, 'bcg', 'obs-ac', 4 );
-EEG.setname = [EEG.setname '_bcg_ac'];
-[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
-fnii = '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ql041913_1/swCovRegressed_4DVolume.nii';
-masknii = '/Users/hxs/Documents/Study/Research/Analysis/PCC_ROI_By_Jingyuan/PCC_10mm_61x73x61.nii';
-roi_tc = extract_roi( fnii, masknii );
-plot(roi_tc)
-fnii = '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWSF/ql041913_1/Filtered_4DVolume.nii';
-roi_tc = extract_roi( fnii, masknii );
-plot(roi_tc)
-actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 4, 200);
-myfigure, for i = 1:4, subplot(1,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-delete bias* binica* temp*
-help ssd
-help SNM
-actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 4, 200);
-myfigure, for i = 1:4, subplot(1,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200);
-myfigure, for i = 1:4, subplot(1,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200);
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 20, 200);
-myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-[wts,sph] = binica( actEEG(:,:), 'pca', 20);
-winv = pinv(wts*sph);
-myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
-fftplot(wts(4,:)*sph*actEEG)
-fftplot(wts(4,:)*sph*actEEG, EEG.srate, [0.5 50])
-fftplot(wts(4,:)*sph*actEEG(:,:), EEG.srate, [0.5 50])
-[Pxx,F] = pwelch(wts(4,:)*sph*actEEG(:,:),[],[],[],EEG.srate); myfigure, plot(F, Pxx), xlim([0.5 20]), ylim([0 100]), xlabel('Frequency (Hz)'), ylabel('Power Spectrum'), grid on
-[Pxx,F] = pwelch(wts(4,:)*sph*actEEG(:,:),[],[],[],EEG.srate); myfigure, plot(F, Pxx), , xlabel('Frequency (Hz)'), ylabel('Power Spectrum'), grid on
-[Pxx,F] = pwelch(wts(4,:)*sph*actEEG(:,:),[],[],[],EEG.srate); myfigure, plot(F, Pxx), xlim([0.5 20]),  xlabel('Frequency (Hz)'), ylabel('Power Spectrum'), grid on
-help pwelch
-spectopo(temp, EEG.pnts, EEG.srate, 'freqrange', [0.5 30]);
-spectopo(actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-spectopo(wts(4,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-spectopo(wts(4,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 20]);
-spectopo(wts(4,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
-spectopo(wts(1,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-spectopo(wts(2,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-spectopo(wts(3,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-spectopo(wts(4,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-spectopo(wts(5,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-spectopo(wts(6,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200);
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-EEG = pop_epoch( EEG, {'bcg'}, [-0.4 0.8], 'newname', [EEG.setname '_bcg']);
-[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
-bcg = EEG.data;
-bcg = mean(EEG.data,3);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200, [], [], bcg);
-bcg = double(mean(EEG.data,3));
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200, [], [], bcg);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200);
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
-help SNM
-[A,S,z] = SNM(sig, noise, [], 20);
-sig = actEEG;
-noise = EEG.data;
-sig = actEEG(:,:);
-[A,S,z] = SNM(sig, noise, [], 20);
-myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
-myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(S(i,:)), EEG.chanlocs); end;
-help plotdata
-plotdata(actEEG)
-plotdata(actEEG(:,:))
-plot(actEEG(126,:))
-spectopo(actEEG(126,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-[Pxx,F] = pwelch(actEEG(126,:),[],[],[],EEG.srate); myfigure, plot(F, Pxx), xlim([0.5 20]),  xlabel('Frequency (Hz)'), ylabel('Power Spectrum'), grid on
-[Pxx,F] = pwelch(EEG.data(126,:),[],[],[],EEG.srate); myfigure, plot(F, Pxx), xlim([0.5 20]),  xlabel('Frequency (Hz)'), ylabel('Power Spectrum'), grid on
-[Pxx,F] = pwelch(actEEG(20,:),[],[],[],EEG.srate); myfigure, plot(F, Pxx), xlim([0.5 20]),  xlabel('Frequency (Hz)'), ylabel('Power Spectrum'), grid on
-[Pxx,F] = pwelch(EEG.data(20,:),[],[],[],EEG.srate); myfigure, plot(F, Pxx), xlim([0.5 20]),  xlabel('Frequency (Hz)'), ylabel('Power Spectrum'), grid on
-%-- 7/1/13 1:23 PM --%
-eeglab
-EEG = add_slice_trigger( EEG, 'TREV', 30 );
-2
-[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
-help pop_selectevent
-[EEGTARGETS,target_indices] = pop_selectevent(EEG,'type',{'Slice'});
-EEG.event(target_indices) = [];
-[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
-eeglab redraw
-[EEGTARGETS,target_indices] = pop_selectevent(EEG,'type',{'TREV'});
-EEG = pop_select(EEG, 'point', [EEG.event(target_indices(4)).latency EEG.event(target_indices(350)).latency+510]);
-[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
-bcgTemp = eeg_getica(EEG,5);
-peakLoc = peakfinder(zscore(bcgTemp),4.47);
-plot(diff(peakLoc))
-peakLoc = peakfinder(zscore(bcgTemp),5);
-plot(diff(peakLoc))
-peakLoc = peakfinder(zscore(bcgTemp),6);
-plot(diff(peakLoc))
-peakLoc = peakfinder(zscore(bcgTemp),5);
-plot(diff(peakLoc))
-bcgTemp = eeg_getica(EEG,6);
-peakLoc = peakfinder(zscore(bcgTemp),5);
-bcgTemp = eeg_getica(EEG,6);
-peakLoc = peakfinder(zscore(bcgTemp),5);
-plot(diff(peakLoc))
-peakLoc = peakfinder(zscore(bcgTemp),5.2);
-plot(diff(peakLoc))
-peakLoc = peakfinder(zscore(bcgTemp),5.1);
-plot(diff(peakLoc))
-peakLoc = peakfinder(zscore(bcgTemp),5.12);
-plot(diff(peakLoc))
-for i = 1:length(peakLoc), EEG.event(end+1) = struct('type', 'bcg', 'latency', peakLoc(i)-50, 'urevent', [], 'duration', []); end;
-[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
-eeglab redraw
-[ EEG, bcgTemp, bcgTempEpoch ] = bcgRemoval( EEG, 'bcg', 'obs-ac', 4 );
-EEG.setname = [EEG.setname '_obs_ac'];
-[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
-eeglab redraw
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200);
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-fnii = '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWSF/xh032013/Filtered_4DVolume.nii';
-masknii = '/Users/hxs/Documents/Study/Research/Analysis/PCC_ROI_By_Jingyuan/PCC_10mm_61x73x61.nii';
-roi_tc = extract_roi( fnii, masknii );
-actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG, 8, 200);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200);
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200);
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
-actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
-[wts,sph] = binica( actEEG(:,:), 'pca', 20);
-winv = pinv(wts*sph);
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
-myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
-spectopo(wts(8,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-alpha_hrf = mapstd(decimate(conv(abs(hilbert(eeg_getica(EEG,16))), spm_hrf(1/EEG.srate)), EEG.srate*TR, 'FIR'));
-alpha_hrf = mapstd(decimate(conv(abs(hilbert(double(eeg_getica(EEG,16)))), spm_hrf(1/EEG.srate)), EEG.srate*TR, 'FIR'));
-plot(alpha_hrf)
-plot(roi_tc)
-t = 1:347; plot([roi_tc(t); alpha_hrf(t)])
-t = 1:347; plot(t, [roi_tc(t); alpha_hrf(t)])
-t = 1:347; plot(t, mapstd([roi_tc(t); alpha_hrf(t)]))
-t = 1:347; plot(t, mapstd([roi_tc(t); -alpha_hrf(t)]))
-t = 1:347; plot(t, mapstd([roi_tc(t); alpha_hrf(t)]))
-spectopo(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-spectopo(EEG.icaweights(16,:)*EEG.icasphere*EEG.data(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-spectopo(EEG.icaweights(16,:)*EEG.icasphere*EEG.data, 510, EEG.srate, 'freqrange', [0.5 30]);
-spectopo(EEG.icaweights(16,:)*EEG.icasphere*EEG.data, [], EEG.srate, 'freqrange', [0.5 30]);
-spectopo(EEG.icaweights(16,:)*EEG.icasphere*EEG.data, EEG.pnts, EEG.srate, 'freqrange', [0.5 30]);
-myfigure
-spectopo(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-EEG = pop_epoch( EEG, {'TREV'}, [0 2.04], 'newname', [EEG.setname '_TR']);
-trEEG = epoch(EEG.data, 1:510:510*347, [0 510]);
-actPnts = find(diff(sign(zscore(roi_tc)-1))>0)-1;
-actEEG = trEEG(:,:,actPnts);
-deactEEG = trEEG;
-deactEEG(:,:,actPnts) = [];
-spectopo([EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:); EEG.icaweights(16,:)*EEG.icasphere*deactEEG(:,:)], 510, EEG.srate, 'freqrange', [0.5 30]);
-spectopo(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-myfigure,
-spectopo(EEG.icaweights(16,:)*EEG.icasphere*deactEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-[A,S,z] = SNM(actEEG(:,:), deactEEG(:,:), [], 20);
-myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
-plot(hilbert(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:)))
-plot(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:))))
-plot(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:))
-clear actEEG
-clear deactEEG
-actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
-trEEG = epoch(EEG.data, 1:510:510*347, [0 510]);
-actEEG = trEEG(:,:,actPnts);
-deactEEG = trEEG;
-deactEEG(:,:,actPnts) = [];
-plot(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:))))
-mean(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:))))
-mean(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*deactEEG(:,:))))
-mean(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*EEG.data(:,:))))
-trEEG = epoch(EEG.data, 1:510:510*347, [0 510]);
-actEEG = trEEG(:,:,actPnts);
-deactEEG = trEEG;
-deactEEG(:,:,actPnts) = [];
-mean(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*deactEEG(:,:))))
-mean(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:))))
-delete bias* binica* temp*
-mean(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:))))
-[wts,sph] = binica( actEEG(:,:), 'pca', 20);
-winv = pinv(wts*sph);
-myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
-[wts,sph] = binica( deactEEG(:,:), 'pca', 20);
-winv = pinv(wts*sph);
-myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
-mean(abs(hilbert(wts(8,:)*sph*deactEEG(:,:))))
-[wts,sph] = binica( actEEG(:,:), 'pca', 20);
-winv = pinv(wts*sph);
-myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
-mean(abs(hilbert(wts(7,:)*sph*actEEG(:,:))))
-spectopo(wts(8,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-spectopo(wts(7,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-[wts,sph] = binica( deactEEG(:,:), 'pca', 20);
-myfigure,
-spectopo(wts(8,:)*sph*deactEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
-fftplot(wts(8,:)*sph*deactEEG(:,:), EEG.srate, [0.5 30])
-[wts,sph] = binica( actEEG(:,:), 'pca', 20);
-fftplot(wts(7,:)*sph*actEEG(:,:), EEG.srate, [0.5 30])
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(deactEEG(:,:), 8, 200);
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(gamma(:,i)), EEG.chanlocs); end;
-myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+mma(:,i)), EEG.chanlocs); end;
 delete bias* binica* temp*
 plot(mean(bcgTempEpoch(128,:,:)))
 plot(mean(bcgTempEpoch(128,:,:),3))
@@ -3939,3 +3654,663 @@ corr(ALLEEG(2).data(31,:)', ALLEEG(15).data')
 %-- 9/6/13 6:31 PM --%
 %-- 9/6/13 6:42 PM --%
 eeglab
+%-- 9/9/13 5:00 PM --%
+%-- 9/10/13 9:59 AM --%
+eeglab
+%-- 9/10/13 11:33 AM --%
+help eegfilt
+eeglab
+help eegfilt
+b
+filtord
+1650/fs
+1650/250
+help filter
+fda
+fdatool
+help butter
+srate = 1000;
+locutoff = 0.5;
+hicutoff = 40;
+revfilt = 0;
+b = initFilter( srate,locutoff,hicutoff,revfilt );
+help freqz
+b = initFilter( srate,locutoff,hicutoff,revfilt );
+b = initFilter( srate,1,40,revfilt );
+b = initFilter( srate,1,0,revfilt );
+b = initFilter( srate,1,40,revfilt );
+b = initFilter( srate,48,52,revfilt );
+b = initFilter( srate,48,52,1 );
+b = initFilter( srate,45,55,1 );
+coder
+help firws
+coder
+%-- 9/11/13 2:47 PM --%
+fftplot
+help cca
+fftplot(data,1000,[2 20])
+help fftplot
+fftplot(data',1000,[2 20])
+data(7,:) = [];
+fftplot(data',1000,[2 20])
+fftplot(data([1 5],1000:6000),1000,[2 20])
+fftplot(data([1 5],1000:6000)',1000,[2 20])
+fftplot(data([1 5],1001:6000)',1000,[2 20])
+fftplot(data([1 5],1000:10000)',1000,[2 20])
+%-- 9/13/13 12:48 PM --%
+b = -0.000531278185761776
+-0.00103612808899959
+-0.00148230007738506
+-0.00184080771142701
+-0.00208779787211216
+-0.00220612343287767
+-0.00218651568516949
+-0.00202827743722869
+-0.00173944668518485
+-0.0013364132625552
+-0.000843004924219559
+-0.000289092806600729
+0.000291202973072257
+0.000861600621077334
+0.00138591005005725
+0.00183031330306765
+0.00216552929388326
+0.00236872532560028
+0.00242505171247622
+0.00232869762658664
+0.0020833947741732
+0.00170232899512191
+0.00120745635568457
+0.000628257537130992
+-3.11843447284118E-18
+-0.000638390723213756
+-0.00124672322904017
+-0.00178605009324266
+-0.00222113988320944
+-0.00252275576213552
+-0.00266959474230575
+-0.00264976053372235
+-0.00246167005202114
+-0.00211432743630229
+-0.00162693788484981
+-0.00102787442514489
+-0.000353051392131855
+0.000356203636704467
+0.00105565481501368
+0.00170088960688843
+0.00225010993221161
+0.0026668092230229
+0.00292216582223587
+0.0029969978710791
+0.0028831494424406
+0.00258421082565714
+0.00211551564442334
+0.00150340154090137
+0.00078376682850005
+-3.11843447284118E-18
+-0.000799600501803076
+-0.00156476486910143
+-0.00224637228222272
+-0.00279956172779523
+-0.00318663885743435
+-0.00337959334398281
+-0.00336206175246492
+-0.00313060213137471
+-0.00269518662209961
+-0.00207886507508586
+-0.00131660319625302
+-0.000453350083078405
+0.000458561003573565
+0.00136253121472697
+0.00220115125597327
+0.00291978550727458
+0.00347006501309004
+0.00381307003633217
+0.00392199721400474
+0.00378413364320328
+0.00340199906162459
+0.00279356553045646
+0.00199151892431091
+0.00104158486419084
+-3.11843447284118E-18
+-0.00106973580646628
+-0.00210064324893069
+-0.0030263626579945
+-0.00378532289955412
+-0.0043247241636609
+-0.00460408368600557
+-0.00459811386734173
+-0.00429873725502199
+-0.0037160906456222
+-0.0028784285655035
+-0.00183090131978936
+-0.00063325090969683
+0.000643464634046785
+0.00192094564699211
+0.0031182976126288
+0.00415698275611975
+0.00496578269114609
+0.00548546917507434
+0.00567288882739972
+0.00550419439011387
+0.00497699862719153
+0.00411128512029442
+0.00294897994561423
+0.00155216567997068
+-3.11843447284118E-18
+-0.00161551938119398
+-0.00319472827441541
+-0.00463613002926817
+-0.00584256360583353
+-0.00672734869902806
+-0.00722004032578146
+-0.00727143588323808
+-0.00685750943063032
+-0.00598199957587962
+-0.00467744641894319
+-0.00300455601196201
+-0.00104986335028684
+0.00107823803542973
+0.00325493567962552
+0.0053456530502208
+0.00721358772385484
+0.00872773927534768
+0.00977099196810117
+0.0102477991720769
+0.0100910230485421
+0.00926751468511526
+0.00778207540627158
+0.00567951693229407
+0.00304463267994249
+-3.11843447284118E-18
+-0.00329835206993769
+-0.00666725900747565
+-0.00990445960798201
+-0.0127979964699211
+-0.0151365345728131
+-0.0167200933860202
+-0.0173706523877354
+-0.0169420821227337
+-0.0153288739131916
+-0.0124731904505152
+-0.00836983460475134
+-0.0030688313316077
+0.00332456727590834
+0.0106525167696835
+0.0187097856757728
+0.0272513314012294
+0.0360019245108092
+0.0446673918541768
+0.052946962389064
+0.0605461382912526
+0.0671894814670856
+0.0726327037918681
+0.07667347858597
+0.0791604496785047
+0.08
+0.0791604496785047
+0.07667347858597
+0.0726327037918681
+0.0671894814670856
+0.0605461382912526
+0.052946962389064
+0.0446673918541768
+0.0360019245108092
+0.0272513314012294
+0.0187097856757728
+0.0106525167696835
+0.00332456727590834
+-0.0030688313316077
+-0.00836983460475134
+-0.0124731904505152
+-0.0153288739131916
+-0.0169420821227337
+-0.0173706523877354
+-0.0167200933860202
+-0.0151365345728131
+-0.0127979964699211
+-0.00990445960798201
+-0.00666725900747565
+-0.00329835206993769
+-3.11843447284118E-18
+0.00304463267994249
+0.00567951693229407
+0.00778207540627158
+0.00926751468511526
+0.0100910230485421
+0.0102477991720769
+0.00977099196810117
+0.00872773927534768
+0.00721358772385484
+0.0053456530502208
+0.00325493567962552
+0.00107823803542973
+-0.00104986335028684
+-0.00300455601196201
+-0.00467744641894319
+-0.00598199957587962
+-0.00685750943063032
+-0.00727143588323808
+-0.00722004032578146
+-0.00672734869902806
+-0.00584256360583353
+-0.00463613002926817
+-0.00319472827441541
+-0.00161551938119398
+-3.11843447284118E-18
+0.00155216567997068
+0.00294897994561423
+0.00411128512029442
+0.00497699862719153
+0.00550419439011387
+0.00567288882739972
+0.00548546917507434
+0.00496578269114609
+0.00415698275611975
+0.0031182976126288
+0.00192094564699211
+0.000643464634046785
+-0.00063325090969683
+-0.00183090131978936
+-0.0028784285655035
+-0.0037160906456222
+-0.00429873725502199
+-0.00459811386734173
+-0.00460408368600557
+-0.0043247241636609
+-0.00378532289955412
+-0.0030263626579945
+-0.00210064324893069
+-0.00106973580646628
+-3.11843447284118E-18
+0.00104158486419084
+0.00199151892431091
+0.00279356553045646
+0.00340199906162459
+0.00378413364320328
+0.00392199721400474
+0.00381307003633217
+0.00347006501309004
+0.00291978550727458
+0.00220115125597327
+0.00136253121472697
+0.000458561003573565
+-0.000453350083078405
+-0.00131660319625302
+-0.00207886507508586
+-0.00269518662209961
+-0.00313060213137471
+-0.00336206175246492
+-0.00337959334398281
+-0.00318663885743435
+-0.00279956172779523
+-0.00224637228222272
+-0.00156476486910143
+-0.000799600501803076
+-3.11843447284118E-18
+0.00078376682850005
+0.00150340154090137
+0.00211551564442334
+0.00258421082565714
+0.0028831494424406
+0.0029969978710791
+0.00292216582223587
+0.0026668092230229
+0.00225010993221161
+0.00170088960688843
+0.00105565481501368
+0.000356203636704467
+-0.000353051392131855
+-0.00102787442514489
+-0.00162693788484981
+-0.00211432743630229
+-0.00246167005202114
+-0.00264976053372235
+-0.00266959474230575
+-0.00252275576213552
+-0.00222113988320944
+-0.00178605009324266
+-0.00124672322904017
+-0.000638390723213756
+-3.11843447284118E-18
+0.000628257537130992
+0.00120745635568457
+0.00170232899512191
+0.0020833947741732
+0.00232869762658664
+0.00242505171247622
+0.00236872532560028
+0.00216552929388326
+0.00183031330306765
+0.00138591005005725
+0.000861600621077334
+0.000291202973072257
+-0.000289092806600729
+-0.0;
+b
+help freqz
+freqz(b,1,1000)
+-0.000799600501803076
+-0.00156476486910143
+-0.00224637228222272
+-0.00279956172779523
+-0.00318663885743435
+-0.00337959334398281
+-0.00336206175246492
+-0.00313060213137471
+-0.00269518662209961
+-0.00207886507508586
+-0.00131660319625302
+-0.000453350083078405
+0.000458561003573565
+0.00136253121472697
+0.00220115125597327
+0.00291978550727458
+0.00347006501309004
+0.00381307003633217
+0.00392199721400474
+0.00378413364320328
+0.00340199906162459
+0.00279356553045646
+0.00199151892431091
+0.00104158486419084
+-3.11843447284118E-18
+-0.00106973580646628
+-0.00210064324893069
+-0.0030263626579945
+-0.00378532289955412
+-0.0043247241636609
+-0.00460408368600557
+-0.00459811386734173
+-0.00429873725502199
+-0.0037160906456222
+-0.0028784285655035
+-0.00183090131978936
+-0.00063325090969683
+0.000643464634046785
+0.00192094564699211
+0.0031182976126288
+0.00415698275611975
+0.00496578269114609
+0.00548546917507434
+0.00567288882739972
+0.00550419439011387
+0.00497699862719153
+0.00411128512029442
+0.00294897994561423
+0.00155216567997068
+-3.11843447284118E-18
+-0.00161551938119398
+-0.00319472827441541
+-0.00463613002926817
+-0.00584256360583353
+-0.00672734869902806
+-0.00722004032578146
+-0.00727143588323808
+-0.00685750943063032
+-0.00598199957587962
+-0.00467744641894319
+-0.00300455601196201
+-0.00104986335028684
+0.00107823803542973
+0.00325493567962552
+0.0053456530502208
+0.00721358772385484
+0.00872773927534768
+0.00977099196810117
+0.0102477991720769
+0.0100910230485421
+0.00926751468511526
+0.00778207540627158
+0.00567951693229407
+0.00304463267994249
+-3.11843447284118E-18
+-0.00329835206993769
+-0.00666725900747565
+-0.00990445960798201
+-0.0127979964699211
+-0.0151365345728131
+-0.0167200933860202
+-0.0173706523877354
+-0.0169420821227337
+-0.0153288739131916
+-0.0124731904505152
+-0.00836983460475134
+-0.0030688313316077
+0.00332456727590834
+0.0106525167696835
+0.0187097856757728
+0.0272513314012294
+0.0360019245108092
+0.0446673918541768
+0.052946962389064
+0.0605461382912526
+0.0671894814670856
+0.0726327037918681
+0.07667347858597
+0.0791604496785047
+0.08
+0.0791604496785047
+0.07667347858597
+0.0726327037918681
+0.0671894814670856
+0.0605461382912526
+0.052946962389064
+0.0446673918541768
+0.0360019245108092
+0.0272513314012294
+0.0187097856757728
+0.0106525167696835
+0.00332456727590834
+-0.0030688313316077
+-0.00836983460475134
+-0.0124731904505152
+-0.0153288739131916
+-0.0169420821227337
+-0.0173706523877354
+-0.0167200933860202
+-0.0151365345728131
+-0.0127979964699211
+-0.00990445960798201
+-0.00666725900747565
+-0.00329835206993769
+-3.11843447284118E-18
+0.00304463267994249
+0.00567951693229407
+0.00778207540627158
+0.00926751468511526
+0.0100910230485421
+0.0102477991720769
+0.00977099196810117
+0.00872773927534768
+0.00721358772385484
+0.0053456530502208
+0.00325493567962552
+0.00107823803542973
+-0.00104986335028684
+-0.00300455601196201
+-0.00467744641894319
+-0.00598199957587962
+-0.00685750943063032
+-0.00727143588323808
+-0.00722004032578146
+-0.00672734869902806
+-0.00584256360583353
+-0.00463613002926817
+-0.00319472827441541
+-0.00161551938119398
+-3.11843447284118E-18
+0.00155216567997068
+0.00294897994561423
+0.00411128512029442
+0.00497699862719153
+0.00550419439011387
+0.00567288882739972
+0.00548546917507434
+0.00496578269114609
+0.00415698275611975
+0.0031182976126288
+0.00192094564699211
+0.000643464634046785
+-0.00063325090969683
+-0.00183090131978936
+-0.0028784285655035
+-0.0037160906456222
+-0.00429873725502199
+-0.00459811386734173
+-0.00460408368600557
+-0.0043247241636609
+-0.00378532289955412
+-0.0030263626579945
+-0.00210064324893069
+-0.00106973580646628
+-3.11843447284118E-18
+0.00104158486419084
+0.00199151892431091
+0.00279356553045646
+0.00340199906162459
+0.00378413364320328
+0.00392199721400474
+0.00381307003633217
+0.00347006501309004
+0.00291978550727458
+0.00220115125597327
+0.00136253121472697
+0.000458561003573565
+-0.000453350083078405
+-0.00131660319625302
+-0.00207886507508586
+-0.00269518662209961
+-0.00313060213137471
+-0.00336206175246492
+-0.003379
+freqz(b,1,1000)
+fdatool
+help firws
+help filtws
+help firws
+eeglab
+help firws
+b = firws(500, 40/500);
+freqz(b,1,1000)
+b = b(:,1)
+freqz(b,1,1000)
+data = 1;
+result = 1;
+plot(data)
+plot([data result])
+plot([data result(1:9968)])
+plot([result(1:9968)])
+freqz(b,1,1000)
+plot([result(1:9968)])
+plot([data result])
+plot([data(5000:6000) result(5000:6000)])
+freqz(b,1,1000)
+plot(result)
+freqz(b,1,1000)
+plot(result)
+freqz(b,1,1000)
+plot(result)
+fftplot(result)
+fftplot(result, 1000, [0.5 40])
+fftplot(result(10000:end), 1000, [0.5 40])
+fftplot(result(20000:end), 1000, [0.5 40])
+fftplot(result(30000:end), 1000, [0.5 40])
+%-- 9/16/13 11:17 AM --%
+%-- 9/17/13 10:00 AM --%
+eeglab
+fftplot(EEG.data(123,:), EEG.srate, [1 40])
+fftplot(EEG.data(123,:)', EEG.srate, [1 40])
+fftplot(EEG.data(124,:)', EEG.srate, [1 40])
+plot(mean(squeeze(EEG.data(124,:,:)),2))
+plot(mean(squeeze(EEG.data(124,:,:)),1))
+plot(mean(squeeze(EEG.data(124,:,:)),2))
+plot(mean(squeeze(EEG.data(124,:,:)),2)')
+size(squeeze(EEG.data(124,:,:)))
+plot(mean(squeeze(EEG.data(124,:,:)),2)')
+bcg = mean(EEG.data,3);
+simBCG = zeros(size(EEG.data));;
+ppgPoint = []; for i = 1:length(EEG.event), if EEG.event(i).type == 'PPG ', ppgPoint = [ppgPoint EEG.event(i).latency]; end; end
+for i = 1:length(ppgPoint), simBCG(:,i-124:i+125) = bcg; end;
+for i = 1:length(ppgPoint(2:end)), simBCG(:,i-124:i+125) = bcg; end;
+for i = 2:length(ppgPoint(2:end)), simBCG(:,ppgPoint(i)-124:ppgPoint(i)+125) = bcg; end;
+plot(simBCG(137,:))
+plot(simBCG(124,:))
+fftplot(EEG.data(124,:)', EEG.srate, [1 40])
+fftplot(simBCG(124,:)', EEG.srate, [1 40])
+fftplot(EEG.data(124,:)', EEG.srate, [1 40])
+fftplot(simBCG(124,:)', EEG.srate, [1 40])
+fftplot(EEG.data(124,:)', EEG.srate, [1 40])
+fftplot(simBCG(124,:)', EEG.srate, [1 40])
+mean(diff(ppgPoint))
+344/250
+250*60/344
+simBCG = zeros(size(EEG.data));;
+bcg = mean(EEG.data,3);
+simBCG = zeros(size(EEG.data));;
+for i = 2:length(ppgPoint(2:end)), simBCG(:,ppgPoint(i)-124:ppgPoint(i)+125) = bcg; end;
+for i = 2:length(ppgPoint(2:end)), simBCG(:,ppgPoint(i)-149:ppgPoint(i)+150) = bcg; end;
+fftplot(simBCG(124,:)', EEG.srate, [1 40])
+plot(simBCG(124,:))
+fftplot(simBCG(124,:)', EEG.srate, [1 40])
+fftplot(EEG.data(124,:)', EEG.srate, [1 40])
+figure
+fftplot(simBCG(124,:)', EEG.srate, [1 40])
+fftplot(simBCG(123,:)', EEG.srate, [1 40])
+fftplot(simBCG(100,:)', EEG.srate, [1 40])
+fftplot(simBCG(20,:)', EEG.srate, [1 40])
+fftplot(simBCG(60,:)', EEG.srate, [1 40])
+fftplot(simBCG(80,:)', EEG.srate, [1 40])
+fftplot(simBCG([10 50 100],:), EEG.srate, [1 40])
+fftplot(simBCG(10,:), EEG.srate, [1 40])
+fftplot(simBCG([10 50 100],:)', EEG.srate, [1 40])
+%-- 9/17/13 1:29 PM --%
+eeglab
+eeglab redraw
+EEG = bcgRefLayer(EEG, ALLEEG(1));
+ALLEEG = eeg_store(ALLEEG, EEG);
+EEG = bcgRefLayer(EEG, ALLEEG(1));
+ALLEEG = eeg_store(ALLEEG, EEG);
+eeglab redraw
+EEG = bcgRefLayer(EEG, ALLEEG(1));
+ALLEEG = eeg_store(ALLEEG, EEG);
+eeglab redraw
+EEG = pop_epoch( EEG, {'DIN1'}, [-0.2 0.5], 'newname', [EEG.setname '_VEP']); EEG = pop_rmbase(EEG, [-200 0]);
+eeglab redraw
+EEG = pop_epoch( EEG, {'DIN1'}, [-0.2 0.5], 'newname', [EEG.setname '_VEP']); EEG = pop_rmbase(EEG, [-200 0]);
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+EEG = pop_epoch( EEG, {'DIN1'}, [-0.2 0.5], 'newname', [EEG.setname '_VEP']); EEG = pop_rmbase(EEG, [-200 0]);
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+EEG = pop_epoch( EEG, {'DIN1'}, [-0.2 0.5], 'newname', [EEG.setname '_VEP']); EEG = pop_rmbase(EEG, [-200 0]);
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+EEG = pop_epoch( EEG, {'DIN1'}, [0 15], 'newname', [EEG.setname '_open']);
+EEG = pop_epoch( EEG, {'DIN2'}, [0 15], 'newname', [EEG.setname '_close']);
+EEG = pop_epoch( EEG, {'DIN1'}, [0 15], 'newname', [EEG.setname '_open']);
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+EEG = pop_epoch( EEG, {'DIN2'}, [0 15], 'newname', [EEG.setname '_close']);
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+EEG = bcgRefLayer(EEG, ALLEEG(1));
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+EEG = pop_epoch( EEG, {'DIN1'}, [0 15], 'newname', [EEG.setname '_open']);
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+EEG = pop_epoch( EEG, {'DIN2'}, [0 15], 'newname', [EEG.setname '_close']);
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+chan = 19; spectopo([ALLEEG(5).data(chan,:); ALLEEG(6).data(chan,:);ALLEEG(8).data(chan,:); ALLEEG(9).data(chan,:)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 512, 'winsize', 256);
+chan = 17; spectopo([ALLEEG(5).data(chan,:); ALLEEG(6).data(chan,:);ALLEEG(8).data(chan,:); ALLEEG(9).data(chan,:)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 512, 'winsize', 256);
+EEG = bcgRefLayer(EEG, ALLEEG(1));
+chan = 17; spectopo([ALLEEG(5).data(chan,:); ALLEEG(6).data(chan,:);ALLEEG(8).data(chan,:); ALLEEG(9).data(chan,:)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 512, 'winsize', 256);
+%-- 9/22/13 9:22 AM --%
+eeglab
+EEG = bcgRefLayer(EEG, ALLEEG(1));
+EEG = bcgRefLayer(EEG, ALLEEG(4));
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+EEG = pop_epoch( EEG, {'DIN1'}, [-0.2 0.5], 'newname', [EEG.setname '_VEP']); EEG = pop_rmbase(EEG, [-200 0]);
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+EEG = pop_epoch( EEG, {'DIN1'}, [-0.2 0.5], 'newname', [EEG.setname '_VEP']); EEG = pop_rmbase(EEG, [-200 0]);
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+bcgPoint = []; for i = 1:length(EEG.event), if EEG.event(i).type == 'bcg', bcgPoint = [bcgPoint EEG.event(i).latency]; end; end
+bcgPoint = []; for i = 1:length(EEG.event), if strcmp(EEG.event(i).type, 'bcg'), bcgPoint = [bcgPoint EEG.event(i).latency]; end; end
+plot(diff(bcgPoint))
+plot(abs(fft(diff(bcgPoint))))
+plot(abs(fft(diff(bcgPoint)-mean(diff(bcgPoint)))))
+100/636
