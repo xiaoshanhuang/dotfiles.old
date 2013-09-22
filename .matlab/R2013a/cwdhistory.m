@@ -1,8 +1,8 @@
+/Users/hxs/Documents/MATLAB
 /Users/hxs/Documents/Study/Research/EEG-fMRI_BCG/Data
 /Users/hxs/Documents/Study/Research/EEG-fMRI_BCG
 /Users/hxs/Documents/Study/Research
 /Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus
-/Users/hxs/Documents/MATLAB
 /Applications/Psychtoolbox/PsychDemos
 /Applications/Psychtoolbox
 /Applications

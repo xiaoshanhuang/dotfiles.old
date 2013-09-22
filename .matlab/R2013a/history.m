@@ -1,35 +1,5 @@
 %-- Unknown date --%
-)))
-length((actPnts(i)+range(1)):(actPnts(i)+range(2)))
-plot(mean(pntResp,1))
-plot(spm_hrf)
-plot(spm_hrf(10))
-plot(spm_hrf(12))
-plot(spm_hrf(20))
-plot(spm_hrf(2))
-plot(spm_hrf(2.04))
-plot((0:15)*2.04,spm_hrf(2.04))
-help spm_hrf
-plot(glover_hrf(0:2.04:15, [1 0.35 0.9 0.9 6 12]))
-plot(glover_hrf(0:0.1:15, [1 0.35 0.9 0.9 6 12]))
-plot(0:0.1:15, glover_hrf(0:0.1:15, [1 0.35 0.9 0.9 6 12]))
-plot(0:0.1:15, glover_hrf(0:0.1:15, [1 0.4 1.1 0.9 5 12]))
-plot(0:0.1:20, glover_hrf(0:0.1:15, [1 0.4 1.1 0.9 5 12]))
-plot(0:0.1:20, glover_hrf(0:0.1:20, [1 0.4 1.1 0.9 5 12]))
-t = 0:2.04:(2.04*15); plot(t, glover_hrf(t, [1 0.35 0.9 0.9 6 12]))
-t = 0:2.04:(2.04*10); plot(t, glover_hrf(t, [1 0.35 0.9 0.9 6 12]))
-t = 0:2.04:(2.04*10); myfigure, plot(t, glover_hrf(t, [1 0.35 0.9 0.9 6 12]))
-help errorbar
-help std
-actEEG = EEG.data(actPnts:(actPnts+510));
-actPnts
-actPnts:(actPnts+2)
-actPnts':(actPnts'+2)
-help epoch
-myfigure, plot(zscore(roi_tc)), hold on; plot(point_porcess, ones(size(point_porcess)), 'ro')
-actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510])
-actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
-[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200, [25 1]);
+);
 [L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200);
 myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
 [wts,sph] = binica( actEEG(:,:), 'pca', 20);
@@ -3939,3 +3909,33 @@ corr(ALLEEG(2).data(31,:)', ALLEEG(15).data')
 %-- 9/6/13 6:31 PM --%
 %-- 9/6/13 6:42 PM --%
 eeglab
+%-- 9/13/13 5:19 PM --%
+eeglab
+fftplot(data(1,:,1), EEG.srate, [0 100])
+fftplot(EEG.data(1,:,1), EEG.srate, [0 100])
+fftplot(EEG.data(1,:,1), EEG.srate, [0 50])
+size(EEG.data)
+fftplot(squeeze(EEG.data(1,:,1)), EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(1,:,1))', EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(1,:,2))', EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(1,:,2))', EEG.srate, [0 100])
+fftplot(squeeze(EEG.data(20,:,2))', EEG.srate, [0 100])
+fftplot(squeeze(EEG.data(20,:,10:20))', EEG.srate, [0 100])
+temp = EEG.data(20,:,10:20);
+temp = squeeze(temp);
+size(temp)
+temp = temp(:)
+fftplot(temp, EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(20,:,2)), EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(20,:,2))', EEG.srate, [0 50])
+temp = EEG.data(20,:,10:40);
+temp = squeeze(temp);
+temp = temp(:)
+fftplot(temp, EEG.srate, [0 50])
+fftplot(EEG.data(20,5000:6000), EEG.srate, [0 50])
+fftplot(EEG.data(20,5000:6000)', EEG.srate, [0 50])
+fftplot(EEG.data(20,5000:15000)', EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(20,:,2))', EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(20,:,5))', EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(20,:,200))', EEG.srate, [0 50])
+%-- 9/17/13 2:46 PM --%
