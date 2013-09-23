@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 <MathWorks type="Path Cache File" version="1.1" date="Mon Sep 23 10:27:51 2013">
+=======
+<<<<<<< HEAD
+<MathWorks type="Path Cache File" version="1.1" date="Tue Sep 17 15:00:27 2013">
+=======
+<MathWorks type="Path Cache File" version="1.1" date="Sat Sep 21 13:17:06 2013">
+>>>>>>> d5617692df42d65a74d8cf612e242c95f04c26df
+>>>>>>> 3d09807f1080e9e7b285db502cf0f11cdef94374
  <D name="matlab/demos">
   <D name="matlab/demos/private">
    <F name="style.css"/>
@@ -1719,7 +1727,7 @@
   <F name="hostid.m"/>
   <N name="initprefs.m"/>
   <F name="librarypath.txt"/>
-  <N name="license.m"/>
+  <F name="license.m"/>
   <F name="linkerr.html"/>
   <N name="matlabrc.m"/>
   <F name="mime.types"/>
@@ -1731,7 +1739,7 @@
   <F name="startupsav.m"/>
   <F name="toolbox_path_cache.m"/>
   <N name="userpath.m"/>
-  <N name="version.m"/>
+  <F name="version.m"/>
   <d name="classpath"/>
   <d name="path"/>
   <d name="template"/>

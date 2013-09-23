@@ -1,5 +1,9 @@
 #MATLAB Preferences
+<<<<<<< HEAD
+#Fri Sep 13 17:30:31 CST 2013
+=======
 #Sun Sep 22 15:39:06 CST 2013
+>>>>>>> d5617692df42d65a74d8cf612e242c95f04c26df
 Editor.VariableHighlighting.Color=C-13289345
 ReplaceSearchText19=Stime0
 ReplaceSearchText18=SGHW
@@ -99,6 +103,18 @@ RLWidthB2_WB_2006b_1_1=I130
 RLWidthB2_WB_2006b_1_0=I130
 RLPrevInitB2_WB_2006b_1=Btrue
 DelimiterOptionsTyping=Btrue
+<<<<<<< HEAD
+EditorMRU8=S/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus/audio.m
+EditorMRU7=S/Applications/Psychtoolbox/PsychDemos/PsychExampleExperiments/OldNewRecognition/OldNewRecogExp.m
+EditorMRU6=S/Applications/Psychtoolbox/PsychDemos/SadowskiDemo.m
+EditorMRU5=S/Users/hxs/Documents/Study/Research/EEG-fMRI_BCG_Face/Exp Design/FaceStim.m
+EditorMRU4=S/Applications/Psychtoolbox/PsychDemos/DrawFormattedTextDemo.m
+Colors_M_UnterminatedStrings=C-241156
+Colors_M_Errors=C-175026
+EditorMRU3=S/Applications/Psychtoolbox/PsychDemos/BasicSoundScheduleDemo.m
+EditorMRU2=S/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus/eyesopenclose.m
+EditorMRU1=S/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/fftplot.m
+=======
 EditorMRU8=S/Users/hxs/Research/Analysis/hxs_matlab/cca.m
 EditorMRU7=S/Users/hxs/Desktop/3/main_SSVEP.m
 EditorMRU6=S/Users/hxs/Downloads/pack_BSS_puredelay/BSS_puredelay_ALSVDM.m
@@ -109,6 +125,7 @@ Colors_M_Errors=C-175026
 EditorMRU3=S/Users/hxs/Research/Analysis/hxs_matlab/bcgRefLayer.m
 EditorMRU2=S/Users/hxs/Research/Analysis/hxs_matlab/microstateEEG.m
 EditorMRU1=S/Users/hxs/Research/Analysis/hxs_matlab/fftplot.m
+>>>>>>> d5617692df42d65a74d8cf612e242c95f04c26df
 RLOrderB2_WB_2006b_1=S0:1:2:3:
 ColorsBackground=C-14868967
 Colors_M_Keywords=C-8012034

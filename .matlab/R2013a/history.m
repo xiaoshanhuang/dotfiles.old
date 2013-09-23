@@ -1,5 +1,264 @@
 %-- Unknown date --%
+<<<<<<< HEAD
+);
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+[wts,sph] = binica( actEEG(:,:), 'pca', 20);
+delete bias* binica* temp*
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+winv = pinv(wts*sph);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
+myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
+actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
+[wts,sph] = binica( actEEG(:,:), 'pca', 20);
+winv = pinv(wts*sph);
+myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 4, 200);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+myfigure, for i = 1:4, subplot(1,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 4, 200, [25 1]);
+plot(L)
+myfigure, for i = 1:4, subplot(1,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+%-- 7/1/13 12:10 PM --%
+eeglab
+bcgTemp = eeg_getica(EEG,5);
+peakLoc = peakfinder(zscore(bcgTemp),5);
+plot(diff(peakLoc))
+peakLoc = peakfinder(zscore(bcgTemp),4);
+plot(diff(peakLoc))
+peakLoc = peakfinder(zscore(bcgTemp),4.5);
+plot(diff(peakLoc))
+peakLoc = peakfinder(zscore(bcgTemp),4.4);
+plot(diff(peakLoc))
+peakLoc = peakfinder(zscore(bcgTemp),4.45);
+plot(diff(peakLoc))
+peakLoc = peakfinder(zscore(bcgTemp),4.46);
+plot(diff(peakLoc))
+peakLoc = peakfinder(zscore(bcgTemp),4.47);
+plot(diff(peakLoc))
+plot(bcgTemp), hold on; plot(peakLoc(530:535), bcgTemp(peakLoc(530:535)), 'ro')
+plot(bcgTemp), hold on; plot(peakLoc(529:535), bcgTemp(peakLoc(530:535)), 'ro')
+p = 529:535; plot(bcgTemp), hold on; plot(peakLoc(p), bcgTemp(peakLoc(p)), 'ro')
+p = 525:535; plot(bcgTemp), hold on; plot(peakLoc(p), bcgTemp(peakLoc(p)), 'ro')
+529:532
+p = 808:812; plot(bcgTemp), hold on; plot(peakLoc(p), bcgTemp(peakLoc(p)), 'ro')
+peakLoc([529:532 811]) = [];
+plot(diff(peakLoc))
+for i = 1:length(peakLoc), EEG.event(end+1) = struct('type', 'bcg', 'latency', peakLoc(i)-50, 'urevent', [], 'duration', []); end;
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+[ EEG, bcgTemp, bcgTempEpoch ] = bcgRemoval( EEG, 'bcg', 'obs-ac', 4 );
+EEG.setname = [EEG.setname '_bcg_ac'];
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+fnii = '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWS/ql041913_1/swCovRegressed_4DVolume.nii';
+masknii = '/Users/hxs/Documents/Study/Research/Analysis/PCC_ROI_By_Jingyuan/PCC_10mm_61x73x61.nii';
+roi_tc = extract_roi( fnii, masknii );
+plot(roi_tc)
+fnii = '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWSF/ql041913_1/Filtered_4DVolume.nii';
+roi_tc = extract_roi( fnii, masknii );
+plot(roi_tc)
+actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 4, 200);
+myfigure, for i = 1:4, subplot(1,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+delete bias* binica* temp*
+help ssd
+help SNM
+actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 4, 200);
+myfigure, for i = 1:4, subplot(1,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200);
+myfigure, for i = 1:4, subplot(1,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 20, 200);
+myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+[wts,sph] = binica( actEEG(:,:), 'pca', 20);
+winv = pinv(wts*sph);
+myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
+fftplot(wts(4,:)*sph*actEEG)
+fftplot(wts(4,:)*sph*actEEG, EEG.srate, [0.5 50])
+fftplot(wts(4,:)*sph*actEEG(:,:), EEG.srate, [0.5 50])
+[Pxx,F] = pwelch(wts(4,:)*sph*actEEG(:,:),[],[],[],EEG.srate); myfigure, plot(F, Pxx), xlim([0.5 20]), ylim([0 100]), xlabel('Frequency (Hz)'), ylabel('Power Spectrum'), grid on
+[Pxx,F] = pwelch(wts(4,:)*sph*actEEG(:,:),[],[],[],EEG.srate); myfigure, plot(F, Pxx), , xlabel('Frequency (Hz)'), ylabel('Power Spectrum'), grid on
+[Pxx,F] = pwelch(wts(4,:)*sph*actEEG(:,:),[],[],[],EEG.srate); myfigure, plot(F, Pxx), xlim([0.5 20]),  xlabel('Frequency (Hz)'), ylabel('Power Spectrum'), grid on
+help pwelch
+spectopo(temp, EEG.pnts, EEG.srate, 'freqrange', [0.5 30]);
+spectopo(actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+spectopo(wts(4,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+spectopo(wts(4,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 20]);
+spectopo(wts(4,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
+spectopo(wts(1,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+spectopo(wts(2,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+spectopo(wts(3,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+spectopo(wts(4,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+spectopo(wts(5,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+spectopo(wts(6,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+EEG = pop_epoch( EEG, {'bcg'}, [-0.4 0.8], 'newname', [EEG.setname '_bcg']);
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+bcg = EEG.data;
+bcg = mean(EEG.data,3);
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200, [], [], bcg);
+bcg = double(mean(EEG.data,3));
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200, [], [], bcg);
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
+help SNM
+[A,S,z] = SNM(sig, noise, [], 20);
+sig = actEEG;
+noise = EEG.data;
+sig = actEEG(:,:);
+[A,S,z] = SNM(sig, noise, [], 20);
+myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(S(i,:)), EEG.chanlocs); end;
+help plotdata
+plotdata(actEEG)
+plotdata(actEEG(:,:))
+plot(actEEG(126,:))
+spectopo(actEEG(126,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+[Pxx,F] = pwelch(actEEG(126,:),[],[],[],EEG.srate); myfigure, plot(F, Pxx), xlim([0.5 20]),  xlabel('Frequency (Hz)'), ylabel('Power Spectrum'), grid on
+[Pxx,F] = pwelch(EEG.data(126,:),[],[],[],EEG.srate); myfigure, plot(F, Pxx), xlim([0.5 20]),  xlabel('Frequency (Hz)'), ylabel('Power Spectrum'), grid on
+[Pxx,F] = pwelch(actEEG(20,:),[],[],[],EEG.srate); myfigure, plot(F, Pxx), xlim([0.5 20]),  xlabel('Frequency (Hz)'), ylabel('Power Spectrum'), grid on
+[Pxx,F] = pwelch(EEG.data(20,:),[],[],[],EEG.srate); myfigure, plot(F, Pxx), xlim([0.5 20]),  xlabel('Frequency (Hz)'), ylabel('Power Spectrum'), grid on
+%-- 7/1/13 1:23 PM --%
+eeglab
+EEG = add_slice_trigger( EEG, 'TREV', 30 );
+2
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+help pop_selectevent
+[EEGTARGETS,target_indices] = pop_selectevent(EEG,'type',{'Slice'});
+EEG.event(target_indices) = [];
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+eeglab redraw
+[EEGTARGETS,target_indices] = pop_selectevent(EEG,'type',{'TREV'});
+EEG = pop_select(EEG, 'point', [EEG.event(target_indices(4)).latency EEG.event(target_indices(350)).latency+510]);
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+bcgTemp = eeg_getica(EEG,5);
+peakLoc = peakfinder(zscore(bcgTemp),4.47);
+plot(diff(peakLoc))
+peakLoc = peakfinder(zscore(bcgTemp),5);
+plot(diff(peakLoc))
+peakLoc = peakfinder(zscore(bcgTemp),6);
+plot(diff(peakLoc))
+peakLoc = peakfinder(zscore(bcgTemp),5);
+plot(diff(peakLoc))
+bcgTemp = eeg_getica(EEG,6);
+peakLoc = peakfinder(zscore(bcgTemp),5);
+bcgTemp = eeg_getica(EEG,6);
+peakLoc = peakfinder(zscore(bcgTemp),5);
+plot(diff(peakLoc))
+peakLoc = peakfinder(zscore(bcgTemp),5.2);
+plot(diff(peakLoc))
+peakLoc = peakfinder(zscore(bcgTemp),5.1);
+plot(diff(peakLoc))
+peakLoc = peakfinder(zscore(bcgTemp),5.12);
+plot(diff(peakLoc))
+for i = 1:length(peakLoc), EEG.event(end+1) = struct('type', 'bcg', 'latency', peakLoc(i)-50, 'urevent', [], 'duration', []); end;
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+eeglab redraw
+[ EEG, bcgTemp, bcgTempEpoch ] = bcgRemoval( EEG, 'bcg', 'obs-ac', 4 );
+EEG.setname = [EEG.setname '_obs_ac'];
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+eeglab redraw
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(EEG.data, 8, 200);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+fnii = '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWSF/xh032013/Filtered_4DVolume.nii';
+masknii = '/Users/hxs/Documents/Study/Research/Analysis/PCC_ROI_By_Jingyuan/PCC_10mm_61x73x61.nii';
+roi_tc = extract_roi( fnii, masknii );
+actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG, 8, 200);
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(actEEG(:,:), 8, 200);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
+[wts,sph] = binica( actEEG(:,:), 'pca', 20);
+winv = pinv(wts*sph);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
+myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
+spectopo(wts(8,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+alpha_hrf = mapstd(decimate(conv(abs(hilbert(eeg_getica(EEG,16))), spm_hrf(1/EEG.srate)), EEG.srate*TR, 'FIR'));
+alpha_hrf = mapstd(decimate(conv(abs(hilbert(double(eeg_getica(EEG,16)))), spm_hrf(1/EEG.srate)), EEG.srate*TR, 'FIR'));
+plot(alpha_hrf)
+plot(roi_tc)
+t = 1:347; plot([roi_tc(t); alpha_hrf(t)])
+t = 1:347; plot(t, [roi_tc(t); alpha_hrf(t)])
+t = 1:347; plot(t, mapstd([roi_tc(t); alpha_hrf(t)]))
+t = 1:347; plot(t, mapstd([roi_tc(t); -alpha_hrf(t)]))
+t = 1:347; plot(t, mapstd([roi_tc(t); alpha_hrf(t)]))
+spectopo(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+spectopo(EEG.icaweights(16,:)*EEG.icasphere*EEG.data(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+spectopo(EEG.icaweights(16,:)*EEG.icasphere*EEG.data, 510, EEG.srate, 'freqrange', [0.5 30]);
+spectopo(EEG.icaweights(16,:)*EEG.icasphere*EEG.data, [], EEG.srate, 'freqrange', [0.5 30]);
+spectopo(EEG.icaweights(16,:)*EEG.icasphere*EEG.data, EEG.pnts, EEG.srate, 'freqrange', [0.5 30]);
+myfigure
+spectopo(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+EEG = pop_epoch( EEG, {'TREV'}, [0 2.04], 'newname', [EEG.setname '_TR']);
+trEEG = epoch(EEG.data, 1:510:510*347, [0 510]);
+actPnts = find(diff(sign(zscore(roi_tc)-1))>0)-1;
+actEEG = trEEG(:,:,actPnts);
+deactEEG = trEEG;
+deactEEG(:,:,actPnts) = [];
+spectopo([EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:); EEG.icaweights(16,:)*EEG.icasphere*deactEEG(:,:)], 510, EEG.srate, 'freqrange', [0.5 30]);
+spectopo(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+myfigure,
+spectopo(EEG.icaweights(16,:)*EEG.icasphere*deactEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+[A,S,z] = SNM(actEEG(:,:), deactEEG(:,:), [], 20);
+myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(A(:,i)), EEG.chanlocs); end;
+plot(hilbert(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:)))
+plot(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:))))
+plot(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:))
+clear actEEG
+clear deactEEG
+actEEG = epoch(EEG.data, (actPnts-1)*510, [0 510]);
+trEEG = epoch(EEG.data, 1:510:510*347, [0 510]);
+actEEG = trEEG(:,:,actPnts);
+deactEEG = trEEG;
+deactEEG(:,:,actPnts) = [];
+plot(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:))))
+mean(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:))))
+mean(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*deactEEG(:,:))))
+mean(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*EEG.data(:,:))))
+trEEG = epoch(EEG.data, 1:510:510*347, [0 510]);
+actEEG = trEEG(:,:,actPnts);
+deactEEG = trEEG;
+deactEEG(:,:,actPnts) = [];
+mean(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*deactEEG(:,:))))
+mean(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:))))
+delete bias* binica* temp*
+mean(abs(hilbert(EEG.icaweights(16,:)*EEG.icasphere*actEEG(:,:))))
+[wts,sph] = binica( actEEG(:,:), 'pca', 20);
+winv = pinv(wts*sph);
+myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
+[wts,sph] = binica( deactEEG(:,:), 'pca', 20);
+winv = pinv(wts*sph);
+myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
+mean(abs(hilbert(wts(8,:)*sph*deactEEG(:,:))))
+[wts,sph] = binica( actEEG(:,:), 'pca', 20);
+winv = pinv(wts*sph);
+myfigure, for i = 1:20, subplot(4,5,i), topoplot(real(winv(:,i)), EEG.chanlocs); end;
+mean(abs(hilbert(wts(7,:)*sph*actEEG(:,:))))
+spectopo(wts(8,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+spectopo(wts(7,:)*sph*actEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+[wts,sph] = binica( deactEEG(:,:), 'pca', 20);
+myfigure,
+spectopo(wts(8,:)*sph*deactEEG(:,:), 510, EEG.srate, 'freqrange', [0.5 30]);
+fftplot(wts(8,:)*sph*deactEEG(:,:), EEG.srate, [0.5 30])
+[wts,sph] = binica( actEEG(:,:), 'pca', 20);
+fftplot(wts(7,:)*sph*actEEG(:,:), EEG.srate, [0.5 30])
+[L, Gamma, alpha, R, sigma_mcv, log] = mscluster(deactEEG(:,:), 8, 200);
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(gamma(:,i)), EEG.chanlocs); end;
+myfigure, for i = 1:8, subplot(2,4,i), topoplot(real(Gamma(:,i)), EEG.chanlocs); end;
+=======
 mma(:,i)), EEG.chanlocs); end;
+>>>>>>> d5617692df42d65a74d8cf612e242c95f04c26df
 delete bias* binica* temp*
 plot(mean(bcgTempEpoch(128,:,:)))
 plot(mean(bcgTempEpoch(128,:,:),3))
@@ -3654,6 +3913,38 @@ corr(ALLEEG(2).data(31,:)', ALLEEG(15).data')
 %-- 9/6/13 6:31 PM --%
 %-- 9/6/13 6:42 PM --%
 eeglab
+<<<<<<< HEAD
+%-- 9/13/13 5:19 PM --%
+eeglab
+fftplot(data(1,:,1), EEG.srate, [0 100])
+fftplot(EEG.data(1,:,1), EEG.srate, [0 100])
+fftplot(EEG.data(1,:,1), EEG.srate, [0 50])
+size(EEG.data)
+fftplot(squeeze(EEG.data(1,:,1)), EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(1,:,1))', EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(1,:,2))', EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(1,:,2))', EEG.srate, [0 100])
+fftplot(squeeze(EEG.data(20,:,2))', EEG.srate, [0 100])
+fftplot(squeeze(EEG.data(20,:,10:20))', EEG.srate, [0 100])
+temp = EEG.data(20,:,10:20);
+temp = squeeze(temp);
+size(temp)
+temp = temp(:)
+fftplot(temp, EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(20,:,2)), EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(20,:,2))', EEG.srate, [0 50])
+temp = EEG.data(20,:,10:40);
+temp = squeeze(temp);
+temp = temp(:)
+fftplot(temp, EEG.srate, [0 50])
+fftplot(EEG.data(20,5000:6000), EEG.srate, [0 50])
+fftplot(EEG.data(20,5000:6000)', EEG.srate, [0 50])
+fftplot(EEG.data(20,5000:15000)', EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(20,:,2))', EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(20,:,5))', EEG.srate, [0 50])
+fftplot(squeeze(EEG.data(20,:,200))', EEG.srate, [0 50])
+%-- 9/17/13 2:46 PM --%
+=======
 %-- 9/9/13 5:00 PM --%
 %-- 9/10/13 9:59 AM --%
 eeglab
@@ -4314,4 +4605,8 @@ plot(diff(bcgPoint))
 plot(abs(fft(diff(bcgPoint))))
 plot(abs(fft(diff(bcgPoint)-mean(diff(bcgPoint)))))
 100/636
+<<<<<<< HEAD
 plot(abs(fft(diff(bcgPoint)-mean(diff(bcgPoint)))))
+=======
+>>>>>>> d5617692df42d65a74d8cf612e242c95f04c26df
+>>>>>>> 3d09807f1080e9e7b285db502cf0f11cdef94374
