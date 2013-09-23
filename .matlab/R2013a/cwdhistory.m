@@ -1,7 +1,7 @@
 /Users/hxs/Research/Analysis/hxs_matlab
+/Users/hxs/Documents/MATLAB
 /Users/hxs/Research/EEG-fMRI_BCG/Data/hi090813/eeg
 /Users/hxs/Research/EEG-fMRI_BCG/Data/hh091213/eeg
-/Users/hxs/Documents/MATLAB
 /Users/hxs/Downloads/pack_BSS_puredelay
 /Users/hxs/Downloads
 /Users/hxs

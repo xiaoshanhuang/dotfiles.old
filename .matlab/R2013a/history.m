@@ -4314,3 +4314,4 @@ plot(diff(bcgPoint))
 plot(abs(fft(diff(bcgPoint))))
 plot(abs(fft(diff(bcgPoint)-mean(diff(bcgPoint)))))
 100/636
+plot(abs(fft(diff(bcgPoint)-mean(diff(bcgPoint)))))

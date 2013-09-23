@@ -21,7 +21,7 @@
       </Split>
       <QuickAccessLocation Region="right_of_tabs"/>
    </Frame>
-   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="yes" Guest="no" Name="Editor" PropertyClass="com.mathworks.mde.editor.EditorGroup" SelectionOrder="17" Show="yes" ShowViews="no" Title="Editor">
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="yes" Guest="no" Name="Editor" PropertyClass="com.mathworks.mde.editor.EditorGroup" SelectionOrder="19" Show="yes" ShowViews="no" Title="Editor">
       <Location Context="docked" Height="687" ParentHeight="1319" ParentWidth="1493" Path="EWN" Type="nested" Width="1493" X="513" Y="99"/>
       <Location Context="nested" Height="687" ParentHeight="1319" ParentWidth="1493" Path="EWN" Type="nested" Width="1493" X="513" Y="99"/>
       <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="874" Maximized="yes" Type="floating" Width="1440" X="0" Y="22"/>
@@ -150,7 +150,7 @@
       </Frame>
       <DocumentArea Arrangement="maximized" Empty="no" MaxBarWidth="180" Showing="no"/>
    </Group>
-   <Client Class="com.mathworks.mde.cmdwin.CmdWin" Dock="yes" Guest="no" Name="Command Window" SelectionOrder="16" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Command Window">
+   <Client Class="com.mathworks.mde.cmdwin.CmdWin" Dock="yes" Guest="no" Name="Command Window" SelectionOrder="15" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Command Window">
       <Location Context="docked" Height="623" ParentHeight="1319" ParentWidth="1493" Path="EWS" Type="nested" Width="1493" X="513" Y="795"/>
       <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="582" Maximized="yes" Type="floating" Width="1100" X="5" Y="27"/>
       <Location Context="nested" Height="623" ParentHeight="1319" ParentWidth="1493" Path="EWS" Type="nested" Width="1493" X="513" Y="795"/>
@@ -159,7 +159,7 @@
       <Location Context="docked" Height="961" ParentHeight="1319" ParentWidth="545" Path="EES" Type="nested" Width="545" X="2015" Y="457"/>
       <Location Context="nested" Height="961" ParentHeight="1319" ParentWidth="545" Path="EES" Type="nested" Width="545" X="2015" Y="457"/>
    </Client>
-   <Client Class="com.mathworks.mde.explorer.Explorer" Dock="yes" Guest="no" Name="Current Directory" SelectionOrder="14" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Current Folder">
+   <Client Class="com.mathworks.mde.explorer.Explorer" Dock="yes" Guest="no" Name="Current Directory" SelectionOrder="13" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Current Folder">
       <Location Context="docked" Height="1319" ParentHeight="1319" ParentWidth="2560" Path="W" Type="nested" Width="504" Y="99"/>
       <Location Context="nested" Height="1319" ParentHeight="1319" ParentWidth="2560" Path="W" Type="nested" Width="504" Y="99"/>
    </Client>
@@ -255,7 +255,7 @@
       </Location>
       <ClientData Group="Figures"/>
    </Client>
-   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="13" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Analysis/hxs_matlab/bcgRefLayer.m">
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="12" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Analysis/hxs_matlab/bcgRefLayer.m">
       <Location Context="docked" Maximized="yes" Type="floating"/>
       <Location Context="floatingIn" Maximized="yes" Type="floating"/>
       <ClientData EditorFileName="/Users/hxs/Research/Analysis/hxs_matlab/bcgRefLayer.m"/>
@@ -265,7 +265,7 @@
       <Location Context="floatingIn" Maximized="yes" Type="floating"/>
       <ClientData EditorFileName="/Users/hxs/Research/Analysis/hxs_matlab/microstateEEG.m"/>
    </Client>
-   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="15" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Analysis/hxs_matlab/fftplot.m">
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="14" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Analysis/hxs_matlab/fftplot.m">
       <Location Context="docked" Maximized="yes" Type="floating"/>
       <Location Context="floatingIn" Maximized="yes" Type="floating"/>
       <ClientData EditorFileName="/Users/hxs/Research/Analysis/hxs_matlab/fftplot.m"/>

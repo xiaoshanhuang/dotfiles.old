@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="1.1" date="Sat Sep 21 13:17:06 2013">
+<MathWorks type="Path Cache File" version="1.1" date="Mon Sep 23 10:27:51 2013">
  <D name="matlab/demos">
   <D name="matlab/demos/private">
    <F name="style.css"/>
@@ -1973,7 +1973,7 @@
   <F name="filebrowser.m"/>
   <F name="fixcontents.m"/>
   <F name="fixquote.m"/>
-  <F name="functionhintsfunc.m"/>
+  <N name="functionhintsfunc.m"/>
   <F name="getcallinfo.m"/>
   <F name="grabcode.m"/>
   <F name="helprpt.m"/>
