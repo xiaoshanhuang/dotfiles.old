@@ -1,0 +1,177 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   
+      <link rel="stylesheet" href="file:////Applications/MATLAB_R2013a.app/toolbox/matlab/helptools/private/helpwin.css">
+      <title>MATLAB File Help: eegplot</title>
+   </head>
+   <body>
+      <!--Single-page help-->
+      <table border="0" cellspacing="0" width="100%">
+         <tr class="subheader">
+            <td class="headertitle">MATLAB File Help: eegplot</td>
+            <td class="subheader-left"><a href="matlab:edit eegplot">View code for eegplot</a></td>
+            <td class="subheader-right"><a href="matlab:helpwin">Default Topics</a></td>
+         </tr>
+      </table>
+      <div class="title">eegplot</div>
+      <div class="helptext"><pre><!--helptext -->  eegplot() - Scroll (horizontally and/or vertically) through multichannel data.
+              Allows vertical scrolling through channels and manual marking 
+              and unmarking of data stretches or epochs for rejection.
+  Usage: 
+            &gt;&gt; eegplot(data, 'key1', value1 ...); % use interface buttons, etc.
+       else
+            &gt;&gt; eegplot('noui', data, 'key1', value1 ...); % no user interface;
+                                                          % use for plotting
+  Menu items:
+     "Figure &gt; print" - [menu] Print figure in portrait or landscape.
+     "Figure &gt; Edit figure" - [menu] Remove menus and buttons and call up the standard
+                   Matlab figure menu. Select "Tools &gt; Edit" to format the figure
+                   for publication. Command line equivalent: 'noui' 
+     "Figure &gt; Accept and Close" - [menu] Same as the bottom-right "Reject" button. 
+     "Figure &gt; Cancel and Close" - [menu] Cancel all editing, same as the "Cancel" button. 
+     "Display &gt; Marking color" &gt; [Hide|Show] marks" - [menu] Show or hide patches of 
+                   background color behind the data. Mark stretches of *continuous* 
+                   data (e.g., for rejection) by dragging the mouse horizontally 
+                   over the activity. With *epoched* data, click on the selected epochs.
+                   Clicked on a marked region to unmark it. Called from the
+                   command line, marked data stretches or epochs are returned in 
+                   the TMPREJ variable in the global workspace *if/when* the "Reject" 
+                   button is pressed (see Outputs); called from pop_eegplot() or 
+                   eeglab(), the marked data portions are removed from the current
+                   dataset, and the dataset is automatically updated.
+      "Display &gt; Marking color &gt; Choose color" - [menu] Change the background marking 
+                   color. The marking color(s) of previously marked trials are preserved. 
+                   Called from command line, subsequent functions eegplot2event() or 
+                   eegplot2trials() allow processing trials marked with different colors 
+                   in the TMPREJ output variable. Command line equivalent: 'wincolor'.
+      "Display &gt; Grid &gt; ..." - [menu] Toggle (on or off) time and/or channel axis grids 
+                   in the activity plot. Submenus allow modifications to grid aspects.
+                   Command line equivalents: 'xgrid' / 'ygrid' 
+      "Display &gt; Show scale" - [menu] Show (or hide if shown) the scale on the bottom 
+                   right corner of the activity window. Command line equivalent: 'scale' 
+      "Display &gt; Title" - [menu] Change the title of the figure. Command line equivalent: 
+                   'title'
+      "Settings &gt; Time range to display"  - [menu] For continuous EEG data, this item 
+                   pops up a query window for entering the number of seconds to display
+                   in the activity window. For epoched data, the query window asks
+                   for the number of epochs to display (this can be fractional). 
+                   Command line equivalent: 'winlength'
+      "Settings &gt; Number of channels to display" - [menu] Number of channels to display
+                   in the activity window.  If not all channels are displayed, the 
+                   user may scroll through channels using the slider on the left 
+                   of the activity plot. Command line equivalent: 'dispchans'
+      "Settings &gt; Channel labels &gt; ..."  - [menu] Use numbers as channel labels or load
+                   a channel location file from disk. If called from the eeglab() menu or
+                   pop_eegplot(), the channel labels of the dataset will be used. 
+                   Command line equivalent: 'eloc_file'
+      "Settings &gt; Zoom on/off" - [menu] Toggle Matlab figure zoom on or off for time and
+                   electrode axes. left-click to zoom (x2); right-click to reverse-zoom. 
+                   Else, draw a rectange in the activity window to zoom the display into 
+                   that region. NOTE: When zoom is on, data cannot be marked for rejection.
+      "Settings &gt; Events" - [menu] Toggle event on or off (assuming events have been 
+                   given as input). Press "legend" to pop up a legend window for events.
+ 
+  Display window interface:
+     "Activity plot" - [main window] This axis displays the channel activities.  For 
+                   continuous data, the time axis shows time in seconds. For epoched
+                   data, the axis label indicate time within each epoch.
+     "Cancel" - [button] Closes the window and cancels any data rejection marks.
+     "Event types" - [button] pop up a legend window for events.
+     "&lt;&lt;" - [button] Scroll backwards though time or epochs by one window length.
+     "&lt;"  - [button] Scroll backwards though time or epochs by 0.2 window length.
+     "Navigation edit box" - [edit box] Enter a starting time or epoch to jump to.
+     "&gt;"  - [button] Scroll forward though time or epochs by 0.2 window length.
+     "&gt;&gt;" - [button] Scroll forward though time or epochs by one window length.
+     "Chan/Time/Value" - [text] If the mouse is within the activity window, indicates
+                   which channel, time, and activity value the cursor is closest to.
+     "Scale edit box" - [edit box] Scales the displayed amplitude in activity units.
+                   Command line equivalent: 'spacing' 
+     "+ / -" - [buttons] Use these buttons to +/- the amplitude scale by 10%. 
+     "Reject" - [button] When pressed, save rejection marks and close the figure. 
+                   Optional input parameter 'command' is evaluated at that time. 
+                   NOTE: This button's label can be redefined from the command line
+                   (see 'butlabel' below). If no processing command is specified
+                   for the 'command' parameter (below), this button does not appear.
+     "Stack/Spread" - [button] "Stack" collapses all channels/activations onto the
+                   middle axis of the plot. "Spread" undoes the operation.
+     "Norm/Denorm" - [button] "Norm" normalizes each channel separately such that all
+                   channels have the same standard deviation without changing original 
+                   data/activations under EEG structure. "Denorm" undoes the operation.  
+                  
+  Required command line input:
+     data        - Input data matrix, either continuous 2-D (channels,timepoints) or 
+                   epoched 3-D (channels,timepoints,epochs). If the data is preceded 
+                   by keyword 'noui', GUI control elements are omitted (useful for 
+                   plotting data for presentation). A set of power spectra at
+                   each channel may also be plotted (see 'freqlimits' below).
+  Optional command line keywords:
+     'srate'      - Sampling rate in Hz {default|0: 256 Hz}
+     'spacing'    - Display range per channel (default|0: max(whole_data)-min(whole_data))
+     'eloc_file'  - Electrode filename (as in  &gt;&gt; topoplot example) to read
+                     ascii channel labels. Else,
+                    [vector of integers] -&gt; Show specified channel numbers. Else,
+                    [] -&gt; Do not show channel labels {default|0 -&gt; Show [1:nchans]}
+     'limits'     - [start end] Time limits for data epochs in ms (for labeling 
+                    purposes only).
+     'freqlimits' - [start end] If plotting epoch spectra instead of data, frequency 
+                    limits of the display. (Data should contain spectral values).
+     'winlength'  - [value] Seconds (or epochs) of data to display in window {default: 5}
+     'dispchans'  - [integer] Number of channels to display in the activity window 
+                    {default: from data}.  If &lt; total number of channels, a vertical  
+                    slider on the left side of the figure allows vertical data scrolling. 
+     'title'      - Figure title {default: none}
+     'xgrid'      - ['on'|'off'] Toggle display of the x-axis grid {default: 'off'}
+     'ygrid'      - ['on'|'off'] Toggle display of the y-axis grid {default: 'off'}
+     'ploteventdur' - ['on'|'off'] Toggle display of event duration { default: 'off' }
+     'data2'      - [float array] identical size to the original data and
+                    plotted on top of it.
+ 
+  Additional keywords:
+     'command'    - ['string'] Matlab command to evaluate when the 'REJECT' button is 
+                    clicked. The 'REJECT' button is visible only if this parameter is 
+                    not empty. As explained in the "Output" section below, the variable 
+                    'TMPREJ' contains the rejected windows (see the functions 
+                    eegplot2event() and eegplot2trial()).
+     'butlabel'   - Reject button label. {default: 'REJECT'}
+     'winrej'     - [start end R G B e1 e2 e3 ...] Matrix giving data periods to mark 
+                     for rejection, each row indicating a different period
+                       [start end] = period limits (in frames from beginning of data); 
+                       [R G B] = specifies the marking color; 
+                       [e1 e2 e3 ...] = a (1,nchans) logical [0|1] vector giving 
+                          channels (1) to mark and (0) not mark for rejection.
+     'color'      - ['on'|'off'|cell array] Plot channels with different colors.
+                    If an RGB cell array {'r' 'b' 'g'}, channels will be plotted 
+                    using the cell-array color elements in cyclic order {default:'off'}. 
+     'wincolor'   - [color] Color to use to mark data stretches or epochs {default: 
+                    [ 0.7 1 0.9] is the default marking color}
+     'events'     - [struct] EEGLAB event structure (EEG.event) to use to show events.
+     'submean'    - ['on'|'off'] Remove channel means in each window {default: 'on'}
+     'position'   - [lowleft_x lowleft_y width height] Position of the figure in pixels.
+     'tag'        - [string] Matlab object tag to identify this eegplot() window (allows 
+                     keeping track of several simultaneous eegplot() windows). 
+     'children'   - [integer] Figure handle of a *dependent* eegplot() window. Scrolling
+                     horizontally in the master window will produce the same scroll in 
+                     the dependent window. Allows comparison of two concurrent datasets,
+                     or of channel and component data from the same dataset.
+     'scale'      - ['on'|'off'] Display the amplitude scale {default: 'on'}.
+     'mocap'      - ['on'|'off'] Display motion capture data in a separate figure.
+                      To run, select an EEG data period in the scolling display using 
+                      the mouse. Motion capture (mocap) data should be
+                      under EEG.moredata.mocap.markerPosition in xs, ys and zs fields which are
+                      (number of markers, number of time points) arrays.                
+                     {default: 'off'}.
+     'selectcommand' - [cell array] list of 3 commands (strings) to run when the mouse 
+                       button is down, when it is moving and when the mouse button is up.
+     'ctrlselectcommand' - [cell array] same as above in conjunction with pressing the 
+                       CTRL key.
+  Outputs:
+     TMPREJ       -  Matrix (same format as 'winrej' above) placed as a variable in
+                     the global workspace (only) when the REJECT button is clicked. 
+                     The command specified in the 'command' keyword argument can use 
+                     this variable. (See eegplot2trial() and eegplot2event()). 
+ 
+  Author: Arnaud Delorme &amp; Colin Humphries, CNL/Salk Institute, SCCN/INC/UCSD, 1998-2001</pre></div><!--after help --><!--seeAlso--><div class="footerlinktitle">See also</div><div class="footerlink"> <a href="matlab:helpwin eeg_multieegplot">eeg_multieegplot</a>(), <a href="matlab:helpwin eegplot2event">eegplot2event</a>(), <a href="matlab:helpwin eegplot2trial">eegplot2trial</a>(), <a href="matlab:helpwin eeglab">eeglab</a>()
+</div>
+   </body>
+</html>

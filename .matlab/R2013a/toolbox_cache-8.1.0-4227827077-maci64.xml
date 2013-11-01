@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="1.1" date="Fri Nov  1 09:44:28 2013">
+<MathWorks type="Path Cache File" version="1.1" date="Fri Nov  1 10:22:53 2013">
  <D name="matlab/demos">
   <D name="matlab/demos/private">
    <F name="style.css"/>
@@ -1442,7 +1442,7 @@
   <F name="quiver3.m"/>
   <F name="reducepatch.m"/>
   <F name="reducevolume.m"/>
-  <F name="rgb2ind.m"/>
+  <N name="rgb2ind.m"/>
   <F name="rgbplot.m"/>
   <F name="ribbon.m"/>
   <F name="rose.m"/>
@@ -1719,7 +1719,7 @@
   <F name="hostid.m"/>
   <N name="initprefs.m"/>
   <F name="librarypath.txt"/>
-  <N name="license.m"/>
+  <F name="license.m"/>
   <F name="linkerr.html"/>
   <N name="matlabrc.m"/>
   <F name="mime.types"/>
@@ -1731,7 +1731,7 @@
   <F name="startupsav.m"/>
   <F name="toolbox_path_cache.m"/>
   <N name="userpath.m"/>
-  <N name="version.m"/>
+  <F name="version.m"/>
   <d name="classpath"/>
   <d name="path"/>
   <d name="template"/>
@@ -2404,7 +2404,7 @@
   <N name="false.m"/>
   <N name="find.m"/>
   <N name="flintmax.m"/>
-  <F name="flipdim.m"/>
+  <N name="flipdim.m"/>
   <N name="fliplr.m"/>
   <N name="flipud.m"/>
   <F name="freqspace.m"/>
@@ -3426,7 +3426,7 @@
   <N name="cond.m"/>
   <F name="condeig.m"/>
   <N name="condest.m"/>
-  <F name="det.m"/>
+  <N name="det.m"/>
   <N name="eig.m"/>
   <F name="expm.m"/>
   <F name="funm.m"/>
@@ -3488,7 +3488,7 @@
   <F name="bitget.m"/>
   <F name="bitmax.m"/>
   <N name="bitor.m"/>
-  <F name="bitset.m"/>
+  <N name="bitset.m"/>
   <N name="bitshift.m"/>
   <F name="bitxor.m"/>
   <F name="colon.m"/>
@@ -10478,7 +10478,7 @@
   <F name="gong.mat"/>
   <F name="handel.mat"/>
   <F name="laughter.mat"/>
-  <N name="lin2mu.m"/>
+  <F name="lin2mu.m"/>
   <F name="mmcompinfo.m"/>
   <F name="mmfileinfo.m"/>
   <F name="movie2avi.m"/>
@@ -26185,7 +26185,7 @@
   <F name="im2java2d.m"/>
   <F name="im2single.m"/>
   <F name="im2uint16.m"/>
-  <F name="im2uint8.m"/>
+  <N name="im2uint8.m"/>
   <F name="imabsdiff.m"/>
   <F name="imadd.m"/>
   <F name="imadjust.m"/>
@@ -26229,7 +26229,7 @@
   <F name="imregionalmin.m"/>
   <F name="imregister.m"/>
   <F name="imregtform.m"/>
-  <F name="imresize.m"/>
+  <N name="imresize.m"/>
   <F name="imresize_old.m"/>
   <F name="imrotate.m"/>
   <F name="imsharpen.m"/>
@@ -26617,7 +26617,7 @@
   <F name="iptcheckconn.m"/>
   <F name="iptcheckinput.m"/>
   <F name="iptcheckinput.mexmaci64"/>
-  <F name="iptcheckmap.m"/>
+  <N name="iptcheckmap.m"/>
   <F name="iptcheckstrs.m"/>
   <N name="iptgetpref.m"/>
   <F name="iptprefs.m"/>
@@ -32246,16 +32246,16 @@
    <F name="type.m"/>
   </D>
   <D name="nnet/nnet/nnprocess/+mapstd">
-   <F name="apply.m"/>
+   <N name="apply.m"/>
    <F name="backprop.m"/>
    <F name="backpropReverse.m"/>
-   <F name="create.m"/>
+   <N name="create.m"/>
    <F name="dx_dy.m"/>
    <F name="dy_dx.m"/>
    <F name="forwardprop.m"/>
    <F name="forwardpropReverse.m"/>
    <F name="name.m"/>
-   <F name="parameterInfo.m"/>
+   <N name="parameterInfo.m"/>
    <F name="processInputs.m"/>
    <F name="processOutputs.m"/>
    <F name="reverse.m"/>
@@ -32321,7 +32321,7 @@
   <F name="fixunknowns.m"/>
   <F name="lvqoutputs.m"/>
   <F name="mapminmax.m"/>
-  <F name="mapstd.m"/>
+  <N name="mapstd.m"/>
   <F name="processpca.m"/>
   <F name="removeconstantrows.m"/>
   <F name="removerows.m"/>
@@ -32738,7 +32738,7 @@
   <D name="nnet/nnobsolete/+nnet7">
    <F name="net_input_fcn.m"/>
    <F name="performance_fcn.m"/>
-   <F name="process_fcn.m"/>
+   <N name="process_fcn.m"/>
    <F name="transfer_fcn.m"/>
    <F name="weight_fcn.m"/>
   </D>
@@ -32847,8 +32847,8 @@
    <F name="info.m"/>
   </D>
   <D name="nnet/nnutils/+nn_modular_fcn">
-   <F name="getParamStructFromArgs.m"/>
-   <F name="parameter_defaults.m"/>
+   <N name="getParamStructFromArgs.m"/>
+   <N name="parameter_defaults.m"/>
   </D>
   <D name="nnet/nnutils/+nn_net_input_fcn">
    <F name="dn_dzj_num.m"/>
@@ -32866,7 +32866,7 @@
    <F name="dx_dy_num.m"/>
    <F name="dy_dx_full.m"/>
    <F name="dy_dx_num.m"/>
-   <F name="info.m"/>
+   <N name="info.m"/>
    <F name="list.m"/>
   </D>
   <D name="nnet/nnutils/+nn_transfer_fcn">
@@ -32885,7 +32885,7 @@
   </D>
   <D name="nnet/nnutils/+nnassert">
    <F name="Contents.m"/>
-   <F name="minargs.m"/>
+   <N name="minargs.m"/>
   </D>
   <D name="nnet/nnutils/+nncalc">
    <F name="argPairs2Struct.m"/>
@@ -32942,9 +32942,9 @@
    <F name="caller.m"/>
    <F name="obs_fcn.m"/>
    <F name="obs_use.m"/>
-   <F name="tag.m"/>
-   <F name="throw.m"/>
-   <F name="value.m"/>
+   <N name="tag.m"/>
+   <N name="throw.m"/>
+   <N name="value.m"/>
   </D>
   <D name="nnet/nnutils/+nnet">
    <D name="nnet/nnutils/+nnet/+arguments">
@@ -33036,7 +33036,7 @@
   </D>
   <D name="nnet/nnutils/+nnfcn">
    <F name="Contents.m"/>
-   <F name="get_mhelp_title.m"/>
+   <N name="get_mhelp_title.m"/>
    <F name="obsolete_fcns.m"/>
    <F name="siblings.m"/>
   </D>
@@ -33081,16 +33081,16 @@
    <F name="block2link.m"/>
    <F name="block2linkstr.m"/>
    <F name="fcn2link.m"/>
-   <F name="fcn2strlink.m"/>
+   <N name="fcn2strlink.m"/>
    <F name="fcn2ulink.m"/>
    <F name="fcns2links.m"/>
-   <F name="filterLinks.m"/>
+   <N name="filterLinks.m"/>
    <F name="message_link.m"/>
    <F name="paramname2linkstr.m"/>
-   <F name="params2str.m"/>
-   <F name="paramstruct2str.m"/>
-   <F name="prop2link.m"/>
-   <F name="prop2link2.m"/>
+   <N name="params2str.m"/>
+   <N name="paramstruct2str.m"/>
+   <N name="prop2link.m"/>
+   <N name="prop2link2.m"/>
    <F name="propname2linkstr.m"/>
    <F name="states2str.m"/>
    <F name="str2link.m"/>
@@ -33216,7 +33216,7 @@
    <F name="add_jar.m"/>
    <F name="current_nnet.m"/>
    <F name="extension.m"/>
-   <F name="fcn2file.m"/>
+   <N name="fcn2file.m"/>
    <F name="file2fcn.m"/>
    <F name="filter_ext.m"/>
    <F name="installed_nnet.m"/>
@@ -33362,16 +33362,16 @@
   </D>
   <D name="nnet/nnutils/+nnstring">
    <F name="Contents.m"/>
-   <F name="bool2str.m"/>
+   <N name="bool2str.m"/>
    <F name="cell2string.m"/>
    <F name="clear_comment.m"/>
    <F name="clear_string.m"/>
    <F name="commaList.m"/>
    <F name="dimension_str.m"/>
-   <F name="ends.m"/>
-   <F name="fieldvalue2str.m"/>
+   <N name="ends.m"/>
+   <N name="fieldvalue2str.m"/>
    <F name="find.m"/>
-   <F name="first_match.m"/>
+   <N name="first_match.m"/>
    <F name="int2str.m"/>
    <F name="interval2str.m"/>
    <F name="mat2string.m"/>
@@ -33384,9 +33384,9 @@
    <F name="remove_str_whitespace.m"/>
    <F name="replace.m"/>
    <F name="search_options.m"/>
-   <F name="spaces.m"/>
+   <N name="spaces.m"/>
    <F name="starts.m"/>
-   <F name="str2str.m"/>
+   <N name="str2str.m"/>
    <F name="vert_cat.m"/>
   </D>
   <D name="nnet/nnutils/+nntemp">
@@ -33507,7 +33507,7 @@
    <F name="net.m"/>
    <F name="netsum2.m"/>
    <F name="numderivn.m"/>
-   <F name="param.m"/>
+   <N name="param.m"/>
    <F name="param_types.m"/>
    <F name="randMask.m"/>
    <F name="randMasks.m"/>
@@ -33588,7 +33588,7 @@
    <F name="network_or_null.m"/>
    <F name="network_or_struct.m"/>
    <F name="nndata_pos.m"/>
-   <F name="num_scalar.m"/>
+   <N name="num_scalar.m"/>
    <F name="over1.m"/>
    <F name="perceptlrn_fcn.m"/>
    <F name="performance_fcn.m"/>
@@ -33598,7 +33598,7 @@
    <F name="pos_int_inf_scalar.m"/>
    <F name="pos_int_scalar.m"/>
    <F name="pos_int_vector.m"/>
-   <F name="pos_scalar.m"/>
+   <N name="pos_scalar.m"/>
    <F name="pos_scalar_cell_row.m"/>
    <F name="processing_fcn.m"/>
    <F name="real_0_to_1.m"/>
@@ -33615,7 +33615,7 @@
    <F name="strict_pos_int_scalar.m"/>
    <F name="strict_pos_scalar.m"/>
    <F name="strictpos_delayvec.m"/>
-   <F name="string.m"/>
+   <N name="string.m"/>
    <F name="topology_fcn.m"/>
    <F name="training_fcn.m"/>
    <F name="transfer_fcn.m"/>
@@ -33647,8 +33647,8 @@
   <F name="nnetInput.m"/>
   <F name="nnetLayer.m"/>
   <F name="nnetOutput.m"/>
-  <F name="nnetParam.m"/>
-  <F name="nnetParamInfo.m"/>
+  <C name="nnetParam.m"/>
+  <C name="nnetParamInfo.m"/>
   <F name="nnetSetting.m"/>
   <F name="nnetTrainingRecord.m"/>
   <F name="nnetWeight.m"/>
@@ -33658,7 +33658,7 @@
   <F name="nnfcnDistance.m"/>
   <F name="nnfcnDivision.m"/>
   <F name="nnfcnFunctionType.m"/>
-  <F name="nnfcnInfo.m"/>
+  <C name="nnfcnInfo.m"/>
   <F name="nnfcnLayerInit.m"/>
   <F name="nnfcnLearning.m"/>
   <F name="nnfcnModularType.m"/>
@@ -33668,7 +33668,7 @@
   <F name="nnfcnSearch.m"/>
   <F name="nnfcnTopology.m"/>
   <F name="nnfcnTraining.m"/>
-  <F name="nnfcnType.m"/>
+  <C name="nnfcnType.m"/>
   <F name="nnfcnWeightInit.m"/>
   <F name="nnfcnWizard.m"/>
   <F name="nntwarn.m"/>

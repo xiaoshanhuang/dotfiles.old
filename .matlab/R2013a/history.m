@@ -1,15 +1,5 @@
 %-- Unknown date --%
-(mean(OBS(31,:,:),3))]'), legend(['BRL' 'OBS'])
-plot(EEG.times, [squeeze(mean(BRL(31,:,:),3));squeeze(mean(OBS(31,:,:),3))]'), legend('BRL','OBS')
-line(zeros(size(-10:15)), -10:15)
-line(-100:400, zeros(size(-100:400)))
-box off
-help rectangle
-rectangle('Position', [100 0 50 15])
-rectangle('Position', [180 0 80 -10])
-rectangle('Position', [180 -10 80 10])
-print(gcf, '-depsc','fig.eps' )
-%-- 10/10/13 11:50 AM --%
+0 AM --%
 eeglab
 [h p ci stats] = ttest(snrBRLP1, snrOBSP1)
 snrBRL = 10*log10(squeeze(mean(BRL(31,300:350,:).^2,2))./squeeze(mean(BRL(31,1:200,:).^2,2)));
@@ -4514,11 +4504,12 @@ title('Square 50uV 10Hz')
 print -deps fig.eps
 EEG.data(1,1)
 EEG
-%-- 10/29/13, 4:07 PM --%
-eeglab
-%-- 10/30/13, 3:33 PM --%
-8388607*(341333*2+1)/(8388607*2+1)
-ans
-ans*100000
-8388607*(341333*2+1)/(8388607*2+1)
-eeglab
+%-- 10/29/13, 8:42 PM --%
+bold = bold_ica('/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/FunImgARCWSF/ql041913_2/Filtered_4DVolume.nii', '/Users/hxs/Documents/Study/Research/EEG-fMRI_Resting/REST/Masks/AllResampled_GreyMask_02_91x109x91.nii', 20);
+bold
+plot(bold(func(100,100,100,:)))
+plot(bold.func(100,100,100,:))
+plot(bold.func(50,50,50,:))
+plot(squeeze(bold.func(50,50,50,:)))
+plot(zscore(squeeze(bold.func(50,50,50,:))))
+%-- 11/1/13, 10:22 AM --%
