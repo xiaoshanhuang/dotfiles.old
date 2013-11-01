@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ToolBar>
-   <Visible>
-      <Key>history</Key>
-      <Key>build</Key>
-      <Key>actions</Key>
-   </Visible>
-</ToolBar>
