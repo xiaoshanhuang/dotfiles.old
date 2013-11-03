@@ -1,8 +1,5 @@
 %-- Unknown date --%
-0 AM --%
-eeglab
-[h p ci stats] = ttest(snrBRLP1, snrOBSP1)
-snrBRL = 10*log10(squeeze(mean(BRL(31,300:350,:).^2,2))./squeeze(mean(BRL(31,1:200,:).^2,2)));
+RL(31,300:350,:).^2,2))./squeeze(mean(BRL(31,1:200,:).^2,2)));
 OBS = EEG.data;
 BRL = EEG.data;
 snrBRLP1 = 10*log10(squeeze(mean(BRL(31,300:350,:).^2,2))./squeeze(mean(BRL(31,1:200,:).^2,2)));
@@ -4513,3 +4510,13 @@ plot(bold.func(50,50,50,:))
 plot(squeeze(bold.func(50,50,50,:)))
 plot(zscore(squeeze(bold.func(50,50,50,:))))
 %-- 11/1/13, 10:22 AM --%
+%-- 11/1/13, 12:49 PM --%
+eeglab
+%-- 11/1/13, 2:38 PM --%
+eeglab
+%-- 11/1/13, 2:41 PM --%
+help line
+help ones
+size(-1 10)
+size(-1:10)
+print -deps fig.eps

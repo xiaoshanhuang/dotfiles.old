@@ -1,4 +1,5 @@
 /Users/hxs/Documents/MATLAB
+/Users/hxs/Documents/MATLAB/eeglab
 /Users/hxs/Documents/Study/Research/Analysis/PCC_ROI_By_Jingyuan
 /Users/hxs/Documents/Study/Research/Analysis
 /Users/hxs/Documents/Study/Research
@@ -17,4 +18,3 @@
 /Users/hxs/Research/BP_eeg_fmri_data
 /Users/hxs/Research/EEG-fMRI_BCG/Result
 /Users/hxs/Research/Analysis/mne-matlab
-/Users/hxs/Downloads/IsomapR1
