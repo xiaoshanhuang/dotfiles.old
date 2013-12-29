@@ -1,50 +1,5 @@
 %-- Unknown date --%
-[], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpstd', 'erpalpha', 0.05);
-figure; erpimage(bcg(20,:,:), [], [], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpstd', 'erpalpha', 0.00001);
-figure; erpimage(bcg(20,:,:), [], [], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpstd', 'erpalpha', 0.001);
-figure; erpimage(bcg(20,:,:), [], [], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.001);
-figure; erpimage(bcg(20,:,:), [], EEG.times, [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.001);
-figure; erpimage(bcg(20,:,:), [], [-100 899 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.001);
-figure; erpimage(bcg(20,:,:), [], [-100 999 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.001);
-figure; erpimage(bcg(20,:,:), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.001);
-figure; erpimage(bcg(20,:,:), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
-figure; erpimage(bcg(20,:,:), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05);
-help erpplot
-help ploterp
-figure; erpimage(bcg(20,:,:), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05);
-help pca
-[COEFF, SCORE] = pca(squeeze(bcg(20,:)))
-[COEFF, SCORE] = pca(squeeze(bcg(20,:,:)))
-[COEFF, SCORE] = pca(squeeze(bcg(20,:,:)));
-[COEFF, SCORE] = pca(squeeze(bcg(20,:,:))');
-figure, plot(COEFF(:,1))
-figure, plot(COEFF(:,2))
-figure, plot(COEFF(:,3))
-figure, plot(COEFF(:,4))
-figure, plot(COEFF(:,5))
-figure, plot(COEFF(:,6))
-figure, plot(COEFF(:,1))
-figure, plot(COEFF(:,2))
-figure, plot(COEFF(:,3))
-figure, plot(COEFF(:,5))
-bcgOBS = epoch(EEG.data, qrs, [-100 900]);
-figure; erpimage(bcgOBS(20,:,:), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05);
-figure; erpimage(bcgOBS(20,:,:), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.001);
-stim = cell2mat({EEG.event.latency};
-stim = cell2mat({EEG.event.latency});
-help eeg_getepochevent
-epochval = eeg_getepochevent( EEG, 'type', 'S  1');
-epochval = eeg_getepochevent( EEG, 'S  1');
-epochval = eeg_getepochevent( EEG, 'type', 'S  1', 'fieldname', latency);
-epochval = eeg_getepochevent( EEG, 'type', 'S  1', 'fieldname', 'latency');
-epochval = eeg_getepochevent( EEG, 'type', 'S 1', 'fieldname', 'latency');
-epochval = eeg_getepochevent( EEG, 'type', 'S  1', 'fieldname', 'latency');
-epochval = eeg_getepochevent( EEG, 'type', 'S  1');
-epochval = eeg_getepochevent( EEG,  'S  1', [], 'position');
-epochval = eeg_getepochevent( EEG,  'S  1');
-epochval = {};
-epochval = eeg_getepochevent( EEG,  'S  1');
-EEG.event.type == 'S  1'
+ent.type == 'S  1'
 event = EEG.event(EEG.event.type == 'S  1');
 event = EEG.event(EEG.event{}.type == 'S  1');
 EEG.event(1:5).type
@@ -5348,3 +5303,34 @@ figure, for i = 1:9, subplot(3,3,i), topoplot(P(:,i,3), EEG.chanlocs);  end;
 figure, for i = 1:9, subplot(3,3,i), topoplot(P(:,i,5), EEG.chanlocs);  end;
 figure, for i = 1:9, subplot(3,3,i), topoplot(P(:,i,1), EEG.chanlocs);  end;
 figure, for i = 1:9, subplot(3,3,i), topoplot(P(:,i,4), EEG.chanlocs);  end;
+%-- 12/29/13, 4:12 PM --%
+eeglab
+clear all; close all; clc; jheapcl;
+eeglab
+clear all; close all; clc; jheapcl;
+eeglab
+eeglab redraw
+help pop_select
+help pop_epoch
+eeglab redraw
+fftplot(EEG.data(59,:), EEG.srate, [0.5 30])
+fftplot(EEG.data(2,:), EEG.srate, [0.5 30])
+fftplot(EEG.data(59,:), EEG.srate, [0.5 30])
+EEG.history
+fftplot(EEG.data(1,:), EEG.srate, [0.5 30])
+help pop_runica
+eeglab redraw
+help pop_select
+clear all; close all; clc; jheapcl;
+delete bias* binica* temp*
+eeglab redraw
+help diag
+clear all; close all; clc; jheapcl;
+r
+[Wx,Wy,r1] = CCA(X,Y);
+r1
+A
+Wx
+r1(3)
+[Wx,Wy,r1] = CCA(X,Y);
+r1

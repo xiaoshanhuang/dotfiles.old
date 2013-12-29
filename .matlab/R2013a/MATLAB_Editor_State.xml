@@ -126,10 +126,16 @@
    <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1388028462346" name="cca_eig.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1388218133597" name="resample.m">
+   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1388313113765" name="resample.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Research/Face_EEG_fMRI" lastWrittenTime="1388218133622" name="EEG_Face_Gamma.m">
+   <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1388313321864" name="CCA.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Face_EEG_fMRI" lastWrittenTime="1388313517790" name="EEG_Face_Gamma.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Face_Scene/Analysis" lastWrittenTime="1388313517810" name="batch.m">
       <CodeFolds version="1.0"/>
    </File>
 </Editor>

@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="1.1" date="Sat Dec 28 16:08:53 2013">
+<MathWorks type="Path Cache File" version="1.1" date="Sun Dec 29 18:38:37 2013">
  <D name="matlab/demos">
   <D name="matlab/demos/private">
    <F name="style.css"/>
@@ -2393,7 +2393,7 @@
   </D>
   <F name="Contents.m"/>
   <N name="accumarray.m"/>
-  <F name="blkdiag.m"/>
+  <N name="blkdiag.m"/>
   <N name="bsxfun.m"/>
   <N name="cat.m"/>
   <F name="circshift.m"/>
