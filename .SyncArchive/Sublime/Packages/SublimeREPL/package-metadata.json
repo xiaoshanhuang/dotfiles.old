@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+{"url": "https://github.com/wuub/SublimeREPL", "version": "2.0.8", "description": "SublimeREPL - run an interpreter inside ST2 (Clojure, CoffeeScript, F#, Groovy, Haskell, Lua, MozRepl, NodeJS, Python + virtualenv, R, Ruby, Scala...)"}
+=======
+{"url": "https://github.com/wuub/SublimeREPL", "version": "2.0.9", "description": "SublimeREPL - run an interpreter inside ST2 (Clojure, CoffeeScript, F#, Groovy, Haskell, Lua, MozRepl, NodeJS, Python + virtualenv, R, Ruby, Scala...)"}
+>>>>>>> d5617692df42d65a74d8cf612e242c95f04c26df

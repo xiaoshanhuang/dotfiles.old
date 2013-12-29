@@ -1,0 +1,24 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"4GL",
+		"Alignment",
+		"AutoWrap",
+		"CompleteSharp",
+		"ConvertToUTF8",
+		"GBK Encoding Support",
+		"HexViewer",
+		"LaTeX-cwl",
+		"Markdown Preview",
+		"Package Control",
+		"SublimeREPL",
+		"SublimeXiki",
+		"Theme - Flatland"
+	],
+	"install_prereleases": true,
+	"repositories":
+	[
+	"http://testing.latexing.com/packages.json"
+	]
+}

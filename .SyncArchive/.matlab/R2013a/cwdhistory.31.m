@@ -1,0 +1,20 @@
+/Users/hxs/Documents/Study/Research/Algorithm/Graphical Lasso
+/Users/hxs/Documents/Study/Research/Resample
+/Users/hxs/Documents/MATLAB
+/Users/hxs/Documents
+/Users/hxs
+/Users/hxs/Research/Analysis/hxs_matlab
+/Users/hxs/Research/Analysis
+/Users/hxs/Research
+/Users/hxs/Research/EEG-fMRI_BCG/Analysis
+/Users/hxs/Research/EEG-fMRI_BCG
+/Users/hxs/Research/EEG-fMRI_BCG/Result
+/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus
+/Users/hxs/Downloads/inputsdlg_v2.0.4
+/Users/hxs/Downloads
+/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus/Scene/neutral
+/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus/Scene
+/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab
+/Users/hxs/Documents/Study/Research/Analysis
+/Users/hxs/Documents/Study/Research
+/Users/hxs/Documents/Study

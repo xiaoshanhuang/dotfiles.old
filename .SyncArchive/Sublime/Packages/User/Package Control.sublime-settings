@@ -1,0 +1,20 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"4GL",
+		"Alignment",
+		"AutoWrap",
+		"CompleteSharp",
+		"ConvertToUTF8",
+		"GBK Encoding Support",
+		"HexViewer",
+		"LaTeX-cwl",
+		"LaTeXing",
+		"Markdown Preview",
+		"Package Control",
+		"SublimeREPL",
+		"SublimeXiki",
+		"Theme - Flatland"
+	]
+}

@@ -1,13 +1,14 @@
 /Users/hxs/Documents/MATLAB
+/Users/hxs
+/Users/hxs/Research
+/Users/hxs/Research/Analysis
+/Users/hxs/Research/Analysis/hxs_matlab
+/Users/hxs/Documents
+/Users/hxs/Documents/MATLAB/eeglab
 /Users/hxs/Documents/Study/Research/Analysis/PCC_ROI_By_Jingyuan
 /Users/hxs/Documents/Study/Research/Analysis
 /Users/hxs/Documents/Study/Research
 /Users/hxs/Documents/Study
-/Users/hxs/Documents
-/Users/hxs/Research/Analysis/hxs_matlab
-/Users/hxs/Research/Analysis
-/Users/hxs/Research
-/Users/hxs
 /Users/hxs/Research/EEG-fMRI_BCG/Data/20131011_ANDREACINETTO
 /Users/hxs/Research/EEG-fMRI_BCG/Data/20130924_LINKE
 /Users/hxs/Research/EEG-fMRI_BCG/Data
@@ -17,4 +18,3 @@
 /Users/hxs/Research/BP_eeg_fmri_data
 /Users/hxs/Research/EEG-fMRI_BCG/Result
 /Users/hxs/Research/Analysis/mne-matlab
-/Users/hxs/Downloads/IsomapR1

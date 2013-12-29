@@ -1,0 +1,20 @@
+/Users/hxs/Dropbox/Neuracle/Develop/EEG Test
+/Users/hxs/Dropbox/Neuracle/Develop
+/Users/hxs/Dropbox/Neuracle/Develop/Emulator/SerialDataParser
+/Users/hxs/Dropbox/Neuracle/Develop/Emulator
+/Users/hxs/Dropbox/Neuracle
+/Users/hxs/Dropbox
+/Users/hxs
+/Users/hxs/Research/Analysis/hxs_matlab
+/Users/hxs/Research/Analysis
+/Users/hxs/Research
+/Users/hxs/Research/EEG-fMRI_BCG
+/Users/hxs/Documents/MATLAB
+/Users/hxs/Research/EEG-fMRI_BCG/Data/ghg082713/eeg
+/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab
+/Users/hxs/Documents/Study/Research/Analysis
+/Users/hxs/Documents/Study/Research
+/Users/hxs/Documents/Study
+/Users/hxs/Documents
+/Users
+/Users/hxs/Documents/MATLAB/jheapcl

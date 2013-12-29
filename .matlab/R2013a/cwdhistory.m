@@ -1,20 +1,20 @@
 /Users/hxs/Documents/MATLAB
-/Users/hxs/Documents/MATLAB/eeglab
-/Users/hxs/Documents/Study/Research/Analysis/PCC_ROI_By_Jingyuan
-/Users/hxs/Documents/Study/Research/Analysis
-/Users/hxs/Documents/Study/Research
-/Users/hxs/Documents/Study
-/Users/hxs/Documents
+/Users/hxs/Research/Resample
+/Users/hxs/Research
+/Users/hxs/Research/EEG-fMRI_BCG
+/Users/hxs/Research/EEG-fMRI_BCG/Analysis
+/Users/hxs/Documents/Study/Research/Algorithm/Graphical Lasso
+/Users/hxs/Research/Algorithm/Graphical Lasso
 /Users/hxs/Research/Analysis/hxs_matlab
 /Users/hxs/Research/Analysis
-/Users/hxs/Research
+/Users/hxs/Research/lishijun/MAJUN
+/Users/hxs/Research/lishijun
+/Users/hxs/Research/Algorithm
+/Users/hxs/Research/Face_EEG_fMRI/EEG_ERP_ALL
+/Users/hxs/Research/Face_EEG_fMRI
 /Users/hxs
-/Users/hxs/Research/EEG-fMRI_BCG/Data/20131011_ANDREACINETTO
-/Users/hxs/Research/EEG-fMRI_BCG/Data/20130924_LINKE
-/Users/hxs/Research/EEG-fMRI_BCG/Data
-/Users/hxs/Research/EEG-fMRI_BCG
-/Users/hxs/Research/EEG-fMRI_BCG/Data/ghg082713/eeg
-/Users/hxs/matlab
-/Users/hxs/Research/BP_eeg_fmri_data
+/Users/hxs/Documents
 /Users/hxs/Research/EEG-fMRI_BCG/Result
-/Users/hxs/Research/Analysis/mne-matlab
+/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus
+/Users/hxs/Downloads/inputsdlg_v2.0.4
+/Users/hxs/Downloads

@@ -1,1 +1,3 @@
 /Applications/Psychtoolbox/PsychJava
+/Applications/Psychtoolbox/PsychJava
+/Applications/Psychtoolbox/PsychJava
