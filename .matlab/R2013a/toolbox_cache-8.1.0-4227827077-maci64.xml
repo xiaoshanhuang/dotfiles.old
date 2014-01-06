@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="1.1" date="Sun Dec 29 18:38:37 2013">
+<MathWorks type="Path Cache File" version="1.1" date="Mon Jan  6 09:21:11 2014">
  <D name="matlab/demos">
   <D name="matlab/demos/private">
    <F name="style.css"/>
@@ -1634,7 +1634,7 @@
   <N name="listdlg.m"/>
   <N name="listfonts.m"/>
   <F name="makemenu.m"/>
-  <F name="menu.m"/>
+  <N name="menu.m"/>
   <F name="menulabel.m"/>
   <N name="movegui.m"/>
   <N name="msgbox.m"/>
@@ -2396,7 +2396,7 @@
   <N name="blkdiag.m"/>
   <N name="bsxfun.m"/>
   <N name="cat.m"/>
-  <F name="circshift.m"/>
+  <N name="circshift.m"/>
   <F name="compan.m"/>
   <N name="diag.m"/>
   <N name="eps.m"/>
@@ -2447,7 +2447,7 @@
   <N name="permute.m"/>
   <N name="pi.m"/>
   <N name="realmax.m"/>
-  <F name="realmin.m"/>
+  <N name="realmin.m"/>
   <N name="repmat.m"/>
   <N name="reshape.m"/>
   <F name="rosser.m"/>
@@ -3424,7 +3424,7 @@
   <N name="chol.m"/>
   <F name="cholupdate.m"/>
   <N name="cond.m"/>
-  <F name="condeig.m"/>
+  <N name="condeig.m"/>
   <N name="condest.m"/>
   <N name="det.m"/>
   <N name="eig.m"/>
@@ -3441,23 +3441,23 @@
   <N name="lu.m"/>
   <F name="mimofr.m"/>
   <N name="norm.m"/>
-  <F name="normest.m"/>
+  <N name="normest.m"/>
   <N name="normest1.m"/>
   <N name="null.m"/>
   <F name="ordeig.m"/>
   <F name="ordqz.m"/>
   <F name="ordschur.m"/>
-  <F name="orth.m"/>
+  <N name="orth.m"/>
   <N name="pinv.m"/>
   <F name="planerot.m"/>
   <F name="polyeig.m"/>
   <N name="qr.m"/>
-  <F name="qrdelete.m"/>
-  <F name="qrinsert.m"/>
-  <F name="qrupdate.m"/>
+  <N name="qrdelete.m"/>
+  <N name="qrinsert.m"/>
+  <N name="qrupdate.m"/>
   <F name="qz.m"/>
   <N name="rank.m"/>
-  <F name="rcond.m"/>
+  <N name="rcond.m"/>
   <F name="rref.m"/>
   <F name="rsf2csf.m"/>
   <N name="schur.m"/>
@@ -3524,7 +3524,7 @@
   <N name="setxor.m"/>
   <N name="slash.m"/>
   <N name="subsasgn.m"/>
-  <F name="subsindex.m"/>
+  <N name="subsindex.m"/>
   <N name="subsref.m"/>
   <N name="times.m"/>
   <N name="transpose.m"/>
@@ -48673,7 +48673,7 @@
   <F name="digitrevorder.m"/>
   <F name="diric.m"/>
   <N name="downsample.m"/>
-  <F name="dpss.m"/>
+  <N name="dpss.m"/>
   <F name="dpssclear.m"/>
   <F name="dpssdir.m"/>
   <F name="dpssload.m"/>

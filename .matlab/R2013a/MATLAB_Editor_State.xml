@@ -39,9 +39,6 @@
    <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1372703899973" name="glover_hrf.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1373299763053" name="mscluster.m">
-      <CodeFolds version="1.0"/>
-   </File>
    <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1373299763500" name="sps_kernal.m">
       <CodeFolds version="1.0"/>
    </File>
@@ -126,16 +123,28 @@
    <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1388028462346" name="cca_eig.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1388313113765" name="resample.m">
-      <CodeFolds version="1.0"/>
-   </File>
    <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1388313321864" name="CCA.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Research/Face_EEG_fMRI" lastWrittenTime="1388313517790" name="EEG_Face_Gamma.m">
+   <File absPath="/Users/hxs/Research/Face_EEG_fMRI" lastWrittenTime="1388414901133" name="EEG_Face_Gamma.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Research/Face_Scene/Analysis" lastWrittenTime="1388313517810" name="batch.m">
+   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1388491560807" name="rSIM.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Resample" lastWrittenTime="1388624142909" name="rSIM.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1388624142940" name="mscluster.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1388971271906" name="resample.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1388971271919" name="simulation.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Face_Scene/Analysis" lastWrittenTime="1388971271951" name="batch.m">
       <CodeFolds version="1.0"/>
    </File>
 </Editor>

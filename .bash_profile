@@ -9,3 +9,4 @@ export PS1='\[\033[01;33m\]\u@\h\[\033[01;31m\] \W\$\[\033[00m\] '
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
+export PATH=/usr/local/phantomjs/bin/:$PATH

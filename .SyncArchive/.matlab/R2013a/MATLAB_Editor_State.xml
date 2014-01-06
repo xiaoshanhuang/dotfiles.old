@@ -60,22 +60,13 @@
    <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1375120012316" name="plotColorBar.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Google Drive/Neuracle/Develop/EEG Test" lastWrittenTime="1377875256885" name="noisetest.m">
-      <CodeFolds version="1.0"/>
-   </File>
    <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1377875261582" name="alignBCG.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1377875262571" name="cmd.m">
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1378131292010" name="initFilter.m">
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus" lastWrittenTime="1378186189136" name="make_circular_checkerboard_pattern.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus" lastWrittenTime="1379401227738" name="checkerboard_EEG_fMRI.m">
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus" lastWrittenTime="1379401227764" name="audio.m">
@@ -93,10 +84,67 @@
    <File absPath="/Users/hxs/Google Drive/Neuracle/Develop/专利/Wireless Trigger" lastWrittenTime="1383888336124" name="HandShakeSquence.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1385693066288" name="obs.m">
+   <File absPath="/Users/hxs/Google Drive/Neuracle/Develop/EEG Test" lastWrittenTime="1386055299057" name="noisetest.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1385693066303" name="batch.m">
+   <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1386315064047" name="obs.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1386476071975" name="cmd.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Dropbox/Neuracle/Develop/EEG Test" lastWrittenTime="1386593475692" name="loadeol.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Dropbox/Neuracle/Develop/EEG Test" lastWrittenTime="1386639835151" name="SCN.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1386730947720" name="rbcca.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1387167911923" name="batch.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1387167911939" name="BRL.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1387167911953" name="resample.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus" lastWrittenTime="1387383213709" name="checkerboard_EEG_fMRI.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus" lastWrittenTime="1387452772315" name="face_scene.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Downloads/inputsdlg_v2.0.4" lastWrittenTime="1387452773865" name="test.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1388028455234" name="cca.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1388028462346" name="cca_eig.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1388313321864" name="CCA.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Face_Scene/Analysis" lastWrittenTime="1388386573428" name="batch.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1388414901123" name="simulation.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Face_EEG_fMRI" lastWrittenTime="1388414901133" name="EEG_Face_Gamma.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Resample" lastWrittenTime="1388453033538" name="rSIM.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1388491560791" name="resample.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1388491560807" name="rSIM.m">
       <CodeFolds version="1.0"/>
    </File>
 </Editor>

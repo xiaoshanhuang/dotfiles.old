@@ -1,20 +1,20 @@
-/Users/hxs/Documents/MATLAB/jheapcl
+/Users/hxs/Research/Resample
+/Users/hxs/Research/Algorithm
 /Users/hxs/Documents/MATLAB
-/Users/hxs/Documents
-/Users/hxs
+/Users/hxs/Documents/Study/Research/Resample
+/Users/hxs/Documents/Study/Research/Algorithm/Graphical Lasso
+/Users/hxs/Research/Algorithm/Robust/LIBRA_31okt11
+/Users/hxs/Research/Algorithm/Robust/LIBRA_31okt11/Mac64CompiledCcode_LIBRA
+/Users/hxs/Research/Algorithm/Robust
 /Users/hxs/Research
-/Users/hxs/Research/Analysis
 /Users/hxs/Research/Analysis/hxs_matlab
-/Users/hxs/Documents/MATLAB/eeglab
-/Users/hxs/Documents/Study/Research/Analysis/PCC_ROI_By_Jingyuan
-/Users/hxs/Documents/Study/Research/Analysis
+/Users/hxs/Research/Analysis
+/Users/hxs/Research/Algorithm/Graphical Lasso
 /Users/hxs/Documents/Study/Research
+/Users/hxs/Documents/Study/Research/Algorithm
 /Users/hxs/Documents/Study
-/Users/hxs/Research/EEG-fMRI_BCG/Data/20131011_ANDREACINETTO
-/Users/hxs/Research/EEG-fMRI_BCG/Data/20130924_LINKE
-/Users/hxs/Research/EEG-fMRI_BCG/Data
+/Users/hxs/Documents
+/Users/hxs/Research/Face_Scene
+/Users/hxs/Research/Face_EEG_fMRI
+/Users/hxs/Research/EEG-fMRI_BCG/Analysis
 /Users/hxs/Research/EEG-fMRI_BCG
-/Users/hxs/Research/EEG-fMRI_BCG/Data/ghg082713/eeg
-/Users/hxs/matlab
-/Users/hxs/Research/BP_eeg_fmri_data
-/Users/hxs/Research/EEG-fMRI_BCG/Result
