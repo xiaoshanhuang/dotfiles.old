@@ -1,3 +1,4 @@
 {
-	"parser": "github"
+	"parser": "github",
+	"enable_mathjax": true
 }

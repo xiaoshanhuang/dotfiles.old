@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Editor version="1.0">
-   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1366946238053" name="test_ssh_bg_job.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1366947525554" name="add_slice_trigger.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1367004290674" name="fastr_EGIRaw.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1367865360717" name="myglm.m">
-      <CodeFolds version="1.0"/>
-   </File>
    <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1368902556855" name="figure.m">
       <CodeFolds version="1.0"/>
    </File>
@@ -39,9 +27,6 @@
    <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1372703899973" name="glover_hrf.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1373299763053" name="mscluster.m">
-      <CodeFolds version="1.0"/>
-   </File>
    <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1373299763500" name="sps_kernal.m">
       <CodeFolds version="1.0"/>
    </File>
@@ -67,9 +52,6 @@
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus" lastWrittenTime="1378186189136" name="make_circular_checkerboard_pattern.m">
-      <CodeFolds version="1.0"/>
-   </File>
-   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus" lastWrittenTime="1379401227738" name="checkerboard_EEG_fMRI.m">
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus" lastWrittenTime="1379401227764" name="audio.m">
@@ -105,10 +87,67 @@
    <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1386730947720" name="rbcca.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1387070363400" name="batch.m">
+   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1387167911923" name="batch.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1387070363420" name="BRL.m">
+   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1387167911939" name="BRL.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/MATLAB" lastWrittenTime="1387167911953" name="resample.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus" lastWrittenTime="1387383213709" name="checkerboard_EEG_fMRI.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab/Stimulus" lastWrittenTime="1387452772315" name="face_scene.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Downloads/inputsdlg_v2.0.4" lastWrittenTime="1387452773865" name="test.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1388028455234" name="cca.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1388028462346" name="cca_eig.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1388313321864" name="CCA.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Face_EEG_fMRI" lastWrittenTime="1388414901133" name="EEG_Face_Gamma.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Resample" lastWrittenTime="1388624142909" name="rSIM.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab" lastWrittenTime="1388624142940" name="mscluster.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Face_Scene/Analysis" lastWrittenTime="1389350777272" name="batch.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1389541986928" name="SIM.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1389543569923" name="aSIM.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1389625395036" name="rSIM.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1389625395046" name="simulation.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1389625395065" name="resample_sim.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1389625395074" name="snrmax.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1389667404645" name="resample.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1389675822252" name="plotcomp.m">
       <CodeFolds version="1.0"/>
    </File>
 </Editor>

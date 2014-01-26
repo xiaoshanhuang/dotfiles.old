@@ -75,6 +75,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>FE3B6C7B-FC46-47E1-8278-DCEDE54BC86B</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -90,8 +111,6 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>08E54D73-B58A-4379-93AF-20156961067E</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -166,44 +185,6 @@ end alfred_script</string>
 			<string>alfred.workflow.action.applescript</string>
 			<key>uid</key>
 			<string>21B06A24-98F3-4539-B977-5C0F51330422</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>1</integer>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>FE3B6C7B-FC46-47E1-8278-DCEDE54BC86B</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsmulti</key>
-				<true/>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
-				<string>Open in Sublime</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>F955C061-DEC7-4AE3-9551-2BAEA165F6A1</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -258,8 +239,6 @@ end alfred_script</string>
 			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
 			<string>7C37B436-47F5-447A-AEF2-D84595EAC652</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -271,9 +250,9 @@ end alfred_script</string>
 SUBL_F=`echo "{query}" | sed "s/\(.*\)\(:::\)\([23]\)/\1/"`
 
 if [ $SUBL_V -eq 3 ]; then
-	/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -n --stay "$SUBL_F"
+	/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -a --stay "$SUBL_F"
 else
-	/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl -n --stay "$SUBL_F"
+	/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl -a --stay "$SUBL_F"
 fi</string>
 				<key>type</key>
 				<integer>0</integer>
@@ -282,8 +261,21 @@ fi</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>DEAFC118-81B7-42D6-A99F-F007CE98F6DA</string>
-			<key>version</key>
-			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<true/>
+				<key>filetypes</key>
+				<array/>
+				<key>name</key>
+				<string>Open in Sublime</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>F955C061-DEC7-4AE3-9551-2BAEA165F6A1</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -311,8 +303,6 @@ fi</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>557A03C4-9DD9-4EE7-9A04-6667D824403A</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 	</array>
 	<key>readme</key>

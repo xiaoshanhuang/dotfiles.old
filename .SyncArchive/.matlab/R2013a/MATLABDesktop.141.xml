@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Layout CurrentFolderBarBelow="yes">
    <Version Major="3" Minor="0"/>
-   <Frame StatusBarShowing="yes" TitlesShowing="yes" ToolstripCollapsed="yes">
+   <Frame StatusBarShowing="yes" TitlesShowing="yes">
       <ToolBars>
          <ToolBar Label="Current Folder" Name="Current DirectoryToolBar" Showing="yes"/>
       </ToolBars>
       <Location EntirelyVisible="yes" External="yes" Height="874" MaxHeight="1414" MaxWidth="2560" Maximized="yes" Type="floating" Width="1440" X="0" Y="22"/>
-      <Split Orientation="leftRight" Position="0.1565">
+      <Split Orientation="leftRight" Position="0.1582">
          <View Name="Current Directory" Title="Current Folder"/>
-         <Split Orientation="leftRight" Position="0.7355">
+         <Split Orientation="leftRight" Position="0.7423">
             <View Name="Command Window" Title="Command Window"/>
-            <Split Orientation="topBottom" Position="0.7002">
+            <Split Orientation="topBottom" Position="0.7076">
                <View Name="Workspace" Title="Workspace"/>
                <View Name="Command History" Title="Command History"/>
             </Split>
@@ -18,17 +18,17 @@
       </Split>
       <QuickAccessLocation Region="right_of_tabs"/>
    </Frame>
-   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="Editor" PropertyClass="com.mathworks.mde.editor.EditorGroup" Show="no" ShowViews="no" Title="Editor">
-      <Location Context="docked" Height="784" ParentHeight="1319" ParentWidth="1101" Path="EWN" Type="nested" Width="1101" X="1057" Y="99">
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="Editor" PropertyClass="com.mathworks.mde.editor.EditorGroup" Show="yes" ShowViews="no" Title="Editor">
+      <Location Context="docked" Height="817" ParentHeight="1226" ParentWidth="1111" Path="EWN" Type="nested" Width="1111" X="1060" Y="192">
          <ReferenceHierarchy>
-            <Split Orientation="leftRight" Position="280">
+            <Split Orientation="leftRight" Position="283">
                <View Name="Current Directory" Title="Current Folder"/>
-               <Split Orientation="leftRight" Position="1101">
-                  <Split Orientation="topBottom" Position="784">
+               <Split Orientation="leftRight" Position="1111">
+                  <Split Orientation="topBottom" Position="817">
                      <Group Name="Editor" Title="Editor"/>
                      <View Name="Command Window" Title="Command Window"/>
                   </Split>
-                  <Split Orientation="topBottom" Position="906">
+                  <Split Orientation="topBottom" Position="867">
                      <View Name="Workspace" Title="Workspace"/>
                      <View Name="Command History" Title="Command History"/>
                   </Split>
@@ -36,16 +36,16 @@
             </Split>
          </ReferenceHierarchy>
       </Location>
-      <Location Context="nested" Height="784" ParentHeight="1319" ParentWidth="1101" Path="EWN" Type="nested" Width="1101" X="1057" Y="99">
+      <Location Context="nested" Height="817" ParentHeight="1226" ParentWidth="1111" Path="EWN" Type="nested" Width="1111" X="1060" Y="192">
          <ReferenceHierarchy>
-            <Split Orientation="leftRight" Position="280">
+            <Split Orientation="leftRight" Position="283">
                <View Name="Current Directory" Title="Current Folder"/>
-               <Split Orientation="leftRight" Position="1101">
-                  <Split Orientation="topBottom" Position="784">
+               <Split Orientation="leftRight" Position="1111">
+                  <Split Orientation="topBottom" Position="817">
                      <Group Name="Editor" Title="Editor"/>
                      <View Name="Command Window" Title="Command Window"/>
                   </Split>
-                  <Split Orientation="topBottom" Position="906">
+                  <Split Orientation="topBottom" Position="867">
                      <View Name="Workspace" Title="Workspace"/>
                      <View Name="Command History" Title="Command History"/>
                   </Split>
@@ -53,13 +53,13 @@
             </Split>
          </ReferenceHierarchy>
       </Location>
-      <Location Context="undocked" External="yes" Height="874" Maximized="yes" Type="floating" Width="1440" X="632" Y="241"/>
-      <Location Context="document" Type="floating"/>
+      <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="874" Maximized="yes" Type="floating" Width="1440" X="632" Y="241"/>
+      <Location Context="document" Maximized="yes" Type="floating"/>
       <Frame StatusBarShowing="yes" TitlesShowing="yes">
-         <Location External="yes" Height="874" MaxHeight="774" MaxWidth="1280" Maximized="yes" Type="floating" Width="1440" X="632" Y="241"/>
+         <Location EntirelyVisible="yes" External="yes" Height="874" MaxHeight="1414" MaxWidth="2560" Maximized="yes" Type="floating" Width="1440" X="632" Y="241"/>
          <QuickAccessLocation Region="right_of_tabs"/>
       </Frame>
-      <DocumentArea Arrangement="maximized" Empty="yes" MaxBarWidth="866" Showing="no"/>
+      <DocumentArea Arrangement="maximized" Empty="no" MaxBarWidth="351" Showing="yes"/>
    </Group>
    <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="Figures" PropertyClass="com.mathworks.hg.peer.FiguresGroup" Show="no" ShowViews="no" Title="Figures">
       <Location Context="docked" Height="860" ParentHeight="879" ParentWidth="1454" Path="EWNT" TabIndex="1" Type="nested" Width="1454" X="567" Y="118">
@@ -103,7 +103,7 @@
          </ReferenceHierarchy>
       </Location>
       <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="854" Type="floating" Width="1420" X="10" Y="32"/>
-      <Location Context="document" EntirelyVisible="yes" External="yes" Height="281" Type="floating" Width="305" X="205" Y="694"/>
+      <Location Context="document" EntirelyVisible="yes" External="yes" Height="493" Type="floating" Width="560" X="99" Y="30"/>
       <Frame StatusBarShowing="yes" TitlesShowing="yes">
          <Location EntirelyVisible="yes" External="yes" Height="854" Type="floating" Width="1420" X="10" Y="32"/>
       </Frame>
@@ -187,22 +187,22 @@
       </Frame>
       <DocumentArea Arrangement="maximized" Empty="yes" MaxBarWidth="180" Showing="no"/>
    </Group>
-   <Client Class="com.mathworks.mde.cmdwin.CmdWin" Dock="yes" Guest="no" Name="Command Window" SelectionOrder="6" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Command Window">
-      <Location Context="docked" Height="1319" ParentHeight="1319" ParentWidth="1503" Path="EW" Type="nested" Width="1105" X="1057" Y="99"/>
+   <Client Class="com.mathworks.mde.cmdwin.CmdWin" Dock="yes" Guest="no" Name="Command Window" SelectionOrder="16" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Command Window">
+      <Location Context="docked" Height="1226" ParentHeight="1226" ParentWidth="1500" Path="EW" Type="nested" Width="1113" X="1060" Y="192"/>
       <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="955" Type="floating" Width="1412" X="1128" Y="201"/>
-      <Location Context="nested" Height="1319" ParentHeight="1319" ParentWidth="1503" Path="EW" Type="nested" Width="1105" X="1057" Y="99"/>
+      <Location Context="nested" Height="1226" ParentHeight="1226" ParentWidth="1500" Path="EW" Type="nested" Width="1113" X="1060" Y="192"/>
    </Client>
    <Client Class="com.mathworks.mde.cmdhist.CmdHistoryWindow" Dock="yes" Guest="no" Name="Command History" SelectionOrder="8" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Command History">
-      <Location Context="docked" Height="387" ParentHeight="1319" ParentWidth="389" Path="EES" Type="nested" Width="389" X="2171" Y="1031"/>
-      <Location Context="nested" Height="387" ParentHeight="1319" ParentWidth="389" Path="EES" Type="nested" Width="389" X="2171" Y="1031"/>
+      <Location Context="docked" Height="350" ParentHeight="1226" ParentWidth="378" Path="EES" Type="nested" Width="378" X="2182" Y="1068"/>
+      <Location Context="nested" Height="350" ParentHeight="1226" ParentWidth="378" Path="EES" Type="nested" Width="378" X="2182" Y="1068"/>
    </Client>
-   <Client Class="com.mathworks.mde.explorer.Explorer" Dock="yes" Guest="no" Name="Current Directory" SelectionOrder="9" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Current Folder">
-      <Location Context="docked" Height="1319" ParentHeight="1319" ParentWidth="1792" Path="W" Type="nested" Width="280" X="768" Y="99"/>
-      <Location Context="nested" Height="1319" ParentHeight="1319" ParentWidth="1792" Path="W" Type="nested" Width="280" X="768" Y="99"/>
+   <Client Class="com.mathworks.mde.explorer.Explorer" Dock="yes" Guest="no" Name="Current Directory" SelectionOrder="13" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Current Folder">
+      <Location Context="docked" Height="1226" ParentHeight="1226" ParentWidth="1792" Path="W" Type="nested" Width="283" X="768" Y="192"/>
+      <Location Context="nested" Height="1226" ParentHeight="1226" ParentWidth="1792" Path="W" Type="nested" Width="283" X="768" Y="192"/>
    </Client>
-   <Client Class="com.mathworks.mde.workspace.WorkspaceBrowser" Dock="yes" Guest="no" Name="Workspace" SelectionOrder="7" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Workspace">
-      <Location Context="docked" Height="923" ParentHeight="1319" ParentWidth="389" Path="EEN" Type="nested" Width="389" X="2171" Y="99"/>
-      <Location Context="nested" Height="923" ParentHeight="1319" ParentWidth="389" Path="EEN" Type="nested" Width="389" X="2171" Y="99"/>
+   <Client Class="com.mathworks.mde.workspace.WorkspaceBrowser" Dock="yes" Guest="no" Name="Workspace" SelectionOrder="12" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Workspace">
+      <Location Context="docked" Height="867" ParentHeight="1226" ParentWidth="378" Path="EEN" Type="nested" Width="378" X="2182" Y="192"/>
+      <Location Context="nested" Height="867" ParentHeight="1226" ParentWidth="378" Path="EEN" Type="nested" Width="378" X="2182" Y="192"/>
    </Client>
    <Client Class="com.mathworks.mde.profiler.Profiler" Dock="no" Guest="no" Name="Profiler" Show="no" Singleton="yes" StatusBarShowing="yes" Title="Profiler">
       <Location Context="docked" Path="EWN" Type="nested"/>
@@ -236,5 +236,40 @@
          </ReferenceHierarchy>
       </Location>
       <ClientData Group="Figures"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="14" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Resample/resample.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/Users/hxs/Research/Resample/resample.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="11" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Resample/resample_sim.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/Users/hxs/Research/Resample/resample_sim.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="7" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Analysis/hxs_matlab/plotcomp.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/Users/hxs/Research/Analysis/hxs_matlab/plotcomp.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="6" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Resample/rPCA.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/Users/hxs/Research/Resample/rPCA.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="15" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Resample/resample_pca.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/Users/hxs/Research/Resample/resample_pca.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="9" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Resample/simulation.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/Users/hxs/Research/Resample/simulation.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="10" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Analysis/hxs_matlab/CCA.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/Users/hxs/Research/Analysis/hxs_matlab/CCA.m"/>
    </Client>
 </Layout>
