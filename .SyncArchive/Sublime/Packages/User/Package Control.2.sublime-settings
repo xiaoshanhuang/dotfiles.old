@@ -9,16 +9,12 @@
 		"ConvertToUTF8",
 		"GBK Encoding Support",
 		"HexViewer",
-		"LaTeX-cwl",
 		"Markdown Preview",
 		"Package Control",
+		"SublimeEvernote",
 		"SublimeREPL",
 		"SublimeXiki",
+		"Tag",
 		"Theme - Flatland"
-	],
-	"install_prereleases": true,
-	"repositories":
-	[
-	"http://testing.latexing.com/packages.json"
 	]
 }

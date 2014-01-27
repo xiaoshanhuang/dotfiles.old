@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="1.1" date="Thu Jan  9 12:21:46 2014">
+<MathWorks type="Path Cache File" version="1.1" date="Mon Dec 30 22:48:20 2013">
  <D name="matlab/demos">
   <D name="matlab/demos/private">
    <F name="style.css"/>
@@ -1634,7 +1634,7 @@
   <N name="listdlg.m"/>
   <N name="listfonts.m"/>
   <F name="makemenu.m"/>
-  <N name="menu.m"/>
+  <F name="menu.m"/>
   <F name="menulabel.m"/>
   <N name="movegui.m"/>
   <N name="msgbox.m"/>
@@ -1731,7 +1731,7 @@
   <F name="startupsav.m"/>
   <F name="toolbox_path_cache.m"/>
   <N name="userpath.m"/>
-  <F name="version.m"/>
+  <N name="version.m"/>
   <d name="classpath"/>
   <d name="path"/>
   <d name="template"/>
@@ -2396,7 +2396,7 @@
   <N name="blkdiag.m"/>
   <N name="bsxfun.m"/>
   <N name="cat.m"/>
-  <N name="circshift.m"/>
+  <F name="circshift.m"/>
   <F name="compan.m"/>
   <N name="diag.m"/>
   <N name="eps.m"/>
@@ -2408,16 +2408,16 @@
   <N name="fliplr.m"/>
   <N name="flipud.m"/>
   <F name="freqspace.m"/>
-  <N name="gallery.m"/>
-  <N name="hadamard.m"/>
+  <F name="gallery.m"/>
+  <F name="hadamard.m"/>
   <N name="hankel.m"/>
-  <N name="hilb.m"/>
+  <F name="hilb.m"/>
   <N name="i.m"/>
   <N name="ind2sub.m"/>
   <N name="inf.m"/>
   <N name="intmax.m"/>
   <N name="intmin.m"/>
-  <N name="invhilb.m"/>
+  <F name="invhilb.m"/>
   <N name="ipermute.m"/>
   <F name="iscolumn.m"/>
   <N name="isempty.m"/>
@@ -2442,15 +2442,15 @@
   <N name="ndims.m"/>
   <N name="numel.m"/>
   <N name="ones.m"/>
-  <N name="pascal.m"/>
+  <F name="pascal.m"/>
   <F name="peaks.m"/>
   <N name="permute.m"/>
   <N name="pi.m"/>
   <N name="realmax.m"/>
-  <N name="realmin.m"/>
+  <F name="realmin.m"/>
   <N name="repmat.m"/>
   <N name="reshape.m"/>
-  <N name="rosser.m"/>
+  <F name="rosser.m"/>
   <N name="rot90.m"/>
   <N name="shiftdim.m"/>
   <N name="size.m"/>
@@ -2460,8 +2460,8 @@
   <N name="tril.m"/>
   <N name="triu.m"/>
   <N name="true.m"/>
-  <N name="vander.m"/>
-  <N name="wilkinson.m"/>
+  <F name="vander.m"/>
+  <F name="wilkinson.m"/>
   <N name="zeros.m"/>
  </D>
  <D name="matlab/funfun">
@@ -3424,7 +3424,7 @@
   <N name="chol.m"/>
   <F name="cholupdate.m"/>
   <N name="cond.m"/>
-  <N name="condeig.m"/>
+  <F name="condeig.m"/>
   <N name="condest.m"/>
   <N name="det.m"/>
   <N name="eig.m"/>
@@ -3441,23 +3441,23 @@
   <N name="lu.m"/>
   <F name="mimofr.m"/>
   <N name="norm.m"/>
-  <N name="normest.m"/>
+  <F name="normest.m"/>
   <N name="normest1.m"/>
   <N name="null.m"/>
   <F name="ordeig.m"/>
   <F name="ordqz.m"/>
   <F name="ordschur.m"/>
-  <N name="orth.m"/>
+  <F name="orth.m"/>
   <N name="pinv.m"/>
   <F name="planerot.m"/>
   <F name="polyeig.m"/>
   <N name="qr.m"/>
-  <N name="qrdelete.m"/>
-  <N name="qrinsert.m"/>
-  <N name="qrupdate.m"/>
+  <F name="qrdelete.m"/>
+  <F name="qrinsert.m"/>
+  <F name="qrupdate.m"/>
   <F name="qz.m"/>
   <N name="rank.m"/>
-  <N name="rcond.m"/>
+  <F name="rcond.m"/>
   <F name="rref.m"/>
   <F name="rsf2csf.m"/>
   <N name="schur.m"/>
@@ -3524,7 +3524,7 @@
   <N name="setxor.m"/>
   <N name="slash.m"/>
   <N name="subsasgn.m"/>
-  <N name="subsindex.m"/>
+  <F name="subsindex.m"/>
   <N name="subsref.m"/>
   <N name="times.m"/>
   <N name="transpose.m"/>

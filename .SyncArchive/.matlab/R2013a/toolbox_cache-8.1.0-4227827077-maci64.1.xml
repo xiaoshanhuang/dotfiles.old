@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="1.1" date="Thu Jan  2 18:08:12 2014">
+<MathWorks type="Path Cache File" version="1.1" date="Tue Jan 14 11:03:03 2014">
  <D name="matlab/demos">
   <D name="matlab/demos/private">
    <F name="style.css"/>
@@ -1719,19 +1719,19 @@
   <F name="hostid.m"/>
   <N name="initprefs.m"/>
   <F name="librarypath.txt"/>
-  <F name="license.m"/>
+  <N name="license.m"/>
   <F name="linkerr.html"/>
   <N name="matlabrc.m"/>
   <F name="mime.types"/>
   <N name="pathdef.m"/>
-  <N name="printopt.m"/>
+  <F name="printopt.m"/>
   <F name="restoredefaultpath.m"/>
   <F name="simulinkrc.m"/>
   <F name="startpage.m"/>
   <F name="startupsav.m"/>
   <F name="toolbox_path_cache.m"/>
   <N name="userpath.m"/>
-  <N name="version.m"/>
+  <F name="version.m"/>
   <d name="classpath"/>
   <d name="path"/>
   <d name="template"/>
@@ -1754,12 +1754,12 @@
   <N name="fminsearch.m"/>
   <F name="fzero.m"/>
   <N name="lsqnonneg.m"/>
-  <F name="optimget.m"/>
+  <N name="optimget.m"/>
   <F name="optimplotfunccount.m"/>
   <F name="optimplotfval.m"/>
   <F name="optimplotx.m"/>
   <F name="optimset.m"/>
-  <F name="separateOptimStruct.m"/>
+  <N name="separateOptimStruct.m"/>
   <F name="validOptimProblemStruct.m"/>
  </D>
  <D name="matlab/codetools">
@@ -1886,7 +1886,7 @@
      <F name="getActiveFilename.m"/>
      <F name="getAll.m"/>
      <N name="indexToPositionInLine.m"/>
-     <F name="isEditorAvailable.m"/>
+     <N name="isEditorAvailable.m"/>
      <F name="isOpen.m"/>
      <F name="linesToText.m"/>
      <N name="newDocument.m"/>
@@ -2063,7 +2063,7 @@
   <F name="gradient.m"/>
   <N name="hist.m"/>
   <N name="histc.m"/>
-  <F name="ifft.m"/>
+  <N name="ifft.m"/>
   <F name="ifft2.m"/>
   <F name="ifftn.m"/>
   <F name="ifftshift.m"/>
@@ -2408,16 +2408,16 @@
   <N name="fliplr.m"/>
   <N name="flipud.m"/>
   <F name="freqspace.m"/>
-  <F name="gallery.m"/>
-  <F name="hadamard.m"/>
+  <N name="gallery.m"/>
+  <N name="hadamard.m"/>
   <N name="hankel.m"/>
-  <F name="hilb.m"/>
+  <N name="hilb.m"/>
   <N name="i.m"/>
   <N name="ind2sub.m"/>
   <N name="inf.m"/>
   <N name="intmax.m"/>
   <N name="intmin.m"/>
-  <F name="invhilb.m"/>
+  <N name="invhilb.m"/>
   <N name="ipermute.m"/>
   <F name="iscolumn.m"/>
   <N name="isempty.m"/>
@@ -2442,7 +2442,7 @@
   <N name="ndims.m"/>
   <N name="numel.m"/>
   <N name="ones.m"/>
-  <F name="pascal.m"/>
+  <N name="pascal.m"/>
   <F name="peaks.m"/>
   <N name="permute.m"/>
   <N name="pi.m"/>
@@ -2450,7 +2450,7 @@
   <N name="realmin.m"/>
   <N name="repmat.m"/>
   <N name="reshape.m"/>
-  <F name="rosser.m"/>
+  <N name="rosser.m"/>
   <N name="rot90.m"/>
   <N name="shiftdim.m"/>
   <N name="size.m"/>
@@ -2460,8 +2460,8 @@
   <N name="tril.m"/>
   <N name="triu.m"/>
   <N name="true.m"/>
-  <F name="vander.m"/>
-  <F name="wilkinson.m"/>
+  <N name="vander.m"/>
+  <N name="wilkinson.m"/>
   <N name="zeros.m"/>
  </D>
  <D name="matlab/funfun">
@@ -2810,21 +2810,21 @@
     <C name="packagedFunction.m"/>
     <F name="packagedItem.m"/>
     <C name="packagedUnknown.m"/>
-    <F name="propertyUDD.m"/>
+    <C name="propertyUDD.m"/>
     <F name="simpleElement.m"/>
     <C name="simpleMCOSConstructor.m"/>
     <C name="simpleMCOSElement.m"/>
    </D>
    <D name="matlab/helptools/+helpUtils/+classWrapper">
     <C name="MCOS.m"/>
-    <F name="UDD.m"/>
+    <C name="UDD.m"/>
     <C name="base.m"/>
     <C name="raw.m"/>
     <C name="rawMCOS.m"/>
     <C name="rawUDD.m"/>
     <F name="super.m"/>
     <C name="superMCOS.m"/>
-    <F name="superUDD.m"/>
+    <C name="superUDD.m"/>
    </D>
    <D name="matlab/helptools/+helpUtils/+containers">
      <D name="matlab/helptools/+helpUtils/+containers/@abstractHelpContainer">
@@ -3430,7 +3430,7 @@
   <N name="eig.m"/>
   <F name="expm.m"/>
   <F name="funm.m"/>
-  <F name="gsvd.m"/>
+  <N name="gsvd.m"/>
   <F name="hess.m"/>
   <N name="inv.m"/>
   <N name="ldl.m"/>
@@ -3463,7 +3463,7 @@
   <N name="schur.m"/>
   <N name="sqrtm.m"/>
   <N name="svd.m"/>
-  <F name="trace.m"/>
+  <N name="trace.m"/>
  </D>
  <D name="matlab/ops">
    <D name="matlab/ops/@cell">
@@ -3502,7 +3502,7 @@
   <F name="ismembc.mexmaci64"/>
   <F name="ismembc2.mexmaci64"/>
   <N name="ismember.m"/>
-  <F name="kron.m"/>
+  <N name="kron.m"/>
   <F name="ldivide.m"/>
   <F name="le.m"/>
   <F name="lt.m"/>
@@ -3524,7 +3524,7 @@
   <N name="setxor.m"/>
   <N name="slash.m"/>
   <N name="subsasgn.m"/>
-  <F name="subsindex.m"/>
+  <N name="subsindex.m"/>
   <N name="subsref.m"/>
   <N name="times.m"/>
   <N name="transpose.m"/>
@@ -3738,7 +3738,7 @@
   <F name="sprandsym.m"/>
   <F name="sprank.m"/>
   <F name="spy.m"/>
-  <F name="svds.m"/>
+  <N name="svds.m"/>
   <F name="symamd.m"/>
   <F name="symbfact.m"/>
   <F name="symbfact.mexmaci64"/>
@@ -10776,7 +10776,7 @@
   <F name="profalign.m"/>
   <F name="randseq.m"/>
   <F name="rebasecuts.m"/>
-  <F name="restrict.m"/>
+  <N name="restrict.m"/>
   <F name="revgeneticcode.m"/>
   <F name="rna2dna.m"/>
   <F name="rnaconvert.m"/>

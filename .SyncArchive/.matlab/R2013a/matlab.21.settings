@@ -15,26 +15,26 @@
         <settings name="currentfolder">
             <key name="History">
                 <string minArraySize="0" maxArraySize="500">
-                    <value><![CDATA[/Users/hxs/Research/Algorithm/Graphical Lasso]]></value>
+                    <value><![CDATA[/Users/hxs/Research/Resample]]></value>
                     <value><![CDATA[/Users/hxs/Research/Algorithm]]></value>
                     <value><![CDATA[/Users/hxs/Research]]></value>
-                    <value><![CDATA[/Users/hxs/Research/Resample]]></value>
+                    <value><![CDATA[/Users/hxs/Research/Analysis]]></value>
+                    <value><![CDATA[/Users/hxs/Research/Algorithm/CCA]]></value>
                     <value><![CDATA[/Users/hxs/Research/Analysis/hxs_matlab]]></value>
-                    <value><![CDATA[/Users/hxs/Desktop]]></value>
-                    <value><![CDATA[/Users/hxs]]></value>
-                    <value><![CDATA[/Users/hxs/Downloads]]></value>
                     <value><![CDATA[/Users/hxs/Documents/Study/Research/Resample]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/Algorithm/Graphical Lasso]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/Algorithm]]></value>
                     <value><![CDATA[/Users/hxs/Documents/Study]]></value>
                     <value><![CDATA[/Users/hxs/Documents/Study/Research/Analysis/hxs_matlab]]></value>
                     <value><![CDATA[/Users/hxs/Documents/Study/Research/Analysis]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research]]></value>
+                    <value><![CDATA[/Users/hxs/Documents/Study/Research/Resample/Results]]></value>
+                    <value><![CDATA[/Users/hxs/Research/Algorithm/Robust/LIBRA_31okt11]]></value>
+                    <value><![CDATA[/Users/hxs/Research/Algorithm/Robust/LIBRA_31okt11/Mac64CompiledCcode_LIBRA]]></value>
+                    <value><![CDATA[/Users/hxs/Research/Algorithm/Robust]]></value>
+                    <value><![CDATA[/Users/hxs/Research/Algorithm/Graphical Lasso]]></value>
                     <value><![CDATA[/Users/hxs/Documents]]></value>
-                    <value><![CDATA[/Users/hxs/Research/Analysis]]></value>
-                    <value><![CDATA[/Users/hxs/Research/Algorithm/ShiftCPARD]]></value>
                     <value><![CDATA[/Users/hxs/Research/Face_Scene]]></value>
-                    <value><![CDATA[/Users/hxs/Research/Face_Scene/Analysis]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_BCG/Analysis]]></value>
-                    <value><![CDATA[/Users/hxs/Documents/Study/Research/EEG-fMRI_BCG]]></value>
                 </string>
             </key>
             <settings name="autorefresh">
@@ -58,7 +58,7 @@
                 <key name="ColumnSizes">
                     <string minArraySize="0" maxArraySize="100000">
                         <value><![CDATA[40]]></value>
-                        <value><![CDATA[239]]></value>
+                        <value><![CDATA[236]]></value>
                         <value><![CDATA[0]]></value>
                         <value><![CDATA[146]]></value>
                         <value><![CDATA[0]]></value>

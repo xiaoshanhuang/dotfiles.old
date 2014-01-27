@@ -1,5 +1,9 @@
 %-- Unknown date --%
-etname, 'filepath', pathname);
+(EEG_all, 'nochannel', eegChans);
+EEG.setname = [EEG.setname '_BCG'];
+EEG = pop_reref(EEG, []);
+EEG.setname = [EEG.setname '_reref'];
+EEG = pop_saveset(EEG, 'filename', EEG.setname, 'filepath', pathname);
 eeglab redraw
 ALLEEG = pop_delset(ALLEEG, 4:8);
 eeglab redraw
@@ -5545,150 +5549,6 @@ sel = sum(C - C.*eye(size(C)))>0;
 zAllE = zAll(:,sum(C - C.*eye(size(C)))>0);
 plot(zAllE)
 [COEFF, SCORE] = pca(signalC(:,:)');
-%-- 1/2/14, 6:39 PM --%
-matlabpool
-%-- 1/2/14, 9:32 PM --%
-matlabpool
-%-- 1/2/14, 9:32 PM --%
-[V,D] = eig(rand(10000,10000));
-%-- 1/2/14, 9:34 PM --%
-%-- 1/2/14, 9:36 PM --%
-%-- 1/3/14, 2:18 PM --%
-eeglab
-help spectopo
-spectopo([ALLEEG(1).data(60,:) ALLEEG(2).data(60,:) ALLEEG(3).data(60,:) ALLEEG(4).data(60,:) ALLEEG(5).data(60,:) ALLEEG(6).data(60,:)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 3000, 'winsize', 3000);
-chan = 57; spectopo([ALLEEG(1).data(chan,:) ALLEEG(2).data(chan,:) ALLEEG(3).data(chan,:) ALLEEG(4).data(chan,:) ALLEEG(5).data(chan,:) ALLEEG(6).data(chan,:)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 3000, 'winsize', 3000);
-chan = 50; spectopo([ALLEEG(1).data(chan,:) ALLEEG(2).data(chan,:) ALLEEG(3).data(chan,:) ALLEEG(4).data(chan,:) ALLEEG(5).data(chan,:) ALLEEG(6).data(chan,:)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 3000, 'winsize', 3000);
-chan = 60; spectopo([ALLEEG(1).data(chan,:) ALLEEG(2).data(chan,:) ALLEEG(3).data(chan,:) ALLEEG(4).data(chan,:) ALLEEG(5).data(chan,:) ALLEEG(6).data(chan,:)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 3000, 'winsize', 3000);
-event = EEG.event;
-test = cell2mat(event.type);
-help cell2mat
-event.type
-test = cell2mat(event.type);
-test = cell2mat({event.type});
-test
-test = cell2mat({EEG.event.type});
-test
-F
-cell2mat({ALLEEG(sub).event.type})
-for sub = 1:6
-epochs = cat(3,epochs, ALLEEG(sub).data);
-etype = [etype; cell2mat({ALLEEG(sub).event.type})'];
-end
-conds = [11 21 31 12 22 32 13 23 33];
-peaks = [6 7 12];
-etype = [];
-epochs = [];
-for sub = 1:6
-epochs = cat(3,epochs, ALLEEG(sub).data);
-etype = [etype; cell2mat({ALLEEG(sub).event.type})'];
-end
-etype
-cell2mat({ALLEEG(sub).event.type})
-cell2mat({ALLEEG(1).event.type})
-cell2mat({ALLEEG(2).event.type})
-cell2mat({ALLEEG(3).event.type})
-cell2mat({ALLEEG(4).event.type})
-cell2mat({ALLEEG(5).event.type})
-cell2mat({ALLEEG(6).event.type})
-EEG.event
-EEG.event.type
-for i = 1:length(EEG.event), EEG.event(i).type = str2num(EEG.event(i).type); end;
-[ALLEEG EEG] = eeg_store(ALLEEG, EEG, CURRENTSET);
-for i = 1:length(EEG.event), EEG.event(i).type = str2num(EEG.event(i).type); end;
-[ALLEEG EEG] = eeg_store(ALLEEG, EEG, CURRENTSET);
-cell2mat({ALLEEG(1).event.type})
-cell2mat({ALLEEG(2).event.type})
-reshape(squeeze(mean(freqAmp([60],:,:),1)),[3,3,3])
-bar(ans(:,:,1)')
-bar(ans(:,:,2)')
-bar(ans(:,:,3)')
-bar(ans(:,:,1)')
-reshape(squeeze(mean(freqAmp([50 57],:,:),1)),[3,3,3])
-bar(ans(:,:,1)')
-bar(ans(:,:,2)')
-bar(ans(:,:,3)')
-bar(squeeze(mean(freqAmp([50 57],:,:),1)))
-reshape(squeeze(mean(freqAmp([50 57],:,:),1)),[3,3,3])
-bar(ans(:,:,1)')
-bar(ans(:,:,2)')
-bar(ans(:,:,3)')
-bar(ans(:,:,1)')
-figure, bar(ans(:,:,2)')
-reshape(squeeze(mean(freqAmp([50 57],:,:),1)),[3,3,3])
-size(freqAmp(60,1,:,1))
-size(freqAmp(60,1,:,1))'
-size(suqeeze(freqAmp(60,1,:,1)))
-size(squeeze(freqAmp(60,1,:,1)))
-H = ttest(squeeze(freqAmp(60,1,:,1)),squeeze(freqAmp(60,2,:,1)))
-H = ttest(squeeze(freqAmp(60,1,:,1)),squeeze(freqAmp(60,3,:,1)))
-H = ttest(squeeze(freqAmp(60,2,:,1)),squeeze(freqAmp(60,3,:,1)))
-H = ttest(squeeze(freqAmp(60,4,:,1)),squeeze(freqAmp(60,1,:,1)))
-H = ttest(squeeze(freqAmp(60,4,:,1)),squeeze(freqAmp(60,2,:,1)))
-H = ttest(squeeze(freqAmp(60,4,:,1)),squeeze(freqAmp(60,3,:,1)))
-H = ttest(squeeze(freqAmp(60,4,:,1)),squeeze(freqAmp(60,5,:,1)))
-H = ttest(squeeze(freqAmp(60,4,:,1)),squeeze(freqAmp(60,6,:,1)))
-H = ttest(squeeze(freqAmp(60,2,:,1)),squeeze(freqAmp(60,5,:,1)))
-boxplot(squeeze(freqAmp(60,:,:,1)))
-boxplot(squeeze(freqAmp(60,:,:,1))')
-squeeze(freqAmp(60,:,:,1))'
-squeeze(freqAmp(60,:,:,2))'
-squeeze(freqAmp(60,:,:,3))'
-data
-data'
-squeeze(data)'
-conds = [11 21 31 12 22 32 13 23 33];
-etype = [];
-epochs = [];
-for sub = 1:6
-epochs = cat(3,epochs, ALLEEG(sub).data);
-etype = [etype; cell2mat({ALLEEG(sub).event.type})'];
-end
-epochs
-epochs(1,:,1)'
-epochs(1,:,2)'
-epochs(1,:,3)'
-epochs(2,:,3)'
-epochs(1,:,3)'
-epochs(2,:,3)'
-epochs(3,:,3)'
-data = epochs(chan,501:2500,etype(etype==cond));
-squeeze(data)'
-etype
-etype==11
-squeeze(data)'
-boxplot(squeeze(freqAmp(60,:,:,1))')
-boxplot(squeeze(freqAmp(60,:,:,2))')
-H = ttest(squeeze(freqAmp(60,1,:,1)),squeeze(freqAmp(60,2,:,1)))
-H = ttest(squeeze(freqAmp(60,1,:,1)),squeeze(freqAmp(60,3,:,1)))
-H = ttest(squeeze(freqAmp(60,1,:,2)),squeeze(freqAmp(60,3,:,2)))
-H = ttest(squeeze(freqAmp(60,1,:,2)),squeeze(freqAmp(60,2,:,2)))
-H = ttest(squeeze(freqAmp(57,1,:,2)),squeeze(freqAmp(57,2,:,2)))
-H = ttest(squeeze(freqAmp(50,1,:,2)),squeeze(freqAmp(50,2,:,2)))
-boxplot(squeeze(freqAmp(57,:,:,2))')
-boxplot(squeeze(freqAmp(60,:,:,2))')
-boxplot(squeeze(freqAmp(60,:,:,1))')
-boxplot(squeeze(freqAmp(60,:,:,2))')
-boxplot(squeeze(freqAmp(60,:,:,3))')
-size(freqAmp)
-boxplot(squeeze(freqAmp(60,:,:,3))')
-boxplot(squeeze(freqAmpSub(60,:,:,3))')
-boxplot(squeeze(freqAmpSub(60,:,:,1))')
-boxplot(squeeze(freqAmpSub(60,:,:,3))')
-boxplot(squeeze(freqAmpSub(60,:,:,2))')
-boxplot(squeeze(freqAmpSub(60,:,:,1))')
-H = ttest(squeeze(freqAmpSub(50,1,:,2)),squeeze(freqAmp(50,2,:,2)))
-H = ttest(squeeze(freqAmpSub(50,1,:,2)),squeeze(freqAmpSub(50,2,:,2)))
-H = ttest(squeeze(freqAmpSub(60,1,:,2)),squeeze(freqAmpSub(60,2,:,2)))
-boxplot(squeeze(freqAmpSub(60,:,:,1))')
-boxplot(squeeze(freqAmpSub(60,:,:,2))')
-boxplot(squeeze(freqAmpSub(60,:,:,3))')
-H = ttest(squeeze(freqAmpSub(60,1,:,3)),squeeze(freqAmpSub(60,2,:,3)))
-H = ttest(squeeze(freqAmpSub(60,1,:,3)),squeeze(freqAmpSub(60,3,:,3)))
-H = ttest(squeeze(freqAmpSub(60,1,:,3)),squeeze(freqAmpSub(60,2,:,3)))
-boxplot(squeeze(freqAmpSub(57,:,:,1))')
-boxplot(squeeze(freqAmpSub(57,:,:,2))')
-boxplot(squeeze(freqAmpSub(57,:,:,3))')
-boxplot(squeeze(freqAmpSub(57,:,:,1))')
-boxplot(squeeze(freqAmpSub(60,:,:,1))')
-boxplot(squeeze(freqAmpSub(60,:,:,2))')
+%-- 1/2/14, 2:38 PM --%
+load('face_erp.mat')
+load('erps_rSIM.mat')

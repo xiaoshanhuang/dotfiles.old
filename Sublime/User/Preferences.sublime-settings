@@ -1,0 +1,10 @@
+{
+	"auto_complete_selector": "source, text",
+	"open_files_in_new_window": false,
+	
+	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+}

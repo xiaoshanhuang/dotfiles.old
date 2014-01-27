@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="1.1" date="Fri Jan 17 18:31:37 2014">
+<MathWorks type="Path Cache File" version="1.1" date="Thu Jan  2 08:55:42 2014">
  <D name="matlab/demos">
   <D name="matlab/demos/private">
    <F name="style.css"/>
@@ -586,7 +586,7 @@
   <F name="specular.m"/>
   <N name="spring.m"/>
   <N name="summer.m"/>
-  <N name="surf.m"/>
+  <F name="surf.m"/>
   <F name="surfl.m"/>
   <F name="surfnorm.m"/>
   <N name="vga.m"/>
@@ -1754,12 +1754,12 @@
   <N name="fminsearch.m"/>
   <F name="fzero.m"/>
   <N name="lsqnonneg.m"/>
-  <N name="optimget.m"/>
+  <F name="optimget.m"/>
   <F name="optimplotfunccount.m"/>
   <F name="optimplotfval.m"/>
   <F name="optimplotx.m"/>
   <F name="optimset.m"/>
-  <N name="separateOptimStruct.m"/>
+  <F name="separateOptimStruct.m"/>
   <F name="validOptimProblemStruct.m"/>
  </D>
  <D name="matlab/codetools">
@@ -1886,7 +1886,7 @@
      <F name="getActiveFilename.m"/>
      <F name="getAll.m"/>
      <N name="indexToPositionInLine.m"/>
-     <N name="isEditorAvailable.m"/>
+     <F name="isEditorAvailable.m"/>
      <F name="isOpen.m"/>
      <F name="linesToText.m"/>
      <N name="newDocument.m"/>
@@ -2063,7 +2063,7 @@
   <F name="gradient.m"/>
   <N name="hist.m"/>
   <N name="histc.m"/>
-  <N name="ifft.m"/>
+  <F name="ifft.m"/>
   <F name="ifft2.m"/>
   <F name="ifftn.m"/>
   <F name="ifftshift.m"/>
@@ -2408,16 +2408,16 @@
   <N name="fliplr.m"/>
   <N name="flipud.m"/>
   <F name="freqspace.m"/>
-  <N name="gallery.m"/>
-  <N name="hadamard.m"/>
+  <F name="gallery.m"/>
+  <F name="hadamard.m"/>
   <N name="hankel.m"/>
-  <N name="hilb.m"/>
+  <F name="hilb.m"/>
   <N name="i.m"/>
   <N name="ind2sub.m"/>
   <N name="inf.m"/>
   <N name="intmax.m"/>
   <N name="intmin.m"/>
-  <N name="invhilb.m"/>
+  <F name="invhilb.m"/>
   <N name="ipermute.m"/>
   <F name="iscolumn.m"/>
   <N name="isempty.m"/>
@@ -2442,7 +2442,7 @@
   <N name="ndims.m"/>
   <N name="numel.m"/>
   <N name="ones.m"/>
-  <N name="pascal.m"/>
+  <F name="pascal.m"/>
   <F name="peaks.m"/>
   <N name="permute.m"/>
   <N name="pi.m"/>
@@ -2450,7 +2450,7 @@
   <N name="realmin.m"/>
   <N name="repmat.m"/>
   <N name="reshape.m"/>
-  <N name="rosser.m"/>
+  <F name="rosser.m"/>
   <N name="rot90.m"/>
   <N name="shiftdim.m"/>
   <N name="size.m"/>
@@ -2460,8 +2460,8 @@
   <N name="tril.m"/>
   <N name="triu.m"/>
   <N name="true.m"/>
-  <N name="vander.m"/>
-  <N name="wilkinson.m"/>
+  <F name="vander.m"/>
+  <F name="wilkinson.m"/>
   <N name="zeros.m"/>
  </D>
  <D name="matlab/funfun">
@@ -2979,7 +2979,7 @@
     <F name="hincrementdatahandlerefcount.mexmaci64"/>
     <F name="hismapped.mexmaci64"/>
    </D>
-    <C name="memmapfile.m"/>
+    <F name="memmapfile.m"/>
    </D>
    <D name="matlab/iofun/@serial">
     <F name="Contents.m"/>
@@ -3430,7 +3430,7 @@
   <N name="eig.m"/>
   <F name="expm.m"/>
   <F name="funm.m"/>
-  <N name="gsvd.m"/>
+  <F name="gsvd.m"/>
   <F name="hess.m"/>
   <N name="inv.m"/>
   <N name="ldl.m"/>
@@ -3463,7 +3463,7 @@
   <N name="schur.m"/>
   <N name="sqrtm.m"/>
   <N name="svd.m"/>
-  <N name="trace.m"/>
+  <F name="trace.m"/>
  </D>
  <D name="matlab/ops">
    <D name="matlab/ops/@cell">
@@ -3502,7 +3502,7 @@
   <F name="ismembc.mexmaci64"/>
   <F name="ismembc2.mexmaci64"/>
   <N name="ismember.m"/>
-  <N name="kron.m"/>
+  <F name="kron.m"/>
   <F name="ldivide.m"/>
   <F name="le.m"/>
   <F name="lt.m"/>
@@ -3524,7 +3524,7 @@
   <N name="setxor.m"/>
   <N name="slash.m"/>
   <N name="subsasgn.m"/>
-  <N name="subsindex.m"/>
+  <F name="subsindex.m"/>
   <N name="subsref.m"/>
   <N name="times.m"/>
   <N name="transpose.m"/>
@@ -3738,7 +3738,7 @@
   <F name="sprandsym.m"/>
   <F name="sprank.m"/>
   <F name="spy.m"/>
-  <N name="svds.m"/>
+  <F name="svds.m"/>
   <F name="symamd.m"/>
   <F name="symbfact.m"/>
   <F name="symbfact.mexmaci64"/>
@@ -10466,7 +10466,7 @@
   <N name="audioread.m"/>
   <F name="audiorecorderreg.m"/>
   <F name="audiouniquename.m"/>
-  <N name="audiowrite.m"/>
+  <F name="audiowrite.m"/>
   <F name="aufinfo.m"/>
   <F name="auread.m"/>
   <F name="auwrite.m"/>
@@ -10776,7 +10776,7 @@
   <F name="profalign.m"/>
   <F name="randseq.m"/>
   <F name="rebasecuts.m"/>
-  <N name="restrict.m"/>
+  <F name="restrict.m"/>
   <F name="revgeneticcode.m"/>
   <F name="rna2dna.m"/>
   <F name="rnaconvert.m"/>
@@ -43239,11 +43239,11 @@
  <D name="shared/asynciolib">
   <D name="shared/asynciolib/+asyncio">
    <C name="Channel.m"/>
-   <C name="CustomEventInfo.m"/>
-   <C name="DataEventInfo.m"/>
-   <C name="InputStream.m"/>
-   <C name="OutputStream.m"/>
-   <C name="Stream.m"/>
+   <F name="CustomEventInfo.m"/>
+   <F name="DataEventInfo.m"/>
+   <F name="InputStream.m"/>
+   <F name="OutputStream.m"/>
+   <F name="Stream.m"/>
   </D>
  </D>
  <D name="shared/can">
@@ -46308,7 +46308,7 @@
      <D name="shared/multimedia/+multimedia/+internal/+audio/+file/private">
        <F name="mexPluginManager.mexmaci64"/>
       </D>
-      <C name="FrameSize.m"/>
+      <F name="FrameSize.m"/>
       <C name="PluginManager.m"/>
      </D>
     </D>
@@ -48866,8 +48866,8 @@
   <N name="sosfilt.m"/>
   <N name="specgram.m"/>
   <F name="specplot.m"/>
-  <N name="spectrogram.m"/>
-  <N name="spectrum.m"/>
+  <F name="spectrogram.m"/>
+  <F name="spectrum.m"/>
   <F name="square.m"/>
   <F name="ss2sos.m"/>
   <F name="statelevels.m"/>

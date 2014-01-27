@@ -103,7 +103,7 @@
          </ReferenceHierarchy>
       </Location>
       <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="854" Type="floating" Width="1420" X="10" Y="32"/>
-      <Location Context="document" EntirelyVisible="yes" External="yes" Height="281" Type="floating" Width="305" X="200" Y="1059"/>
+      <Location Context="document" EntirelyVisible="yes" External="yes" Height="493" Type="floating" Width="560" X="999" Y="30"/>
       <Frame StatusBarShowing="yes" TitlesShowing="yes">
          <Location EntirelyVisible="yes" External="yes" Height="854" Type="floating" Width="1420" X="10" Y="32"/>
       </Frame>
@@ -187,20 +187,20 @@
       </Frame>
       <DocumentArea Arrangement="maximized" Empty="yes" MaxBarWidth="180" Showing="no"/>
    </Group>
-   <Client Class="com.mathworks.mde.cmdwin.CmdWin" Dock="yes" Guest="no" Name="Command Window" SelectionOrder="16" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Command Window">
+   <Client Class="com.mathworks.mde.cmdwin.CmdWin" Dock="yes" Guest="no" Name="Command Window" SelectionOrder="14" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Command Window">
       <Location Context="docked" Height="1319" ParentHeight="1319" ParentWidth="1503" Path="EW" Type="nested" Width="1109" X="1057" Y="99"/>
       <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="955" Type="floating" Width="1412" X="1128" Y="201"/>
       <Location Context="nested" Height="1319" ParentHeight="1319" ParentWidth="1503" Path="EW" Type="nested" Width="1109" X="1057" Y="99"/>
    </Client>
-   <Client Class="com.mathworks.mde.cmdhist.CmdHistoryWindow" Dock="yes" Guest="no" Name="Command History" SelectionOrder="11" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Command History">
+   <Client Class="com.mathworks.mde.cmdhist.CmdHistoryWindow" Dock="yes" Guest="no" Name="Command History" SelectionOrder="6" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Command History">
       <Location Context="docked" Height="384" ParentHeight="1319" ParentWidth="385" Path="EES" Type="nested" Width="385" X="2175" Y="1034"/>
       <Location Context="nested" Height="384" ParentHeight="1319" ParentWidth="385" Path="EES" Type="nested" Width="385" X="2175" Y="1034"/>
    </Client>
-   <Client Class="com.mathworks.mde.explorer.Explorer" Dock="yes" Guest="no" Name="Current Directory" SelectionOrder="12" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Current Folder">
+   <Client Class="com.mathworks.mde.explorer.Explorer" Dock="yes" Guest="no" Name="Current Directory" SelectionOrder="10" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Current Folder">
       <Location Context="docked" Height="1319" ParentHeight="1319" ParentWidth="1792" Path="W" Type="nested" Width="280" X="768" Y="99"/>
       <Location Context="nested" Height="1319" ParentHeight="1319" ParentWidth="1792" Path="W" Type="nested" Width="280" X="768" Y="99"/>
    </Client>
-   <Client Class="com.mathworks.mde.workspace.WorkspaceBrowser" Dock="yes" Guest="no" Name="Workspace" SelectionOrder="14" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Workspace">
+   <Client Class="com.mathworks.mde.workspace.WorkspaceBrowser" Dock="yes" Guest="no" Name="Workspace" SelectionOrder="11" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Workspace">
       <Location Context="docked" Height="926" ParentHeight="1319" ParentWidth="385" Path="EEN" Type="nested" Width="385" X="2175" Y="99"/>
       <Location Context="nested" Height="926" ParentHeight="1319" ParentWidth="385" Path="EEN" Type="nested" Width="385" X="2175" Y="99"/>
    </Client>
@@ -237,34 +237,29 @@
       </Location>
       <ClientData Group="Figures"/>
    </Client>
-   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="10" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Resample/resample.m">
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="13" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Resample/resample.m">
       <Location Context="docked" Maximized="yes" Type="floating"/>
       <Location Context="floatingIn" Maximized="yes" Type="floating"/>
       <ClientData EditorFileName="/Users/hxs/Research/Resample/resample.m"/>
    </Client>
-   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="9" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Resample/simulation.m">
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="12" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Resample/simulation.m">
       <Location Context="docked" Maximized="yes" Type="floating"/>
       <Location Context="floatingIn" Maximized="yes" Type="floating"/>
       <ClientData EditorFileName="/Users/hxs/Research/Resample/simulation.m"/>
    </Client>
-   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="6" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Analysis/hxs_matlab/glover_hrf.m">
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="7" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Analysis/hxs_matlab/glover_hrf.m">
       <Location Context="docked" Maximized="yes" Type="floating"/>
       <Location Context="floatingIn" Maximized="yes" Type="floating"/>
       <ClientData EditorFileName="/Users/hxs/Research/Analysis/hxs_matlab/glover_hrf.m"/>
    </Client>
-   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="8" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Algorithm/CCA/cca_test.m">
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="9" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Algorithm/CCA/cca_test.m">
       <Location Context="docked" Maximized="yes" Type="floating"/>
       <Location Context="floatingIn" Maximized="yes" Type="floating"/>
       <ClientData EditorFileName="/Users/hxs/Research/Algorithm/CCA/cca_test.m"/>
    </Client>
-   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="7" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Analysis/hxs_matlab/f_alpha_gaussian.m">
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="8" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Analysis/hxs_matlab/f_alpha_gaussian.m">
       <Location Context="docked" Maximized="yes" Type="floating"/>
       <Location Context="floatingIn" Maximized="yes" Type="floating"/>
       <ClientData EditorFileName="/Users/hxs/Research/Analysis/hxs_matlab/f_alpha_gaussian.m"/>
-   </Client>
-   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="15" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Face_Scene/Analysis/batch.m">
-      <Location Context="docked" Maximized="yes" Type="floating"/>
-      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
-      <ClientData EditorFileName="/Users/hxs/Research/Face_Scene/Analysis/batch.m"/>
    </Client>
 </Layout>

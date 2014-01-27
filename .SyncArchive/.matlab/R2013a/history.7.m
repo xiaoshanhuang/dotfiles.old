@@ -1,5 +1,1725 @@
 %-- Unknown date --%
-ot(data(2,:))
+tFigPos
+figure, erpimage(bcgEEG(20,:,:), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'valsort', [190 210 1]);
+figure, erpimage(bcgEEG(20,:,:), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+coef = ALLEEG(snBCG).data'\ALLEEG(snEEGReref).data(20,:)';
+help erpimage
+caxis([-10, 10])
+caxis([-3, 3])
+jheapcl
+java.lang.Runtime.getRuntime.freeMemory
+figure, topoplot(1/coef, ALLEEG(snBCG).chanlocs);
+figure, erpimage(ALLEEG(snBRL).data(20,:,:), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+vepOBS = epoch(EEG.data(20,:), stim, [-200 500]);
+figure, erpimage(vepOBS, [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+figure, erpimage(vepOBS, [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+EEG.times
+size(range)
+[COEFF, SCORE] = pca(RL');
+[COEFF, SCORE] = pca(RL(:,500:10000));
+[COEFF, SCORE] = pca(RL(:,500:10000)');
+[COEFF, SCORE] = pca(RL(:,500:10000));
+help svd
+[U,S,V] = svd(RL);
+%-- 12/4/13, 4:01 PM --%
+jheapcl
+eeglab
+eeglab redraw
+size(1:15*EEG.srate:length(oz))
+size(i-halfWin/2+1 : i+halfWin/2;)
+size(i-halfWin/2+1 : i+halfWin/2)
+size(halfWin/2:halfWin:length(oz))
+help printf
+help sprintf
+figure, plot(ozRL)
+rangeData(1)
+rangeData(2)
+rangeData(3)
+figure, plot(ozRL)
+figure, erpimage(ozBLVEP, [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+figure, topoplot(coef, ALLEEG(snBCG).chanlocs);
+figure, topoplot(zscore(coef), ALLEEG(snBCG).chanlocs);
+figure, for i = 1:40, subplot(5,8,i), topoplot(zsocre(coef(:,i)), ALLEEG(snBCG).chanlocs); end;
+figure, for i = 1:40, subplot(5,8,i), topoplot(zscore(coef(:,i)), ALLEEG(snBCG).chanlocs); end;
+figure, for i = 1:40, subplot(5,8,i), topoplot(zscore(coefALL(:,i)), ALLEEG(snBCG).chanlocs); end;
+figure, erpimage(ozBLVEP, [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+setFigPos
+figure, for i = 1:40, subplot(5,8,i), topoplot(zscore(coefALL(:,i)), ALLEEG(snBCG).chanlocs); end;
+%-- 12/4/13, 4:59 PM --%
+eeglab
+eeglab redraw
+EEG.chanlocs
+caxis([-3, 3])
+setFigPos
+help fullfact
+help combnk
+C = combnk(30, 5);
+C = combnk(1:30, 5);
+C(1,:)
+C(1,2)
+C(2,:)
+C(23,:)
+C(1000,:)
+C = combnk(1:30,10);
+clear C
+C = combnk(1:30,2);
+C = combnk(1:30,3);
+C = combnk(1:30,4);
+C = combnk(1:30,5);
+C = combnk(1:30,6);
+%-- 12/4/13, 6:46 PM --%
+eeglab
+eeglab redraw
+setFigPos
+caxis([-10, 10])
+caxis([-5, 5])
+help eegfilt
+figure, plot(eegfilt(squeeze(mean(ozBRL,3)), EEG.srate, [1 30]))
+data = eegfilt(squeeze(mean(ozBRL,3)), EEG.srate, [1 30]);
+smoothdata = eegfilt(squeeze(mean(ozBRL,3)), EEG.srate, [1 30]));
+smoothdata = eegfilt(squeeze(mean(ozBRL,3))', EEG.srate, [1 30]);
+smoothdata = eegfilt(squeeze(mean(ozBRL,3))', EEG.srate, 1, 30);
+smoothdata = eegfilt(squeeze(mean(ozBRL,3)), EEG.srate, 1, 30);
+figure, plot(eegfilt(squeeze(mean(ozBRL,3)), EEG.srate, 0, 20));
+figure, plot(eegfilt(squeeze(mean(ozBRL,3)), EEG.srate, 0, 30));
+[COEFF, SCORE] = pca(RL(:,:));
+rangePeak = 1:size(bcg,2);
+rangeChan = 1:32;
+rangeTrial = 1:size(bcg,3);
+RL = bcg(rangeChan, rangePeak, rangeTrial);
+oz = bcgEEG(20, rangePeak, rangeTrial);
+[COEFF, SCORE] = pca(RL(:,:));
+[COEFF, SCORE] = pca(RL(:,:)');
+figure, plot(SCORE(:,1))
+figure, plot(SCORE(:,2))
+figure, plot(SCORE(:,3))
+figure, plot(SCORE(:,4))
+figure, plot(SCORE(:,5))
+figure, plot(SCORE(:,6))
+[A,S,z] = SIM(RL);
+[A,S,z] = SIM(RL, 10);
+jheapcl
+java.lang.Runtime.getRuntime.freeMemory
+for comp = 1:10, figure, subplot(2,1,1), topoplot(A(:, comp), EEG.chanlocs); subplot(2,1,2), plot(z(comp,:)); end;
+[COEFF, SCORE] = pca(RL(:,:)');
+[COEFF, SCORE] = pca(RL(:,:));
+help pca
+[COEFF, SCORE] = pca(RL(:,:)');
+size(SCORE(:,1:10)*COEFF(:,1:10)')
+for comp = 1:10, figure, subplot(2,1,1), topoplot(A(:, comp), EEG.chanlocs); subplot(2,1,2), plot(z(comp,:)); end;
+help epoch
+help rmbase
+help repmat
+jheapcl
+java.lang.Runtime.getRuntime.freeMemory
+jheapcl
+java.lang.Runtime.getRuntime.freeMemory
+jheapcl
+java.lang.Runtime.getRuntime.freeMemory
+jheapcl
+java.lang.Runtime.getRuntime.freeMemory
+jheapcl
+java.lang.Runtime.getRuntime.freeMemory
+ALLEEG = pop_delset(ALLEEG, 1:3);
+eeglab re
+%-- 12/4/13, 8:27 PM --%
+eeglab
+jheapcl
+java.lang.Runtime.getRuntime.freeMemory
+clear all, close all, clc, jheapcl
+java.lang.Runtime.getRuntime.freeMemory
+jheapcl
+java.lang.Runtime.getRuntime.freeMemory
+eeglab
+eeglab re
+ALLEEG = pop_delset(ALLEEG, 1:3);
+clear all, close all, clc, jheapcl
+%-- 12/4/13, 8:34 PM --%
+eeglab
+eeglab re
+eeglab redraw
+jheapcl
+clear all, close all, clc, jheapcl
+%-- 12/4/13, 8:38 PM --%
+eeglab
+eeglab redraw
+%-- 12/4/13, 8:40 PM --%
+eeglab
+eeglab redraw
+ozBRL = ozBRL - repmat(mean(ozBRL(:,100:200, :), 2), [1, 700, 1]);
+subplot(1,2,2), erpimage(ozBRL(:,101:500,1:130), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05);
+help detrend
+help eegfilt
+clear all, close all, clc, jheapcl
+eeglab
+%-- 12/4/13, 9:02 PM --%
+eeglab
+%-- 12/4/13, 9:07 PM --%
+eeglab
+clear all, close all, clc, jheapcl
+eeglab
+EEG = ALLEEG(snEEGReref);
+EEG = pop_fmrib_pas(EEG,'qrs','obs');
+EEG.setname = [EEG.setname '_OBS'];
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+snOBS = CURRENTSET;
+eeglab redraw
+%-- 12/5/13, 9:06 AM --%
+eeglab
+help pas_sim
+eeglab redraw
+figure, for chan = 1:EEG.nbchan, erpimage(bcg(chan, :, :), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'topo', {chan, EEG.chanlocs, []}); end;
+figure, for chan = 1:EEG.nbchan, erpimage(bcg(chan, :, :), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'topo', {chan, EEG.chanlocs, []}); pause; clf; end;
+help erpimage
+jheapcl
+figure, for chan = 1:EEG.nbchan, erpimage(bcg(chan, :, :), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'topo', {chan, EEG.chanlocs, []}, 'caxis', [-100 100]); pause; clf; end;
+clear all, close all, clc, jheapcl
+eeglab
+eeglab redraw
+EEG = loadeol
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+eeglab redraw
+EEG
+ALLEEG = pop_delset(ALLEEG, 6);
+eeglab redraw
+figure, for chan = 1:EEG.nbchan, erpimage(bcg(chan, :, :), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'topo', {chan, EEG.chanlocs, []}, 'caxis', [-100 100]); pause; clf; end;
+figure, for chan = 1:EEG.nbchan, erpimage(bcg(chan, :, :), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'topo', {chan, EEG.chanlocs, []}, 'caxis', [-50 50]); pause; clf; end;
+[A,S,z] = SIM(RL, 10);
+[A,S,z] = SIM(bcg, 10);
+[A,S,z] = SIM(bcgEEG, 10);
+figure, for chan = 1:EEG.nbchan, erpimage(bcg(chan, :, :), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'topo', {chan, EEG.chanlocs, []}, 'caxis', [-50 50]); pause; clf; end;
+EEG = ALLEEG(snALL);
+EEG = pop_select(EEG, 'channel', 32:63);
+% EEG = pop_reref(EEG, []);
+EEG.setname = [EEG.setname '_BCG'];
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+snBCG = CURRENTSET;
+figure, for chan = 1:EEG.nbchan, erpimage(bcg(chan, :, :), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'topo', {chan, EEG.chanlocs, []}, 'caxis', [-50 50]); pause; clf; end;
+EEG = ALLEEG(snBCG);
+EEG = pop_reref(EEG, 32);
+EEG.setname = [EEG.setname '_reref'];
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+snBCGReref = CURRENTSET;
+figure, for chan = 1:EEG.nbchan, erpimage(bcg(chan, :, :), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'topo', {chan, EEG.chanlocs, []}, 'caxis', [-50 50]); pause; clf; end;
+clear all, close all, clc, jheapcl
+eeglab
+eeglab redraw
+print -depsc fig.eps
+clf
+java.lang.Runtime.getRuntime.freeMemory
+jheapcl
+java.lang.Runtime.getRuntime.freeMemory
+help clear
+clear z
+clear com pntExpStart
+snRL = snBCGReref;
+snOz = snEEGReref;
+bcg = epoch(ALLEEG(snBCGReref).data, qrs, [-100 900]);
+bcgEEG = epoch(ALLEEG(snEEGReref).data, qrs, [-100 900]);
+RL = mean(bcg(:,:,:),3);
+oz = mean(bcgEEG(20, :, :),3);
+plot(oz)
+setFigPos
+plot(oz)
+figure, plot(RL')
+coef = zscore(RL(:,:)'\oz(:,:)');
+figure, plot([oz; coef'*RL]')
+figure, topoplot(zscore(coef), ALLEEG(snBCG).chanlocs);
+figure, topoplot(1/coef, ALLEEG(snBCG).chanlocs);
+figure, plot(RL(28,:))
+clear com pntExpStart
+clear all, close all, clc, jheapcl
+eeglab
+eeglab redraw
+snRL = snBCGReref;
+snOz = snEEGReref;
+bcg = epoch(ALLEEG(snBCGReref).data, qrs, [-100 900]);
+bcgEEG = epoch(ALLEEG(snEEGReref).data, qrs, [-100 900]);
+RL = mean(bcg(:,:,:),3);
+oz = mean(bcgEEG(20, :, :),3);
+coef = (RL(:,:)'\oz(:,:)');
+figure, topoplot(1/coef, ALLEEG(snBCG).chanlocs);
+figure, topoplot(1/zscore(coef), ALLEEG(snBCG).chanlocs);
+figure, topoplot(1/coef, ALLEEG(snBCG).chanlocs);
+clear bcg bcgEEG RL oz;
+figure;
+subplot(1,2,1), topoplot(1/zscore(coef), ALLEEG(snRL).chanlocs(rangeChan));
+ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - coef'*A*S*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+% ozBRL = epoch(eegfilt(ALLEEG(snEEGReref).data(20,:) - coef'*ALLEEG(snBCG).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+% ozBRL = ozBRL - repmat(mean(ozBRL(:,:,:), 2), [1, 700, 1]);
+ozBRL = ozBRL - repmat(mean(ozBRL(:,100:200, :), 2), [1, 700, 1]);
+subplot(1,2,2), erpimage(ozBRL(:,101:500,1:130), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+snRL = snBCGReref;
+snOz = snEEGReref;
+figure;
+subplot(1,2,1), topoplot(1/zscore(coef), ALLEEG(snRL).chanlocs(rangeChan));
+% ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - coef'*A*S*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+ozBRL = epoch(eegfilt(ALLEEG(snEEGReref).data(20,:) - coef'*ALLEEG(snBCG).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+% ozBRL = ozBRL - repmat(mean(ozBRL(:,:,:), 2), [1, 700, 1]);
+ozBRL = ozBRL - repmat(mean(ozBRL(:,100:200, :), 2), [1, 700, 1]);
+subplot(1,2,2), erpimage(ozBRL(:,101:500,1:130), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+figure;
+subplot(1,2,1), topoplot(1/zscore(coef), ALLEEG(snRL).chanlocs(rangeChan));
+% ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - coef'*A*S*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+ozBRL = epoch(eegfilt(ALLEEG(snEEGReref).data(20,:) - coef'*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+% ozBRL = ozBRL - repmat(mean(ozBRL(:,:,:), 2), [1, 700, 1]);
+ozBRL = ozBRL - repmat(mean(ozBRL(:,100:200, :), 2), [1, 700, 1]);
+subplot(1,2,2), erpimage(ozBRL(:,101:500,1:130), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+rangePeak = 1:size(bcg,2);
+rangeChan = 1:size(bcg,1);
+rangeTrial = 1:size(bcg,3);
+figure;
+subplot(1,2,1), topoplot(1/zscore(coef), ALLEEG(snRL).chanlocs(rangeChan));
+% ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - coef'*A*S*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - coef'*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+% ozBRL = ozBRL - repmat(mean(ozBRL(:,:,:), 2), [1, 700, 1]);
+ozBRL = ozBRL - repmat(mean(ozBRL(:,100:200, :), 2), [1, 700, 1]);
+subplot(1,2,2), erpimage(ozBRL(:,101:500,1:130), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+size(ALLEEG(snRL).data(rangeChan, :))
+snRL = snBCGReref;
+snOz = snEEGReref;
+size(ALLEEG(snRL).data(rangeChan, :))
+snRL = snBCGReref;
+snOz = snEEGReref;
+bcg = epoch(ALLEEG(snBCGReref).data([1:19 21:end],:), qrs, [-100 900]);
+bcgEEG = epoch(ALLEEG(snEEGReref).data, qrs, [-100 900]);
+rangePeak = 1:size(bcg,2);
+rangeChan = 1:size(bcg,1);
+rangeTrial = 1:size(bcg,3);
+clear bcg bcgEEG RL oz;
+figure;
+subplot(1,2,1), topoplot(1/zscore(coef), ALLEEG(snRL).chanlocs(rangeChan));
+% ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - coef'*A*S*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - coef'*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+% ozBRL = ozBRL - repmat(mean(ozBRL(:,:,:), 2), [1, 700, 1]);
+ozBRL = ozBRL - repmat(mean(ozBRL(:,100:200, :), 2), [1, 700, 1]);
+subplot(1,2,2), erpimage(ozBRL(:,101:500,1:130), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+size(ALLEEG(snRL).data(rangeChan, :))
+snRL = snBCGReref;
+snOz = snEEGReref;
+bcg = epoch(ALLEEG(snBCGReref).data, qrs, [-100 900]);
+bcgEEG = epoch(ALLEEG(snEEGReref).data, qrs, [-100 900]);
+rangePeak = 1:size(bcg,2);
+rangeChan = 1:size(bcg,1);
+rangeTrial = 1:size(bcg,3);
+clear bcg bcgEEG RL oz;
+figure;
+subplot(1,2,1), topoplot(1/zscore(coef), ALLEEG(snRL).chanlocs(rangeChan));
+% ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - coef'*A*S*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - coef'*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+% ozBRL = ozBRL - repmat(mean(ozBRL(:,:,:), 2), [1, 700, 1]);
+ozBRL = ozBRL - repmat(mean(ozBRL(:,100:200, :), 2), [1, 700, 1]);
+subplot(1,2,2), erpimage(ozBRL(:,101:500,1:130), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+figure;
+subplot(1,2,1), topoplot(1/zscore(coef), ALLEEG(snRL).chanlocs(rangeChan));
+% ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - coef'*A*S*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - coef'*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+% ozBRL = ozBRL - repmat(mean(ozBRL(:,:,:), 2), [1, 700, 1]);
+ozBRL = ozBRL - repmat(mean(ozBRL(:,100:200, :), 2), [1, 700, 1]);
+subplot(1,2,2), erpimage(ozBRL(:,101:500,:), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+RL = mean(bcg(:,range,:),3);
+oz = mean(bcgEEG(20, range, :),3);
+RL = mean(bcg(:,:,:),3);
+oz = mean(bcgEEG(20, :, :),3);
+snRL = snBCGReref;
+snOz = snEEGReref;
+bcg = epoch(ALLEEG(snBCGReref).data, qrs, [-100 900]);
+bcgEEG = epoch(ALLEEG(snEEGReref).data, qrs,
+snRL = snBCGReref;
+snOz = snEEGReref;
+bcg = epoch(ALLEEG(snBCGReref).data, qrs, [-100 900]);
+bcgEEG = epoch(ALLEEG(snEEGReref).data, qrs, [-100 900]);
+RL = mean(bcg(:,:,:),3);
+oz = mean(bcgEEG(20, :, :),3);
+coef = (RL(:,:)'\oz(:,:)');
+figure;
+subplot(1,2,1), topoplot(1/zscore(coef), ALLEEG(snRL).chanlocs(rangeChan));
+ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - coef'*A*S*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+% ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - coef'*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+% ozBRL = ozBRL - repmat(mean(ozBRL(:,:,:), 2), [1, 700, 1]);
+ozBRL = ozBRL - repmat(mean(ozBRL(:,100:200, :), 2), [1, 700, 1]);
+subplot(1,2,2), erpimage(ozBRL(:,101:500,:), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+1/coef
+caxis([-25, 25])
+caxis([-5, 5])
+caxis([-15, 15])
+RL = mean(bcg(:,:,:),3);
+bcg = epoch(ALLEEG(snBCGReref).data, qrs, [-100 900]);
+bcgEEG = epoch(ALLEEG(snEEGReref).data, qrs, [-100 900]);
+RL = mean(bcg(:,:,:),3);
+oz = mean(bcgEEG(20, :, :),3);
+figure, plot(RL')
+figure, plot(oz)
+coef = (RL(:,:)'\oz(:,:)');
+1/coef
+figure, plot(RL(19,:))
+figure, plot(coef'*RL)
+coef = (RL(:,400:500)'\oz(:,400:500)');
+1/coef
+figure, plot([oz; coef'*RL]')
+coef = (RL(:,200:300)'\oz(:,200:300)');
+figure, plot([oz; coef'*RL]')
+RL(:,200:300)'\oz(:,200:300)'
+RL(:,400:500)'\oz(:,400:600)'
+RL(:,400:500)'\oz(:,400:500)'
+figure, topoplot(A(:,1), EEG.chanlocs)
+figure, topoplot(A(:,2), EEG.chanlocs)
+figure, topoplot(A(:,3), EEG.chanlocs)
+figure, topoplot(S(3,:), EEG.chanlocs)
+figure, topoplot(A(:,3), EEG.chanlocs)
+figure, topoplot(A(:,4), EEG.chanlocs)
+figure, topoplot(A(:,5), EEG.chanlocs)
+figure, topoplot(A(:,6), EEG.chanlocs)
+snRL = snBCGReref;
+snOz = snEEGReref;
+bcg = epoch(ALLEEG(snBCGReref).data, qrs, [-100 900]);
+bcgEEG = epoch(ALLEEG(snEEGReref).data, qrs, [-100 900]);
+RL = mean(bcg(:,:,:),3);
+oz = mean(bcgEEG(:, :, :),3);
+[A,B,r,U,V] = canoncorr(RL',oz');
+figure, plot([U(:,1) V(:,1)])
+figure, plot([U(:,2) V(:,2)])
+figure, plot([U(:,3) V(:,3)])
+figure, plot([U(:,4) V(:,4)])
+figure, topoplot(A(:,6), EEG.chanlocs)
+figure, topoplot(A(:,1), EEG.chanlocs)
+figure, topoplot(B(:,1), EEG.chanlocs)
+figure, topoplot(B(:,2), EEG.chanlocs)
+figure, topoplot(B(:,3), EEG.chanlocs)
+SRL = inv(A);
+SOz = inv(B);
+figure, topoplot(SRL(:,1), EEG.chanlocs)
+figure, topoplot(SRL(1,:), EEG.chanlocs)
+figure, topoplot(SRL(2,:), EEG.chanlocs)
+figure, topoplot(SRL(3,:), EEG.chanlocs)
+figure, topoplot(SRL(4,:), EEG.chanlocs)
+figure, topoplot(SRL(5,:), EEG.chanlocs)
+figure, topoplot(SRL(6,:), EEG.chanlocs)
+figure, topoplot(SRL(7,:), EEG.chanlocs)
+figure, topoplot(SOz(7,:), EEG.chanlocs)
+figure, topoplot(SOz(1,:), EEG.chanlocs)
+figure, topoplot(SOz(3,:), EEG.chanlocs)
+figure, topoplot(SOz(4,:), EEG.chanlocs)
+figure, topoplot(SOz(5,:), EEG.chanlocs)
+figure, for comp = 1:31, subplot(4,8,i), topoplot(SOz(i,:), EEG.chanlocs); end;
+figure, for comp = 1:31, subplot(4,8,comp), topoplot(SOz(comp,:), EEG.chanlocs); end;
+figure, for comp = 1:31, subplot(4,8,comp), topoplot(SRL(comp,:), EEG.chanlocs); end;
+ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - coef'*A*S*ALLEEG(snRL).data(rangeChan, :), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+ozCCA = A(:,1:10)*SRL(1:10,:)*ALLEEG(snRL).data;
+plot([ALLEEG(snOz).data(20,:); ozCCA(20,:)]')
+ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - ozCCA(20,:), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+ozBRL = ozBRL - repmat(mean(ozBRL(:,100:200, :), 2), [1, 700, 1]);
+subplot(1,2,2), erpimage(ozBRL(:,101:500,:), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+ozCCA = A(:,1:20)*SRL(1:20,:)*ALLEEG(snRL).data;
+ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - ozCCA(20,:), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+ozBRL = epoch(ALLEEG(snEEGReref).data(20,:) - coef'*ALLEEG(snBCG).data, stim, [-200 500]);
+subplot(1,2,2), erpimage(ozBRL(:,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+ozBRL = ozBRL - repmat(mean(ozBRL(:,100:200, :), 2), [1, 700, 1]);
+subplot(1,2,2), erpimage(ozBRL(:,101:500,:), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+ozCCA = A(:,1:20)*SRL(1:20,:)*ALLEEG(snRL).data;
+ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - ozCCA(20,:), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+ozBRL = ozBRL - repmat(mean(ozBRL(:,100:200, :), 2), [1, 700, 1]);
+subplot(1,2,2), erpimage(ozBRL(:,101:500,:), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+plot([ALLEEG(snOz).data(20,:); ozCCA(20,:)]')
+ozCCA = A(:,1:5)*SRL(1:5,:)*ALLEEG(snRL).data;
+plot([ALLEEG(snOz).data(20,:); ozCCA(20,:)]')
+ozCCA = A(:,1:10)*SRL(1:10,:)*ALLEEG(snRL).data;
+plot([ALLEEG(snOz).data(20,:); ozCCA(20,:)]')
+ozCCA = A(:,1:20)*SRL(1:20,:)*ALLEEG(snRL).data;
+plot([ALLEEG(snOz).data(20,:); ozCCA(20,:)]')
+r
+ozCCA = A(:,1:14)*SRL(1:14,:)*ALLEEG(snRL).data;
+plot([ALLEEG(snOz).data(20,:); ozCCA(20,:)]')
+ozCCA = A(:,1:10)*SRL(1:10,:)*ALLEEG(snRL).data;
+plot([ALLEEG(snOz).data(20,:); ozCCA(20,:)]')
+ozCCA = A(:,1:5)*SRL(1:5,:)*ALLEEG(snRL).data;
+plot([ALLEEG(snOz).data(20,:); ozCCA(20,:)]')
+for i = 1:31, ozCCA = A(:,1:i)*SRL(1:i,:)*ALLEEG(snRL).data; corr(ALLEEG(snOz).data(20,:)', ozCCA(20,:)') end
+for i = 1:31, ozCCA = A(:,1:i)*SRL(1:i,:)*ALLEEG(snRL).data; corr(ALLEEG(snOz).data(20,:)', ozCCA(20,:)') end;
+for i = 1:31, ozCCA = A(:,1:i)*SRL(1:i,:)*ALLEEG(snRL).data; c(i) = corr(ALLEEG(snOz).data(20,:)', ozCCA(20,:)'); end;
+c
+ozCCA = A(:,1:4)*SRL(1:4,:)*ALLEEG(snRL).data;
+ozBRL = epoch(eegfilt(ALLEEG(snOz).data(20,:) - ozCCA(20,:), EEG.srate, 5, 30, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+ozBRL = ozBRL - repmat(mean(ozBRL(:,100:200, :), 2), [1, 700, 1]);
+subplot(1,2,2), erpimage(ozBRL(:,101:500,:), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+ozCCA = A(:,1:10)*SRL(1:10,:)*ALLEEG(snRL).data;
+clear oz*
+clear range*
+clear bcg*
+clear z
+clear r
+clear com
+clear ans
+figure, for chan = 1:EEG.nbchan, erpimage(bcg(chan, :, :), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'topo', {chan, EEG.chanlocs, []}, 'caxis', [-50 50]); pause; clf; end;
+figure, for chan = 1:EEG.nbchan, erpimage(epoch(ALLEEG(snBCGReref).data(chan), qrs, [-100 900]);, [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'topo', {chan, EEG.chanlocs, []}, 'caxis', [-50 50]); pause; clf; end;
+figure, for chan = 1:EEG.nbchan, erpimage(epoch(ALLEEG(snBCGReref).data(chan,:), qrs, [-100 900]);, [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'topo', {chan, EEG.chanlocs, []}, 'caxis', [-50 50]); pause; clf; end;
+figure, for chan = 1:EEG.nbchan, erpimage(epoch(ALLEEG(snBCGReref).data(chan,:), qrs, [-100 900]), [], [-100 1000 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'topo', {chan, EEG.chanlocs, []}, 'caxis', [-50 50]); pause; clf; end;
+clear ans
+clear all, close all, clc, jheapcl
+eeglab
+clear all, close all, clc, jheapcl
+eeglab
+eeglab redraw
+snRL = snBCGReref;
+snOz = snEEGReref;
+bcg = epoch(ALLEEG(snBCGReref).data, qrs, [-100 900]);
+bcgEEG = epoch(ALLEEG(snEEGReref).data, qrs, [-100 900]);
+EEG = obs_ac(EEG, 'qrs', 3, 1);
+oz = epoch(eegfilt(EEG.data(20,:), EEG.srate, 5, 40, 0, 3000, 0, 'fir1', 0), stim, [-200 500]);
+oz = oz - repmat(mean(oz(:,100:200,:),2), [1 700 1]);
+figure, erpimage(oz, [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05);
+figure, erpimage(oz, [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05);
+figure, erpimage(oz, [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+figure; erpimage(oz, [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+figure, topoplot(SOz(5,:), EEG.chanlocs)
+EEG = obs_ac(EEG, 'qrs', 3, 1);
+figure, plot(squeeze(papc_ce(20,:,:)))
+figure, for chan = 1:31, plot(squeeze(papc_ce(20,:,:))); pause; end;
+figure, for chan = 1:31, plot(squeeze(papc_ce(chan,:,:))); pause; end;
+help eeg_getica
+c = corr(eeg_getica(ALLEEG(snEEGReref), 1:31)', eeg_getica(ALLEEG(snBCGReref), 1:31));
+c = corr(eeg_getica(ALLEEG(snEEGReref), 1:31)', eeg_getica(ALLEEG(snBCGReref), 1:31)');
+c = corr(eeg_getica(ALLEEG(snEEGReref), 1:30)', eeg_getica(ALLEEG(snBCGReref), 1:31)');
+imagesc(c)
+snEEGReref = 6;
+snBCGReref = 7;
+clear all, close all, clc, jheapcl
+%-- 12/5/13, 9:31 PM --%
+eeglab
+snEEGReref = 2;
+snBCGReref = 1;
+EEG = obs_ac(EEG, 'qrs', 3, 1);
+EEG = pop_epoch( EEG, {'S  1'}, [-0.2 0.5], 'newname', [EEG.setname '_VEP']); EEG = pop_rmbase(EEG, [-200 0]);
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+eeglab redraw
+snRL = snBCGReref;
+snOz = snEEGReref;
+bcg = epoch(ALLEEG(snBCGReref).data, qrs, [-100 900]);
+bcgEEG = epoch(ALLEEG(snEEGReref).data, qrs, [-100 900]);
+rangePeak = 1:size(bcg,2);
+rangeChan = 1:size(bcg,1);
+rangeTrial = 1:size(bcg,3);
+RL = bcg(rangeChan, rangePeak, rangeTrial);
+oz = bcgEEG(20, rangePeak, rangeTrial);
+[A,B,r,U,V] = canoncorr(RL',oz');
+clear bcg bcgEEG RL oz;
+snRL = snBCGReref;
+snOz = snEEGReref;
+bcg = epoch(ALLEEG(snBCGReref).data, qrs, [-100 900]);
+bcgEEG = epoch(ALLEEG(snEEGReref).data, qrs, [-100 900]);
+RL = mean(bcg(:,:,:),3);
+signal = mean(bcgEEG,3);
+figure, plot(RL')
+figure, plot(signal')
+[A,B,r,U,V] = canoncorr(RL',oz');
+[A,B,r,U,V] = canoncorr(RL',signal');
+r
+U(1,:)
+plot(U)
+java.lang.Runtime.getRuntime.freeMemory
+jheapcl
+java.lang.Runtime.getRuntime.freeMemory
+plot(U)
+plot(U(1:10))
+plot(U(:,1:10))
+plot(U(:,1))
+figure, comp = 1; plot([U(:,comp), V(:,comp)])
+figure, comp = 2; plot([U(:,comp), V(:,comp)])
+figure, comp = 3; plot([U(:,comp), V(:,comp)])
+figure, comp = 4; plot([U(:,comp), V(:,comp)])
+figure, comp = 5; plot([U(:,comp), V(:,comp)])
+figure, comp = 6; plot([U(:,comp), V(:,comp)])
+figure, comp = 7; plot([U(:,comp), V(:,comp)])
+figure, comp = 8; plot([U(:,comp), V(:,comp)])
+figure, comp = 9; plot([U(:,comp), V(:,comp)])
+clear bcg bcgEEG RL oz;
+help canoncorr
+comps = find(r>0.999);
+ozBRL = epoch(ALLEEG(snEEGReref).data(20,:) - invB(comps,20)'*A(:,comps)'*ALLEEG(snBCG).data, stim, [-200 500]);
+ozBRL = epoch(ALLEEG(snEEGReref).data(20,:) - invB(comps,20)'*A(:,comps)'*ALLEEG(snBCGReref).data, stim, [-200 500]);
+plot(ozBRL)
+plot(ozBRL')
+ozBRL = epoch(ALLEEG(snEEGReref).data(20,:) - invB(comps,20)'*A(:,comps)'*ALLEEG(snBCGReref).data, stim, [-200 500]);
+ozBRL = ozBRL - repmat(mean(ozBRL(:,100:200, :), 2), [1, 700, 1]);
+figure, erpimage(ozBRL(:,101:500,:), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+plot(ALLEEG(snEEGReref).data(20,:) - invB(comps,20)'*A(:,comps)'*ALLEEG(snBCGReref).data)
+plot(EEG.times, ALLEEG(snEEGReref).data(20,:) - invB(comps,20)'*A(:,comps)'*ALLEEG(snBCGReref).data)
+figure, erpimage(ozBRL(:,101:500,:), [], [-100 400 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+caxis([-15, 15])
+caxis([-5, 5])
+plot(EEG.times, invB(comps,20)'*A(:,comps)'*ALLEEG(snBCGReref).data)
+%-- 12/5/13, 10:34 PM --%
+eeglab
+snEEGReref = 2; snBCGReref = 1;
+plot(EEG.times, invB(comps,20)'*A(:,comps)'*ALLEEG(snBCGReref).data)
+corr(ALLEEG(snEEGReref).data(20,:)', (invB(comps,20)'*A(:,comps)'*ALLEEG(snBCGReref).data)')
+plot(EEG.times, [ALLEEG(snEEGReref).data(20,:); invB(comps,20)'*A(:,comps)'*ALLEEG(snBCGReref).data]')
+plot(EEG.times, [ALLEEG(snEEGReref).data(20,:); invB(comps,20)'*A(:,comps)'*ALLEEG(snBCGReref).data]'); hold on; plot(EEG.times(stim), zeros(1,150), 'ro');
+stim
+plot(EEG.times, [ALLEEG(snEEGReref).data(20,:); invB(comps,20)'*A(:,comps)'*ALLEEG(snBCGReref).data]'); hold on; plot(EEG.times(stim), zeros(1,150), 'ro');
+size(EEG.times(stim))
+size(stim)
+size(EEG.times(stim'))
+EEG
+plot(stim)
+EEG.times(stim)
+EEG.times(stim')
+EEG.times(stim)
+size(EEG.times)
+EEG.times(5)
+EEG.times(1:10)
+EEG.times(stim)
+EEG.times(round(stim))
+plot(EEG.times, [ALLEEG(snEEGReref).data(20,:); invB(comps,20)'*A(:,comps)'*ALLEEG(snBCGReref).data]'); hold on; plot(EEG.times(round(stim)), zeros(1,150), 'ro');
+plot(EEG.times, [ALLEEG(snEEGReref).data(20,:) - invB(comps,20)'*A(:,comps)'*ALLEEG(snBCGReref).data]'); hold on; plot(EEG.times(round(stim)), zeros(1,150), 'ro');
+clear bcg bcgEEG RL oz;
+clear all, close all, clc, jheapcl
+eeglab
+comps
+r
+caxis([-25, 25])
+caxis([-15, 15])
+r
+%-- 12/6/13, 9:24 AM --%
+delete bias* binica* temp*
+eeglab
+r
+eeglab redraw
+clear all, close all, clc, jheapcl
+eeglab
+snEEGReref = 1;
+snBCGReref = 2;
+clear all, close all, clc, jheapcl
+eeglab
+snBCGReref = 2;
+snEEGReref = 1;
+r
+plot(RL)
+plot(RL(20,:))
+r
+help erpimage
+plot(mean(ozBRL), 3)
+plot(mean(ozBRL,3))
+help epoch
+plot(mean(ozBRL,3))
+plot(-mean(ozBRL,3))
+r
+plot(-mean(ozBRL,3))
+EEG.srate
+plot(mean(ozBRL,3))
+plot(signal)
+plot(signal')
+plot(RL')
+help erpimage
+help rand
+help randi
+figure,
+erpimage(EEG.data(15,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+figure,
+erpimage(ozBRL, [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+setFigPos
+figure, erpimage(EEG.data(15,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+r
+clear all, close all, clc, jheapcl
+eeglab
+snEEGReref = 2;
+snBCGReref = 1;
+figure, erpimage(EEG.data(15,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+figure, r
+figure, erpimage(EEG.data(21,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+caxis([-15, 15])
+caxis([-40, 40])
+caxis([-50, 50])
+caxis([-60, 60])
+clear all, close all, clc, jheapcl
+glab
+eeglab
+snEEGReref = 4;
+snBCGReref = 1;
+r
+figure, erpimage(EEG.data(21,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+figure, erpimage(EEG.data(24,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+jheapcl
+figure, erpimage(EEG.data(24,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+r
+%-- 12/6/13, 11:11 AM --%
+eeglab
+%-- 12/6/13, 11:12 AM --%
+eeglab
+snEEGReref = 2;
+snBCGReref = 4;
+figure, erpimage(EEG.data(20,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+clear all, close all, clc, jheapcl
+eeglab
+snBCGReref = 3;
+snEEGReref = 4;
+r
+figure, erpimage(EEG.data(15,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01);
+help erpimage
+figure, erpimage(EEG.data(15,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'filt', [5 30]);
+figure, erpimage(EEG.data(15,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'filt', [1 30]);
+figure, erpimage(EEG.data(15,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'filt', [3 30]);
+figure, erpimage(EEG.data(15,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'filt', [6 30]);
+figure, erpimage(EEG.data(15,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'filt', [5 15]);
+figure, erpimage(EEG.data(15,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'filt', [5 20]);
+figure, erpimage(EEG.data(15,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'filt', [5 30]);
+figure, erpimage(EEG.data(15,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'baseline', [-200 -100], 'filt', [5 30]);
+setFigPos
+figure, erpimage(EEG.data(15,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'baseline', [-200 -100], 'filt', [3 15]);
+figure, erpimage(EEG.data(15,:,:), [], [-200 175 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'baseline', [-200 -100], 'filt', [3 30]);
+clear all, close all, clc, jheapcl
+eeglab
+r
+figure, plot(RL')
+figure, plot(signal')
+r
+plot(r)
+clear all, close all, clc, jheapcl
+eeglab
+r
+eeglab redraw
+ALLEEG = pop_delset(ALLEEG, 6:12);
+eeglab redraw
+help spectopo
+spectopo([ALLEEG(7).data(chanOz, :); ALLEEG(8).data(chanOz, :)], EEG.pnts, EEG.srate);
+eeglab redraw
+spectopo([signal; noise], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 1024, 'winsize', 2048);
+spectopo([ALLEEG(7).data(chanOz, :); ALLEEG(8).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 512, 'winsize', 1);
+eeglab redraw
+spectopo([ALLEEG(7).data(chanOz, :); ALLEEG(8).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 512, 'winsize', 1024);
+spectopo([ALLEEG(7).data(chanOz, :); ALLEEG(8).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+[ EEG, regCoef, corrER ] = bcgRefLayer(ALLEEG(snEEGReref), ALLEEG(snBCGReref));
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+snBRLReref = CURRENTSET;
+EEG = ALLEEG(snEEGReref);
+EEG = pop_fmrib_pas(EEG,'qrs','obs');
+EEG.setname = [EEG.setname '_OBS'];
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+snOBS = CURRENTSET;
+figure,
+spectopo([ALLEEG(7).data(chanOz, :); ALLEEG(8).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+spectopo([ALLEEG(15).data(chanOz, :); ALLEEG(16).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+spectopo([ALLEEG(16).data(chanOz, :); ALLEEG(17).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+spectopo([ALLEEG(14).data(chanOz, :); ALLEEG(15).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+figure, spectopo([ALLEEG(7).data(chanOz, :); ALLEEG(8).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+r
+plot(r)
+[A,B,r,U,V] = canoncorr(RL',signal');
+coef = RL'\signal';
+coef1 = RL'\signal(20,:)';
+plot(coef)
+plot(coef(:,20))
+plot(coef1)
+plot(invB(comps,20)'*A(:,comps)')
+plot(coef(:,20))
+plot([coef1 coef(:,20)])
+ozCCA = invB(comps,20)'*A(:,comps)'*ALLEEG(snBCGReref).data;
+ozBRL = coef1'*ALLEEG(snBCGReref).data;
+plot([ozCCA; ozBRL])
+plot([ozCCA; ozBRL]')
+corr(ozCCA', ALLEEG(snEEGReref).data(20,:)')
+corr(ozBRL', ALLEEG(snEEGReref).data(20,:)')
+coef = ALLEEG(snBRLReref).data
+coef = ALLEEG(snBRLReref).data'\ALLEEG(snEEGReref.data(20,:)');
+coef = ALLEEG(snBRLReref).data'\ALLEEG(snEEGReref.data(20,:)';
+coef = ALLEEG(snBRLReref).data'\ALLEEG(snEEGReref.data(20,:))';
+coef = ALLEEG(snBRLReref).data'\ALLEEG(snEEGReref).data(20,:))';
+coef = ALLEEG(snBRLReref).data'\ALLEEG(snEEGReref).data(20,:)';
+ozBRL = coef'*ALLEEG(snBCGReref).data;
+corr(ozBRL', ALLEEG(snEEGReref).data(20,:)')
+coef = ALLEEG(snBRLReref).data'\ALLEEG(snEEGReref).data(20,:)';
+ozBRL = coef'*ALLEEG(snBCGReref).data;
+corr(ozBRL', ALLEEG(snEEGReref).data(20,:)')
+coef = ALLEEG(snBCGReref).data'\ALLEEG(snEEGReref).data(20,:)';
+ozBRL = coef'*ALLEEG(snBCGReref).data;
+corr(ozBRL', ALLEEG(snEEGReref).data(20,:)')
+clear all, close all, clc, jheapcl
+eeglab redraw
+figure, spectopo([ALLEEG(13).data(chanOz, :); ALLEEG(14).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+figure, spectopo([ALLEEG(11).data(chanOz, :); ALLEEG(12).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+figure, spectopo([ALLEEG(8).data(chanOz, :); ALLEEG(9).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+figure, spectopo([ALLEEG(10).data(chanOz, :); ALLEEG(11).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+help spectopo
+help pwelch
+spectopo([ALLEEG(14).data(chanOz, :); ALLEEG(15).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+figure, spectopo([ALLEEG(10).data(chanOz, :); ALLEEG(11).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+figure, spectopo([ALLEEG(13).data(chanOz, :); ALLEEG(14).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+figure, [spectra,freqs] = spectopo([ALLEEG(13).data(chanOz, :); ALLEEG(14).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+plot(zscore(spectra'))
+plot(zscore(spectra(:,freqs<30)'))
+figure, [spectra,freqs] = spectopo([ALLEEG(8).data(chanOz, :); ALLEEG(9).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+figure, plot(zscore(spectra(:,freqs<30)'))
+figure, [spectra,freqs] = spectopo([ALLEEG(10).data(chanOz, :); ALLEEG(11).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+figure, plot(zscore(spectra(:,freqs<30)'))
+plot(r)
+r
+figure, [spectra,freqs] = spectopo([ALLEEG(16).data(chanOz, :); ALLEEG(17).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+figure, plot(zscore(spectra(:,freqs<30)'))
+spectra(2,freqs==20)
+mean(spectra(2,8<freqs<12))
+mean(spectra(1,8<freqs<12))
+10*log10(mean(spectra(1,8<freqs<12))) - 10*log10(mean(spectra(2,8<freqs<12)))
+figure, plot(zscore(spectra(:,freqs<30)'))
+help zscore
+nspctra = zscore(spactre')
+nspctra = zscore(spactra')
+nspctra = zscore(spectra')
+mean(spectra(2,8<freqs<12)) - mean(spectra(1,8<freqs<12))
+mean(nspectra(2,8<freqs<12)) - mean(nspectra(1,8<freqs<12))
+nspectra = zscore(spectra')
+mean(nspectra(2,8<freqs<12)) - mean(nspectra(1,8<freqs<12))
+mean(nspectra(8<freqs<12,2)) - mean(nspectra(8<freqs<12,1))
+mean(nspectra(8<freqs<12,2))
+mean(nspectra(8<freqs<12,1))
+figure, plot(zscore(spectra(:,freqs<30)'))
+nspectra = zscore(spectra(:,freqs<30)')
+mean(nspectra(8<freqs<12,1))
+8<freqs<12
+freqs<12
+8<freqs & freqs<12
+mean(nspectra(8<freqs & freqs<12,1))
+mean(nspectra(8<freqs & freqs<12,2))
+mean(nspectra(9<freqs & freqs<11,1))
+mean(nspectra(9<freqs & freqs<11,2))
+mean(nspectra(9.5<freqs & freqs<11.5,2))
+mean(nspectra(9.5<freqs & freqs<10.5,2))
+mean(nspectra(9.5<freqs & freqs<10.5,1))
+figure, [spectra,freqs] = spectopo([ALLEEG(8).data(chanOz, :); ALLEEG(9).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+nspectra = zscore(spectra(:,freqs<30)')
+mean(nspectra(9.5<freqs & freqs<10.5,1))
+mean(nspectra(9.5<freqs & freqs<10.5,2))
+figure, [spectra,freqs] = spectopo([ALLEEG(19).data(chanOz, :); ALLEEG(20).data(chanOz, :)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024);
+nspectra = zscore(spectra(:,freqs<30)')
+mean(nspectra(9.5<freqs & freqs<10.5,2)) - mean(nspectra(9.5<freqs & freqs<10.5,1))
+help spectopo
+figure, spectopo([ALLEEG(14).data], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024, 'chanlocs', EEG.chanlocs);
+find(9.5< freqs & freqs < 10.5)
+find(9< freqs & freqs < 10)
+find(9< freqs & freqs < 11)
+help switch
+plot(diff(qrs))
+median(diff(qrs))
+%-- 12/6/13, 4:11 PM --%
+eeglab
+clear all, close all, clc, jheapcl
+eeglab
+help uigetfile
+help pop_loadset
+clear all, close all, clc, jheapcl
+%-- 12/6/13, 6:13 PM --%
+eeglab
+help uigetfile
+EEG.setname
+help strfind
+strfind(EEG.setname, 'EEG_reref')
+strfind(EEG.setname, 'EEG_reref_OBS')
+help pop_loadset
+~isempty(strfind(filename(i), 'EEG_reref_OBS.set'))
+isempty(strfind(filename(i), 'EEG_reref_OBS.set'))
+filename(3)
+help isempty
+strfind(filename(i), 'EEG_reref_OBS.set')
+istempty(strfind(filename(i), 'EEG_reref_OBS.set'))
+isempty(strfind(filename(i), 'EEG_reref_OBS.set'))
+size(strfind(filename(i), 'EEG_reref_OBS.set'))
+strfind(filename(i), 'EEG_reref_OBS.set')
+ans.1
+ans(1)
+ans(2)
+ans(1,1)
+ans(1)
+ans(1)(1)
+isempty(ans(1))
+help strfind
+help cell2mat
+filename(i)
+cell2mat(filename(i))
+cell2mat(filename(i))~isempty(strfind(cell2mat(filename(i)), 'EEG_reref_OBS.set'))
+~isempty(strfind(cell2mat(filename(i)), 'EEG_reref_OBS.set'))
+isempty(strfind(cell2mat(filename(i)), 'EEG_reref_OBS.set'))
+help switch
+methods(method)
+methods = {'AR', 'BR', 'SIMR', 'CCAR'};
+for method = 1:length(methods)
+[ EEG, regCoef, corrER ] = bcgRefLayer(ALLEEG(snEEG), ALLEEG(snBCG), cell2mat(methods(method)), 'qrs');
+EEG = pop_epoch( EEG, {'S  1'}, [-0.2 0.5], 'newname', [EEG.setname '_ERP']);
+EEG = pop_rmbase(EEG, [-200 -50]);
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+end
+EEG = ALLEEG(snOBS);
+EEG = pop_epoch( EEG, {'S  1'}, [-0.2 0.5], 'newname', [EEG.setname '_ERP']);
+EEG = pop_rmbase(EEG, [-200 -50]);
+[ALLEEG EEG CURRENTSET ] = eeg_store(ALLEEG, EEG);
+eeglab redraw
+figure, erpimage(EEG.data(3,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'baseline', [-200 -100], 'filt', [3 30]);
+figure, erpimage(EEG.data(3,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.01, 'baseline', [-200 -100], 'filt', [1 20]);
+figure, erpimage(EEG.data(3,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05, 'baseline', [-200 -50], 'filt', [1 30]);
+help erpimage
+figure, erpimage(EEG.data(3,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05, 'baseline', [-200 -50], 'filt', [1 30]);
+help ttest
+P = signtest(squeeze(EEG.data(3,290,:)))
+P = signtest(squeeze(EEG.data(3,300,:)))
+P = signtest(squeeze(EEG.data(3,260,:)))
+P = signtest(squeeze(EEG.data(3,300,:)))
+P = signtest(squeeze(EEG.data(3,280,:)))
+figure, erpimage(EEG.data(3,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05, 'baseline', [-200 -50], 'filt', [1 30]);
+setFigPos
+help boxplot
+figure, erpimage(EEG.data(3,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05, 'baseline', [-200 -50], 'filt', [1 30]);
+size(EEG.times<0)
+size(EEG.times)
+size(find(EEG.times<0))
+sum(find(EEG.times<0))
+find(EEG.times<0)
+sum(EEG.times<0)
+EEG
+help ttest
+ttest(snr(:,1,1))
+[H,P] = ttest(snr(:,1,1))
+boxplot(snr(:,:,1))
+boxplot(snr(:,:,1)')
+help boxplot
+boxplot(squeeze(snr(:,:,1)))
+mean(snr(:,:,1),1)
+mean(snr(:,:,1),2)
+mean(snr(:,:,1),1)
+mean(snr(:,:,2),1)
+figure, erpimage(EEG.data(3,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05, 'baseline', [-200 -50], 'filt', [1 30]);
+boxplot(squeeze(snr(:,:,1)))
+boxplot(squeeze(snr(:,1:2,1)))
+snr(:,1,1)
+boxplot(squeeze(snr(:,1:2,1)))
+boxplot(squeeze(snr(:,:,1)))
+help boxplot
+help ttest
+[H,P,CI,STATS] = ttest(snr(:,:,1))
+[H,P,CI,STATS] = ttest(snr(:,:,2))
+[H,P] = ttest(snr(:,4,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,2,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,6,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,4,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,6,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,5,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,1,2) - snr(:,5,2))
+[H,P] = ttest(snr(:,2,2) - snr(:,5,2))
+[H,P] = ttest(snr(:,3,2) - snr(:,5,2))
+[H,P] = ttest(snr(:,4,2) - snr(:,5,2))
+plot(erps)
+plot(zscore(erps))
+help eeg_plot
+help erpplot
+help eegfilt
+help filtfilt
+help erpimage
+help filtfilt
+plot(erps)
+plot(zsocreerps)
+plot(zscore(erps))
+plot(zscore(erps(:,[2 4 5])))
+axis on
+axis0
+box off
+xlim[-100 300]
+xlim([-100 300])
+[H,P] = ttest(snr(:,4,2) - snr(:,5,2))
+[H,P] = ttest(snr(:,2,2) - snr(:,5,2))
+[H,P] = ttest(snr(:,2,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,4,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,5,1))
+boxplot(squeeze(snr(:,:,1)))
+[H,P] = ttest(snr(:,2,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,4,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,4,1) - snr(:,3,1))
+[H,P] = ttest(snr(:,4,1) - snr(:,1,1))
+[H,P] = ttest(snr(:,4,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,4,1) - snr(:,5,1))
+boxplot(squeeze(snr(:,:,1)))
+[H,P] = ttest(snr(:,1,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,4,1) - snr(:,5,1))
+boxplot(squeeze(snr(:,:,1)), 'plotstyle','compact')
+boxplot(squeeze(snr(:,:,1)), 'notch','on')
+boxplot(squeeze(snr(:,[1 2 5],1)), 'notch','on')
+boxplot(squeeze(snr(:,[5 2 1],1)), 'notch','on')
+boxplot(squeeze(snr(:,[5 1 2],1)), 'notch','on')
+boxplot(squeeze(snr(:,[5 1 2],2)), 'notch','on')
+boxplot(squeeze(snr(:,[5 1 4],2)), 'notch','on')
+help errorbar
+help sigstar
+help boxplot
+%-- 12/6/13, 9:30 PM --%
+eeglab
+eeglab redraw
+[H,P] = ttest(snr(:,4,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,4,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,5,1))
+eeglab redraw
+[H,P] = ttest(snr(:,3,1) - snr(:,5,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,1,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,2,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,13,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,3,2) - snr(:,4,2))
+figure,
+boxplot(snr(:,sets,1));
+figure,
+boxplot(snr(:,sets,1));
+[H,P] = ttest(snr(:,3,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,1,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+help pwelch
+help spectopo
+freqs
+snr
+figure, plot([spectraC; spectraO])
+figure, plot([spectraC; spectraO]')
+figure, plot(zscore[spectraC; spectraO]')
+figure, plot(zscore([spectraC; spectraO]'))
+snr
+plot(zscore(erps(:,[2 4 5])))
+figure, plot(zscore([spectraC; spectraO]'))
+snr
+eeglab redraw
+figure, plot([spectraC; spectraO]')
+ALLEEG = pop_delset(ALLEEG, 4:6);
+figure, plot([spectraC; spectraO]')
+ALLEEG = pop_delset(ALLEEG, 4:6);
+figure, plot([spectraC; spectraO]')
+figure, plot(freqs, [spectraC; spectraO]')
+ALLEEG = pop_delset(ALLEEG, 4:6);
+%-- 12/7/13, 12:02 AM --%
+eeglab
+setFigPos
+delete bias* binica* temp*
+ALLEEG = pop_delset(ALLEEG, 4:6);
+ccaR
+ALLEEG = pop_delset(ALLEEG, 4:6);
+ALLEEG = pop_delset(ALLEEG, 4:7);
+ALLEEG = pop_delset(ALLEEG, 4:6);
+ALLEEG = pop_delset(ALLEEG, 6);
+ALLEEG = pop_delset(ALLEEG, 7);
+ALLEEG = pop_delset(ALLEEG, 6);
+ALLEEG = pop_delset(ALLEEG, 5, 6);
+ALLEEG = pop_delset(ALLEEG, 5:6);
+ALLEEG = pop_delset(ALLEEG, 4);
+ALLEEG = pop_delset(ALLEEG, 4:6);
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,1,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,3,1))
+eeglab redraw
+figure,
+boxplot(snr(:,sets,2));
+[H,P] = ttest(snr(:,1,1) - snr(:,3,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+eeglab redraw
+figure, erpimage(EEG.data(17,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05, 'baseline', [-200 -50], 'filt', [1 30]);
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+figure, erpimage(EEG.data(21,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05, 'baseline', [-200 -50], 'filt', [1 30]);
+figure, erpimage(EEG.data(18,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05, 'baseline', [-200 -50], 'filt', [1 30]);
+figure, erpimage(EEG.data(5,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05, 'baseline', [-200 -50], 'filt', [1 30]);
+eeglab redraw
+figure, erpimage(EEG.data(20,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05, 'baseline', [-200 -50], 'filt', [1 30]);
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,4,1))
+ALLEEG = pop_delset(ALLEEG, 4:6);
+ALLEEG = pop_delset(ALLEEG, 4:8);
+[H,P] = ttest(snr(:,2,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,3,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,1,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+ALLEEG = pop_delset(ALLEEG, 4:8);
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,2,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,4,1))
+%-- 12/7/13, 10:05 AM --%
+snr
+eeglab redraw
+figure, erpimage(EEG.data(20,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05, 'baseline', [-200 -50], 'filt', [1 30]);
+ALLEEG = pop_delset(ALLEEG, 4:8);
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,3,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,1,2) - snr(:,4,2))
+help min
+ALLEEG = pop_delset(ALLEEG, 4:8);
+[H,P] = ttest(snr(:,1,) - snr(:,4,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+ALLEEG = pop_delset(ALLEEG, 4:8);
+snr
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+eeglab redraw
+for i = 1:EEG.pnts, H(i) = squeeze(ttest(EEG.data(chan,i,:))); end;
+plot(H)
+plot(EEG>times, H)
+plot(EEG.times, H)
+for i = 1:EEG.pnts, H(i) = squeeze(ttest(EEG.data(chan,i,:))); end;
+plot(EEG.times, H)
+for i = 1:EEG.pnts, H(i) = squeeze(ttest(EEG.data(chan,i,:))); end;
+plot(EEG.times, H)
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,3,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,1,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,1,3) - snr(:,4,3))
+[H,P] = ttest(snr(:,3,3) - snr(:,4,3))
+[H,P] = ttest(snr(:,3,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,1,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,2,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,3,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,4,2) - snr(:,4,2))
+[H,P] = ttest(snr(:,4,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,3,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,1,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,2,1) - snr(:,4,1))
+[H,P] = ttest(snr(:,2,3) - snr(:,4,3))
+[H,P] = ttest(snr(:,1,3) - snr(:,4,3))
+[H,P] = ttest(snr(:,4,3) - snr(:,4,3))
+[H,P] = ttest(snr(:,3,3) - snr(:,4,3))
+boxplot(snr(:,sets,1));
+ylim
+ylim([ylim(1) ylim(2)*1.5])
+yaxis = ylim;
+ylim([yaxis(1) yaxis(2)*1.3])
+help ttest2
+figure,
+for i = 1:length(peakSign)
+subplot(1,length(peakSign,i)), boxplot(snr(:,sets,i));
+sigGroup = {};
+for j = 1:length(sets)
+[H(j), P(j)] = ttest(snr(:,sets(1),i), snr(:,sets(j),i));
+if H(j)
+sigGroup{end+1} = [1 j];
+end
+end
+sigstar(sigGroup, P(H));
+yaxis = ylim; ylim([yaxis(1) yaxis(2)*1.3]);
+end
+figure,
+for i = 1:length(peakSign)
+subplot(1,length(peakSign),i), boxplot(snr(:,sets,i));
+sigGroup = {};
+for j = 1:length(sets)
+[H(j), P(j)] = ttest(snr(:,sets(1),i), snr(:,sets(j),i));
+if H(j)
+sigGroup{end+1} = [1 j];
+end
+end
+sigstar(sigGroup, P(H));
+yaxis = ylim; ylim([yaxis(1) yaxis(2)*1.3]);
+end
+figure,
+for i = 1:length(peakSign)
+subplot(1,length(peakSign),i), boxplot(snr(:,sets,i));
+sigGroup = {}; pValue = [];
+for j = 1:length(sets)
+[H(j), P(j)] = ttest(snr(:,sets(1),i), snr(:,sets(j),i));
+if H(j)
+sigGroup{end+1} = [1 j];
+pValue(end+1) = P(j);
+end
+end
+sigstar(sigGroup, pValue);
+yaxis = ylim; ylim([yaxis(1) yaxis(2)*1.3]);
+end
+figure,
+for i = 1:length(peakSign)
+subplot(1,length(peakSign),i), boxplot(snr(:,sets,i));
+sigGroup = {}; pValue = [];
+for j = 2:length(sets)
+[H(j), P(j)] = ttest(snr(:,sets(1),i), snr(:,sets(j),i));
+if H(j)
+sigGroup{end+1} = [1 j];
+pValue(end+1) = P(j);
+end
+end
+sigstar(sigGroup, pValue);
+yaxis = ylim; ylim([yaxis(1) yaxis(2)*1.3]);
+end
+sets = [4 1 2 3];
+figure,
+for i = 1:length(peakSign)
+subplot(1,length(peakSign),i), boxplot(snr(:,sets,i));
+sigGroup = {}; pValue = [];
+for j = 2:length(sets)
+[H(j), P(j)] = ttest(snr(:,sets(1),i), snr(:,sets(j),i));
+if H(j)
+sigGroup{end+1} = [1 j];
+pValue(end+1) = P(j);
+end
+end
+sigstar(sigGroup, pValue);
+yaxis = ylim; ylim([yaxis(1) yaxis(2)*1.3]);
+end
+ALLEEG = pop_delset(ALLEEG, 4:8);
+10log10(0.1)
+10*log10(0.1)
+10*log10(0.5)
+10*log10(0.6)
+eeglab redraw
+figure, erpimage(EEG.data(3,:,:), [], [-200 700 EEG.srate], [], 1, 1, 'erp', 'cbar', 'erp_grid', 'erpalpha', 0.05, 'baseline', [-200 -50], 'filt', [1 30]);
+ALLEEG = pop_delset(ALLEEG, 4:8);
+mean(signal.^2,2))
+mean(signal.^2,2)\
+mean(signal.^2,2)
+mean(noise.^2,2)
+std(erpsNorm(1:200,:))
+[B,A]=butter(3,[1 30]*2/EEG.srate);
+erpsNorm = zeros(size(erps));
+for i = 1:size(erps,2)
+erpsNorm(:,i) = filtfilt(B,A,erps(:,i));
+end
+erpsNorm = erpsNorm - repmat(mean(erpsNorm(1:200,:),1), [size(erpsNorm,1) 1]);
+erpsNorm = erpsNorm ./ repmat(std(erpsNorm(1:200,:)), [size(erpsNorm,1) 1]);
+snrERP = zeros(size(erpsNorm,2), size(rangeSignal,1));
+for i = 1:length(size(snrERP,1))
+for j = 1:size(rangeSignal,1)
+signal = mean(erpsNorm(rangeSignal(j,1):rangeSignal(j,2),:),1);
+if peakSign(j) >0
+signal = signal - repmat(min(signal,[],1), [size(signal,1),1]);
+else
+signal = repmat(max(signal,[],1), [size(signal,1),1]) - signal;
+end
+noise = mean(EEG.data(chan,rangeNoise(1):rangeNoise(2),:),1);
+snrERP(i,j) = 10*log10(squeeze(mean(signal.^2,1)) ./ squeeze(mean(noise.^2,1)))';
+end
+end
+[B,A]=butter(3,[1 30]*2/EEG.srate);
+erpsNorm = zeros(size(erps));
+for i = 1:size(erps,2)
+erpsNorm(:,i) = filtfilt(B,A,erps(:,i));
+end
+erpsNorm = erpsNorm - repmat(mean(erpsNorm(1:200,:),1), [size(erpsNorm,1) 1]);
+erpsNorm = erpsNorm ./ repmat(std(erpsNorm(1:200,:)), [size(erpsNorm,1) 1]);
+snrERP = zeros(size(erpsNorm,2), size(rangeSignal,1));
+for i = 1:length(size(snrERP,1))
+for j = 1:size(rangeSignal,1)
+signal = erpsNorm(rangeSignal(j,1):rangeSignal(j,2),:);
+if peakSign(j) >0
+signal = signal - repmat(min(signal,[],1), [size(signal,1),1]);
+else
+signal = repmat(max(signal,[],1), [size(signal,1),1]) - signal;
+end
+noise = mean(EEG.data(chan,rangeNoise(1):rangeNoise(2),:),1);
+snrERP(i,j) = 10*log10(squeeze(mean(signal.^2,1)) ./ squeeze(mean(noise.^2,1)))';
+end
+end
+[B,A]=butter(3,[1 30]*2/EEG.srate);
+erpsNorm = zeros(size(erps));
+for i = 1:size(erps,2)
+erpsNorm(:,i) = filtfilt(B,A,erps(:,i));
+end
+erpsNorm = erpsNorm - repmat(mean(erpsNorm(1:200,:),1), [size(erpsNorm,1) 1]);
+erpsNorm = erpsNorm ./ repmat(std(erpsNorm(1:200,:)), [size(erpsNorm,1) 1]);
+snrERP = zeros(size(erpsNorm,2), size(rangeSignal,1));
+for i = 1:length(size(snrERP,1))
+for j = 1:size(rangeSignal,1)
+signal = erpsNorm(rangeSignal(j,1):rangeSignal(j,2),:);
+if peakSign(j) >0
+signal = signal - repmat(min(signal,[],1), [size(signal,1),1]);
+else
+signal = repmat(max(signal,[],1), [size(signal,1),1]) - signal;
+end
+noise = erpsNorm(rangeNoise(1):rangeNoise(2),:);
+snrERP(i,j) = 10*log10(squeeze(mean(signal.^2,1)) ./ squeeze(mean(noise.^2,1)))';
+end
+end
+size(squeeze(mean(signal.^2,1)))
+[B,A]=butter(3,[1 30]*2/EEG.srate);
+erpsNorm = zeros(size(erps));
+for i = 1:size(erps,2)
+erpsNorm(:,i) = filtfilt(B,A,erps(:,i));
+end
+erpsNorm = erpsNorm - repmat(mean(erpsNorm(1:200,:),1), [size(erpsNorm,1) 1]);
+erpsNorm = erpsNorm ./ repmat(std(erpsNorm(1:200,:)), [size(erpsNorm,1) 1]);
+snrERP = zeros(size(erpsNorm,2), size(rangeSignal,1));
+for j = 1:size(rangeSignal,1)
+signal = erpsNorm(rangeSignal(j,1):rangeSignal(j,2),:);
+if peakSign(j) >0
+signal = signal - repmat(min(signal,[],1), [size(signal,1),1]);
+else
+signal = repmat(max(signal,[],1), [size(signal,1),1]) - signal;
+end
+noise = erpsNorm(rangeNoise(1):rangeNoise(2),:);
+snrERP(:,j) = 10*log10(squeeze(mean(signal.^2,1)) ./ squeeze(mean(noise.^2,1)))';
+end
+snrERP
+eeglab redraw
+%-- 12/7/13, 1:45 PM --%
+%-- 12/8/13, 12:10 PM --%
+eeglab
+pop_saveset
+EEG
+help pop_fmrib_pas
+eeglab redraw
+help pop_select
+EEG
+pathname
+help pop_select
+EEG = pop_select(EEG_all, 'nochannel', eegChans);
+EEG.setname = [EEG.setname '_BCG'];
+EEG = pop_reref(EEG, []);
+EEG.setname = [EEG.setname '_reref'];
+EEG = pop_saveset(EEG, 'filename', EEG.setname, 'filepath', pathname);
+eeglab redraw
+ALLEEG = pop_delset(ALLEEG, 4:8);
+eeglab redraw
+ALLEEG = pop_delset(ALLEEG, 4:8);
+eeglab redraw
+help roudn
+help round
+eeglab redraw
+snERPs
+plot(erps)
+plot(erpsNorm)
+signal
+noise
+mean(signal.^2,1)
+mean(noise.^2,1)
+snrERP(:,1)
+snrERP(:,2)
+signal
+noise
+signal
+noise
+mean(signal.^2,1)
+mean(noise.^2,1)
+squeeze(mean(signal.^2,1)) ./ squeeze(mean(noise.^2,1))
+signal = erpsNorm(rangeSignal(j,1):rangeSignal(j,2),:);
+signal = erpsNorm(rangeSignal(1,1):rangeSignal(1,2),:);
+plot(signal)
+signal = repmat(max(signal,[],1), [size(signal,1),1]) - signal;
+plot(signal)
+signal = erpsNorm(rangeSignal(1,1):rangeSignal(1,2),:);
+plot(signal)
+help zscore
+help matstd
+help mapstd
+help std
+plot(peakAmp(:,1,1))
+setFigPos
+plot(squeeze(peakAmp(:,1,1:4)))
+plot(squeeze(peakAmp(:,1:4,1)))
+mean(peakAmp(:,1,1))
+mean(peakAmp(:,1:4,1),1)
+std(peakAmp(:,1:4,1),)
+std(peakAmp(:,1:4,1))
+help ttest
+eeglab redraw
+EEG.event
+EEG.event(10)
+EEG.event(1)
+EEG.event(20)
+ALLEEG = pop_delset(ALLEEG, 4:8);
+figure, plot([spectraC; spectraO]')
+freqs
+rangeFreql
+rangeFreq
+freqs>rangeFreq(1) & freqs<rangeFreq(2)
+find(freqs>rangeFreq(1) & freqs<rangeFreq(2))
+figure, plot([spectraC; spectraO]')
+eeglab redraw
+ALLEEG = pop_delset(ALLEEG, 4:8);
+figure, spectopo(EEG.data(20), EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 2048, 'winsize', 1024, 'chanlocs', EEG.chanlocs);
+qrs = [];
+for i = 1:length(EEG.event)
+if strcmp(EEG.event(i).type, 'PPG ')
+qrs = [qrs EEG.event(i).latency];
+end
+end
+ALLEEG = pop_delset(ALLEEG, 4:8);
+median(diff(qrs))
+0.21*250
+plot(RL')
+plot(signal')
+plot(RL')
+plot(signal')
+qrs = [];
+for i = 1:length(EEG.event)
+if strcmp(EEG.event(i).type, 'qrs')
+qrs = [qrs EEG.event(i).latency];
+end
+end
+eeglab redraw
+plot(signal')
+plot(RL')
+plot(signal')
+[A,S,z] = SIM(RL);
+[A,B,r,U,V] = canoncorr(RL',signal');
+plot(U)
+plot(U')
+plot(U)
+r
+plot(RL')
+plot(signal')
+[A,B,r,U,V] = canoncorr(RL(1:3:end,:)',signal');
+r
+[A,B,r,U,V] = canoncorr(RL(1:4:end,:)',signal');
+r
+invA = pinv(A); invB = pinv(B);
+figure,
+for i = 1:length(r)
+subplot(2,2,1), topoplot(invA(i,:), ALLEEG(snBCG).chanlocs);
+subplot(2,2,2), topoplot(invB(i,:), ALLEEG(snEEG).chanlocs);
+subplot(2,2,[3 4]), plot([U(:,i) V(:,i)]); title(num2str(r(i)));
+pause;
+clf;
+end
+[A,B,r,U,V] = canoncorr(RL(1:4:end,:)',signal');
+figure,
+for i = 1:length(r)
+%     subplot(2,2,1), topoplot(invA(i,:), ALLEEG(snBCG).chanlocs);
+%     subplot(2,2,2), topoplot(invB(i,:), ALLEEG(snEEG).chanlocs);
+subplot(2,2,[3 4]), plot([U(:,i) V(:,i)]); title(num2str(r(i)));
+pause;
+clf;
+end
+[COEFF, SCORE] = pca(RL');
+plot(SCORE(:,1))
+plot(SCORE(:,2))
+plot(SCORE(:,3))
+plot(SCORE(:,4))
+plot(SCORE(:,10))
+plot(SCORE(:,9))
+plot(SCORE(:,8))
+plot(SCORE(:,7))
+plot(SCORE(:,6))
+plot(SCORE(:,5))
+plot(SCORE(:,4))
+plot(SCORE(:,3))
+plot(SCORE(:,2))
+plot(SCORE(:,1))
+filepath
+pathname
+EEG.chanlocs
+EEG.chanlocs(1).X
+EEG.chanlocs(1).Y
+EEG.chanlocs(1).Z
+x = cell2mat(ALLEEG(snBCG).chanlocs.X);
+ALLEEG(snBCG).chanlocs.X
+cell2mat(ALLEEG(snBCG).chanlocs.X)
+help cell2mat
+cell2mat(ALLEEG(snBCG).chanlocs(1:10).X)
+cell2mat(ALLEEG(snBCG).chanlocs
+ALLEEG(snBCG).chanlocs
+extractfield(ALLEEG(snBCG).chanlocs.X)
+extractfield(ALLEEG(snBCG).chanlocs, 'X')
+extractfield(ALLEEG(snBCG).event, 'type')
+find(ans == 'PPG ')
+ALLEEG(snEEG).chanlocs(1).X - extractfield(ALLEEG(snBCG).chanlocs,'X')
+help pdist
+help dist
+zeros(5)
+eeglab redraw
+test = extractfield(ALLEEG(snBCG).chanlocs,'X');
+help pdist
+help dist
+size(repmat(coorEEG(:,i), [1, size(coorBCG,2)]))
+size(coorBCG)
+help sum
+dist(1,:)
+min(dist(1,:))
+find(dist(1,:) == min(dist(1,:)))
+find(dist(2,:) == min(dist(1,:)))
+find(dist(2,:) == min(dist(2,:)))
+find(dist(3,:) == min(dist(3,:)))
+help sort
+[Y,I] = sort(dist);
+I(1,:)
+I(2,:)
+I(3,:)
+Y(:,1)
+Y(:,2)
+sum(Y<2)
+sum(Y<3)
+sum(Y<4)
+sum(dist<4)
+I
+sum(dist<4,2)
+find(sum(dist<4,2)>0)
+size(find(sum(dist<4,2)>0))
+size(find(sum(dist<3,2)>0))
+size(find(sum(dist<2,2)>0))
+size(find(sum(dist<1,2)>0))
+size(find(sum(dist<1.5,2)>0))
+size(find(sum(dist<1.6,2)>0))
+size(find(sum(dist<1.7,2)>0))
+size(find(sum(dist<2,2)>0))
+unique(I(1,:))
+unique(I(2,:))
+unique(I(1:2,:))
+size(unique(I(1:2,:)))
+size(unique(I(1,:)))
+size(unique(I(2,:)))
+size(unique(I(1:3,:)))
+size(unique(I(1:4,:)))
+size(unique(I(1:5,:)))
+size(unique(I(1:6,:)))
+size(unique(I(1:7,:)))
+size(unique(I(1:8,:)))
+size(unique(I(1:9,:)))
+size(unique(I(1,:)))
+unique(I(1:2,:))
+unique(sortChan(1:2,:))
+unique(sortChan(1,:))
+size(unique(sortChan(2,:)))
+size(unique(sortChan(1,:)))
+size(unique(sortChan(3,:)))
+size(unique(sortChan(4,:)))
+size(unique(sortChan(5,:)))
+size(unique(sortChan(1:5,:)))
+size(unique(sortChan(1:2,:)))
+size(unique(sortChan(1:3,:)))
+size(unique(sortChan(1:4,:)))
+size(unique(sortChan(1:45:)))
+size(unique(sortChan(1:5:)))
+size(unique(sortChan(1:5,:)))
+size(unique(sortChan(1:2,:)))
+size(unique(sortChan(1:3,:)))
+%-- 12/8/13, 5:34 PM --%
+eeglab redraw
+chanlocs = ALLEEG(snBCG).chanlocs;
+coorBCG = [extractfield(chanlocs, 'X'); extractfield(chanlocs, 'Y'); extractfield(chanlocs, 'Z');];
+chanlocs = ALLEEG(snEEG).chanlocs;
+coorEEG = [extractfield(chanlocs, 'X'); extractfield(chanlocs, 'Y'); extractfield(chanlocs, 'Z');];
+dist = zeros(ALLEEG(snBCG).nbchan, ALLEEG(snEEG).nbchan);
+for i = 1:ALLEEG(snEEG).nbchan
+dist(:,i) = sqrt(sum((coorBCG - repmat(coorEEG(:,i), [1, size(coorBCG,2)])).^2,1));
+end
+[Y,sortChan] = sort(dist);
+eeglab redraw
+100/250
+eeglab redraw
+EEG = ALLEEG(CURRENTSET);
+eeglab redraw
+ALLEEG(snEEG).chanlocs(1).X - extractfield(ALLEEG(snBCG).chanlocs,'X')
+ALLEEG = pop_delset(ALLEEG, 4:8);
+eeglab redraw
+ALLEEG = pop_delset(ALLEEG, 4:8);
+%-- 12/9/13, 9:10 AM --%
+plot(RL')
+help pca
+[COEFF, SCORE] = pca(RL');
+plot(SCORE(:,1:10))
+plot(SCORE(:,1:30))
+plot(SCORE(:,1:40))
+plot(SCORE(:,1:30))
+min(1,2)
+min(1,10)
+min(20,10)
+ALLEEG = pop_delset(ALLEEG, 4:8);
+eeglab redraw
+ALLEEG = pop_delset(ALLEEG, 4:8);
+eeglab redraw
+clear all, close all, clc, jheapcl
+load('/Users/hxs/Dropbox/Neuracle/Develop/Emulator/SerialDataParser/error01.mat')
+plot(data')
+plot(data)
+plot(zscore(data))
+plot(zcore(data))
+plot(zscore(data))
+plot(zscore(double(data)))
+plot(zscore(double(data(:,2))))
+plot(zscore(double(data(:,3))))
+plot(zscore(double(data(:,4))))
+plot(zscore(double(data(:,5))))
+plot(zscore(double(data(:,6))))
+plot(zscore(double(data(:,7))))
+test = load('error01.txt');
+test = load('error01.txt', '-ascii');
+help textscan
+help uigetfile
+serialData
+serialData{1}
+clc
+help fscanf
+serialData
+serialData{1,1}
+serialData(1)
+serialData(2)
+serialData(3)
+serialData(1)
+serialData(8)
+serialData(9)
+serialData(10)
+serialData([1:8 end-8:end]) = [[];
+serialData([1:8 end-8:end]) = [];
+help hex2num
+help typecast
+typecast(serialData(4:-1:3), 'uint8')
+serialData(3:4)
+serialData(4:3)
+serialData(4:-1:3)
+typecast(serialData(4:-1:3)', 'uint8')
+typecast(serialData(4:-1:3)', 'uint16')
+typecast(serialData(4:-1:3)', 'uint32')
+typecast(serialData(4:-1:3)', 'uint1')
+typecast(serialData(4:-1:3)', 'uint8')
+serialData = uint8(serialData);
+typecast(serialData(4:-1:3)', 'uint8')
+typecast(serialData(4:-1:3)', 'uint16')
+typecast(serialData(3:4)', 'uint16')
+help typecast
+swapbytes(typecast(serialData(3:4)', 'uint16'))
+nbPackages = length(serialData)/(payLoadLength + nbHeader);
+typecast(serialData(offset+2:offset+3)', 'uint16');
+ans
+typecast(serialData(offset+2:offset+3), 'uint16');
+ans
+typecast(serialData(offset+2:offset+3)', 'uint8');
+hex2dec('FF')
+hex2dec('00')
+serialData(offset:offset+bytesAD)'
+serialData(offset:offset+bytesAD-1)'
+plot(data')
+plot(data(1,:))
+tic; data(dataIndex(1), dataIndex(2)) = swapbytes(typecast([hex2dec('FF') serialData(offset:offset+bytesAD-1)'], 'int32'));toc
+tic; data(dataIndex(1), dataIndex(2)) = swapbytes(typecast([hex2dec('FF') serialData(1:3)'], 'int32'));toc
+tic; data(dataIndex(1), dataIndex(2)) = swapbytes(typecast([255 serialData(1:3)'], 'int32'));toc
+tic; hex2dec('7F')
+tic; hex2dec('7F'); toc
+tic; data(dataIndex(1), dataIndex(2)) = swapbytes(typecast([255 serialData(1:3)'], 'int32'));toc
+bitshift(255,3)
+bitshift(255,-5)
+bitshift(255,-24)
+bitshift(uint8(255),-24)
+bitshift(uint8(255),24)
+help bitshift
+bitshift(255,4)
+hex2dex('FF00')
+hex2dec('FF00')
+hex2dec('FF0')
+hex2dec('FF000000')
+bitshift(255,24)
+hex2dec('7F')
+bitshift(255,24)+bitshift(serialData(1))++bitshift(serialData(2))++bitshift(serialData(3))
+bitshift(255,24)+bitshift(serialData(1),16)++bitshift(serialData(2),8)++bitshift(serialData(3))
+bitshift(255,24)+bitshift(serialData(1),16)++bitshift(serialData(2),8)+serialData(3)
+serialData(1)
+serialData(2)
+serialData(3)
+bitshift(255,24)+bitshift(serialData(1),16)++bitshift(serialData(2),8)+serialData(3)
+int32(bitshift(255,24)+bitshift(serialData(1),16)++bitshift(serialData(2),8)+serialData(3))
+int32(bitshift(uint8(255),24)+bitshift(serialData(1),16)++bitshift(serialData(2),8)+serialData(3))
+int32(bitshift(uint8(255),24)+bitshift(serialData(1),16)+bitshift(serialData(2),8)+serialData(3))
+bitshift(uint8(255),24)
+bitshift(255,24)
+bitshift(serialData(1),16)
+bitshift(int32(serialData(1)),16)
+bitshift(int32(255),24)+bitshift(int32(serialData(1)),16)+bitshift(int32(serialData(2)),8)+int32(serialData(3))
+tic; bitshift(int32(255),24)+bitshift(int32(serialData(1)),16)+bitshift(int32(serialData(2)),8)+int32(serialData(3)); toc
+tic; bitshift(255,24)+bitshift(serialData(1),16)++bitshift(serialData(2),8)+serialData(3); toc
+plot(data(1,:))
+plot(data(2,:))
+reshape(1:60, 10, 6)
+help reshape
+1:nbSection
+(1:nbSection).*bytesAD
+for section = 1:nbSection
+index = [index (section-1)*(nbChanPerSection+nbStatusPerSection)+1:nbChanPerSection];
+end
+index = []
+for section = 1:nbSection
+index = [index (section-1)*(nbChanPerSection+nbStatusPerSection)+1:nbChanPerSection];
+end
+index
+(section-1)*(nbChanPerSection+nbStatusPerSection)+1:nbChanPerSection
+1:nbChanPerSection
+(section-1)*(nbChanPerSection+nbStatusPerSection)
+9+1:8
+for section = 1:nbSection
+index = [index (section-1)*(nbChanPerSection+nbStatusPerSection)+(1:nbChanPerSection)];
+end
+index
+index = [];
+for section = 1:nbSection
+index = [index (section-1)*(nbChanPerSection+nbStatusPerSection)+(1:nbChanPerSection)];
+end
+index
+index = [];
+for section = 1:nbSection
+index = [index (section-1)*(nbChanPerSection+nbStatusPerSection)*bytesAD+(1:nbChanPerSection)];
+end
+index
+index = [];
+for section = 1:nbSection
+index = [index (section-1)*(nbChanPerSection+nbStatusPerSection)*bytesAD+(nbStatusPerSection*bytesAD+1:(nbStatusPerSection+nbChanPerSection)*bytesAD)];
+end
+index
+help typecast
+hbit
+index
+temp = reshape(serialData(offset:offset+payLoadLength-1), [payLoadLength/nbPoints nbPoints]);
+offset
+temp = reshape(serialData(offset:offset+payLoadLength-1), [payLoadLength/nbPoints nbPoints]);
+size(serialData(offset:offset+payLoadLength-1))
+offset
+offset+payLoadLength-1
+size(offset:(offset+payLoadLength-1))
+offset+payLoadLength-1
+size(offset:(offset+payLoadLength-1))
+offset+payLoadLength
+payLoadLength
+offset
+offset+payLoadLength
+plot(data(1,:))
+plot(data(2,:))
+plot(data(3,:))
+plot(data(4,:))
+SCN
+help butter
+SCN
+help filtfilt
+SCN
+plot(1,:)
+plot(data(1,:))
+plot(data(2,:))
+help filtfilt
+fix(srate/locutoff)
+fix(srate/locutoff) > 500 ? 500:1
+fix(srate/locutoff)
+SCN
+scale
+SCN
+plot(data(2,:))
 SCN
 help filtfilt
 help eegfilt
@@ -3713,1695 +5433,3 @@ plot([erpSIM(57,:); erprSIM(57,:);]')
 QAll
 QAll(50)
 QAll(:,50)
-%-- 12/31/13, 12:13 AM --%
-load('eegdata_face.mat')
-[erprSIM, ECovSigAll, ECovResAll, QAll, x]=rSIM(epochs);
-for i = 1:50, imagesc(ECovSigAll(:,:,i)); pause; end
-[erprSIM, ECovSigAll, ECovResAll, QAll, x]=rSIM(epochs);
-for i = 1:50, imagesc(ECovSigAll(:,:,i)); pause; end
-QAll
-for i = 1:50, imagesc(ECovResAll(:,:,i)); pause; end
-[erprSIM, ECovSigAll, ECovResAll, QAll, x]=rSIM(epochs);
-plot([erprSIM(57,:);]')
-plot([erprSIM(50,:);]')
-[erprSIM, ECovSigAll, ECovResAll, QAll, x]=rSIM(epochs);
-plot([erprSIM(50,:);]')
-plot([erprSIM(57,:);]')
-[erprSIM, ECovSigAll, ECovResAll, QAll, x]=rSIM(epochs);
-plot([erprSIM(57,:);]')
-plot(x(57,:,1:100))
-plot(squeeze(x(57,:,1:100)))
-plot(squeeze(real(x(57,:,1:100))))
-plot(squeeze(real(x(57,:,100:200))))
-plot(squeeze(real(x(57,:,300:500))))
-plot([erprSIM(57,:);]')
-plot(real([erprSIM(57,:);])')
-plot(real([erprSIM(50,:);])')
-QAll
-[erprSIM, ECovSigAll, ECovResAll, QAll, x]=rSIM(epochs);
-plot(real([erprSIM(50,:);])')
-plot(real([erprSIM(57,:);])')
-QAll
-sum(QAll>0.01)
-sum(QAll>0.001)
-plot(squeeze(real(x(57,:,300:500))))
-plot(squeeze(real(x(57,:,100:500))))
-plot(squeeze(real(x(57,:,1:100))))
-plot(squeeze(real(x(57,:,100:200))))
-plot(squeeze(mean(x(57),3)))
-plot(squeeze(mean(real(x(57,:,:)),3)))
-plot(squeeze(mean(real(x(50,:,:)),3)))
-sum(QAll>0)
-[erprSIM, ECovSigAll, ECovResAll, QAll, x]=rSIM(epochs(:,:,1:120));
-plot(real([erprSIM(57,:);])')
-plot(real([erprSIM(50,:);])')
-[erprSIM, ECovSigAll, ECovResAll, QAll, x]=rSIM(epochs);
-QAll
-sum(QAll>0)
-sum(QAll>0.001)
-sum(QAll>0.0001)
-sum(QAll>0.00001)
-sum(QAll>0.000001)
-sum(QAll>0.00000001)
-plot(real([erprSIM(50,:);])')
-plot(real([erprSIM(57,:);])')
-[V,D] = eig(ECovSigAll(:,:,200));
-figure, topoplot(V(:,10),chanlocs);
-figure, topoplot(real(V(:,10)),chanlocs);
-figure, topoplot(real(V(:,10)'),chanlocs);
-figure, topoplot(real(V(10,:)'),chanlocs);
-figure, topoplot(real(V(10,:)),chanlocs);
-for i = 1:50, imagesc(ECovSigAll(:,:,i)); pause; end
-for i = 1:200, imagesc(real(ECovSigAll(:,:,i))); pause; end
-[erprSIM, ECovSigAll, ECovResAll, QAll, x]=rSIM(epochs);
-QAll
-plot(real([erprSIM(57,:);])')
-plot(real([erprSIM(50,:);])')
-[A,S,z] = SIM(epochs);
-erpSIM = A*z;
-plot(real([erpSIM(50,:);])')
-plot(real([erpSIM(57,:);])')
-erpSIM = A(:,1:3)*z(1:3,:);
-plot(real([erpSIM(57,:);])')
-plot(real([erpSIM(57,:); erprSIM(57,:)])')
-plot(real([erpSIM(57,:); mean(real(x(57,:,:)),3)])')
-erpSIM = A*z;
-plot(real([erpSIM(57,:); mean(real(x(57,:,:)),3)])')
-[erprSIM, ECovSigAll, ECovResAll, QAll, x]=rSIM(epochs);
-plot(real([erpSIM(57,:); mean(real(x(57,:,:)),3)])')
-erpSIM = A(:,1:3)*z(1:3,:);
-plot(real([erpSIM(57,:); mean(real(x(57,:,:)),3)])')
-%-- 12/31/13, 1:18 AM --%
-load('eegdata_face.mat')
-[erprSIM, ECovSigAll, ECovResAll, QAll, x]=rSIM(epochs);
-[A,S,z] = SIM(epochs);
-plot(real([erpSIM(57,:); erprSIM(57,:);])')
-erpSIM = A(:,1)*z(1,:);
-plot(real([erpSIM(57,:); erprSIM(57,:);])')
-plot(squeeze(mean(real(x(50,:,:)),3)))
-plot(squeeze(mean(real(x(57,:,:)),3)))
-plot(squeeze(x(57,:,1:100)))
-plot(squeeze(x(57,:,200:500)))
-plot(squeeze(x(57,:,200:600)))
-plot(squeeze(x(57,:,200:800)))
-plot(squeeze(x(57,:,200:1000)))
-plot(real([erpSIM(57,:); erprSIM(57,:);])')
-plot(real([erpSIM(50,:); erprSIM(50,:);])')
-plot(real([erpSIM(57,:); erprSIM(57,:);])')
-QAll(:,50)
-QAll(1,50)
-QAll(2,50)
-QAll(3,50)
-QAll(4,50)
-[A,S,z] = SIM(x);
-imagesc(x(:,:)*x(:,:)')
-plot(real(z(1:10,:)))
-plot(real(z(1:10,:))')
-figure, topoplot(real(A(1,:)),chanlocs);
-figure, topoplot(real(A(:,1)),chanlocs);
-figure, topoplot(real(A(:,2)),chanlocs);
-figure, topoplot(real(A(:,3)),chanlocs);
-figure, topoplot(real(A(:,4)),chanlocs);
-figure, topoplot(real(A(:,10)),chanlocs);
-figure, topoplot(real(A(:,1)),chanlocs);
-[erprSIM, ECovSigAll, ECovResAll, QAll, x]=rSIM(epochs);
-plot(real([erpSIM(57,:); erprSIM(57,:);])')
-plot(real([erpSIM(57,:); erprSIM(50,:);])')
-plot(real([erpSIM(50,:); erprSIM(50,:);])')
-plot(real([erpSIM(57,:); erprSIM(57,:);])')
-QAll(4,50)
-QAll(:,50)
-imagesc(ECovSigAll(:,:,end))
-imagesc(real(ECovSigAll(:,:,end)))
-for i = 1:50, imagesc(real(ECovSigAll(:,:,i))); pause; end
-QAll(:,1)
-QAll(:,2)
-QAll(:,3)
-QAll(:,4)
-for i = 1:50, imagesc(inv(ECovSigAll(:,:,i))); pause; end
-for i = 1:50, imagesc(inv(real(ECovSigAll(:,:,i)))); pause; end
-for i = 1:50, imagesc(inv(real(ECovResAll(:,:,i)))); pause; end
-for i = 1:50, imagesc((real(ECovResAll(:,:,i)))); pause; end
-plot(squeeze(x(57,:,200:1000)))
-plot(squeeze(x(57,:,500:1000)))
-plot(squeeze(mean(x(57,:,500:1000),3)))
-[erprSIM, ECovSigAll, ECovResAll, QAll, x]=rSIM(epochs(:,:,1:120));
-plot(real([erpSIM(57,:); erprSIM(57,:);])')
-plot(real([erpSIM(50,:); erprSIM(50,:);])')
-[erprSIM, ECovSigAll, ECovResAll, QAll, x]=rSIM(epochs);
-plot(real([erpSIM(50,:); erprSIM(50,:);])')
-plot(real([erpSIM(57,:); erprSIM(57,:);])')
-QAll
-[A,S,z] = SIM(epochs,1,50);
-erpSIM = A(:,1)*z(1,:);
-plot(real([erpSIM(57,:); erprSIM(57,:);])')
-plot(z(1,:))
-plot(real([erpSIM(50,:); erprSIM(50,:);])')
-figure, topoplot(real(A(:,1)),chanlocs);
-plot(real([erpSIM(56,:); erprSIM(56,:);])')
-%-- 12/31/13, 9:24 AM --%
-help bsxfun
-help eig
-load('eegdata_face.mat')
-[A,S,z] = sSIM(epochs);
-[A,S,z] = sSIM(epochs,1);
-setFigPos
-figure, plot(z(1:10,:);)
-figure, plot(z(1:10,:)')
-figure, plot(real(z(1,:))')
-erpSIM = A(:,1)*z(1,:);
-figure, plot(erpSIM(57,:))
-erpSIM = real(A(:,1)*z(1,:));
-figure, plot(erpSIM(57,:))
-figure, plot(erpSIM(50,:))
-figure, topoplot(A,chanlocs)
-[A,S,z] = sSIM(epochs,1);
-Wh
-[A,S,z] = sSIM(epochs,1);
-A
-S
-z
-[A,S,z] = sSIM(epochs,1);
-erpSIM1 = A*z;
-figure, plot([erpSIM(50,:); erpSIM1(50,:)]')
-figure, plot([erpSIM(57,:); erpSIM1(56,:)]')
-figure, plot([erpSIM(57,:); erpSIM1(57,:)]')
-figure, topoplot(A(:,1),chanlocs)
-figure, topoplot(A(:,2),chanlocs);
-figure, topoplot(A(:,3),chanlocs);
-figure, plot(z')
-[A,S,z] = sSIM(epochs,1);
-erpSIM2 = A*z;
-figure, plot([erpSIM(57,:); erpSIM2(57,:)]')
-[A,S,z] = SIM(epochs,1,50);
-erpSIM = real(A(:,1)*z(1,:));
-figure, plot([erpSIM(57,:); erpSIM2(57,:)]')
-erp = sSIM(epochs);
-chan = 57; figure, plot([erpSIM(57,:); erp(57,:)]')
-chan = 57; figure, plot([erpSIM(chan,:); erp(chan,:)]')
-erp = sSIM(epochs);
-chan = 57; figure, plot([erpSIM(chan,:); erp(chan,:)]')
-erp = sSIM(epochs);
-chan = 57; figure, plot([erpSIM(chan,:); erp(chan,:)]')
-chan = 56; figure, plot([erpSIM(chan,:); erp(chan,:)]')
-chan = 50; figure, plot([erpSIM(chan,:); erp(chan,:)]')
-[A,S,z] = SIM(epoch,1,50);
-erp = sSIM(epoch);
-chan = 50; figure, plot([erpSIM(chan,:); erp(chan,:)]')
-erpSIM = real(A(:,1)*z(1,:));
-chan = 50; figure, plot([erpSIM(chan,:); erp(chan,:)]')
-chan = 57; figure, plot([erpSIM(chan,:); erp(chan,:)]')
-epoch = epochs(:,:,1:120);
-[A,S,z] = SIM(epoch,1,50); erpSIM = A(:,1)*z(1,:);
-erp = sSIM(epoch);
-figure, plot([erpSIM(57,:); erpSIM2(57,:)]')
-chan = 57; figure, plot([squeeze(mean(epoch(chan,:,:),3))erpSIM(chan,:); erp(chan,:)]')
-chan = 57; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-epoch = epochs(:,:,121:240);
-[A,S,z] = SIM(epoch,1,50); erpSIM = A(:,1)*z(1,:);
-erp = sSIM(epoch);
-chan = 57; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-erp = sSIM(epoch);
-chan = 57; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-chan = 50; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-erp = sSIM(epoch, 10, 10, 0.1);
-chan = 50; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-erp
-chan = 50; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-plot(erp')
-chan = 50; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-erp = sSIM(epoch, 10, 10, 0.1);
-chan = 50; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-erp = sSIM(epoch, 10, 10, 1);
-chan = 50; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-erp = sSIM(epoch, 10, 10, 100);
-chan = 50; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-erp = sSIM(epoch, 10, 10, 10000);
-chan = 50; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-[erp,QAll] = sSIM(epoch, 10, 10, 10000);
-QAll
-QAll(1)
-QAll(2)
-QAll(1)-Q(2)
-QAll(1)-QAll(2)
-QAll-1
-QAll-10000
-[erp,QAll] = sSIM(epoch, 10, 10, 0.1);
-QAll
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 10, 0.1);
-for i = 1:10, imagesc(ECovSigAll); pause;end;
-for i = 1:10, imagesc(ECovSigAll(:,:,i)); pause;end;
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 10, 10);
-for i = 1:10, imagesc(ECovSigAll(:,:,i)); pause;end;
-for i = 1:10, imagesc(ECovSigAll(:,:,i)); pause; end;
-for i = 1:10, imagesc(ECovSigAll(:,:,i)-10); pause; end;
-QAll-10
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 10, 0);
-%-- 12/31/13, 10:47 AM --%
-load('eegdata_face.mat')
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 10, 0.00);
-epoch = epochs(:,:,121:240);
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 10, 0.001);
-[A,S,z] = SIM(epoch,1,50); erpSIM = A(:,1)*z(1,:);
-setFigPos
-chan = 57; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 10, 0.000001);
-chan = 57; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-for i = 1:10, imagesc(ECovSigAll(:,:,i)-10); pause; end;
-for i = 1:10, imagesc(ECovSigAll(:,:,i)); pause; end;
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 10, 0.1);
-for i = 1:10, imagesc(ECovSigAll(:,:,i)); pause; end;
-chan = 57; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-QAll
-%-- 12/31/13, 1:23 PM --%
-load('eegdata_face.mat')
-help qr
-help eps
-eegdata(1)
-eegdata(2)
-eegdata()
-eegdata(3)
-eegdata(4)
-eegdata(10)
-help qr
-erp = sSIM(epoch, 10, 10, 10000);
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 10, 0.1);
-[A,S,z] = SIM(epoch,1,50); erpSIM = A(:,1)*z(1,:);
-setFigPos
-figure, plot([erpSIM(57,:); erpSIM2(57,:)]')
-chan = 57; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-QAll(:,10)
-eps(Q(1))
-eps(QALL(1))
-eps(QAll(1))
-QAll(2,1)
-QAll(2,10)
-QAll(3,10)
-QAll(4,10)
-QAll(100,10)
-QAll(60,10)
-sum(QAll>0)
-epoch = epochs(:,:,1:720);
-[A,S,z] = SIM(epoch,1,50); erpSIM = A(:,1)*z(1,:);
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 10, 0.1);
-chan = 57; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-QAll(60,10)
-QAll
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 10, 0.01);
-QAll
-chan = 57; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 10, 0.1);
-chan = 57; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 50, 0.1);
-chan = 57; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)];
-snr = erps(:,55)'./std(erps(:,1:20)')
-std(erps(:,1:20)')
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr = erps(:,55)./std(erps(:,1:20))
-snr = erps(:,55)./std(erps(:,1:20)
-snr = erps(:,55)./std(erps(1:20,:)')
-snr = erps(55,)./std(erps(1:20,:)')
-snr = erps(55,:)./std(erps(1:20,:)')
-snr = erps(55,:)./std(erps(1:20,:))
-epoch = epochs(:,:,1:720);
-[A,S,z] = SIM(epoch,1,50); erpSIM = A(:,1)*z(1,:);
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 50, 0.1);
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr
-snr = erps(55,:)./std(erps(1:20,:))
-[erp,QAll,ECovSigAll] = rSIM(epoch, 10, 50, 0.1);
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr = erps(55,:)./std(erps(1:20,:))
-figure, plot(erps)
-[A,S,z] = SIM(epoch,1,50); erpSIM = A(:,1:2)*z(1:2,:);
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-figure, plot(erps)
-snr = erps(55,:)./std(erps(1:20,:))
-[erp,QAll,ECovSigAll] = rSIM(epoch, 10, 50, 0.01);
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr = erps(55,:)./std(erps(1:20,:))
-for i = 1:50, imagesc((real(ECovResAll(:,:,i)))); pause; end
-for i = 1:50, imagesc((real(ECovSigAll(:,:,i)))); pause; end
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 50, 0.01);
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 10, 50, 0.01);
-[A,S,z] = SIM(pc_bp_all);
-figure, topoplot(A(:,1),chanlocs);
-erp = A*z;
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr
-snr = erps(55,:)./std(erps(1:20,:))
-for i = 1:50, plot(pc_bp_all(:,:,i)'); pause; end
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 10, 50, 0.01);
-[A,S,z] = SIM(pc_bp_all);
-for i = 1:50, plot(pc_bp_all(:,:,i)'); pause; end
-plot(z(1,:))
-erp = A*z;
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr = erps(55,:)./std(erps(1:20,:))
-plot(mean(pc_bp_all(57,:,:),3)')
-plot(mean(pc_bp_all(1,:,:),3)')
-plot(mean(pc_bp_all(2,:,:),3)')
-plot(mean(pc_bp_all(3,:,:),3)')
-plot(mean(pc_bp_all(20,:,:),3)')
-plot(mean(pc_bp_all(50,:,:),3)')
-plot(mean(pc_bp_all(57,:,:),3)')
-plot(z')
-plot(zscore(z'))
-[erp,QAll,ECovSigAll,zAll] = rSIM(epoch, 10, 50, 0.01);
-[A,S,z] = SIM(bAll);
-[A,S,z] = SIM(zAll);
-plot(z)
-plot(z')
-plot(z(2,:)')
-plot(z(1,:)')
-for i = 1:50, plot(zAll(:,:,i)'); pause; end
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 10, 50, 0.01);
-erp = mean(pc_bp_all,3);
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr
-snr = erps(55,:)./std(erps(1:20,:))
-[A,S,z] = SIM(epoch,1,50); erpSIM = A*z;
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr = erps(55,:)./std(erps(1:20,:))
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(pc_bp_all, 10, 50, 0.01);
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr = erps(55,:)./std(erps(1:20,:))
-for i = 1:50, plot(pc_bp_all(:,:,i)'); pause; end
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(pc_bp_all, 10, 50, 0.01);
-plot(erp')
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr = erps(55,:)./std(erps(1:20,:))
-for i = 1:50, imagesc((real(ECovSigAll(:,:,i)))); pause; end
-epoch = epochs(11:60,:,1:500);
-[rew,raw]=mcdcov(epoch(:,:)');
-rew
-raw
-imagesc(raw.cov)
-[V,D] = eig(raw.cov);
-diag(D)
-figure, topoplot(V(:,1),chanlocs(11:60));
-figure, topoplot(V(:,2),chanlocs(11:60));
-figure, topoplot(V(:,3),chanlocs(11:60));
-figure, topoplot(V(:,4),chanlocs(11:60));
-imagesc(rew.cov)
-[V,D] = eig(rew.cov);
-figure, topoplot(V(:,1),chanlocs(11:60));
-rew
-rew.center
-rd
-rew.rd
-rew
-rew.cutoff
-det(ECovSigAll(:,:,1))
-det(ECovSigAll(:,:,2))
-det(ECovSigAll(:,:,3))
-det(ECovSigAll(:,:,4))
-det(squeeze(ECovSigAll(:,:,4)))
-det(ECovSigAll(:,:,4))
-det(epoch(:,:)*epoch(:,:)')
-help det
-cond(epoch(:,:)*epoch(:,:)')
-help cond
-epoch = epochs(:,:,1:720);
-xs = mean(epochs,3);
-ECovSig = xs.xs';
-ECovSig = xs*xs';
-xn = epoch(:,:) - repmat(xs,[1 720]);
-plot(xn')
-ECovRes = xn*xn'/size(xn,2);
-ECovSig = xs*xs'/size(xs,2);
-[V,D] = eig(ECovSig/ECovRes);
-figure, topoplot(V(:,1),chanlocs(11:60));
-figure, topoplot(V(:,1),chanlocs(1:60));
-figure, topoplot(V(:,1),chanlocs);
-figure, topoplot(V(:,2),chanlocs);
-figure, topoplot(V(:,3),chanlocs);
-det(ECovSig/ECovRes)
-diag(D)
-for i = 1:50, plot(zAll(:,:,i)'); pause; end
-zALL = cat(1,zAll,-zAll);
-help shiftdim
-zALL = shiftdim(zAll,1);
-imagesc(corr(zAll(:,:)))
-imagesc(corrcoef(zAll(:,:)))
-imagesc(corr(zAll(:,:)))
-imagesc(abs(corr(zAll(:,:))))
-imagesc(abs(corr(zAll(:,:)))==1)
-sum(sum(abs(corr(zAll(:,:)))==1))
-sum(sum(abs(corr(zAll(:,:)))>0.99))
-[COEFF, SCORE] = pca(zALL(:,:));
-plot(SCORE(:,1))
-plot(SCORE(:,1:5))
-det(cov(zALL(:,:)))
-[COEFF, SCORE] = pca(zscore(zALL(:,:)));
-plot(SCORE(:,1))
-plot(SCORE(:,1:5))
-[COEFF, SCORE] = pca((zALL(:,:)));
-plot(SCORE(:,1:5))
-plot(SCORE(:,1:10))
-imagesc(erpSIM*erpSIM;)
-imagesc(erpSIM*erpSIM)
-imagesc(erpSIM*erpSIM')
-for i = 1:50, imagesc((real(ECovSigAll(:,:,i)))); pause; end
-[V,D] = eig(erpSIM*erpSIM');
-figure, topoplot(V(:,1),chanlocs);
-diag(D)
-figure, topoplot(V(:,end),chanlocs);
-[COEFF, SCORE] = pca((zALL(:,:)));
-plot(SCORE(:,1:10))
-[COEFF, SCORE] = pca(zscore(zALL(:,:)));
-plot(SCORE(:,1:10))
-plot(SCORE(:,1))
-plot(SCORE(:,2))
-plot(SCORE(:,3))
-plot(SCORE(:,4))
-for i = 1:50, plot(pc_bp_all(:,:,i)'); pause; end
-plot(squeeze(pc_bp_all(57,:,:)))
-plot(squeeze(pc_bp_all(50,:,:)))
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(pc_bp_all, 10, 50, 0.01);
-for i = 1:50, plot(pc_bp_all(:,:,i)'); pause; end
-plot(squeeze(pc_bp_all(50,:,:)))
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(pc_bp_all, 10, 50, 0.01);
-for i = 1:50, plot(pc_bp_all(:,:,i)'); pause; end
-plot(squeeze(real(pc_bp_all(50,:,:))))
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(pc_bp_all, 10, 50, 0.01);
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 10, 50, 0.01);
-plot(squeeze(real(pc_bp_all(50,:,:))))
-plot(squeeze(real(pc_bp_all(57,:,:))))
-plot(squeeze(pc_bp_all(50,:,:)))
-plot(mean(squeeze(pc_bp_all(50,:,:)),2))
-plot(mean(squeeze(pc_bp_all(57,:,:)),2))
-plot(mean(squeeze(pc_bp_all(50,:,:)),2))
-erp = mean(pc_bp_all,3);
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-plot(erps)
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 10, 50, 0.01);
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-plot(erps)
-plot(squeeze(pc_bp_all(50,:,:)))
-figure, plot(erps)
-chan = 50; figure, plot([squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]')
-chan = 50; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-figure, plot(erps)
-snr = erps(55,:)./std(erps(1:20,:))
-[A,S,z] = SIM(epoch,10,50); erpSIM = A*z;
-chan = 50; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr = erps(55,:)./std(erps(1:20,:))
-[A,S,z] = SIM(epoch,1,50); erpSIM = A*z;
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 1, 50, 0.01);
-chan = 50; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr = erps(55,:)./std(erps(1:20,:))
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 2, 50, 0.01);
-chan = 50; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]'; snr = erps(55,:)./std(erps(1:20,:))
-plot(erps)
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]'; snr = erps(55,:)./std(erps(1:20,:))
-chan = 50; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]'; snr = erps(55,:)./std(erps(1:20,:))
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 3, 50, 0.01);
-chan = 50; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]'; snr = erps(55,:)./std(erps(1:20,:))
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]'; snr = erps(55,:)./std(erps(1:20,:))
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-chan = 50; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]'; snr = erps(55,:)./std(erps(1:20,:))
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]'; snr = erps(55,:)./std(erps(1:20,:))
-chan = [50 57]; erps = erps = [mean(mean(epoch(chan,:,:),3),2); mean(erpSIM(chan,:),1); mean(erp(chan,:),1)]'; snr = erps(55,:)./std(erps(1:20,:))
-chan = [50 57]; erps = [mean(mean(epoch(chan,:,:),3),2); mean(erpSIM(chan,:),1); mean(erp(chan,:),1)]'; snr = erps(55,:)./std(erps(1:20,:))
-size(mean(mean(epoch(chan,:,:),3),2))
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-[A,S,z] = SIM(epoch,3,50); erpSIM = A*z;
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-[A,S,z] = SIM(epoch,1,50); erpSIM = A*z;
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 10, 50, 0.01);
-[A,S,z] = SIM(epoch,1,50); erpSIM = A*z;
-plot(squeeze(pc_bp_all(57,:,:)))
-figure,plot(erps)
-xs = mean(pc_bp_all,3);
-xn = pc_bp_all(:,1:20); xn = xn(:,:);
-xn = pc_bp_all(:,1:20,:); xn = xn(:,:);
-ECovSig = xs*xs'/size(xs,2); ECovRes = xn*xn'/size(xn,2);
-[V,D] = eig(ECovSig/ECovRes);
-figure, topoplot(V(:,end),chanlocs);
-figure, topoplot(V(:,1),chanlocs);
-diag(D)
-figure, topoplot(V(:,2),chanlocs);
-figure, topoplot(V(:,1),chanlocs);
-A = pinv(V);
-figure, topoplot(A(:,1),chanlocs);
-figure, topoplot(real(A(:,1)),chanlocs);
-figure, topoplot(real(A(1,:)),chanlocs);
-A = pinv(V');
-figure, topoplot(real(A(1,:)),chanlocs);
-figure, topoplot(real(A(:,1)),chanlocs);
-figure, topoplot(V(:,1),chanlocs);
-figure, topoplot(V(:,2),chanlocs);
-figure, topoplot(V(:,3),chanlocs);
-figure, topoplot(V(:,1),chanlocs);
-[A,S,z] = SIM(pc_bp_all,1,50); erp = A*z;
-figure, topoplot(V(:,1),chanlocs);
-figure, plot(erps)
-[A,S,z] = SIM(pc_bp_all,2,50); erp = A*z;
-[A,S,z] = SIM(pc_bp_all,3,50); erp = A*z;
-[A,S,z] = SIM(pc_bp_all,4,50); erp = A*z;
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-figure, topoplot(A(:,1),chanlocs);
-figure, topoplot(A(:,2),chanlocs);
-plot(z(1:2,:))
-plot(z(1:2,:)')
-plot(z(1:3,:)')
-[A,S,z] = SIM(epoch,10,50); erpSIM = A*z;
-plot(z(1:3,:)')
-plot(z(1:4,:)')
-plot(z(1:5,:)')
-figure, topoplot(A(:,1),chanlocs);
-figure, topoplot(V(:,1),chanlocs);
-corr(A(:,1),V(:,1))
-corr(A(:,1),-V(:,1))
-ans
-ans-0.9999\
-ans-0.9999
-[COEFF, SCORE] = pca(xn');
-pc_bp_all1 = COEFF*pc_bp_all(:,:);
-erp = mean(pc_bp_all,3);
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-pc_bp_all1 = pc_bp_all - COEFF*pc_bp_all(:,:);
-pc_bp_all1 = reshape(pc_bp_all(:,:) - COEFF*pc_bp_all(:,:), [60 100 50]);
-erp = mean(pc_bp_all1,3);
-plot(erps)
-pc_bp_all1 = reshape(pc_bp_all(:,:) - COEFF(1:10,:)*pc_bp_all(:,:), [60 100 50]);
-pc_bp_all1 = reshape(pc_bp_all(:,:) - (SCORE(:,1:10)*COEFF(1:10,:))', [60 100 50]);
-figure, for i = 1:50, plot(pc_bp_all(57,:,i)); pause; end
-figure, for i = 1:50, plot(pc_bp_all(50,:,i)); pause; end
-temp = shiftdim(pc_bp_all(:,1:20,:),1); std(temp')
-temp = shiftdim(pc_bp_all(:,1:20,:),1); std(temp(:,:)')
-temp = shiftdim(pc_bp_all(:,1:20,:),1); std(temp(:)')
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 10, 50, 0.01);
-temp = shiftdim(pc_bp_all(:,1:20,:),1); std(temp(:)')
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 5, 50, 0.01);
-temp = shiftdim(pc_bp_all(:,1:20,:),1); std(temp(:)')
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 2, 50, 0.01);
-temp = shiftdim(pc_bp_all(:,1:20,:),1); std(temp(:)')
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 1, 50, 0.01);
-temp = shiftdim(pc_bp_all(:,1:20,:),1); std(temp(:)')
-epoch = epochs(:,:,1:120);
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 1, 50, 0.01);
-temp = shiftdim(pc_bp_all(:,1:20,:),1); std(temp(:)')
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 2, 50, 0.01);
-temp = shiftdim(pc_bp_all(:,1:20,:),1); std(temp(:)')
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 1, 50, 0.01);
-plot(erps)
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 2, 50, 0.01);
-plot(erps)
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-[A,S,z] = SIM(epoch,1,50); erpSIM = A*z;
-[A,S,z] = SIM(epoch,3,50); erpSIM = A*z;
-temp = shiftdim(pc_bp_all(:,1:20,:),1); std(temp(:)')
-temp = shiftdim(pc_bp_all(:,21:100,:),1); std(temp(:)')
-temp1 = shiftdim(pc_bp_all(:,1:20,:),1); temp2 = shiftdim(pc_bp_all(:,21:100,:),1); std(temp2(:)')/std(temp1(:)')
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 1, 50, 0.01);
-temp1 = shiftdim(pc_bp_all(:,1:20,:),1); temp2 = shiftdim(pc_bp_all(:,21:100,:),1); std(temp2(:)')/std(temp1(:)')
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 3, 50, 0.01);
-temp1 = shiftdim(pc_bp_all(:,1:20,:),1); temp2 = shiftdim(pc_bp_all(:,21:100,:),1); std(temp2(:)')/std(temp1(:)')
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 4, 50, 0.01);
-temp1 = shiftdim(pc_bp_all(:,1:20,:),1); temp2 = shiftdim(pc_bp_all(:,21:100,:),1); std(temp2(:)')/std(temp1(:)')
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 1, 50, 0.01);
-temp1 = shiftdim(pc_bp_all(:,1:20,:),1); temp2 = shiftdim(pc_bp_all(:,21:100,:),1); std(temp2(:)')/std(temp1(:)')
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 2, 50, 0.01);
-temp1 = shiftdim(pc_bp_all(:,1:20,:),1); temp2 = shiftdim(pc_bp_all(:,21:100,:),1); std(temp2(:)')/std(temp1(:)')
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 1, 50, 0.01);
-[A,S,z] = SIM(epoch,3,50); erpSIM = A*z;
-plot(z')
-figure, topoplot(A(:,2),chanlocs);
-figure, topoplot(A(:,1),chanlocs);
-figure, topoplot(A(:,3),chanlocs);
-[A,S,z] = SIM(epoch,1,50); erpSIM = A*z;
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 1, 50, 0.01);
-plot(erps)
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 2, 50, 0.01);
-figure
-plot(erps)
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 3, 50, 0.01);
-plot(erps)
-[A,S,z] = SIM(epoch,3,50); erpSIM = A*z;
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 4, 50, 0.01);
-plot(erps)
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 3, 50, 0.01);
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 10, 50, 0.01);
-plot(erps)
-plot(real(erps))
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 10, 50, 0.01);
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 4, 50, 0.01);
-plot(real(erps))
-plot(erps)
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 3, 50, 0.01);
-plot(erps)
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 1, 50, 0.01);
-plot(erps)
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 10, 50, 0.01);
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 5, 50, 0.01);
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 3, 50, 0.01);
-%-- 12/31/13, 9:56 PM --%
-load('eegdata_face.mat')
-for m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 20, 0.01); snr(m) = min(erp(57,50:60)')/std(erp(57,1:20)'); end
-snr
-20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)'))
-20*log10((min(erp(57,50:60)'))/std(erp(57,1:20)'))
-20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)'))
-for m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 20, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); end
-snr
-for m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); end
-snr
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 5, 50, 0.01);
-20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)'))
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 3, 50, 0.01);
-20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)'))
-plot(erp(57,:))
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 6, 50, 0.01);
-plot(erp(57,:))
-20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)'))
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 6, 50, 0.01);
-20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)'))
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 6, 50, 0.01);
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 5, 50, 0.01);
-20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)'))
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 5, 50, 0.01);
-20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)'))
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 5, 50, 0.01);
-20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)'))
-plot(erp(57,:))
-plot(erp(50,:))
-[A,S,z] = SIM(epoch,3,50); erpSIM = A*z;
-[A,S,z] = SIM(epoch,3,50); erp = A*z;
-20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)'))
-plot(erp(50,:))
-plot(erp(57,:))
-[A,S,z] = SIM(epoch,5,50); erp = A*z;
-20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)'))
-[A,S,z] = SIM(epoch,2,50); erp = A*z;
-20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)'))
-[A,S,z] = SIM(epoch,3,50); erp = A*z;
-20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)'))
-temp = shiftdim(pc_bp_all(:,:,:),1);
-temp1 = shiftdim(pc_bp_all(:,1:20,:),1); temp2 = shiftdim(pc_bp_all(:,21:100,:),1); std(temp2(:)')/std(temp1(:)')
-temp = shiftdim(pc_bp_all(:,:,:),-1);
-temp = shiftdim(pc_bp_all,1);
-temp = shiftdim(pc_bp_all,2);
-temp1 = shiftdim(pc_bp_all(:,1:20,:),2); temp2 = shiftdim(pc_bp_all(:,21:100,:),2); std(temp2(:)')/std(temp1(:)')
-temp1 = shiftdim(pc_bp_all(:,1:20,:),2); temp2 = shiftdim(pc_bp_all(:,21:100,:),2); max(std(temp2(:,:)))/std(temp1(:,:))
-temp1 = shiftdim(pc_bp_all(:,1:20,:),2); temp2 = shiftdim(pc_bp_all(:,21:100,:),2); max(std(temp2(:,:)))/max(std(temp1(:,:)))
-std(temp2(:,:))
-temp = shiftdim(pc_bp_all,2);
-max(std(temp(:,:)))
-snr
-for m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mstd(m) = max(std(temp(:,:))); end
-snr
-plot(snr)
-plot(mstd)
-for m = 1:50, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 20, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mstd(m) = max(std(temp(:,:))); end
-snr
-plot(snr)
-plot(mstd)
-for m = 1:50, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mstd(m) = max(std(temp(:,:))); end
-snr
-mstd
-plot(mstd)
-matlab pool
-matlabpool
-parfor m = 1:50, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mstd(m) = max(std(temp(:,:)));  dets(m) = det(temp); end
-parfor m = 1:50, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mstd(m) = max(std(temp(:,:)));  dets(m) = det(temp(:,:)); end
-parfor m = 1:50, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mstd(m) = max(std(temp(:,:)));  dets(m) = det(temp(:,:)*temp(:,:)'); end
-snr
-mstd
-dets
-find(dets==min(dets))
-plot(dets)
-plot(dets(1:7))
-plot(dets(1:6))
-plot(dets(1:5))
-plot(dets(1:4))
-parfor m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 100, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mstd(m) = max(std(temp(:,:)));  dets(m) = det(temp(:,:)*temp(:,:)'); end
-snr
-mstd
-plot(temp(:,:)')
-epoch = epochs(:,:,1:120);
-parfor m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mstd(m) = max(std(temp(:,:)));  dets(m) = det(temp(:,:)*temp(:,:)'); end
-snfr
-snr
-mstd
-imagesc(temp(:,:)*temp(:,:)')
-temp = temp(:,:);
-[COEFF, SCORE] = pca(temp');
-imagesc(COEFF)
-plot(squeeze(pc_bp_all(57,:,:)))
-epoch = epochs(:,:,1:120);
-parfor m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mstd(m) = max(std(temp(:,:)));  dets(m) = det(temp(:,:)*temp(:,:)'); end
-snr
-mstd
-plot(squeeze(pc_bp_all(57,:,:)))
-pc_bp_all = [];
-parfor m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all(:,:,i)] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mstd(m) = max(std(temp(:,:)));  dets(m) = det(temp(:,:)*temp(:,:)'); end
-parfor m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); figure, plot(squeeze(pc_bp_all(57,:,:))); end;
-for m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); figure, plot(squeeze(pc_bp_all(57,:,:))); end;
-for m = 1:10, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); figure, plot(squeeze(pc_bp_all(57,:,:))), title(num2str(snr(m))); end;
-snr
-parfor m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mstd(m) = mean(std(temp(:,:)));  end
-snr
-mstd
-parfor m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mstd(m) = std(std(temp(:,:)));  end
-snr
-mstd
-help mse
-help rms
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 1, 50, 0.01);
-temp = shiftdim(pc_bp_all,2);
-temp = shiftdim(pc_bp_all,2); temp = temp(:,:);
-rms(temp)
-max(rms(temp))
-mean(rms(temp))
-mean(std(temp))
-max(std(temp))
-parfor m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mean(rms(temp));  end
-parfor m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mean(rms(temp(:,:)));  end
-snr
-parfor m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all,2); mrms(m) = mean(rms(temp(:,:)));  end
-mrms
-parfor m = 1:20, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); temp = shiftdim(pc_bp_all(:,21:100,:),2); mrms(m) = mean(rms(temp(:,:)));  end
-mrms
-for m = 1:10, [erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, m, 50, 0.01); snr(m) = 20*log10(abs(min(erp(57,50:60)'))/std(erp(57,1:20)')); figure, plot(squeeze(pc_bp_all(57,:,:))), title(num2str(snr(m))); end;
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 1, 50, 0.01);
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 3, 50, 0.01);
-temp = shiftdim(pc_bp_all,2); temp = temp(:,:);
-H = ttest(temp);
-plot(H)
-H = reshape(H,[50 60 100]);
-H = reshape(H,[60 100]);
-plot(H.*squeeze(pc_bp_all(57,:,:)))
-plot(squeeze(pc_bp_all(57,:,:))*H')
-plot(squeeze(pc_bp_all(57,:,:)).*repmat(H(57,:)', [1 50]))
-H = ttest(temp, 'alpha', 0.001);
-help ttest
-H = ttest(temp,0, 'alpha', 0.001);
-H = reshape(H,[60 100]);
-plot(squeeze(pc_bp_all(57,:,:)).*repmat(H(57,:)', [1 50]))
-[A,S,z] = SIM(epoch,3,50); erp = A*z;
-figure, topoplot(A(:,3),chanlocs);
-figure, topoplot(A(:,2),chanlocs);
-figure, topoplot(A(:,1),chanlocs);
-figure, topoplot(A(:,2),chanlocs);
-figure, topoplot(A(:,3),chanlocs);
-plot(z')
-[A,S,z] = SIM(epoch,4,50); erp = A*z;
-plot(z')
-figure, topoplot(A(:,3),chanlocs);
-figure, topoplot(A(:,2),chanlocs);
-for i = 1:50, imagesc((real(ECovSigAll(:,:,i)))); pause; end
-for i = 1:50, imagesc((real(ECovSigAll(:,:,i)))); caxis([-1 1]); pause; end
-for i = 1:50, [V,D] = eig(ECovSigAll(:,:,i)); [Q,I] = sort(diag(D),'descend'); for j = 1:5, subplot(1,5,i), topoplot(V(:,I(i)),chanlocs); end; end;
-for i = 1:50, [V,D] = eig(ECovSigAll(:,:,i)); [Q,I] = sort(diag(D),'descend'); for j = 1:5, subplot(1,5,i), topoplot(V(:,I(i)),chanlocs); end; pause; end;
-for i = 1:50, [V,D] = eig(ECovSigAll(:,:,i)); [Q,I] = sort(diag(D),'descend'); for j = 1:5, subplot(1,5,j), topoplot(V(:,I(j)),chanlocs); end; pause; end;
-for i = 1:50, [V,D] = eig(ECovSigAll(:,:,i)); [Q,I] = sort(diag(D),'descend'); for j = 1:5, subplot(1,5,j), topoplot(V(:,I(j)),chanlocs); end; pause; clf; end;
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 10, 50, 0.01);
-[erp,QAll,ECovSigAll,pc_bp_all,AAll] = rSIM(epoch, 10, 50, 0.01);
-for i = 1:50, for j = 1:10, subplot(2,5,j), topoplot(AAll(:,j,i),chanlocs); end; pause; clf; end;
-help qr
-[Q,R] = qr(AAll(:,:));
-Q
-R
-help qr
-[Q,R,E] = qr(AAll(:,:));
-E
-imagesc(E)
-[COEFF, SCORE] = pca(AAll(:,:)');
-figure, topoplot(COEFF(:,1),chanlocs)
-figure, topoplot(COEFF(:,2),chanlocs)
-figure, topoplot(-COEFF(:,2),chanlocs)
-figure, topoplot(-COEFF(:,1),chanlocs)
-figure, topoplot(COEFF(:,3),chanlocs)
-figure, topoplot(COEFF(:,4),chanlocs)
-figure, topoplot(COEFF(:,5),chanlocs)
-T = clusterdata(AAll(:,:),10);
-T
-T = clusterdata(AAll(:,:)',10);
-T
-unique(T)
-T = clusterdata(AAll(:,:)',0.1);
-unique(T)
-T = clusterdata(AAll(:,:)',0.5);
-unique(T)
-T = clusterdata(AAll(:,:)',0.001);
-unique(T)
-T = clusterdata(AAll(:,:)',2);
-unique(T)
-T = clusterdata(AAll(:,:)',3);
-unique(T)
-T = clusterdata(AAll(:,:)',1.5);
-unique(T)
-T = clusterdata(AAll(:,:)',1);
-unique(T)
-T = clusterdata(AAll(:,:)',1.1);
-unique(T)
-T = clusterdata(AAll(:,:)',1.2);
-unique(T)
-T = clusterdata(AAll(:,:)',1.15);
-unique(T)
-T
-[erp,QAll,ECovSigAll,pc_bp_all,AAll,zAll] = rSIM(epoch, 10, 50, 0.01);
-temp = zAll(:,:);
-imagesc(zAll*zAll')
-imagesc(temp*temp')
-imagesc(temp'*temp)
-c = temp'*temp;
-c(abs(c)<200) = 0;
-sum(sum(abs(c)>0))
-imagesc(c)
-c(abs(c)<250) = 0;
-sum(sum(abs(c)>0))
-C = GraphicalLasso(temp, 0.1);
-imagesc(C)
-[V,D] = eig(C);
-[Q,I] = sort(diag(D),'descend');
-sum(Q>0)
-Q
-V(:,1)
-V(:,I(1))
-V(:,I(2))
-z = temp*V(:,I(1));
-plot(z)
-z = temp*V(:,I(2));
-plot(z)
-z = temp*V(:,I(3));
-plot(z)
-z = temp*V(:,I(3));
-plot(z)
-z = temp*V(:,I(4));
-plot(z)
-z = temp*V(:,I(5));
-plot(z)
-z = temp*V;
-z = reshape(z,[100,10,50]);
-plot(z(:,:,1))
-plot(z(:,:,2))
-plot(z(:,:,3))
-plot(z(:,:,4))
-plot(zAll(:,:,4))
-plot(zAll(:,:,1))
-C = GraphicalLasso(temp, 1);
-imagesc(C)
-[V,D] = eig(C);
-z = temp*V;
-plot(z)
-z = temp*V(:,I(1));
-plot(z)
-det(C)
-help tri
-help trig
-C = C - eye(size(C));
-imagesc(C)
-[V,D] = eig(C);
-z = temp*V(:,I(1));
-plot(z)
-z = temp*V(:,I(2));
-plot(z)
-z = temp*V(:,I(3));
-plot(z)
-z = temp*V(:,I(4));
-plot(z)
-[Q,I] = sort(diag(D),'descend');
-Q
-z = temp*V;
-plot(z)
-z = temp*V;
-plot(z(:,1))
-plot(z(:,2))
-plot(z(:,3))
-plot(z(:,4))
-zAll1 = reshape(z,[100,10,50]);
-pc = []; for i = 1:50, pc = pc + AAll(:,:,i)*zAll1(:,:,i); end; pc = pc / 50;
-pc = zeros(60,100); for i = 1:50, pc = pc + AAll(:,:,i)*zAll1(:,:,i); end; pc = pc / 50;
-pc = zeros(60,100); for i = 1:50, pc = pc + AAll(:,:,i)*zAll1(:,:,i)'; end; pc = pc / 50;
-plot(pc)
-plot(pc')
-plot(pc(:,57))
-plot(pc(57,:))
-plot(pc(50,:))
-plot(pc(1,:))
-plot(pc(2,:))
-plot(pc(3,:))
-plot(pc(4,:))
-plot(pc(5,:))
-plot(zAll1(:,:,i)')
-plot(zAll1(:,:,i))
-plot(zAll1(:,:,1))
-plot(zAll1(:,:,2))
-plot(zAll1(:,:,3))
-for i = 1:50, plot(zAll(:,:,i)); pause; end
-for i = 1:50, plot(zAll1(:,:,i)); pause; end
-z = temp*V(:,1);
-z = temp*V(:,I(1));
-plot(z)
-z = temp*V(:,I(1:10));
-plot(z)
-z = temp*V*inv(V);
-zAll1 = reshape(z,[100,10,50]);
-for i = 1:50, plot(zAll1(:,:,i)); pause; end
-invV = invV;
-invV = inv(V);
-z = temp*V(:,I(1))*invV(I(1),:);
-zAll1 = reshape(z,[100,10,50]);
-pc = zeros(60,100); for i = 1:50, pc = pc + AAll(:,:,i)*zAll1(:,:,i)'; end; pc = pc / 50;
-plot(pc)
-plot(pc')
-plot(pc(57,:)')
-plot(pc(50,:)')
-[A,S,z] = SIM(epoch,4,50); erp = A*z;
-plot([erp(57,:); pc(57,:)]')
-[A,S,z] = SIM(epoch,2,50); erp = A*z;
-plot([erp(57,:); pc(57,:)]')
-[A,S,z] = SIM(epoch,1,50); erp = A*z;
-plot([erp(57,:); pc(57,:)]')
-C = GraphicalLasso(temp, 100);
-imagesc(C)
-[V,D] = eig(C);
-[Q,I] = sort(diag(D),'descend');
-V(:,I(1))
-C = GraphicalLasso(temp, 10);
-[V,D] = eig(C);
-[Q,I] = sort(diag(D),'descend');
-V(:,I(1))
-C = GraphicalLasso(temp, 0.1);
-[V,D] = eig(C);
-imagesc(inv(C))
-det(inv(C))
-det(inv(C).*(1-eye(size(C))));
-det(inv(C).*(1-eye(size(C))))
-[V,D] = eig(inv(C).*(1-eye(size(C))));
-V
-[erp,QAll,ECovSigAll,pc_bp_all,AAll,zAll] = rSIM(epoch, 30, 50, 0.01);
-temp = zAll(:,:);
-imagesc(temp*temp')
-imagesc(temp'*temp)
-c = temp'*temp;
-det(c)
-c = temp'*temp;
-imagesc(c)
-[V,D] = eig(c)
-[V,D] = eig(c);
-V(:,1)
-C = GraphicalLasso(temp, 0.1);
-imagesc(C)
-[V,D] = eig(C);
-[Q,I] = sort(diag(D),'descend');
-V(:,I(1))
-V(:,I(2))
-V(:,I(3))
-V(:,I(4))
-V(:,I(5))
-V(:,I(1:10))
-V(:,I(11:20))
-V(:,I(1500))
-sum(V(:,I(1))>0)
-sum(V(:,I(2))>0)
-sum(V(:,I(3))>0)
-sum(V(:,I(4))>0)
-sum(V(:,I(5))>0)
-sum(V(:,I(6))>0)
-sum(V(:,I(7))>0)
-sum(V(:,I(8))>0)
-sum(V(:,I(9))>0)
-sum(V(:,I(10))>0)
-sum(V(:,I(20))>0)
-sum(V(:,I(100))>0)
-sum(V(:,I(1500))>0)
-sum(V(:,I(1))>0)
-temp1 = temp(:,V(:,I(1))>0);
-plot(mean(temp1,2))
-for i = 1:148, plot(temp1(:,i)); pause; end
-temp1 = temp(:,abs(V(:,I(1)))>0);
-for i = 1:245, plot(temp1(:,i)); pause; end
-temp2 = temp*V(:,I(1));
-plot(temp2)
-temp2 = temp*V(:,I(1:2));
-plot(temp2)
-temp2 = temp*V(:,I(1:3));
-plot(temp2)
-sel = (abs(V(:,I(1)))>0);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:);
-zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-erp = zeros(60,100); for i = 1:245, erp = erp + AAll1(:,i)*zAll1(i,:); end;
-erp = zeros(60,100); for i = 1:245, erp = erp + AAll1(:,i)*zAll1(i,:)'; end;
-erp = zeros(60,100); for i = 1:245, erp = erp + AAll1(:,i)*zAll1(:,i)'; end;
-plot(erp(57,:))
-erp = zeros(60,100); for i = 1:245, erp = erp + AAll1(:,i)*zAll1(:,i)'; end; erp = erp/245;
-plot(erp(57,:))
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-C = GraphicalLasso(temp, 1);
-sel = (abs(V(:,I(1)))>0);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:);
-zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-[V,D] = eig(C);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:); zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-erp = zeros(60,100); for i = 1:size(zAll1,2), erp = erp + AAll1(:,i)*zAll1(:,i)'; end; erp = erp/size(zAll1,2);
-plot(erp)
-plot(erp')
-plot(erp(57,:)')
-C = GraphicalLasso(temp, 0.5);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:); zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-erp = zeros(60,100); for i = 1:size(zAll1,2), erp = erp + AAll1(:,i)*zAll1(:,i)'; end; erp = erp/size(zAll1,2);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(end)))>0);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:); zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-erp = zeros(60,100); for i = 1:size(zAll1,2), erp = erp + AAll1(:,i)*zAll1(:,i)'; end; erp = erp/size(zAll1,2);
-[erp,QAll,ECovSigAll,pc_bp_all,AAll,zAll] = rSIM(epoch, 60, 50, 0.01);
-C = GraphicalLasso(zAll(:,:), 0.5);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(end)))>0);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:); zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-erp = zeros(60,100); for i = 1:size(zAll1,2), erp = erp + AAll1(:,i)*zAll1(:,i)'; end; erp = erp/size(zAll1,2);
-C = GraphicalLasso(zAll(:,:), 1);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(end)))>0);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:); zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-C = GraphicalLasso(zAll(:,:), 0.5);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:); zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-erp = zeros(60,100); for i = 1:size(zAll1,2), erp = erp + AAll1(:,i)*zAll1(:,i)'; end; erp = erp/size(zAll1,2);
-plot(erp(57,:)')
-epoch = epochs(:,:,121:240);
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-[A,S,z] = SIM(epoch,1,50); erpSIM = A*z;
-[erp,QAll,ECovSigAll,pc_bp_all,AAll,zAll] = rSIM(epoch, 60, 50, 0.01);
-C = GraphicalLasso(zAll(:,:), 0.5);
-%-- 1/1/14, 9:24 PM --%
-load('eegdata_face.mat')
-epoch = epochs(:,:,121:240);
-[erp,QAll,ECovSigAll,pc_bp_all,AAll,zAll] = rSIM(epoch, 60, 50, 0.01);
-C = GraphicalLasso(zAll(:,:), 0);
-%-- 1/1/14, 9:25 PM --%
-load('eegdata_face.mat')
-epoch = epochs(:,:,121:240);
-[erp,QAll,ECovSigAll,pc_bp_all,AAll,zAll] = rSIM(epoch, 60, 50, 0.01);
-C = GraphicalLasso(zAll(:,:), 1);
-[A,S,z] = SIM(epoch,1,50); erpSIM = A*z;
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:); zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-erp = zeros(60,100); for i = 1:size(zAll1,2), erp = erp + AAll1(:,i)*zAll1(:,i)'; end; erp = erp/size(zAll1,2);
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-C = GraphicalLasso(zAll(:,:), 0.5);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:); zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-erp = zeros(60,100); for i = 1:size(zAll1,2), erp = erp + AAll1(:,i)*zAll1(:,i)'; end; erp = erp/size(zAll1,2);
-sum(V>0)
-help sum
-sum(V>0,2)
-sum(abs(V(:,I))>0,1)
-plot(sum(abs(V(:,I))>0,1))
-C = GraphicalLasso(zAll(:,:), 10);
-plot(sum(abs(V(:,I))>0,1))
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0);
-plot(sum(abs(V(:,I))>0,1))
-V(:,I(1))
-C = GraphicalLasso(zAll(:,:), 1);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:); zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-erp = zeros(60,100); for i = 1:size(zAll1,2), erp = erp + AAll1(:,i)*zAll1(:,i)'; end; erp = erp/size(zAll1,2);
-[A,S,z] = SIM(epoch,1,50); erpSIM = A*z;
-figure, plot(z)
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-figure, plot(z)
-figure, plot(z')
-[A,S,z] = SIM(epoch,1,50); erpSIM = A*z;
-plot(erps)
-epoch = epochs(:,:,241:360);
-[A,S,z] = SIM(epoch,1,50); erpSIM = A*z;
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-[A,S,z] = SIM(epoch,3,50); erpSIM = A*z;
-plot(z')
-[A,S,z] = SIM(epoch,4,50); erpSIM = A*z;
-[erp,QAll,ECovSigAll,pc_bp_all,AAll,zAll] = rSIM(epoch, 60, 50, 0.01);
-C = GraphicalLasso(zAll(:,:), 1);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:); zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-plot(sum(abs(V(:,I))>0,1))
-erp = zeros(60,100); for i = 1:size(zAll1,2), erp = erp + AAll1(:,i)*zAll1(:,i)'; end; erp = erp/size(zAll1,2);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(3)))>0);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:); zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-erp = zeros(60,100); for i = 1:size(zAll1,2), erp = erp + AAll1(:,i)*zAll1(:,i)'; end; erp = erp/size(zAll1,2);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(5)))>0);
-erp = zeros(60,100); for i = 1:size(zAll1,2), erp = erp + AAll1(:,i)*zAll1(:,i)'; end; erp = erp/size(zAll1,2);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:); zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-erp = zeros(60,100); for i = 1:size(zAll1,2), erp = erp + AAll1(:,i)*zAll1(:,i)'; end; erp = erp/size(zAll1,2);
-plot(erps)
-plot(erps(:,:,3))
-plot(erps(:,3))
-plot(erps(:,57))
-plot(erps(:,1))
-plot(erps(:,2))
-plot(erps(:,3))
-[A,S,z] = SIM(epoch,1,50); erpSIM = A*z;
-plot(erps)
-eegdata(1).times(56)
-eegdata(1).times(55)
-eegdata(1).times(58)
-eegdata(1).times(60)
-eegdata(1).times(50)
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-[A,S,z] = SIM(epoch,3,50); erpSIM = A*z;
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0);
-zAll1 = zAll(:,:); AAll1 = AAll(:,:); zAll1 = zAll1(:,sel); AAll1 = AAll1(:,sel);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0);
-erp = zeros(60,100); for i = 1:size(zAll1,2), erp = erp + AAll1(:,i)*zAll1(:,i)'; end; erp = erp/size(zAll1,2);
-plot(erps)
-plot(zscore(erps))
-plot(zAll1)
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0); sel = reshape(sel, [60 50]);
-erp = zeros(60,100); for i = 1:50, erp = erp + AAll(:,sel(:,i),i)*zAll(:,sel(:,i),i)'; end erp = erp/50;
-erp = zeros(60,100); for i = 1:50, erp = erp + AAll(:,sel(:,i),i)*zAll(:,sel(:,i),i)'; end; erp = erp/50;
-plot(erps)
-[A,S,z] = SIM(epoch,1,50); erpSIM = A*z;
-plot(erps)
-plot(zscore(erps))
-plot(erps)
-sel(:,1)
-sel(:,2)
-sel(:,3)
-sel(:,4)
-sel(:,5)
-sel(:,6)
-sel(:,7)
-imagesc(sel)
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(5)))>0); sel = reshape(sel, [60 50]);
-imagesc(sel)
-sum(abs(V(:,I(5)))>0)
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(20)))>0); sel = reshape(sel, [60 50]);
-imagesc(sel)
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1000)))>0); sel = reshape(sel, [60 50]);
-imagesc(sel)
-sum(abs(V(:,I))>0,1)
-Q
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-[A,S,z] = SIM(epoch,3,50); erpSIM = A*z;
-plot(erps)
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-plot(erps)
-[A,S,z] = SIM(epoch,4,50); erpSIM = A*z;
-plot(erps)
-plot(z)
-plot(z')
-C = GraphicalLasso(zscore(zAll(:,:)), 1);
-imagesc(C)
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1000)))>0); sel = reshape(sel, [60 50]);
-imagesc(sel)
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0); sel = reshape(sel, [60 50]);
-imagesc(sel)
-imagesc(zAll(:,:)'*zAll(:,:))
-c = zAll(:,:)'*zAll(:,:);
-help hist
-hist(c)
-hist(c(:,:))
-hist(c(:))
-hist(c(:), 50)
-hist(abs(c(:)), 50)
-hist(abs(c(:)), 3000)
-C = c(abs(c)>550);
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0); sel = reshape(sel, [60 50]);
-C = c.*abs(c)>550;
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0); sel = reshape(sel, [60 50]);
-C = c;
-C(abs(C)<550) = 0;
-[V,D] = eig(C); [Q,I] = sort(diag(D),'descend'); sel = (abs(V(:,I(1)))>0); sel = reshape(sel, [60 50]);
-plot(sum(abs(V(:,I))>0,1))
-Q
-c = zscore(zAll(:,:))'*zscore(zAll(:,:));
-hist(abs(c(:)), 500)
-temp = zAll(:,:);
-plot(temp*V(:,I(1)))
-plot(temp*V(:,I(2)))
-plot(temp*V(:,I(3)))
-plot(temp*V(:,I(4)))
-plot(temp*V(:,I(5)))
-plot(temp*V(:,I(6)))
-plot(temp*V(:,I(7)))
-plot(temp*V(:,I(8)))
-plot(temp*V(:,I(1)))
-zAllE = temp*V(:,I(1))*V(:,I(1))';
-plot(temp*V(:,I(2)))
-plot(temp*V(:,I(1)))
-erp = AAll(:,:)*zAllE';
-plot(erps)
-erp = AAll(:,:)*zAllE'/50;
-plot(erps)
-C = GraphicalLasso(zAll(:,:), 1);
-sum(C)
-sum(sum(C)>1)
-C1 = C - C.*eye(size(C));
-sum(sum(C1)>1)
-imagesc(eye(size(C)))
-zAllE = zAll(:,sum(C1)>1)
-zAllE = zAll(:,sum(C1)>1);
-plot(zAllE)
-epoch = epochs(:,:,1:720);
-[erp,QAll,ECovSigAll,pc_bp_all,AAll,zAll] = rSIM(epoch, 20, 50, 0.01);
-C = GraphicalLasso(zAll(:,:), 1);
-sum(sum(C - C.*eye(size(C)))>0);
-sum(sum(C - C.*eye(size(C)))>0)
-imagesc(C)
-C = GraphicalLasso(zAll(:,:), 0.1);
-imagesc(C)
-sum(sum(C - C.*eye(size(C)))>0)
-zAllE = zAll(:,sum(C - C.*eye(size(C)))>0);
-plot(zAllE)
-for i = 1:64, plot(zAllE(:,i)); pause; end;
-AAllE = AAll(:,sum(C - C.*eye(size(C)))>0);
-for i = 1:64, topoplot(AAllE(:,i),chanlocs) pause; end;
-for i = 1:64, topoplot(AAllE(:,i),chanlocs); pause; end;
-for i = 1:64, topoplot(AAllE(:,i),chanlocs); pause; clf end;
-for i = 1:64, topoplot(AAllE(:,i),chanlocs); pause; clf; end;
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-[A,S,z] = SIM(epoch,1,50); erpSIM = A*z;
-[A,S,z] = SIM(epoch,3,50); erpSIM = A*z;
-C = GraphicalLasso(zAll(:,:), 0.5);
-sel = sum(C - C.*eye(size(C)))>0;
-sum(sel)
-zAllE = zAll(:,sum(C - C.*eye(size(C)))>0);
-plot(zAllE)
-C = GraphicalLasso(zAll(:,:), 0.05);
-zAllE = zAll(:,sum(C - C.*eye(size(C)))>0);
-plot(zAllE)
-C = GraphicalLasso(zAll(:,:), 0.1);
-zAllE = zAll(:,sum(C - C.*eye(size(C)))>0);
-C = GraphicalLasso(zAll(:,:), 0.1);
-c = zAll(:,:)'*zAll(:,:);
-sel = sum(C - C.*eye(size(C)))>0;
-sum(sel)
-sum(sum(c - c.*eye(size(c)))>0)
-zAllE = zAll(:,sum(c - c.*eye(size(c)))>0);
-plot(zAllE)
-C = GraphicalLasso(zAll(:,:), 0.2);
-zAllE = zAll(:,sum(C - C.*eye(size(C)))>0);
-plot(zAllE)
-C = GraphicalLasso(zAll(:,:), 0.09);
-zAllE = zAll(:,sum(C - C.*eye(size(C)))>0);
-plot(zAllE)
-C = GraphicalLasso(zAll(:,:), 0.08);
-zAllE = zAll(:,sum(C - C.*eye(size(C)))>0);
-plot(zAllE)
-%-- 1/2/14, 9:01 AM --%
-load('eegdata_face.mat')
-plot(gamma(1:100))
-plot(gamma(-10:10))
-plot(gamma(6))
-plot(gamma(1:5))
-plot([gamma(1:500) gamma(500:1)])
-g = gamma(1:500);
-g = [g g(end:1)];
-plot(g)
-help gamma
-g = gamma(1:1000);
-plot(glover_hrf(1:1000))
-plot(glover_hrf(1:1000,1))
-plot(glover_hrf(1:1000,[1 2 3 5]))
-plot(glover_hrf(1:1000,[1 2 3 5 6 6]))
-t = 1:1000;
-plot(t.*exp(-t/6))
-plot(t.*exp(-t/100))
-plot(t.*exp(-t/200))
-plot(t.*exp(-t/300))
-plot(t.*exp(-t/100))
-t = -100:100;
-plot(t.*exp(-t/100))
-t = -100:100;
-t = 1:1000;
-plot(t.^5.*exp(-t/100))
-plot(t.^5.*exp(-t/5))
-plot(t.^1.*exp(-t/5))
-plot(t.^100.*exp(-t/5))
-plot(t.^100.*exp(-t/100))
-g = t.^100.*exp(-t/100);
-plot(zscore(g'))
-g = t.^100.*exp(-t/100);
-plot(g)
-g = t.^100.*exp(-t/5);
-plot(g)
-plot(zscore(g'))
-g = t.^100.*exp(-t/1);
-plot(t.^100.*exp(-t/1))
-plot(t.^100.*exp(-t/5))
-plot(t.^100.*exp(-t/10))
-plot(t.^20.*exp(-t/10))
-plot(t.^20.*exp(-t/30))
-plot(t.^20.*exp(-t/5))
-plot(t.^100.*exp(-t/5))
-t = 1:300;
-plot(t.^100.*exp(-t/5))
-plot(t.^300.*exp(-t/5))
-plot(t.^300.*exp(-t/500))
-plot(t.^300.*exp(-t/10000))
-plot(t.^300.*exp(-t/2))
-plot(t.^50.*exp(-t/2))
-plot(t.^50.*exp(-t/5))
-plot(t.^50.*exp(-t/3))
-setFigPos
-plot(t.^50.*exp(-t/3))
-plot(signal)
-plot(signal')
-help randn
-20log10(1)
-20*log10(1)
-20*log10(100)
-10^(15/20)
-plot(signal')
-plot(signalC(:,:,1)')
-plot(ssig(:,:,1)')
-plot(ssig(:,:,2)')
-plot(ssig(:,:,3)')
-plot(ssig(:,:,4)')
-plot(mean(ssig,3)')
-plot(signalC(:,:,1)')
-2
-plot(signalC(:,:,2)')
-3
-plot(signalC(:,:,3)')
-plot(noise')
-plot(mean(ssig,3)')
-plot(signalC(:,:,3)')
-plot(mean(ssig,3)')
-plot(signalC(:,:,3)')
-epoch = sssig;
-epoch = ssig;
-[A,S,z] = SIM(epoch,3,50); erpSIM = A*z;
-plot(z')
-[A,S,z] = SIM(epoch,5,50); erpSIM = A*z;
-plot(z')
-[A,S,z] = SIM(epoch,5,50); erpSIM = A*z;
-plot(z')
-[A,S,z] = SIM(epoch,3,50); erpSIM = A*z;
-plot(z')
-[A,S,z] = SIM(epoch,3,50); erpSIM = A*z;
-plot(z')
-[erp,QAll,ECovSigAll,pc_bp_all,AAll,zAll] = rSIM(epoch, 30, 50, 0.01);
-C = GraphicalLasso(zAll(:,:), 0.1);
-%-- 1/2/14, 11:20 AM --%
-epoch = ssig;
-[A,S,z] = SIM(epoch,3,50); erpSIM = A*z;
-[erp,QAll,ECovSigAll,pc_bp_all,AAll,zAll] = rSIM(epoch, 30, 50, 0.01);
-C = GraphicalLasso(zAll(:,:), 1);
-%-- 1/2/14, 11:34 AM --%
-epoch = ssig;
-[erp,QAll,ECovSigAll,pc_bp_all,AAll,zAll] = rSIM(epoch, 30, 50, 0.01);
-C = GraphicalLasso(zAll(:,:), 100);
-sel = sum(C - C.*eye(size(C)))>0;
-sum(sel>0)
-C = GraphicalLasso(zAll(:,:), 10);
-sel = sum(C - C.*eye(size(C)))>0;
-sum(sel>0)
-zAllE = zAll(:,sum(C - C.*eye(size(C)))>0);
-plot(zAllE)
-C = GraphicalLasso(zAll(:,:), 5);
-sel = sum(C - C.*eye(size(C)))>0;
-zAllE = zAll(:,sum(C - C.*eye(size(C)))>0);
-plot(zAllE)
-[COEFF, SCORE] = pca(signalC(:,:)');
-%-- 1/2/14, 6:39 PM --%
-matlabpool
-%-- 1/2/14, 9:32 PM --%
-matlabpool
-%-- 1/2/14, 9:32 PM --%
-[V,D] = eig(rand(10000,10000));
-%-- 1/2/14, 9:34 PM --%
-%-- 1/2/14, 9:36 PM --%
-%-- 1/3/14, 2:18 PM --%
-eeglab
-help spectopo
-spectopo([ALLEEG(1).data(60,:) ALLEEG(2).data(60,:) ALLEEG(3).data(60,:) ALLEEG(4).data(60,:) ALLEEG(5).data(60,:) ALLEEG(6).data(60,:)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 3000, 'winsize', 3000);
-chan = 57; spectopo([ALLEEG(1).data(chan,:) ALLEEG(2).data(chan,:) ALLEEG(3).data(chan,:) ALLEEG(4).data(chan,:) ALLEEG(5).data(chan,:) ALLEEG(6).data(chan,:)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 3000, 'winsize', 3000);
-chan = 50; spectopo([ALLEEG(1).data(chan,:) ALLEEG(2).data(chan,:) ALLEEG(3).data(chan,:) ALLEEG(4).data(chan,:) ALLEEG(5).data(chan,:) ALLEEG(6).data(chan,:)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 3000, 'winsize', 3000);
-chan = 60; spectopo([ALLEEG(1).data(chan,:) ALLEEG(2).data(chan,:) ALLEEG(3).data(chan,:) ALLEEG(4).data(chan,:) ALLEEG(5).data(chan,:) ALLEEG(6).data(chan,:)], EEG.pnts, EEG.srate, 'freqrange', [0.5 30], 'nfft', 3000, 'winsize', 3000);
-event = EEG.event;
-test = cell2mat(event.type);
-help cell2mat
-event.type
-test = cell2mat(event.type);
-test = cell2mat({event.type});
-test
-test = cell2mat({EEG.event.type});
-test
-F
-cell2mat({ALLEEG(sub).event.type})
-for sub = 1:6
-epochs = cat(3,epochs, ALLEEG(sub).data);
-etype = [etype; cell2mat({ALLEEG(sub).event.type})'];
-end
-conds = [11 21 31 12 22 32 13 23 33];
-peaks = [6 7 12];
-etype = [];
-epochs = [];
-for sub = 1:6
-epochs = cat(3,epochs, ALLEEG(sub).data);
-etype = [etype; cell2mat({ALLEEG(sub).event.type})'];
-end
-etype
-cell2mat({ALLEEG(sub).event.type})
-cell2mat({ALLEEG(1).event.type})
-cell2mat({ALLEEG(2).event.type})
-cell2mat({ALLEEG(3).event.type})
-cell2mat({ALLEEG(4).event.type})
-cell2mat({ALLEEG(5).event.type})
-cell2mat({ALLEEG(6).event.type})
-EEG.event
-EEG.event.type
-for i = 1:length(EEG.event), EEG.event(i).type = str2num(EEG.event(i).type); end;
-[ALLEEG EEG] = eeg_store(ALLEEG, EEG, CURRENTSET);
-for i = 1:length(EEG.event), EEG.event(i).type = str2num(EEG.event(i).type); end;
-[ALLEEG EEG] = eeg_store(ALLEEG, EEG, CURRENTSET);
-cell2mat({ALLEEG(1).event.type})
-cell2mat({ALLEEG(2).event.type})
-reshape(squeeze(mean(freqAmp([60],:,:),1)),[3,3,3])
-bar(ans(:,:,1)')
-bar(ans(:,:,2)')
-bar(ans(:,:,3)')
-bar(ans(:,:,1)')
-reshape(squeeze(mean(freqAmp([50 57],:,:),1)),[3,3,3])
-bar(ans(:,:,1)')
-bar(ans(:,:,2)')
-bar(ans(:,:,3)')
-bar(squeeze(mean(freqAmp([50 57],:,:),1)))
-reshape(squeeze(mean(freqAmp([50 57],:,:),1)),[3,3,3])
-bar(ans(:,:,1)')
-bar(ans(:,:,2)')
-bar(ans(:,:,3)')
-bar(ans(:,:,1)')
-figure, bar(ans(:,:,2)')
-reshape(squeeze(mean(freqAmp([50 57],:,:),1)),[3,3,3])
-size(freqAmp(60,1,:,1))
-size(freqAmp(60,1,:,1))'
-size(suqeeze(freqAmp(60,1,:,1)))
-size(squeeze(freqAmp(60,1,:,1)))
-H = ttest(squeeze(freqAmp(60,1,:,1)),squeeze(freqAmp(60,2,:,1)))
-H = ttest(squeeze(freqAmp(60,1,:,1)),squeeze(freqAmp(60,3,:,1)))
-H = ttest(squeeze(freqAmp(60,2,:,1)),squeeze(freqAmp(60,3,:,1)))
-H = ttest(squeeze(freqAmp(60,4,:,1)),squeeze(freqAmp(60,1,:,1)))
-H = ttest(squeeze(freqAmp(60,4,:,1)),squeeze(freqAmp(60,2,:,1)))
-H = ttest(squeeze(freqAmp(60,4,:,1)),squeeze(freqAmp(60,3,:,1)))
-H = ttest(squeeze(freqAmp(60,4,:,1)),squeeze(freqAmp(60,5,:,1)))
-H = ttest(squeeze(freqAmp(60,4,:,1)),squeeze(freqAmp(60,6,:,1)))
-H = ttest(squeeze(freqAmp(60,2,:,1)),squeeze(freqAmp(60,5,:,1)))
-boxplot(squeeze(freqAmp(60,:,:,1)))
-boxplot(squeeze(freqAmp(60,:,:,1))')
-squeeze(freqAmp(60,:,:,1))'
-squeeze(freqAmp(60,:,:,2))'
-squeeze(freqAmp(60,:,:,3))'
-data
-data'
-squeeze(data)'
-conds = [11 21 31 12 22 32 13 23 33];
-etype = [];
-epochs = [];
-for sub = 1:6
-epochs = cat(3,epochs, ALLEEG(sub).data);
-etype = [etype; cell2mat({ALLEEG(sub).event.type})'];
-end
-epochs
-epochs(1,:,1)'
-epochs(1,:,2)'
-epochs(1,:,3)'
-epochs(2,:,3)'
-epochs(1,:,3)'
-epochs(2,:,3)'
-epochs(3,:,3)'
-data = epochs(chan,501:2500,etype(etype==cond));
-squeeze(data)'
-etype
-etype==11
-squeeze(data)'
-boxplot(squeeze(freqAmp(60,:,:,1))')
-boxplot(squeeze(freqAmp(60,:,:,2))')
-H = ttest(squeeze(freqAmp(60,1,:,1)),squeeze(freqAmp(60,2,:,1)))
-H = ttest(squeeze(freqAmp(60,1,:,1)),squeeze(freqAmp(60,3,:,1)))
-H = ttest(squeeze(freqAmp(60,1,:,2)),squeeze(freqAmp(60,3,:,2)))
-H = ttest(squeeze(freqAmp(60,1,:,2)),squeeze(freqAmp(60,2,:,2)))
-H = ttest(squeeze(freqAmp(57,1,:,2)),squeeze(freqAmp(57,2,:,2)))
-H = ttest(squeeze(freqAmp(50,1,:,2)),squeeze(freqAmp(50,2,:,2)))
-boxplot(squeeze(freqAmp(57,:,:,2))')
-boxplot(squeeze(freqAmp(60,:,:,2))')
-boxplot(squeeze(freqAmp(60,:,:,1))')
-boxplot(squeeze(freqAmp(60,:,:,2))')
-boxplot(squeeze(freqAmp(60,:,:,3))')
-size(freqAmp)
-boxplot(squeeze(freqAmp(60,:,:,3))')
-boxplot(squeeze(freqAmpSub(60,:,:,3))')
-boxplot(squeeze(freqAmpSub(60,:,:,1))')
-boxplot(squeeze(freqAmpSub(60,:,:,3))')
-boxplot(squeeze(freqAmpSub(60,:,:,2))')
-boxplot(squeeze(freqAmpSub(60,:,:,1))')
-H = ttest(squeeze(freqAmpSub(50,1,:,2)),squeeze(freqAmp(50,2,:,2)))
-H = ttest(squeeze(freqAmpSub(50,1,:,2)),squeeze(freqAmpSub(50,2,:,2)))
-H = ttest(squeeze(freqAmpSub(60,1,:,2)),squeeze(freqAmpSub(60,2,:,2)))
-boxplot(squeeze(freqAmpSub(60,:,:,1))')
-boxplot(squeeze(freqAmpSub(60,:,:,2))')
-boxplot(squeeze(freqAmpSub(60,:,:,3))')
-H = ttest(squeeze(freqAmpSub(60,1,:,3)),squeeze(freqAmpSub(60,2,:,3)))
-H = ttest(squeeze(freqAmpSub(60,1,:,3)),squeeze(freqAmpSub(60,3,:,3)))
-H = ttest(squeeze(freqAmpSub(60,1,:,3)),squeeze(freqAmpSub(60,2,:,3)))
-boxplot(squeeze(freqAmpSub(57,:,:,1))')
-boxplot(squeeze(freqAmpSub(57,:,:,2))')
-boxplot(squeeze(freqAmpSub(57,:,:,3))')
-boxplot(squeeze(freqAmpSub(57,:,:,1))')
-boxplot(squeeze(freqAmpSub(60,:,:,1))')
-boxplot(squeeze(freqAmpSub(60,:,:,2))')
-boxplot(squeeze(freqAmpSub(60,:,:,1))')
-boxplot(squeeze(freqAmpSub(60,:,:,3))')
-boxplot(squeeze(freqAmpSub(60,:,:,1))')
-1:3:7
-size(freqAmpMain)
-boxplot(squeeze(freqAmpSub(60,:,:,1))')
-boxplot(squeeze(freqAmpMain(60,:,:,1))')
-boxplot(squeeze(freqAmpMain(60,:,:,2))')
-boxplot(squeeze(freqAmpMain(60,:,:,3))')
-boxplot(squeeze(freqAmpMain(60,:,:,1))')
-bar(squeeze(mean(freqAmpMain(60,:,:,1),3))')
-boxplot(squeeze(freqAmpMain(60,:,:,1))')
-bar(squeeze(mean(freqAmpMain(60,:,:,1),3))')
-H = ttest(squeeze(freqAmpMain(60,1,:,3)),squeeze(freqAmpMain(60,2,:,3)))'
-H = ttest(squeeze(freqAmpMain(60,1,:,3)),squeeze(freqAmpMain(60,2,:,3)))
-H = ttest(squeeze(freqAmpMain(60,1,:,1)),squeeze(freqAmpMain(60,2,:,1)))
-H = ttest(squeeze(freqAmpMain(60,1,:,1)),squeeze(freqAmpMain(60,2,:,1)), 'Alpha', 0.1)
-H = ttest(squeeze(freqAmpMain(60,1,:,1)),squeeze(freqAmpMain(60,2,:,1)), 'Alpha', 0.5)
-H = ttest(squeeze(freqAmpMain(60,1,:,1)),squeeze(freqAmpMain(60,2,:,1)), 'Alpha', 0.1)
-freqAmpMain(60,:,:,1))
-freqAmpMain(60,:,:,1)
-help ttest
-[H,P] = ttest(squeeze(freqAmpMain(60,1,:,1)),squeeze(freqAmpMain(60,2,:,1)))
-[H,P] = ttest(squeeze(freqAmpMain(60,1,:,1)),squeeze(freqAmpMain(60,3,:,1)))
-[H,P] = ttest(squeeze(freqAmpMain(60,1,:,1)),squeeze(freqAmpMain(60,2,:,1)))
-[H,P] = ttest(squeeze(freqAmpMain(57,1,:,1)),squeeze(freqAmpMain(57,2,:,1)))
-[H,P] = ttest(squeeze(freqAmpMain(57,1,:,1)),squeeze(freqAmpMain(57,3,:,1)))
-[H,P] = ttest(squeeze(freqAmpMain(57,1,:,2)),squeeze(freqAmpMain(57,3,:,2)))
-[H,P] = ttest(squeeze(freqAmpMain(57,1,:,3)),squeeze(freqAmpMain(57,3,:,3)))
-[H,P] = ttest(squeeze(freqAmpMain(57,1,:,3)),squeeze(freqAmpMain(57,2,:,3)))
-2
-[H,P] = ttest(squeeze(freqAmpMain(57,1,:,2)),squeeze(freqAmpMain(57,2,:,2)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([50 57],1,:,2),1)),squeeze(mean(freqAmpMain([50 57],2,:,2),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([50 56 57],1,:,2),1)),squeeze(mean(freqAmpMain([50 56 57],2,:,2),1)))
-boxplot(squeeze(mean(freqAmpMain([50 56 57],:,:,1))',1))
-boxplot(squeeze(mean(freqAmpMain([50 56 57],:,:,1)),1))
-boxplot(squeeze(mean(freqAmpMain([50 56 57],:,:,1),1)'))
-boxplot(squeeze(mean(freqAmpMain([50 56 57],:,:,1),1))')
-boxplot(squeeze(mean(freqAmpMain([50 56 57],:,:,2),1))')
-bar(squeeze(mean(freqAmpMain([50 56 57],:,:,2),1))')
-bar(squeeze(mean(mean(freqAmpMain([50 56 57],:,:,2),1)),3)')
-bar(squeeze(mean(mean(freqAmpMain([50 56 57],:,:,2),1)),3))
-bar(mean(mean(freqAmpMain([50 56 57],:,:,2),1)),3)
-size(mean(mean(freqAmpMain([50 56 57],:,:,2),1)),3))
-size(mean(mean(freqAmpMain([50 56 57],:,:,2),1)),3)
-size(mean(mean(freqAmpMain([50 56 57],:,:,2),1),3))
-bar(mean(mean(freqAmpMain([50 56 57],:,:,2),1),3))
-bar(mean(mean(freqAmpMain([60],:,:,2),1),3))
-bar(mean(mean(freqAmpMain([50 56 57],:,:,2),1),3))
-bar(mean(mean(freqAmpMain(51:60,:,:,2),1),3))
-[H,P] = ttest(squeeze(mean(freqAmpMain([51:60],1,:,2),1)),squeeze(mean(freqAmpMain([51:60],2,:,2),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([58:60],1,:,2),1)),squeeze(mean(freqAmpMain([58:60],2,:,2),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([42 50 51 57],1,:,2),1)),squeeze(mean(freqAmpMain([42 50 51 57],2,:,2),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([42 50 51 57],1,:,1),1)),squeeze(mean(freqAmpMain([42 50 51 57],2,:,1),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([42 50 51 57],1,:,3),1)),squeeze(mean(freqAmpMain([42 50 51 57],2,:,3),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([42 50 51 57],1,:,2),1)),squeeze(mean(freqAmpMain([42 50 51 57],2,:,2),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([42 50 51 57],1,:,1),1)),squeeze(mean(freqAmpMain([42 50 51 57],2,:,1),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([42 50 51 57],1,:,3),1)),squeeze(mean(freqAmpMain([42 50 51 57],2,:,1),3)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([42 50 51 57],1,:,3),1)),squeeze(mean(freqAmpMain([42 50 51 57],2,:,3),3)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([42 50 51 57],1,:,3),1)),squeeze(mean(freqAmpMain([42 50 51 57],2,:,3),1)))
-bar(mean(mean(freqAmpMain(51:60,:,:,2),1),3))
-bar(mean(mean(freqAmpMain([42 50 51 57],:,:,2),1),3))
-bar(mean(mean(freqAmpMain(51:60,:,:,2),1),3))
-[H,P] = ttest(squeeze(mean(freqAmpMain([51:60],1,:,3),1)),squeeze(mean(freqAmpMain([51:60],2,:,3),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([51:60],1,:,1),1)),squeeze(mean(freqAmpMain([51:60],2,:,1),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([51:60],1,:,1),1)),squeeze(mean(freqAmpMain([51:60],3,:,1),1)))
-bar(mean(mean(freqAmpMain(51:60,:,:,1),1),3))
-bar(mean(mean(freqAmpMain(51:60,:,:,2),1),3))
-bar(mean(mean(freqAmpMain(51:60,:,:,3),1),3))
-[H,P] = ttest(squeeze(mean(freqAmpMain([51:60],1,:,1),1)),squeeze(mean(freqAmpMain([51:60],3,:,1),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([51:60],1,:,1),1)),squeeze(mean(freqAmpMain([51:60],2,:,1),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([51:60],1,:,2),1)),squeeze(mean(freqAmpMain([51:60],2,:,2),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([51:60],1,:,1),1)),squeeze(mean(freqAmpMain([51:60],3,:,1),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([42 50 51 57],1,:,1),1)),squeeze(mean(freqAmpMain([42 50 51 57],3,:,1),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([42 50 51 57],1,:,1),1)),squeeze(mean(freqAmpMain([42 50 51 57],2,:,1),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([51:60],1,:,2),1)),squeeze(mean(freqAmpMain([51:60],2,:,2),1)))
-[H,P] = ttest(squeeze(mean(freqAmpMain([51:60],1,:,1),1)),squeeze(mean(freqAmpMain([51:60],2,:,1),1)))
-bar(mean(mean(freqAmpMain(51:60,:,:,1),1),3))
-bar(mean(mean(freqAmpMain(51:60,:,:,1),2),3))
-bar(mean(mean(freqAmpMain(51:60,:,:,2),1),3))
-%-- 1/6/14, 9:47 AM --%
-%-- 1/7/14, 10:06 AM --%
-setFigPos
-%-- 1/7/14, 10:22 AM --%
-figure
-help randn
-randn(10)
-randn(10,1)
-randn(30,1)
-mean(ans)
-std(ans)
-std(randn(30,1))
-mean(randn(30,1))
-plot(signalC(:,:,1)')
-plot(signalC(:,:,2)')
-plot(signalC(:,:,3)')
-plot(signalC(:,:,4)')
-plot(signalC(:,:,5)')
-plot(signalC(:,:,6)')
-plot(signalC(:,:,1)')
-plot(signalC(:,:,2)')
-plot(signalC(:,:,3)')
-plot(signalC(:,:,4)')
-plot(signalC(:,:,1)')
-plot(signal')
-corr(C')
-corr(C)
-A
-mean(A)
-mean(A,2)
-[A,S,z] = SIM(ssig,3,50);
-plot(z)
-plot(z')
-temp = reshape(C(:,1)'*ssig(:,:),[1 300 50]);
-plot(mean(temp,3))
-temp = reshape(C(:,2)'*ssig(:,:),[1 300 50]);
-plot(mean(temp,3))
-temp = reshape(C(:,3)'*ssig(:,:),[1 300 50]);plot(mean(temp,3))
-[A,S,z] = SIM(signalC,3,50);
-plot(real(z))
-plot(real(z)')
-temp = reshape(C(:,3)'*signalC(:,:),[1 300]);plot(mean(temp,3))
-temp = reshape(C(:,3)'*signalC(:,:),[1 300 50]);plot(mean(temp,3))
-temp = reshape(C(:,2)'*signalC(:,:),[1 300 50]);plot(mean(temp,3))
-temp = reshape(C(:,1)'*signalC(:,:),[1 300 50]);plot(mean(temp,3))
-temp = reshape(C(:,2)'*signalC(:,:),[1 300 50]);plot(mean(temp,3))
-temp = reshape(C(:,3)'*signalC(:,:),[1 300 50]);plot(mean(temp,3))
-temp = reshape(C(:,1)'*signalC(:,:),[1 300 50]);plot(mean(temp,3))
-temp = reshape(C(:,2)'*signalC(:,:),[1 300 50]);plot(mean(temp,3))
-temp = reshape(C(:,3)'*signalC(:,:),[1 300 50]);plot(mean(temp,3))
-temp = reshape(C(:,1)'*signalC(:,:),[1 300 50]);plot(mean(temp,3))
-temp = reshape(C(:,2)'*signalC(:,:),[1 300 50]);plot(mean(temp,3))
-temp = reshape(C(:,3)'*signalC(:,:),[1 300 50]);plot(mean(temp,3))
-corr(C)

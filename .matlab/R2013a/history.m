@@ -5948,3 +5948,38 @@ plot(B(:,10))
 load('eegdata_face.mat')
 %-- 1/26/14, 9:36 AM --%
 load('eegdata_face.mat')
+epoch = epochs(:,:,1:120);
+[A,S,zSIM] = SIM(epoch,3,50);
+[C,s] = snrmax(epoch,3,50);
+plot([s(1,:); zSIM(1,:)]')
+erps = [s(1,:); zSIM(1,:)]';
+epoch = epochs(:,:,121:240);
+[A,S,zSIM] = SIM(epoch,3,50);
+[C,s] = snrmax(epoch,3,50);
+erps = [s(1,:); zSIM(1,:)]';
+epoch = epochs(:,:,241:360);
+[A,S,zSIM] = SIM(epoch,3,50);
+[C,s] = snrmax(epoch,3,50);
+erps = [s(1,:); zSIM(1,:)]';
+epoch = epochs(:,:,361:480);
+[A,S,zSIM] = SIM(epoch,3,50);
+[C,s] = snrmax(epoch,3,50);
+erps = [s(1,:); zSIM(1,:)]';
+erps = [s(1,:); -zSIM(1,:)]';
+epoch = epochs(:,:,481:600);
+[A,S,zSIM] = SIM(epoch,3,50);
+[C,s] = snrmax(epoch,3,50);
+erps = [s(1,:); -zSIM(1,:)]';
+help plotcomp
+help std
+figure, plotcomp(C,s);
+figure, plotcomp(C,s,chanlocs,times);
+figure, plotcomp(A,z,chanlocs,times);
+figure, plotcomp(A,zSIM,chanlocs,times);
+figure, plotcomp([C(:,1) A(:,1)],[s(1,:); zSIM(1,:)],chanlocs,times);
+figure, plotcomp([C(:,1) -A(:,1)],[s(1,:); -zSIM(1,:)],chanlocs,times);
+figure, plotcomp([C(:,2) -A(:,2)],[s(2,:); -zSIM(2,:)],chanlocs,times);
+figure, plotcomp([C(:,3) -A(:,3)],[s(3,:); -zSIM(3,:)],chanlocs,times);
+help princomp
+help parseArgs
+help parse

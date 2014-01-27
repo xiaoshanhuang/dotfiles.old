@@ -126,9 +126,6 @@
    <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1390290904838" name="resample_sim.m">
       <CodeFolds version="1.0"/>
    </File>
-   <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1390290906574" name="plotcomp.m">
-      <CodeFolds version="1.0"/>
-   </File>
    <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1390308128181" name="simulation.m">
       <CodeFolds version="1.0"/>
    </File>
@@ -148,6 +145,9 @@
       <CodeFolds version="1.0"/>
    </File>
    <File absPath="/Users/hxs/Research/Resample" lastWrittenTime="1390698750896" name="snrmax.m">
+      <CodeFolds version="1.0"/>
+   </File>
+   <File absPath="/Users/hxs/Research/Analysis/hxs_matlab" lastWrittenTime="1390738313377" name="plotcomp.m">
       <CodeFolds version="1.0"/>
    </File>
 </Editor>
