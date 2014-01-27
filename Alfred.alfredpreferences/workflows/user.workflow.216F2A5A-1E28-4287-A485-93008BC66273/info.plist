@@ -252,7 +252,7 @@ SUBL_F=`echo "{query}" | sed "s/\(.*\)\(:::\)\([23]\)/\1/"`
 if [ $SUBL_V -eq 3 ]; then
 	/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -a --stay "$SUBL_F"
 else
-	/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl -a --stay "$SUBL_F"
+	/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -a --stay "$SUBL_F"
 fi</string>
 				<key>type</key>
 				<integer>0</integer>

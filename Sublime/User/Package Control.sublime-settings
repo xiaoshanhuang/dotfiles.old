@@ -1,7 +1,15 @@
 {
 	"installed_packages":
 	[
+		"Alignment",
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"DictionaryAutoComplete",
+		"DocBlockr",
 		"LaTeXing",
+		"Markdown Preview",
+		"SublimeCodeIntel",
+		"SublimeLinter",
 		"Theme - Flatland"
 	]
 }
