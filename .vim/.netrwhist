@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/hxs/Documents/Study/Research/Analysis/gary/fmriutil'
 let g:netrw_dirhist_2='/Users/hxs/.mricron'
 let g:netrw_dirhist_3='/Users/hxs/.mricron/render'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/Users/hxs'
 let g:netrw_dirhist_6='/Users/hxs/.vim'
 let g:netrw_dirhist_7='/Users/hxs/Downloads/dotfiles-master/.getmail'
 let g:netrw_dirhist_8='/Users/hxs/Downloads/dotfiles-master'
+let g:netrw_dirhist_9='/Users/hxs/.vim'

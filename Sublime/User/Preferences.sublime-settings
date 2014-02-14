@@ -1,18 +1,9 @@
 {
-	// spelling check 
-	// "spell_check": true,
-	// "dictionary": "Packages/Language - English/en_US.dic",
-	
-	// autocomplete
 	"auto_complete_selector": "source, text",
-
-	// color theme
 	"color_scheme": "Packages/User/Flatland Dark (SL).tmTheme",
-
-	"open_files_in_new_window": false,
-
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"open_files_in_new_window": false
 }
