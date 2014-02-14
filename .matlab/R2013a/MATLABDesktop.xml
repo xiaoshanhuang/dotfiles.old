@@ -103,7 +103,7 @@
          </ReferenceHierarchy>
       </Location>
       <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="854" Type="floating" Width="1420" X="10" Y="32"/>
-      <Location Context="document" EntirelyVisible="yes" External="yes" Height="493" Type="floating" Width="560" X="99" Y="30"/>
+      <Location Context="document" External="yes" Height="447" Type="floating" Width="568" X="995" Y="80"/>
       <Frame StatusBarShowing="yes" TitlesShowing="yes">
          <Location EntirelyVisible="yes" External="yes" Height="854" Type="floating" Width="1420" X="10" Y="32"/>
       </Frame>
