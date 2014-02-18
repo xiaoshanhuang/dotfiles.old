@@ -1,5 +1,5 @@
-/Users/hxs/Research/Resample
 /Users/hxs/Documents/MATLAB
+/Users/hxs/Research/Resample
 /Users/hxs/Research/Algorithm/Robust/spasm
 /Users/hxs/Research/Algorithm/Robust
 /Users/hxs/Research/Algorithm

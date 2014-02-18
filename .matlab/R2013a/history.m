@@ -1,29 +1,5 @@
 %-- Unknown date --%
-,1,50); erpSIM = A(:,1)*z(1,:);
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 50, 0.1);
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr
-snr = erps(55,:)./std(erps(1:20,:))
-[erp,QAll,ECovSigAll] = rSIM(epoch, 10, 50, 0.1);
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr = erps(55,:)./std(erps(1:20,:))
-figure, plot(erps)
-[A,S,z] = SIM(epoch,1,50); erpSIM = A(:,1:2)*z(1:2,:);
-[A,S,z] = SIM(epoch,2,50); erpSIM = A*z;
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-figure, plot(erps)
-snr = erps(55,:)./std(erps(1:20,:))
-[erp,QAll,ECovSigAll] = rSIM(epoch, 10, 50, 0.01);
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr = erps(55,:)./std(erps(1:20,:))
-for i = 1:50, imagesc((real(ECovResAll(:,:,i)))); pause; end
-for i = 1:50, imagesc((real(ECovSigAll(:,:,i)))); pause; end
-[erp,QAll,ECovSigAll] = sSIM(epoch, 10, 50, 0.01);
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
-snr
-[erp,QAll,ECovSigAll,pc_bp_all] = rSIM(epoch, 10, 50, 0.01);
-[A,S,z] = SIM(pc_bp_all);
-figure, topoplot(A(:,1),chanlocs);
+anlocs);
 erp = A*z;
 chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
 snr
@@ -5983,3 +5959,4 @@ figure, plotcomp([C(:,3) -A(:,3)],[s(3,:); -zSIM(3,:)],chanlocs,times);
 help princomp
 help parseArgs
 help parse
+%-- 2/13/14, 10:05 AM --%

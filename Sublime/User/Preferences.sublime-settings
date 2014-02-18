@@ -3,7 +3,8 @@
 	"color_scheme": "Packages/User/Flatland Dark (SL).tmTheme",
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Markdown Preview"
 	],
 	"open_files_in_new_window": false
 }
