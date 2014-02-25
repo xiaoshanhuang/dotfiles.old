@@ -1,0 +1,6 @@
+{
+	// "parser": "default",
+	"parser": "github",
+	"enable_mathjax": true,
+	"enable_highlight": true,
+}

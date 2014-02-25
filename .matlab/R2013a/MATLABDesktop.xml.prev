@@ -187,7 +187,7 @@
       </Frame>
       <DocumentArea Arrangement="maximized" Empty="yes" MaxBarWidth="180" Showing="no"/>
    </Group>
-   <Client Class="com.mathworks.mde.cmdwin.CmdWin" Dock="yes" Guest="no" Name="Command Window" SelectionOrder="15" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Command Window">
+   <Client Class="com.mathworks.mde.cmdwin.CmdWin" Dock="yes" Guest="no" Name="Command Window" SelectionOrder="14" Show="yes" Singleton="yes" StatusBarShowing="yes" Title="Command Window">
       <Location Context="docked" Height="1226" ParentHeight="1226" ParentWidth="1500" Path="EW" Type="nested" Width="1113" X="1060" Y="192"/>
       <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="955" Type="floating" Width="1412" X="1128" Y="201"/>
       <Location Context="nested" Height="1226" ParentHeight="1226" ParentWidth="1500" Path="EW" Type="nested" Width="1113" X="1060" Y="192"/>
@@ -262,7 +262,7 @@
       <Location Context="floatingIn" Maximized="yes" Type="floating"/>
       <ClientData EditorFileName="/Users/hxs/Research/Resample/resample_denoise.m"/>
    </Client>
-   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="14" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Resample/snrmax.m">
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="15" Show="yes" Singleton="no" StatusBarShowing="yes" Title="/Users/hxs/Research/Resample/snrmax.m">
       <Location Context="docked" Maximized="yes" Type="floating"/>
       <Location Context="floatingIn" Maximized="yes" Type="floating"/>
       <ClientData EditorFileName="/Users/hxs/Research/Resample/snrmax.m"/>

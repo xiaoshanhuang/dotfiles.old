@@ -1,10 +1,14 @@
 {
-	"auto_complete_selector": "source, text",
+	"auto_complete_commit_on_tab": true,
 	"color_scheme": "Packages/User/Flatland Dark (SL).tmTheme",
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"font_size": 18,
 	"ignored_packages":
 	[
 		"Vintage",
-		"Markdown Preview"
+		"Theme - Flatland",
+		"Markdown"
 	],
-	"open_files_in_new_window": false
+	"open_files_in_new_window": false,
+	"spell_check": true
 }

@@ -3,11 +3,15 @@
 	[
 		"Alignment",
 		"BracketHighlighter",
+		"Codecs33",
 		"ConvertToUTF8",
 		"DictionaryAutoComplete",
 		"DocBlockr",
+		"FullScreenStatus",
+		"GitHub Flavored Markdown Preview",
 		"LaTeXing",
 		"Markdown Preview",
+		"MarkdownEditing",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"Theme - Flatland"

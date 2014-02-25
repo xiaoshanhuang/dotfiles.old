@@ -1,7 +1,5 @@
 %-- Unknown date --%
-anlocs);
-erp = A*z;
-chan = 57; erps = [squeeze(mean(epoch(chan,:,:),3)); erpSIM(chan,:); erp(chan,:)]';
+n,:); erp(chan,:)]';
 snr
 snr = erps(55,:)./std(erps(1:20,:))
 for i = 1:50, plot(pc_bp_all(:,:,i)'); pause; end
@@ -5960,3 +5958,7 @@ help princomp
 help parseArgs
 help parse
 %-- 2/13/14, 10:05 AM --%
+%-- 2/19/14, 9:11 AM --%
+eeglab
+%-- 2/20/14, 2:17 PM --%
+%-- 2/24/14, 9:18 AM --%
